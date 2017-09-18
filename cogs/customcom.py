@@ -130,7 +130,7 @@ class CustomCommands:
                 await self.bot.whisper(box(page))
 
     @commands.command(name="remember", pass_context=True)
-    async def cc_list(self, ctx, command : str, *, number: int):
+    async def cc_remember(self, ctx, command : str, *, number: int):
         """Remembers response n for a certain command
 
         Example:

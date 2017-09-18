@@ -1,0 +1,131 @@
+{
+    "26-Cogs" : {
+        "cleverbot" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/26-Cogs/cleverbot/cleverbot.py",
+            "folder" : "data/downloader/26-Cogs/cleverbot"
+        },
+        "insult" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/26-Cogs/insult/insult.py",
+            "folder" : "data/downloader/26-Cogs/insult"
+        },
+        "nomassmentions" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/26-Cogs/nomassmentions/nomassmentions.py",
+            "folder" : "data/downloader/26-Cogs/nomassmentions"
+        },
+        "penis" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/26-Cogs/penis/penis.py",
+            "folder" : "data/downloader/26-Cogs/penis"
+        },
+        "remindme" : {
+            "INSTALLED" : true,
+            "file" : "data/downloader/26-Cogs/remindme/remindme.py",
+            "folder" : "data/downloader/26-Cogs/remindme"
+        },
+        "rift" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/26-Cogs/rift/rift.py",
+            "folder" : "data/downloader/26-Cogs/rift"
+        },
+        "rndstatus" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/26-Cogs/rndstatus/rndstatus.py",
+            "folder" : "data/downloader/26-Cogs/rndstatus"
+        },
+        "stickyroles" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/26-Cogs/stickyroles/stickyroles.py",
+            "folder" : "data/downloader/26-Cogs/stickyroles"
+        },
+        "trigger" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/26-Cogs/trigger/trigger.py",
+            "folder" : "data/downloader/26-Cogs/trigger"
+        },
+        "url" : "https://github.com/Twentysix26/26-Cogs"
+    },
+    "FlapJack-Cogs" : {
+        "bigmoji" : {
+            "INSTALLED" : true,
+            "file" : "data/downloader/FlapJack-Cogs/bigmoji/bigmoji.py",
+            "folder" : "data/downloader/FlapJack-Cogs/bigmoji"
+        },
+        "blizzard" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/FlapJack-Cogs/blizzard/blizzard.py",
+            "folder" : "data/downloader/FlapJack-Cogs/blizzard"
+        },
+        "colorme" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/FlapJack-Cogs/colorme/colorme.py",
+            "folder" : "data/downloader/FlapJack-Cogs/colorme"
+        },
+        "cryptoprice" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/FlapJack-Cogs/cryptoprice/cryptoprice.py",
+            "folder" : "data/downloader/FlapJack-Cogs/cryptoprice"
+        },
+        "defcon" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/FlapJack-Cogs/defcon/defcon.py",
+            "folder" : "data/downloader/FlapJack-Cogs/defcon"
+        },
+        "dongers" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/FlapJack-Cogs/dongers/dongers.py",
+            "folder" : "data/downloader/FlapJack-Cogs/dongers"
+        },
+        "msgvote" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/FlapJack-Cogs/msgvote/msgvote.py",
+            "folder" : "data/downloader/FlapJack-Cogs/msgvote"
+        },
+        "reactpoll" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/FlapJack-Cogs/reactpoll/reactpoll.py",
+            "folder" : "data/downloader/FlapJack-Cogs/reactpoll"
+        },
+        "sfx" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/FlapJack-Cogs/sfx/sfx.py",
+            "folder" : "data/downloader/FlapJack-Cogs/sfx"
+        },
+        "smartreact" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/FlapJack-Cogs/smartreact/smartreact.py",
+            "folder" : "data/downloader/FlapJack-Cogs/smartreact"
+        },
+        "smite" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/FlapJack-Cogs/smite/smite.py",
+            "folder" : "data/downloader/FlapJack-Cogs/smite"
+        },
+        "spoiler" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/FlapJack-Cogs/spoiler/spoiler.py",
+            "folder" : "data/downloader/FlapJack-Cogs/spoiler"
+        },
+        "url" : "https://github.com/flapjax/FlapJack-Cogs",
+        "wat" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/FlapJack-Cogs/wat/wat.py",
+            "folder" : "data/downloader/FlapJack-Cogs/wat"
+        }
+    },
+    "phantium-cogs" : {
+        "overwatch" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/phantium-cogs/overwatch/overwatch.py",
+            "folder" : "data/downloader/phantium-cogs/overwatch"
+        },
+        "randomimages" : {
+            "INSTALLED" : true,
+            "file" : "data/downloader/phantium-cogs/randomimages/randomimages.py",
+            "folder" : "data/downloader/phantium-cogs/randomimages"
+        },
+        "url" : "https://github.com/phantium/phantium-cogs"
+    }
+}
