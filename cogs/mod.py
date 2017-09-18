@@ -143,6 +143,50 @@ class Mod:
         await self.bot.say("This command has been renamed "
                            "`{}set modrole`".format(ctx.prefix))
 
+    @commands.command(no_pm=True, pass_context=True)
+    @checks.admin()
+    async def mod(self, ctx, user : discord.Member):
+        """Gives mod roles to a user."""
+        server = ctx.message.server
+        await self.bot.add_roles(user, *[discord.utils.get(server.roles, id='254063980123783168'), discord.utils.get(server.roles, id='285903716379394049')])
+        await self.bot.say("Done.")
+
+    @commands.command(no_pm=True, pass_context=True)
+    async def color(self, ctx, color : str):
+        """Sets a color (role) for a user."""
+        user = ctx.message.author
+        server = ctx.message.server
+        try:
+            if color == "overlord" or color == "Bots" or color == "mods" or color == "can mod people" or color == "Edmund" or color == "color wizard":
+                await self.bot.say("Not a valid color.")
+            else:
+                if discord.utils.get(server.roles, id='254063980123783168') in user.roles:
+                    await self.bot.replace_roles(user, *[discord.utils.get(server.roles, name=color), discord.utils.get(server.roles, id='254063980123783168'), discord.utils.get(server.roles, id='285903716379394049')])
+                else:
+                    await self.bot.replace_roles(user, *[discord.utils.get(server.roles, name=color), discord.utils.get(server.roles, id='286985243855028227')])
+        except AttributeError:
+            await self.bot.say("Not a valid color.")
+
+    @commands.command(no_pm=True, pass_context=True)
+    async def colors(self, ctx):
+        """Lists available colors."""
+        server = ctx.message.server
+        role_list = list(server.roles)
+        role_list = sorted(role_list, key = lambda m: m.position)
+        role_list = list(reversed(role_list))
+        role_strings = []
+        for e in role_list:
+            role_strings.append(e.name)
+        role_strings.remove('overlord')
+        role_strings.remove('Edmund')
+        role_strings.remove('Bots')
+        role_strings.remove('can mod people')
+        role_strings.remove('mods')
+        role_strings.remove('sleeping beauty')
+        role_strings.remove('color wizard')
+        role_strings.remove('@everyone')
+        await self.bot.say(', '.join(role_strings))
+
     @modset.command(pass_context=True, no_pm=True)
     async def modlog(self, ctx, channel : discord.Channel=None):
         """Sets a channel as mod log
@@ -298,21 +342,39 @@ class Mod:
                                "moderation commands are issued.")
         dataIO.save_json("data/mod/settings.json", self.settings)
 
-    @commands.command(no_pm=True, pass_context=True)
+    @commands.command(no_pm=True, pass_context=True, aliases=["cuck"])
     @checks.admin_or_permissions(kick_members=True)
     async def kick(self, ctx, user: discord.Member, *, reason: str = None):
         """Kicks user."""
         author = ctx.message.author
         server = author.server
 
-        if author == user:
-            await self.bot.say("I cannot let you do that. Self-harm is "
-                               "bad \N{PENSIVE FACE}")
-            return
-        elif not self.is_allowed_by_hierarchy(server, author, user):
+        #if author == user:
+            #await self.bot.say("I cannot let you do that. Self-harm is "
+                               #"bad \N{PENSIVE FACE}")
+            #return
+        if not self.is_allowed_by_hierarchy(server, author, user):
             await self.bot.say("I cannot let you do that. You are "
                                "not higher than the user in the role "
                                "hierarchy.")
+            return
+
+        if user.id == self.bot.user.id:
+            await self.bot.say("Nice try. You think this is funny? How's THIS for a kick")
+            user = ctx.message.author
+            try:
+                await self.bot.kick(user)
+                logger.info("{}({}) kicked {}({})".format(
+                    author.name, author.id, user.name, user.id))
+                await self.new_case(server,
+                                    action="Kick \N{WOMANS BOOTS}",
+                                    mod=author,
+                                    user=user)
+                await self.bot.say("Done. That felt good.")
+            except discord.errors.Forbidden:
+                await self.bot.say("I'm not allowed to do that.")
+            except Exception as e:
+                print(e)
             return
 
         try:
@@ -332,45 +394,42 @@ class Mod:
 
     @commands.command(no_pm=True, pass_context=True)
     @checks.admin_or_permissions(ban_members=True)
-    async def ban(self, ctx, user: discord.Member, days: str = None, *, reason: str = None):
-        """Bans user and deletes last X days worth of messages.
-
-        If days is not a number, it's treated as the first word of the reason.
-        Minimum 0 days, maximum 7. Defaults to 0."""
+    async def ban(self, ctx, user: discord.Member, *, reason: str = None):
+        """Bans user. Can write reason afterwards."""
         author = ctx.message.author
         server = author.server
 
-        if author == user:
-            await self.bot.say("I cannot let you do that. Self-harm is "
-                               "bad \N{PENSIVE FACE}")
-            return
-        elif not self.is_allowed_by_hierarchy(server, author, user):
+#        if author == user:
+#            await self.bot.say("I cannot let you do that. Self-harm is "
+#                               "bad \N{PENSIVE FACE}")
+#            return
+        if not self.is_allowed_by_hierarchy(server, author, user):
             await self.bot.say("I cannot let you do that. You are "
                                "not higher than the user in the role "
                                "hierarchy.")
             return
 
-        if days:
-            if days.isdigit():
-                days = int(days)
-            else:
-                if reason:
-                    reason = days + ' ' + reason
-                else:
-                    reason = days
-                days = 0
-        else:
-            days = 0
-
-        if days < 0 or days > 7:
-            await self.bot.say("Invalid days. Must be between 0 and 7.")
-            return
+#        if days:
+#            if days.isdigit():
+#                days = int(days)
+#            else:
+#                if reason:
+#                    reason = days + ' ' + reason
+#                else:
+#                    reason = days
+#                days = 0
+#        else:
+#            days = 0
+#
+#        if days < 0 or days > 7:
+#            await self.bot.say("Invalid days. Must be between 0 and 7.")
+#            return
 
         try:
             self.temp_cache.add(user, server, "BAN")
-            await self.bot.ban(user, days)
-            logger.info("{}({}) banned {}({}), deleting {} days worth of messages".format(
-                author.name, author.id, user.name, user.id, str(days)))
+            await self.bot.ban(user, 0)
+            logger.info("{}({}) banned {}({})".format(
+                author.name, author.id, user.name, user.id))
             await self.new_case(server,
                                 action="BAN",
                                 mod=author,
@@ -381,6 +440,33 @@ class Mod:
             await self.bot.say("I'm not allowed to do that.")
         except Exception as e:
             print(e)
+
+    @commands.command(aliases=["free"], no_pm=True, pass_context=True)
+    async def unban(self, ctx, user: str):
+        """Unbans user"""
+        author = ctx.message.author
+        server = author.server
+        try:
+            banlist = await self.bot.get_bans(server)
+            member = discord.utils.get(banlist, name=user)
+            await self.bot.unban(server, member)
+            logger.info("{}({}) freed {}({})".format(
+                author.name, author.id, member.name, member.id))
+            await self.bot.say("Freed.")
+        except AttributeError:
+            await self.bot.say("No such user.")
+        except discord.errors.Forbidden:
+            await self.bot.say("I'm not allowed to do that.")
+        except Exception as e:
+            print(e)
+
+    @commands.command(no_pm=True, pass_context=True)
+    async def banlist(self, ctx):
+        """Displays list of banned users"""
+        server = ctx.message.server
+        bans = await self.bot.get_bans(server)
+        message = ', '.join(e.name for e in bans)
+        await self.bot.say(message)
 
     @commands.command(no_pm=True, pass_context=True)
     @checks.admin_or_permissions(ban_members=True)
@@ -425,58 +511,58 @@ class Mod:
             await self.bot.say("Done. The user will not be able to join this "
                                "server.")
 
-    @commands.command(no_pm=True, pass_context=True)
-    @checks.admin_or_permissions(ban_members=True)
-    async def softban(self, ctx, user: discord.Member, *, reason: str = None):
-        """Kicks the user, deleting 1 day worth of messages."""
-        server = ctx.message.server
-        channel = ctx.message.channel
-        can_ban = channel.permissions_for(server.me).ban_members
-        author = ctx.message.author
-
-        if author == user:
-            await self.bot.say("I cannot let you do that. Self-harm is "
-                               "bad \N{PENSIVE FACE}")
-            return
-        elif not self.is_allowed_by_hierarchy(server, author, user):
-            await self.bot.say("I cannot let you do that. You are "
-                               "not higher than the user in the role "
-                               "hierarchy.")
-            return
-
-        try:
-            invite = await self.bot.create_invite(server, max_age=3600*24)
-            invite = "\nInvite: " + invite
-        except:
-            invite = ""
-        if can_ban:
-            try:
-                try:  # We don't want blocked DMs preventing us from banning
-                    msg = await self.bot.send_message(user, "You have been banned and "
-                              "then unbanned as a quick way to delete your messages.\n"
-                              "You can now join the server again.{}".format(invite))
-                except:
-                    pass
-                self.temp_cache.add(user, server, "BAN")
-                await self.bot.ban(user, 1)
-                logger.info("{}({}) softbanned {}({}), deleting 1 day worth "
-                    "of messages".format(author.name, author.id, user.name,
-                     user.id))
-                await self.new_case(server,
-                                    action="SOFTBAN",
-                                    mod=author,
-                                    user=user,
-                                    reason=reason)
-                self.temp_cache.add(user, server, "UNBAN")
-                await self.bot.unban(server, user)
-                await self.bot.say("Done. Enough chaos.")
-            except discord.errors.Forbidden:
-                await self.bot.say("My role is not high enough to softban that user.")
-                await self.bot.delete_message(msg)
-            except Exception as e:
-                print(e)
-        else:
-            await self.bot.say("I'm not allowed to do that.")
+#    @commands.command(no_pm=True, pass_context=True)
+#    @checks.admin_or_permissions(ban_members=True)
+#    async def softban(self, ctx, user: discord.Member, *, reason: str = None):
+#        """Kicks the user, deleting 1 day worth of messages."""
+#        server = ctx.message.server
+#        channel = ctx.message.channel
+#        can_ban = channel.permissions_for(server.me).ban_members
+#        author = ctx.message.author
+#
+#        if author == user:
+#            await self.bot.say("I cannot let you do that. Self-harm is "
+#                               "bad \N{PENSIVE FACE}")
+#            return
+#        elif not self.is_allowed_by_hierarchy(server, author, user):
+#            await self.bot.say("I cannot let you do that. You are "
+#                               "not higher than the user in the role "
+#                               "hierarchy.")
+#            return
+#
+#        try:
+#            invite = await self.bot.create_invite(server, max_age=3600*24)
+#            invite = "\nInvite: " + invite
+#        except:
+#            invite = ""
+#        if can_ban:
+#            try:
+#                try:  # We don't want blocked DMs preventing us from banning
+#                    msg = await self.bot.send_message(user, "You have been banned and "
+#                              "then unbanned as a quick way to delete your messages.\n"
+#                              "You can now join the server again.{}".format(invite))
+#                except:
+#                    pass
+#                self.temp_cache.add(user, server, "BAN")
+#                await self.bot.ban(user, 1)
+#                logger.info("{}({}) softbanned {}({}), deleting 1 day worth "
+#                    "of messages".format(author.name, author.id, user.name,
+#                     user.id))
+#                await self.new_case(server,
+#                                    action="SOFTBAN",
+#                                    mod=author,
+#                                    user=user,
+#                                    reason=reason)
+#                self.temp_cache.add(user, server, "UNBAN")
+#                await self.bot.unban(server, user)
+#                await self.bot.say("Done. Enough chaos.")
+#            except discord.errors.Forbidden:
+#                await self.bot.say("My role is not high enough to softban that user.")
+#                await self.bot.delete_message(msg)
+#            except Exception as e:
+#                print(e)
+#        else:
+#            await self.bot.say("I'm not allowed to do that.")
 
     @commands.command(no_pm=True, pass_context=True)
     @checks.admin_or_permissions(manage_nicknames=True)

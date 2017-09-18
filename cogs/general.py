@@ -131,13 +131,8 @@ class General:
     @commands.command(name="8", aliases=["8ball"])
     async def _8ball(self, *, question : str):
         """Ask 8 ball a question
-
-        Question must end with a question mark.
         """
-        if question.endswith("?") and question != "?":
-            await self.bot.say("`" + choice(self.ball) + "`")
-        else:
-            await self.bot.say("That doesn't look like a question.")
+        await self.bot.say("`" + choice(self.ball) + "`")
 
     @commands.command(aliases=["sw"], pass_context=True)
     async def stopwatch(self, ctx):
@@ -164,17 +159,73 @@ class General:
 
         Up to 10 intensity levels."""
         name = italics(user.display_name)
+        if intensity <= -3:
+            msg = name + " (っ˘̩╭╮˘̩)っ"
+        elif intensity <= 0:
+            msg = "(っ˘̩╭╮˘̩)っ " + name
         if intensity <= 0:
             msg = "(っ˘̩╭╮˘̩)っ" + name
         elif intensity <= 3:
-            msg = "(っ´▽｀)っ" + name
+            msg = "(っ´▽｀)っ " + name
         elif intensity <= 6:
-            msg = "╰(*´︶`*)╯" + name
+            msg = "╰(*´︶`*)╯ " + name
         elif intensity <= 9:
-            msg = "(つ≧▽≦)つ" + name
-        elif intensity >= 10:
-            msg = "(づ￣ ³￣)づ{} ⊂(´・ω・｀⊂)".format(name)
+            msg = "(つ≧▽≦)つ " + name
+        elif intensity <= 12:
+            msg = "(づ￣ ³￣)づ " + name + " ⊂(´・ω・｀⊂)"
+        elif intensity >= 15:
+            msg = "(づ♡ 3♡)づ " + name + " ⊂('^▽^´⊂)"
         await self.bot.say(msg)
+
+    @commands.command(pass_context=True, no_pm=True)
+    async def whodunit(self, ctx):
+        """Whodunit?"""
+        server = ctx.message.server
+        member_list = list(server.members)
+        await self.bot.say("It was " + choice(member_list).display_name + "!!!")
+
+    @commands.command(name="fahrenheit")
+    async def fahrenheit(self, *, temp : int):
+        """Converts Fahrenheit temperature to Celsius
+        """
+        newtemp = (temp-32)*5.0/9.0
+        if newtemp < 0:
+            await self.bot.say(str(temp) + " degrees Fahrenheit is " + str(newtemp)[:5] + " degrees Celsius.")
+        else:
+            await self.bot.say(str(temp) + " degrees Fahrenheit is " + str(newtemp)[:4] + " degrees Celsius.")
+
+    @commands.command(name="kelvin")
+    async def kelvin(self, *, temp : int):
+        """Converts Kelvin temperatures...for some reason
+        """
+        newcelsius = temp - 273.15
+        newfahrenheit = ((temp - 273.15) * 9.0/5.0) + 32
+        await self.bot.say(str(temp) + " Kelvin is " + str(round(newcelsius, 2)) + " degrees Celsius and " + str(round(newfahrenheit, 2)) + " degrees Fahrenheit.")
+
+    @commands.command(name="celsius")
+    async def celsius(self, *, temp : int):
+        """Converts Celsius temperature to Fahrenheit
+        """
+        newtemp = (temp * 9.0/5.0) + 32
+        await self.bot.say(str(temp) + " degrees Celsius is " + str(newtemp) + " degrees Fahrenheit.")
+
+    @commands.command(pass_context=True, no_pm=True)
+    async def sue(self, ctx, user : discord.Member):
+        """Take a user to court."""
+        if user.id == self.bot.user.id:
+                user = ctx.message.author
+                await self.bot.say("Nice try. You think this is funny? How about let's sue {}, huh?".format(user.mention))
+        else:
+            await self.bot.say("{} has been sued".format(user.mention))
+
+    @commands.command(pass_context=True, no_pm=True)
+    async def slap(self, ctx, user : discord.Member):
+        """Slaps a user."""
+        if user.id == self.bot.user.id:
+                user = ctx.message.author
+                await self.bot.say("Nice try. You think this is funny? *POW!* *slaps {}*".format(user.mention))
+        else:
+            await self.bot.say("*POW!* {} has been slapped".format(user.mention))
 
     @commands.command(pass_context=True, no_pm=True)
     async def userinfo(self, ctx, *, user: discord.Member=None):
@@ -355,7 +406,7 @@ class General:
             if p.author == message.author.id: # or isMemberAdmin(message)
                 await self.getPollByChannel(message).endPoll()
             else:
-                await self.bot.say("Only admins and the author can stop the poll.")
+                await self.bot.say("Only the author can stop the poll.")
         else:
             await self.bot.say("There's no poll ongoing in this channel.")
 
