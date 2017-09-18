@@ -138,6 +138,10 @@ class CustomCommands:
         server = ctx.message.server
         channel = ctx.message.channel
         command = command.lower()
+        if number < 1:
+            await self.bot.say("Numbering starts at 1!")
+            return
+        number = number - 1
         if server.id in self.c_commands:
             cmdlist = self.c_commands[server.id]
             if command in cmdlist:
