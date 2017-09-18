@@ -12,6 +12,7 @@ import os
 import time
 import logging
 import random
+from random import choice as randchoice
 
 default_settings = {"PAYDAY_TIME": 300, "PAYDAY_CREDITS": 120,
                     "SLOT_MIN": 5, "SLOT_MAX": 100, "SLOT_TIME": 0,
@@ -71,7 +72,7 @@ class SMReel(Enum):
 
 PAYOUTS = {
     (SMReel.two, SMReel.two, SMReel.six) : {
-        "payout" : lambda x: x * 2500 + x,
+        "payout" : lambda x: x * 5000 + x,
         "phrase" : "JACKPOT! 226! Your bid has been multiplied * 2500!"
     },
     (SMReel.flc, SMReel.flc, SMReel.flc) : {
@@ -166,14 +167,14 @@ class Bank:
         self.accounts[server.id][user.id] = account
         self._save_bank()
 
-    def set_credits(self, user, amount):
-        server = user.server
-        if amount < 0:
-            raise NegativeValue()
-        account = self._get_account(user)
-        account["balance"] = amount
-        self.accounts[server.id][user.id] = account
-        self._save_bank()
+    #def set_credits(self, user, amount):
+        #server = user.server
+        #if amount < 0:
+            #raise NegativeValue()
+        #account = self._get_account(user)
+        #account["balance"] = amount
+        #self.accounts[server.id][user.id] = account
+        #self._save_bank()
 
     def transfer_credits(self, sender, receiver, amount):
         if amount < 0:
@@ -306,7 +307,7 @@ class Economy:
 
     @_bank.command(pass_context=True, no_pm=True)
     async def register(self, ctx):
-        """Registers an account at the Twentysix bank"""
+        """Registers an account at the goodchat bank"""
         settings = self.settings[ctx.message.server.id]
         author = ctx.message.author
         credits = 0
@@ -318,7 +319,7 @@ class Economy:
                                "".format(author.mention, account.balance))
         except AccountAlreadyExists:
             await self.bot.say("{} You already have an account at the"
-                               " Twentysix bank.".format(author.mention))
+                               " goodchat bank.".format(author.mention))
 
     @_bank.command(pass_context=True)
     async def balance(self, ctx, user: discord.Member=None):
@@ -332,7 +333,7 @@ class Economy:
                     user.mention, self.bank.get_balance(user)))
             except NoAccount:
                 await self.bot.say("{} You don't have an account at the"
-                                   " Twentysix bank. Type `{}bank register`"
+                                   " goodchat bank. Type `{}bank register`"
                                    " to open one.".format(user.mention,
                                                           ctx.prefix))
         else:
@@ -477,7 +478,7 @@ class Economy:
         place = 1
         for acc in topten:
             highscore += str(place).ljust(len(str(top)) + 1)
-            highscore += (str(acc.member.display_name) + " ").ljust(23 - len(str(acc.balance)))
+            highscore += (str(acc.member.display_name) + " ").ljust(25 - len(str(acc.balance)))
             highscore += str(acc.balance) + "\n"
             place += 1
         if highscore != "":
@@ -528,13 +529,59 @@ class Economy:
         """Shows slot machine payouts"""
         await self.bot.whisper(SLOT_PAYOUTS_MSG)
 
+    @commands.command(pass_context=True)
+    async def rps(self, ctx, choice : str, bid : int):
+        """Play rock paper scissors. format:
+
+        !rps rock 10"""
+        author = ctx.message.author
+        rpsbot = {"rock" : ":moyai:",
+           "paper": ":page_facing_up:",
+           "scissors":":scissors:"}
+        choice = choice.lower()
+        if self.bank.can_spend(author, bid):
+            if choice in rpsbot.keys():
+                botchoice = randchoice(list(rpsbot.keys()))
+                msgs = {
+                    "win": " You win {}!".format(author.mention),
+                    "square": " We're square {}!".format(author.mention),
+                    "lose": " You lose {}!".format(author.mention)
+                }
+                rpsmsg = ""
+                if choice == botchoice:
+                    rpsmsg = rpsbot[botchoice] + msgs["square"]
+                elif choice == "rock" and botchoice == "paper":
+                    self.bank.withdraw_credits(author, bid)
+                    rpsmsg = rpsbot[botchoice] + msgs["lose"]
+                elif choice == "rock" and botchoice == "scissors":
+                    self.bank.deposit_credits(author, bid)
+                    rpsmsg = rpsbot[botchoice] + msgs["win"]
+                elif choice == "paper" and botchoice == "rock":
+                    self.bank.deposit_credits(author, bid)
+                    rpsmsg = rpsbot[botchoice] + msgs["win"]
+                elif choice == "paper" and botchoice == "scissors":
+                    self.bank.withdraw_credits(author, bid)
+                    rpsmsg = rpsbot[botchoice] + msgs["lose"]
+                elif choice == "scissors" and botchoice == "rock":
+                    self.bank.withdraw_credits(author, bid)
+                    rpsmsg = rpsbot[botchoice] + msgs["lose"]
+                elif choice == "scissors" and botchoice == "paper":
+                    self.bank.deposit_credits(author, bid)
+                    rpsmsg = rpsbot[botchoice] + msgs["win"]
+                rpsmsg += "\n" + " Current credits: {}".format(self.bank.get_balance(author))
+                await self.bot.say(rpsmsg)
+            else:
+                await self.bot.say("Format: `!rps rock 10`")
+        else:
+            await self.bot.say("{0} You need an account with enough funds to play the slot machine.".format(author.mention))
+
     @commands.command(pass_context=True, no_pm=True)
     async def slot(self, ctx, bid: int):
         """Play the slot machine"""
         author = ctx.message.author
         server = author.server
         settings = self.settings[server.id]
-        valid_bid = settings["SLOT_MIN"] <= bid and bid <= settings["SLOT_MAX"]
+        valid_bid = settings["SLOT_MIN"] <= bid
         slot_time = settings["SLOT_TIME"]
         last_slot = self.slot_register.get(author.id)
         now = datetime.utcnow()
@@ -558,9 +605,7 @@ class Economy:
             await self.bot.say("Slot machine is still cooling off! Wait {} "
                                "seconds between each pull".format(slot_time))
         except InvalidBid:
-            await self.bot.say("Bid must be between {} and {}."
-                               "".format(settings["SLOT_MIN"],
-                                         settings["SLOT_MAX"]))
+            await self.bot.say("Bid must be more than 0.")
 
     async def slot_machine(self, author, bid):
         default_reel = deque(SMReel)
@@ -613,7 +658,7 @@ class Economy:
                                "".format(slot, author.mention, bid, then, now))
 
     @commands.group(pass_context=True, no_pm=True)
-    @checks.admin_or_permissions(manage_server=True)
+    @checks.serverowner_or_permissions(manage_server=True)
     async def economyset(self, ctx):
         """Changes economy module settings"""
         server = ctx.message.server
@@ -634,13 +679,13 @@ class Economy:
         await self.bot.say("Minimum bid is now {} credits.".format(bid))
         dataIO.save_json(self.file_path, self.settings)
 
-    @economyset.command(pass_context=True)
-    async def slotmax(self, ctx, bid: int):
-        """Maximum slot machine bid"""
-        server = ctx.message.server
-        self.settings[server.id]["SLOT_MAX"] = bid
-        await self.bot.say("Maximum bid is now {} credits.".format(bid))
-        dataIO.save_json(self.file_path, self.settings)
+    #@economyset.command(pass_context=True)
+    #async def slotmax(self, ctx, bid: int):
+        #"""Maximum slot machine bid"""
+        #server = ctx.message.server
+        #self.settings[server.id]["SLOT_MAX"] = bid
+        #await self.bot.say("Maximum bid is now {} credits.".format(bid))
+        #dataIO.save_json(self.file_path, self.settings)
 
     @economyset.command(pass_context=True)
     async def slottime(self, ctx, seconds: int):

@@ -25,6 +25,7 @@ __author__ = "tekulvw"
 __version__ = "0.1.1"
 
 log = logging.getLogger("red.audio")
+logger = logging.getLogger("audio")
 
 try:
     import youtube_dl
@@ -62,7 +63,7 @@ class MaximumLength(Exception):
 
     def __str__(self):
         return self.message
-    
+
 
 class YouTubeDlError(Exception):
     def __init__(self, m):
@@ -70,7 +71,7 @@ class YouTubeDlError(Exception):
 
     def __str__(self):
         return self.message
-    
+
 
 class NotConnected(Exception):
     pass
@@ -494,9 +495,9 @@ class Audio:
 
         while any([d.is_alive() for d in downloaders]):
             await asyncio.sleep(0.1)
-            
+
         songs = [d.song for d in downloaders if d.song is not None and d.error is None]
-           
+
         invalid_downloads = [d for d in downloaders if d.error is not None]
         invalid_number = len(invalid_downloads)
         if(invalid_number > 0):
@@ -518,7 +519,7 @@ class Audio:
 
         while next_dl.is_alive():
             await asyncio.sleep(0.5)
-            
+
         error = next_dl.error
         if(error is not None):
             raise YouTubeDlError(error)
@@ -597,7 +598,7 @@ class Audio:
             return None
 
         return self.queue[server.id][QueueKey.NOW_PLAYING]
-		
+
     def _get_queue_nowplaying_channel(self, server):
         if server.id not in self.queue:
             return None
@@ -651,7 +652,7 @@ class Audio:
 
         # Getting info w/o download
         self.downloaders[server.id].done.wait()
-        
+
         # Youtube-DL threw an exception.
         error = self.downloaders[server.id].error
         if(error is not None):
@@ -910,7 +911,7 @@ class Audio:
         except AttributeError:
             songlist = playlist
             name = True
-            
+
         songlist = self._songlist_change_url_to_queued_song(songlist, channel)
 
         log.debug("setting up playlist {} on sid {}".format(name, server.id))
@@ -923,7 +924,7 @@ class Audio:
 
         self._setup_queue(server)
         self._set_queue_playlist(server, name)
-        self._set_queue_repeat(server, True)
+        self._set_queue_repeat(server, False)
         self._set_queue(server, songlist)
 
     def _play_local_playlist(self, server, name, channel):
@@ -935,13 +936,13 @@ class Audio:
 
         ret_playlist = Playlist(server=server, name=name, playlist=ret)
         self._play_playlist(server, ret_playlist, channel)
-        
+
     def _songlist_change_url_to_queued_song(self, songlist, channel):
         queued_songlist = []
         for song in songlist:
             queued_song = QueuedSong(song, channel)
             queued_songlist.append(queued_song)
-            
+
         return queued_songlist
 
     def _player_count(self):
@@ -1118,11 +1119,11 @@ class Audio:
         if yt or sc:  # TODO: Add sc check
             return True
         return False
-    
+
     def _clean_url(self, url):
         if(self._valid_playable_url(url)):
             return "<{}>".format(url)
-        
+
         return url.replace("[SEARCH:]", "")
 
     @commands.group(pass_context=True)
@@ -1487,6 +1488,8 @@ class Audio:
         self._clear_queue(server)
         self._add_to_queue(server, url, channel)
 
+        logger.info("{} played {}".format(author.name, url))
+
     @commands.command(pass_context=True, no_pm=True)
     async def prev(self, ctx):
         """Goes back to the last song."""
@@ -1567,7 +1570,7 @@ class Audio:
                 await self.bot.say("An error occurred while enumerating the playlist:\n"
                                    "'{}'".format(str(e)))
                 return
-				
+
             playlist = self._make_playlist(author, url, songlist)
             # Returns a Playlist object
 
@@ -1733,6 +1736,7 @@ class Audio:
         if url is None:
             return await self._queue_list(ctx)
         server = ctx.message.server
+        author = ctx.message.author
         channel = ctx.message.channel
         if not self.voice_connected(server):
             await ctx.invoke(self.play, url_or_search_terms=url)
@@ -1771,6 +1775,7 @@ class Audio:
             log.debug("queueing to the actual queue for sid {}".format(
                 server.id))
             self._add_to_queue(server, url, channel)
+        logger.info("{} played {}".format(author.name, url))
         await self.bot.say("Queued.")
 
     async def _queue_list(self, ctx):
@@ -1791,10 +1796,8 @@ class Audio:
         if now_playing is not None:
             msg += "\n***Now playing:***\n{}\n".format(now_playing.title)
 
-        queued_song_list = self._get_queue(server, 5)
-        tempqueued_song_list = self._get_queue_tempqueue(server, 5)
-
-        await self.bot.say("Gathering information...")
+        queued_song_list = self._get_queue(server, 10)
+        tempqueued_song_list = self._get_queue_tempqueue(server, 10)
 
         queue_song_list = await self._download_all(queued_song_list, channel)
         tempqueue_song_list = await self._download_all(tempqueued_song_list, channel)
@@ -1807,7 +1810,7 @@ class Audio:
                 song_info.append("{}. {.webpage_url}".format(num, song))
 
         for num, song in enumerate(queue_song_list, len(song_info) + 1):
-            if num > 5:
+            if num > 10:
                 break
             try:
                 song_info.append("{}. {.title}".format(num, song))
@@ -1908,7 +1911,7 @@ class Audio:
 
                     num_votes = len(self.skip_votes[server.id])
                     # Exclude bots and non-plebs
-                    num_members = sum(not (m.bot or self.can_instaskip(m))
+                    num_members = sum(not (m.bot)
                                       for m in vchan.voice_members)
                     vote = int(100 * num_votes / num_members)
                     thresh = self.get_server_settings(server)["VOTE_THRESHOLD"]
@@ -1930,23 +1933,24 @@ class Audio:
             await self.bot.say("Can't skip if I'm not playing.")
 
     def can_instaskip(self, member):
-        server = member.server
+        #server = member.server
 
-        if not self.get_server_settings(server)["VOTE_ENABLED"]:
-            return True
+        #if not self.get_server_settings(server)["VOTE_ENABLED"]:
+            #return True
 
-        admin_role = settings.get_server_admin(server)
-        mod_role = settings.get_server_mod(server)
+        #admin_role = settings.get_server_admin(server)
+        #mod_role = settings.get_server_mod(server)
 
-        is_owner = member.id == settings.owner
-        is_server_owner = member == server.owner
-        is_admin = discord.utils.get(member.roles, name=admin_role) is not None
-        is_mod = discord.utils.get(member.roles, name=mod_role) is not None
+        #is_owner = member.id == settings.owner
+        #is_server_owner = member == server.owner
+        #is_admin = discord.utils.get(member.roles, name=admin_role) is not None
+        #is_mod = discord.utils.get(member.roles, name=mod_role) is not None
 
-        nonbots = sum(not m.bot for m in member.voice_channel.voice_members)
-        alone = nonbots <= 1
+        #nonbots = sum(not m.bot for m in member.voice_channel.voice_members)
+        #alone = nonbots <= 1
 
-        return is_owner or is_server_owner or is_admin or is_mod or alone
+        #return is_owner or is_server_owner or is_admin or is_mod or alone
+        return False
 
     @commands.command(pass_context=True, no_pm=True)
     async def sing(self, ctx):
@@ -1981,10 +1985,8 @@ class Audio:
                     dur = "{0}:{1:0>2}".format(m, s)
             else:
                 dur = None
-            msg = ("\n**Title:** {}\n**Author:** {}\n**Uploader:** {}\n"
-                   "**Views:** {}\n**Duration:** {}\n\n<{}>".format(
-                       song.title, song.creator, song.uploader,
-                       song.view_count, dur, song.webpage_url))
+            msg = ("\n**Title:** {}\n**Author:** {}\n**Duration:** {}\n\n<{}>".format(
+                       song.title, song.creator, dur, song.webpage_url))
             await self.bot.say(msg.replace("**Author:** None\n", "")
                                   .replace("**Views:** None\n", "")
                                   .replace("**Uploader:** None\n", "")
@@ -2195,7 +2197,7 @@ class Audio:
             elif len(queue) > 0:
                 queued_next_song = queue.peekleft()
                 next_url = queued_next_song.url
-                next_channel = queued_next_song.channel	
+                next_channel = queued_next_song.channel
                 next_dl = Downloader(next_url, max_length)
             else:
                 next_dl = None
@@ -2352,6 +2354,16 @@ def verify_ffmpeg_avconv():
 def setup(bot):
     check_folders()
     check_files()
+
+    logger = logging.getLogger("audio")
+    # Prevents the logger from being loaded again in case of module reload
+    if logger.level == 0:
+        logger.setLevel(logging.INFO)
+        handler = logging.FileHandler(
+            filename='data/audio/audio.log', encoding='utf-8', mode='a')
+        handler.setFormatter(
+            logging.Formatter('%(asctime)s %(message)s', datefmt="[%m/%d/%Y %I:%M %p]"))
+        logger.addHandler(handler)
 
     if youtube_dl is None:
         raise RuntimeError("You need to run `pip3 install youtube_dl`")

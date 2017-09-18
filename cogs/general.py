@@ -13,6 +13,7 @@ import asyncio
 settings = {"POLL_DURATION" : 60}
 
 
+
 class RPS(Enum):
     rock     = "\N{MOYAI}"
     paper    = "\N{PAGE FACING UP}"
