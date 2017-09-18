@@ -547,6 +547,7 @@ class Economy:
                     "square": " We're square {}!".format(author.mention),
                     "lose": " You lose {}!".format(author.mention)
                 }
+                then = self.bank.get_balance(author)
                 rpsmsg = ""
                 if choice == botchoice:
                     rpsmsg = rpsbot[botchoice] + msgs["square"]
@@ -568,7 +569,8 @@ class Economy:
                 elif choice == "scissors" and botchoice == "paper":
                     self.bank.deposit_credits(author, bid)
                     rpsmsg = rpsbot[botchoice] + msgs["win"]
-                rpsmsg += "\n" + " Current credits: {}".format(self.bank.get_balance(author))
+                now = self.bank.get_balance(author)
+                rpsmsg += "\nYour bid: {}\n{} → {}!".format(bid, then, now)
                 await self.bot.say(rpsmsg)
             else:
                 await self.bot.say("Format: `!rps rock 10`")

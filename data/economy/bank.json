@@ -36,7 +36,7 @@
             "name" : "justin"
         },
         "254037619346767872" : {
-            "balance" : 0,
+            "balance" : 10000,
             "created_at" : "2016-12-02 17:29:00",
             "name" : "torm"
         },
@@ -121,7 +121,7 @@
             "name" : "ry"
         },
         "257007941033394186" : {
-            "balance" : 21000,
+            "balance" : 22500,
             "created_at" : "2017-01-06 23:10:59",
             "name" : "Negative Ned"
         },
@@ -151,7 +151,7 @@
             "name" : "tecna the veemon"
         },
         "281209070419968014" : {
-            "balance" : 106,
+            "balance" : 116,
             "created_at" : "2017-03-10 22:41:13",
             "name" : "peyrin"
         },
@@ -176,12 +176,12 @@
             "name" : "ArmSCARE"
         },
         "312773714280185856" : {
-            "balance" : 2095303,
+            "balance" : 2097303,
             "created_at" : "2017-06-17 01:25:47",
             "name" : "Igor"
         },
         "350058699815124992" : {
-            "balance" : 2987360,
+            "balance" : 2990360,
             "created_at" : "2017-09-09 01:50:55",
             "name" : "dr-dre"
         },
