@@ -167,14 +167,14 @@ class Bank:
         self.accounts[server.id][user.id] = account
         self._save_bank()
 
-    #def set_credits(self, user, amount):
-        #server = user.server
-        #if amount < 0:
-            #raise NegativeValue()
-        #account = self._get_account(user)
-        #account["balance"] = amount
-        #self.accounts[server.id][user.id] = account
-        #self._save_bank()
+    def set_credits(self, user, amount):
+        server = user.server
+        if amount < 0:
+            raise NegativeValue()
+        account = self._get_account(user)
+        account["balance"] = amount
+        self.accounts[server.id][user.id] = account
+        self._save_bank()
 
     def transfer_credits(self, sender, receiver, amount):
         if amount < 0:

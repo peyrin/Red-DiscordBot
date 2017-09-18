@@ -447,3 +447,21 @@ Traceback (most recent call last):
   File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 150, in cc_list
     await self.bot.send_message(message.channel, result)
 NameError: name 'message' is not defined
+[18/09/2017 14:58] ERROR red on_command_error 369: Exception in command 'slot'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/economy.py", line 596, in slot
+    await self.slot_machine(author, bid)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/economy.py", line 649, in slot_machine
+    self.bank.set_credits(author, now)
+AttributeError: 'Bank' object has no attribute 'set_credits'
+[18/09/2017 14:58] ERROR red on_command_error 369: Exception in command 'slot'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/economy.py", line 596, in slot
+    await self.slot_machine(author, bid)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/economy.py", line 649, in slot_machine
+    self.bank.set_credits(author, now)
+AttributeError: 'Bank' object has no attribute 'set_credits'
