@@ -1,0 +1,100 @@
+#1: "Love Yourself"`bieber
+#2: "Sorry"`bieber
+#3: "One Dance"`Drake
+#4: "Work"`Rihanna
+#5: "Stressed Out"`Twenty One Pilots
+#6: "Panda"`Desiigner
+#7: "Hello"`Adele
+#8: "Don't Let Me Down"`Chainsmokers
+#9: "Can't Stop the Feeling!"`timberlake
+#10: "Closer"`Chainsmokers
+#11: "Cheap Thrills"`Sia
+#12: "7 Years"`graham
+#13: "Needed Me"`Rihanna
+#14: "My House"`Flo Rida
+#15: "I Took a Pill in Ibiza"`posner
+#16: "Work from Home"`fifth harmony
+#17: "This Is What You Came For"`calvin harris
+#18: "Cake by the Ocean"`DNCE
+#19: "Me, Myself & I"`G-Eazy`Bebe Rexha
+#20: "Ride"`Twenty One Pilots
+#21: "Heathens"`Twenty One Pilots
+#22: "Pillowtalk"`Zayn
+#23: "Stitches"`Mendes
+#24: "Hotline Bling"`Drake
+#25: "Cold Water"`Major Lazer
+#26: "Send My Love (To Your New Lover)"`Adele
+#27: "Roses"`chainsmokers
+#28: "Treat You Better"`mendes
+#29: "Too Good"`Drake
+#30: "Low Life"`Future
+#31: "What Do You Mean?"`bieber
+#32: "The Hills"`Weeknd
+#33: "Just Like Fire"`Pink
+#34: "Broccoli"`DRAM
+#35: "Don't"`Tiller
+#36: "Dangerous Woman"`Grande
+#37: "Jumpman"`Drake`Future
+#38: "I Hate U, I Love U"`Gnash
+#39: "Here"`Alessia Cara
+#40: "Same Old Love"`Gomez
+#41: "Controlla"`Drake
+#42: "Like I'm Gonna Lose You"`trainor
+#43: "One Call Away"`puth
+#44: "Let It Go"`bay
+#45: "No"`trainor
+#46: "Never Forget You"`Zara Larsson`MNEK
+#47: "Let Me Love You"`DJ Snake featuring Justin Bieber
+#48: "Don't Mind"`Kent Jones
+#49: "H.O.L.Y."`Florida Georgia Line
+#50: "We Don't Talk Anymore"`Charlie Puth
+#51: "Into You"`Ariana Grande
+#52: "Gold"`Kiiara
+#53: "Exchange"`Bryson Tiller
+#54: "679"`Fetty Wap
+#55: "Oui"`Jeremih
+#56: "Hands to Myself"`Selena Gomez
+#57: "2 Phones"`Kevin Gates
+#58: "Starboy"`Weeknd
+#59: "For Free"`DJ Khaled
+#60: "Never Be Like You"`Flume
+#61: "In the Night"`Weeknd
+#62: "Me Too"`Meghan Trainor
+#63: "Ex's & Oh's"`Elle King
+#64: "Die a Happy Man"`Thomas Rhett
+#65: "White Iverson"`Post Malone
+#66: "Close"`Nick Jonas
+#67: "Unsteady"`X Ambassadors
+#68: "Sucker for Pain"`Lil Wayne`Wiz Khalifa`Imagine Dragons
+#69: "Down in the DM"`Yo Gotti
+#70: "Luv"`Tory Lanez
+#71: "Sorry"`Beyonce
+#72: "Can't Feel My Face"`The Weeknd
+#73: "Hymn for the Weekend"`Coldplay
+#74: "Say It"`Tory Lanez
+#75: "Antidote"`Travis Scott
+#76: "Lost Boy"`Ruth B
+#77: "Side to Side"`Ariana Grande
+#78: "Sit Still, Look Pretty"`Daya
+#79: "Wildest Dreams"`Taylor Swift
+#80: "Middle"`DJ Snake
+#81: "On My Mind"`Ellie Goulding
+#82: "Pop Style"`Drake
+#83: "When We Were Young"`Adele
+#84: "Hide Away"`Daya
+#85: "Lean On"`Major Lazer`DJ Snake
+#86: "I Know What You Did Last Summer"`Shawn Mendes`Camila Cabello
+#87: "All the Way Up"`Fat Joe`Remy Ma`Jay Z
+#88: "Watch Me"`Silento
+#89: "Back to Sleep"`Chris Brown
+#90: "No Limit"`Usher
+#91: "Cut It"`OT Genasis
+#92: "Really Really"`Kevin Gates
+#93: "All In My Head (Flex)"`Fifth Harmony
+#94: "Starving"`Hailee Steinfeld`Grey
+#95: "Adventure of a Lifetime"`Coldplay
+#96: "Humble and Kind"`Tim McGraw
+#97: "Wicked"`Future
+#98: "Tiimmy Turner"`Desiigner
+#99: "See You Again"`Wiz Khalifa
+#100: "Perfect"`One Direction
