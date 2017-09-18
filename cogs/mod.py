@@ -771,7 +771,7 @@ class Mod:
         dataIO.save_json("data/mod/perms_cache.json", self._perms_cache)
         await self.bot.say("User has been unmuted in this server.")
 
-    @commands.group(pass_context=True)
+    @commands.group(pass_context=True, hidden=True)
     @checks.mod_or_permissions(manage_messages=True)
     async def cleanup(self, ctx):
         """Deletes messages."""
