@@ -14,23 +14,23 @@ settings = {"POLL_DURATION" : 60}
 
 
 
-class RPS(Enum):
-    rock     = "\N{MOYAI}"
-    paper    = "\N{PAGE FACING UP}"
-    scissors = "\N{BLACK SCISSORS}"
+#class RPS(Enum):
+#    rock     = "\N{MOYAI}"
+#    paper    = "\N{PAGE FACING UP}"
+#    scissors = "\N{BLACK SCISSORS}"
 
 
-class RPSParser:
-    def __init__(self, argument):
-        argument = argument.lower()
-        if argument == "rock":
-            self.choice = RPS.rock
-        elif argument == "paper":
-            self.choice = RPS.paper
-        elif argument == "scissors":
-            self.choice = RPS.scissors
-        else:
-            raise
+#class RPSParser:
+#    def __init__(self, argument):
+#        argument = argument.lower()
+#        if argument == "rock":
+#            self.choice = RPS.rock
+#        elif argument == "paper":
+#            self.choice = RPS.paper
+#        elif argument == "scissors":
+#            self.choice = RPS.scissors
+#        else:
+#            raise
 
 
 class General:
@@ -98,35 +98,35 @@ class General:
         else:
             await self.bot.say("*flips a coin and... " + choice(["HEADS!*", "TAILS!*"]))
 
-    @commands.command(pass_context=True)
-    async def rps(self, ctx, your_choice : RPSParser):
-        """Play rock paper scissors"""
-        author = ctx.message.author
-        player_choice = your_choice.choice
-        red_choice = choice((RPS.rock, RPS.paper, RPS.scissors))
-        cond = {
-                (RPS.rock,     RPS.paper)    : False,
-                (RPS.rock,     RPS.scissors) : True,
-                (RPS.paper,    RPS.rock)     : True,
-                (RPS.paper,    RPS.scissors) : False,
-                (RPS.scissors, RPS.rock)     : False,
-                (RPS.scissors, RPS.paper)    : True
-               }
-
-        if red_choice == player_choice:
-            outcome = None # Tie
-        else:
-            outcome = cond[(player_choice, red_choice)]
-
-        if outcome is True:
-            await self.bot.say("{} You win {}!"
-                               "".format(red_choice.value, author.mention))
-        elif outcome is False:
-            await self.bot.say("{} You lose {}!"
-                               "".format(red_choice.value, author.mention))
-        else:
-            await self.bot.say("{} We're square {}!"
-                               "".format(red_choice.value, author.mention))
+#    @commands.command(pass_context=True)
+#    async def rps(self, ctx, your_choice : RPSParser):
+#        """Play rock paper scissors"""
+#        author = ctx.message.author
+#        player_choice = your_choice.choice
+#        red_choice = choice((RPS.rock, RPS.paper, RPS.scissors))
+#        cond = {
+#                (RPS.rock,     RPS.paper)    : False,
+#                (RPS.rock,     RPS.scissors) : True,
+#                (RPS.paper,    RPS.rock)     : True,
+#                (RPS.paper,    RPS.scissors) : False,
+#                (RPS.scissors, RPS.rock)     : False,
+#                (RPS.scissors, RPS.paper)    : True
+#               }
+#
+#        if red_choice == player_choice:
+#            outcome = None # Tie
+#        else:
+#            outcome = cond[(player_choice, red_choice)]
+#
+#        if outcome is True:
+#            await self.bot.say("{} You win {}!"
+#                               "".format(red_choice.value, author.mention))
+#        elif outcome is False:
+#            await self.bot.say("{} You lose {}!"
+#                               "".format(red_choice.value, author.mention))
+#        else:
+#            await self.bot.say("{} We're square {}!"
+#                               "".format(red_choice.value, author.mention))
 
     @commands.command(name="8", aliases=["8ball"])
     async def _8ball(self, *, question : str):
