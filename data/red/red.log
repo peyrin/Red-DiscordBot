@@ -350,3 +350,25 @@ Traceback (most recent call last):
   File "/home/peyrin/Desktop/Red-DiscordBot/cogs/remindme.py", line 107, in setup
     loop.create_task(n.check_reminders())
 TypeError: check_reminders() missing 1 required positional argument: 'ctx'
+[18/09/2017 01:48] ERROR owner load 73: name 'General' is not defined
+Traceback (most recent call last):
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/owner.py", line 64, in load
+    self._load_cog(module)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/owner.py", line 947, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/goodchat.py", line 73, in setup
+    n = General(bot)
+NameError: name 'General' is not defined
+[18/09/2017 01:49] ERROR owner load 73: object() takes no parameters
+Traceback (most recent call last):
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/owner.py", line 64, in load
+    self._load_cog(module)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/owner.py", line 947, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/goodchat.py", line 73, in setup
+    n = Goodchat(bot)
+TypeError: object() takes no parameters
