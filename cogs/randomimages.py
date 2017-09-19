@@ -47,7 +47,14 @@ class RandomImages:
                     html = lxml.html.fromstring(response.decode())
                     message = "{}/{}".format(dog_api, str(html.xpath("//img/@src")[0]))
         except:
-            message = "Error: unable to get random dog image."
+            try:
+                with aiohttp.ClientSession() as session:
+                    async with session.get(dog_api) as response:
+                        response = await response.read()
+                        html = lxml.html.fromstring(response.decode())
+                        message = "{}/{}".format(dog_api, str(html.xpath("//img/@src")[0]))
+            except:
+                message = "Error: unable to get random dog image."
 
         await self.bot.say(message)
 
