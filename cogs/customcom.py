@@ -44,6 +44,7 @@ class CustomCommands:
         cmdlist = self.c_commands[server.id]
         if command not in cmdlist:
             cmdlist[command] = [text]
+            self.c_commands[server.id] = cmdlist
         else:
             if text not in cmdlist[command]:
                 command_list = list(cmdlist[command])
@@ -96,11 +97,17 @@ class CustomCommands:
             cmdlist = self.c_commands[server.id]
             if command in cmdlist:
                 command_list = list(cmdlist[command])
-                command_list.remove(text)
-                cmdlist[command] = list(command_list)
-                self.c_commands[server.id] = cmdlist
-                dataIO.save_json(self.file_path, self.c_commands)
-                await self.bot.say("I forgot that!")
+                try:
+                    command_list.remove(text)
+                    if len(command_list) > 0:
+                        cmdlist[command] = list(command_list)
+                    else:
+                        cmdlist.pop(command, None)
+                    self.c_commands[server.id] = cmdlist
+                    dataIO.save_json(self.file_path, self.c_commands)
+                    await self.bot.say("I forgot that!")
+                except ValueError:
+                    await self.bot.say("Can't forget that if I didn't know it in the first place!")
             else:
                 await self.bot.say("That command doesn't exist.")
         else:
@@ -120,8 +127,7 @@ class CustomCommands:
                                "".format(ctx.prefix))
             return
 
-        commands = ", ".join([ctx.prefix + c for c in sorted(commands)])
-        commands = "Custom commands:\n\n" + commands
+        commands = "\n".join([c for c in sorted(commands)])
 
         if len(commands) < 1500:
             await self.bot.say(box(commands))

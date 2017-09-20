@@ -249,3 +249,259 @@ Traceback (most recent call last):
   File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 141, in cc_remember
     if number < 1:
 TypeError: '<' not supported between instances of 'NoneType' and 'int'
+[20/09/2017 00:55] ERROR red on_command_error 369: Exception in command 'forget'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 99, in cc_delete
+    command_list.remove(text)
+ValueError: list.remove(x): x not in list
+[20/09/2017 01:02] ERROR red load_cogs 573: The alias e is already an existing command or alias.
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/owner.py", line 947, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib/discord/ext/commands/bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 271, in setup
+    bot.add_cog(CustomCommands(bot))
+  File "lib/discord/ext/commands/bot.py", line 655, in add_cog
+    self.add_command(member)
+  File "lib/discord/ext/commands/core.py", line 492, in add_command
+    raise discord.ClientException('The alias {} is already an existing command or alias.'.format(alias))
+discord.errors.ClientException: The alias e is already an existing command or alias.
+[20/09/2017 01:08] ERROR red on_command_error 369: Exception in command 'forget'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 104, in cc_delete
+    cmdlist.remove(command)
+AttributeError: 'dict' object has no attribute 'remove'
+[20/09/2017 01:09] ERROR red on_command_error 369: Exception in command 'learn'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 46, in cc_add
+    cmdlist[command] = [text]
+TypeError: list indices must be integers or slices, not str
+[20/09/2017 01:10] ERROR red on_command_error 369: Exception in command 'learn'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 46, in cc_add
+    cmdlist[command] = [text]
+TypeError: list indices must be integers or slices, not str
+[20/09/2017 01:11] ERROR red load_cogs 573: ('expected an indented block', ('/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py', 107, 24, '                    self.c_commands[server.id] = cmdlist\n'))
+Traceback (most recent call last):
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/owner.py", line 945, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/home/peyrin/anaconda3/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 107
+    self.c_commands[server.id] = cmdlist
+       ^
+IndentationError: expected an indented block
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/owner.py", line 949, in _load_cog
+    raise CogLoadError(*e.args)
+cogs.owner.CogLoadError: ('expected an indented block', ('/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py', 107, 24, '                    self.c_commands[server.id] = cmdlist\n'))
+[20/09/2017 01:11] ERROR owner load 68: ('expected an indented block', ('/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py', 107, 24, '                    self.c_commands[server.id] = cmdlist\n'))
+Traceback (most recent call last):
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/owner.py", line 945, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/home/peyrin/anaconda3/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 107
+    self.c_commands[server.id] = cmdlist
+       ^
+IndentationError: expected an indented block
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/owner.py", line 64, in load
+    self._load_cog(module)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/owner.py", line 949, in _load_cog
+    raise CogLoadError(*e.args)
+cogs.owner.CogLoadError: ('expected an indented block', ('/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py', 107, 24, '                    self.c_commands[server.id] = cmdlist\n'))
+[20/09/2017 01:12] ERROR owner load 68: ('expected an indented block', ('/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py', 107, 24, '                    self.c_commands[server.id] = cmdlist\n'))
+Traceback (most recent call last):
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/owner.py", line 945, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/home/peyrin/anaconda3/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 107
+    self.c_commands[server.id] = cmdlist
+       ^
+IndentationError: expected an indented block
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/owner.py", line 64, in load
+    self._load_cog(module)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/owner.py", line 949, in _load_cog
+    raise CogLoadError(*e.args)
+cogs.owner.CogLoadError: ('expected an indented block', ('/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py', 107, 24, '                    self.c_commands[server.id] = cmdlist\n'))
+[20/09/2017 01:14] ERROR owner load 68: ('invalid syntax', ('/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py', 114, 12, '        else:\n'))
+Traceback (most recent call last):
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/owner.py", line 945, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/home/peyrin/anaconda3/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 114
+    else:
+       ^
+SyntaxError: invalid syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/owner.py", line 64, in load
+    self._load_cog(module)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/owner.py", line 949, in _load_cog
+    raise CogLoadError(*e.args)
+cogs.owner.CogLoadError: ('invalid syntax', ('/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py', 114, 12, '        else:\n'))
+[20/09/2017 01:14] ERROR red on_command_error 369: Exception in command 'learn'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 46, in cc_add
+    cmdlist[command] = [text]
+TypeError: list indices must be integers or slices, not str
+[20/09/2017 01:16] ERROR red on_command_error 369: Exception in command 'list'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 131, in cc_list
+    commands = "\n".join([str(ctx.prefix)[1:] + c for c in sorted(commands)])
+TypeError: '<' not supported between instances of 'list' and 'str'
+[20/09/2017 01:16] ERROR red on_command_error 369: Exception in command 'list'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 131, in cc_list
+    commands = "\n".join([ctx.prefix + c for c in sorted(commands)])
+TypeError: '<' not supported between instances of 'list' and 'str'
+[20/09/2017 01:17] ERROR red on_command_error 369: Exception in command 'list'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 131, in cc_list
+    commands = ",".join([ctx.prefix + c for c in sorted(commands)])
+TypeError: '<' not supported between instances of 'list' and 'str'
+[20/09/2017 01:17] ERROR red on_command_error 369: Exception in command 'list'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 131, in cc_list
+    commands = ",".join([ctx.prefix + c for c in sorted(commands)])
+TypeError: '<' not supported between instances of 'list' and 'str'
+[20/09/2017 01:18] ERROR red on_command_error 369: Exception in command 'list'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 131, in cc_list
+    commands = "\n".join([[str(ctx.prefix + c)[1:]] for c in sorted(commands)])
+TypeError: '<' not supported between instances of 'list' and 'str'
+[20/09/2017 01:19] ERROR red on_command_error 369: Exception in command 'list'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 131, in cc_list
+    commands = "\n".join([[str(ctx.prefix + c)[1:]] for c in sorted(commands)])
+TypeError: '<' not supported between instances of 'list' and 'str'
+[20/09/2017 01:19] ERROR red on_command_error 369: Exception in command 'list'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 131, in cc_list
+    commands = "\n".join([c for c in sorted(commands)])
+TypeError: '<' not supported between instances of 'list' and 'str'
+[20/09/2017 01:19] ERROR red on_command_error 369: Exception in command 'list'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 131, in cc_list
+    commands = "\n".join([c for c in sorted(commands)])
+TypeError: '<' not supported between instances of 'list' and 'str'
+[20/09/2017 01:19] ERROR red on_command_error 369: Exception in command 'list'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 131, in cc_list
+    commands = "\n".join(c for c in sorted(commands))
+TypeError: '<' not supported between instances of 'list' and 'str'
+[20/09/2017 01:20] ERROR red on_command_error 369: Exception in command 'list'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 131, in cc_list
+    commands = "\n".join([c for c in sorted(commands)])
+TypeError: '<' not supported between instances of 'list' and 'str'
+[20/09/2017 01:20] ERROR red on_command_error 369: Exception in command 'list'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 131, in cc_list
+    commands = "\n".join([c for c in sorted(commands)])
+TypeError: '<' not supported between instances of 'list' and 'str'
+[20/09/2017 01:27] ERROR red on_command_error 369: Exception in command 'learn'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 47, in cc_add
+    temp_cmdlist[command] = [text]
+TypeError: list indices must be integers or slices, not str
+[20/09/2017 01:29] ERROR red on_command_error 369: Exception in command 'learn'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 46, in cc_add
+    cmdlist[command] = [text]
+TypeError: list indices must be integers or slices, not str
+[20/09/2017 01:30] ERROR red on_command_error 369: Exception in command 'learn'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 46, in cc_add
+    cmdlist[command] = [text]
+TypeError: list indices must be integers or slices, not str
