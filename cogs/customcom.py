@@ -129,29 +129,8 @@ class CustomCommands:
             for page in pagify(commands, delims=[" ", "\n"]):
                 await self.bot.whisper(box(page))
 
-    @commands.command(name="recall", pass_context=True)
-    async def cc_recall(self, ctx):
-        """Shows custom commands list"""
-        server = ctx.message.server
-        commands = self.c_commands.get(server.id, {})
-
-        if not commands:
-            await self.bot.say("There are no custom commands in this server."
-                               " Use `{}customcom add` to start adding some."
-                               "".format(ctx.prefix))
-            return
-
-        commands = ", ".join([ctx.prefix + c for c in sorted(commands)])
-        commands = "Custom commands:\n\n" + commands
-
-        if len(commands) < 1500:
-            await self.bot.say(box(commands))
-        else:
-            for page in pagify(commands, delims=[" ", "\n"]):
-                await self.bot.whisper(box(page))
-
     @commands.command(name="remember", pass_context=True)
-    async def cc_remember(self, ctx, command : str, *, number: int):
+    async def cc_remember(self, ctx, command : str, *, number: int = None):
         """Remembers response n for a certain command
 
         Example:
@@ -159,27 +138,54 @@ class CustomCommands:
         server = ctx.message.server
         channel = ctx.message.channel
         command = command.lower()
-        if number < 1:
+        if number == None:
+            if server.id in self.c_commands:
+                cmdlist = self.c_commands[server.id]
+                if command in cmdlist:
+                    command_list = list(cmdlist[command])
+                    if len(command_list) < 20:
+                        result = '```I remember '
+                        result += str(len(command_list))
+                        result += ' things about '
+                        result += command
+                        result += ": \n"
+                        for e in command_list:
+                            result += str(e)
+                            result += '\n'
+                        result += '```'
+                        await self.bot.send_message(channel, result)
+                    else:
+                        result = 'Argh. Go here instead: https://github.com/peyrin/Red-DiscordBot/blob/develop/data/customcom/commands.json'
+                        await self.bot.send_message(channel, result)
+                else:
+                    await self.bot.say("That command doesn't exist.")
+            else:
+                await self.bot.say("There are no custom commands in this server."
+                                   " Use `{}customcom add` to start adding some."
+                                   "".format(ctx.prefix))
+        elif number < 1:
             await self.bot.say("Numbering starts at 1!")
             return
-        number = number - 1
-        if server.id in self.c_commands:
-            cmdlist = self.c_commands[server.id]
-            if command in cmdlist:
-                command_list = list(cmdlist[command])
-                try:
-                    result = command_list[number]
-                except IndexError:
-                    await self.bot.say("I don't remember that many things!")
-                    return
-                result = self.format_cc(result, command)
-                await self.bot.send_message(channel, result)
+        elif number != None:
+            number = number - 1
+            if server.id in self.c_commands:
+                cmdlist = self.c_commands[server.id]
+                if command in cmdlist:
+                    command_list = list(cmdlist[command])
+                    try:
+                        result = command_list[number]
+                    except IndexError:
+                        await self.bot.say("I don't remember that many things!")
+                        return
+                    result = self.format_cc(result, command)
+                    await self.bot.send_message(channel, result)
+                else:
+                    await self.bot.say("That command doesn't exist.")
             else:
-                await self.bot.say("That command doesn't exist.")
-        else:
-            await self.bot.say("There are no custom commands in this server."
-                               " Use `{}customcom add` to start adding some."
-                               "".format(ctx.prefix))
+                await self.bot.say("There are no custom commands in this server."
+                                   " Use `{}customcom add` to start adding some."
+                                   "".format(ctx.prefix))
+
 
     async def on_message(self, message):
         if len(message.content) < 2 or message.channel.is_private:

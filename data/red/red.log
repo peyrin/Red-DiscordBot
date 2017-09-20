@@ -215,3 +215,37 @@ RuntimeError: Neither ffmpeg nor avconv are installed.
 Consult the guide for your operating system and do ALL the steps in order.
 https://twentysix26.github.io/Red-Docs/
 
+[20/09/2017 00:09] ERROR red load_cogs 573: ('invalid syntax', ('/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py', 133, 66, '    async def cc_remember(self, ctx, command : str, *, number=-36: int):\n'))
+Traceback (most recent call last):
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/owner.py", line 945, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "/home/peyrin/anaconda3/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 950, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 655, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 133
+    async def cc_remember(self, ctx, command : str, *, number=-36: int):
+                                                                 ^
+SyntaxError: invalid syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/owner.py", line 949, in _load_cog
+    raise CogLoadError(*e.args)
+cogs.owner.CogLoadError: ('invalid syntax', ('/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py', 133, 66, '    async def cc_remember(self, ctx, command : str, *, number=-36: int):\n'))
+[20/09/2017 00:30] ERROR red on_command_error 369: Exception in command 'remember'
+Traceback (most recent call last):
+  File "lib/discord/ext/commands/core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "/home/peyrin/Desktop/Red-DiscordBot/cogs/customcom.py", line 141, in cc_remember
+    if number < 1:
+TypeError: '<' not supported between instances of 'NoneType' and 'int'
