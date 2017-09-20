@@ -1,0 +1,201 @@
+[19/09/2017 11:48] ERROR red <module> 634: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/discord/gateway.py", line 430, in poll_event
+    msg = yield from self.recv()
+  File "lib/websockets/protocol.py", line 319, in recv
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: no code, no reason.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "lib/discord/client.py", line 448, in connect
+    yield from self.ws.poll_event()
+  File "lib/discord/gateway.py", line 435, in poll_event
+    raise ResumeWebSocket() from e
+discord.gateway.ResumeWebSocket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 601, in _create_direct_connection
+    local_addr=self._local_addr)
+  File "/home/peyrin/anaconda3/lib/python3.6/asyncio/base_events.py", line 776, in create_connection
+    raise exceptions[0]
+  File "/home/peyrin/anaconda3/lib/python3.6/asyncio/base_events.py", line 763, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/home/peyrin/anaconda3/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/home/peyrin/anaconda3/lib/python3.6/asyncio/selector_events.py", line 456, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 304, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 578, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 624, in _create_direct_connection
+    (req.host, req.port, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 101] Can not connect to discordapp.com:443 [Network is unreachable]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 614, in <module>
+    loop.run_until_complete(main(bot))
+  File "/home/peyrin/anaconda3/lib/python3.6/asyncio/base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "red.py", line 603, in main
+    yield from bot.connect()
+  File "lib/discord/client.py", line 452, in connect
+    self.ws = yield from DiscordWebSocket.from_client(self, resume=resume)
+  File "lib/discord/gateway.py", line 203, in from_client
+    gateway = yield from client.http.get_gateway()
+  File "lib/discord/http.py", line 633, in get_gateway
+    data = yield from self.request(Route('GET', '/gateway'))
+  File "lib/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 555, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 198, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 314, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 101] Cannot connect to host discordapp.com:443 ssl:True [Can not connect to discordapp.com:443 [Network is unreachable]]
+[19/09/2017 14:00] ERROR red <module> 634: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/discord/gateway.py", line 430, in poll_event
+    msg = yield from self.recv()
+  File "lib/websockets/protocol.py", line 319, in recv
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: no code, no reason.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "lib/discord/client.py", line 448, in connect
+    yield from self.ws.poll_event()
+  File "lib/discord/gateway.py", line 435, in poll_event
+    raise ResumeWebSocket() from e
+discord.gateway.ResumeWebSocket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 601, in _create_direct_connection
+    local_addr=self._local_addr)
+  File "/home/peyrin/anaconda3/lib/python3.6/asyncio/base_events.py", line 776, in create_connection
+    raise exceptions[0]
+  File "/home/peyrin/anaconda3/lib/python3.6/asyncio/base_events.py", line 763, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/home/peyrin/anaconda3/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/home/peyrin/anaconda3/lib/python3.6/asyncio/selector_events.py", line 456, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 304, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 578, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 624, in _create_direct_connection
+    (req.host, req.port, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 101] Can not connect to discordapp.com:443 [Network is unreachable]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 614, in <module>
+    loop.run_until_complete(main(bot))
+  File "/home/peyrin/anaconda3/lib/python3.6/asyncio/base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "red.py", line 603, in main
+    yield from bot.connect()
+  File "lib/discord/client.py", line 452, in connect
+    self.ws = yield from DiscordWebSocket.from_client(self, resume=resume)
+  File "lib/discord/gateway.py", line 203, in from_client
+    gateway = yield from client.http.get_gateway()
+  File "lib/discord/http.py", line 633, in get_gateway
+    data = yield from self.request(Route('GET', '/gateway'))
+  File "lib/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 555, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 198, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 314, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 101] Cannot connect to host discordapp.com:443 ssl:True [Can not connect to discordapp.com:443 [Network is unreachable]]
+[19/09/2017 20:26] ERROR red <module> 634: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "lib/discord/gateway.py", line 430, in poll_event
+    msg = yield from self.recv()
+  File "lib/websockets/protocol.py", line 319, in recv
+    raise ConnectionClosed(self.close_code, self.close_reason)
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: no code, no reason.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "lib/discord/client.py", line 448, in connect
+    yield from self.ws.poll_event()
+  File "lib/discord/gateway.py", line 435, in poll_event
+    raise ResumeWebSocket() from e
+discord.gateway.ResumeWebSocket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 601, in _create_direct_connection
+    local_addr=self._local_addr)
+  File "/home/peyrin/anaconda3/lib/python3.6/asyncio/base_events.py", line 776, in create_connection
+    raise exceptions[0]
+  File "/home/peyrin/anaconda3/lib/python3.6/asyncio/base_events.py", line 763, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "/home/peyrin/anaconda3/lib/python3.6/asyncio/selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "/home/peyrin/anaconda3/lib/python3.6/asyncio/selector_events.py", line 456, in _sock_connect
+    sock.connect(address)
+OSError: [Errno 101] Network is unreachable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "lib/aiohttp/connector.py", line 304, in connect
+    yield from self._create_connection(req)
+  File "lib/aiohttp/connector.py", line 578, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "lib/aiohttp/connector.py", line 624, in _create_direct_connection
+    (req.host, req.port, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 101] Can not connect to discordapp.com:443 [Network is unreachable]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 614, in <module>
+    loop.run_until_complete(main(bot))
+  File "/home/peyrin/anaconda3/lib/python3.6/asyncio/base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "red.py", line 603, in main
+    yield from bot.connect()
+  File "lib/discord/client.py", line 452, in connect
+    self.ws = yield from DiscordWebSocket.from_client(self, resume=resume)
+  File "lib/discord/gateway.py", line 203, in from_client
+    gateway = yield from client.http.get_gateway()
+  File "lib/discord/http.py", line 633, in get_gateway
+    data = yield from self.request(Route('GET', '/gateway'))
+  File "lib/discord/http.py", line 137, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "lib/aiohttp/client.py", line 555, in __iter__
+    resp = yield from self._coro
+  File "lib/aiohttp/client.py", line 198, in _request
+    conn = yield from self._connector.connect(req)
+  File "lib/aiohttp/connector.py", line 314, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 101] Cannot connect to host discordapp.com:443 ssl:True [Can not connect to discordapp.com:443 [Network is unreachable]]
