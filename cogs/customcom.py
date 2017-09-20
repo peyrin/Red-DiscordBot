@@ -137,10 +137,10 @@ class CustomCommands:
 
     @commands.command(name="remember", pass_context=True)
     async def cc_remember(self, ctx, command : str, *, number: int = None):
-        """Remembers response n for a certain command
+        """Remembers response n for a certain command. If your command is more than one word, remember to use double quotes...
 
         Example:
-        [p]remember yourcommand 1"""
+        [p]remember "my command" 1"""
         server = ctx.message.server
         channel = ctx.message.channel
         command = command.lower()
