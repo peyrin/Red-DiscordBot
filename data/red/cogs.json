@@ -3,7 +3,7 @@
     "cogs.audio" : false,
     "cogs.bigmoji" : true,
     "cogs.customcom" : true,
-    "cogs.downloader" : true,
+    "cogs.downloader" : false,
     "cogs.economy" : true,
     "cogs.general" : true,
     "cogs.image" : true,
