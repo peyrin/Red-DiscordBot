@@ -129,6 +129,27 @@ class CustomCommands:
             for page in pagify(commands, delims=[" ", "\n"]):
                 await self.bot.whisper(box(page))
 
+    @commands.command(name="recall", pass_context=True)
+    async def cc_recall(self, ctx):
+        """Shows custom commands list"""
+        server = ctx.message.server
+        commands = self.c_commands.get(server.id, {})
+
+        if not commands:
+            await self.bot.say("There are no custom commands in this server."
+                               " Use `{}customcom add` to start adding some."
+                               "".format(ctx.prefix))
+            return
+
+        commands = ", ".join([ctx.prefix + c for c in sorted(commands)])
+        commands = "Custom commands:\n\n" + commands
+
+        if len(commands) < 1500:
+            await self.bot.say(box(commands))
+        else:
+            for page in pagify(commands, delims=[" ", "\n"]):
+                await self.bot.whisper(box(page))
+
     @commands.command(name="remember", pass_context=True)
     async def cc_remember(self, ctx, command : str, *, number: int):
         """Remembers response n for a certain command
