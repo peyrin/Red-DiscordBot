@@ -36,12 +36,12 @@
             "name" : "justin"
         },
         "254037619346767872" : {
-            "balance" : 42000,
+            "balance" : 0,
             "created_at" : "2016-12-02 17:29:00",
             "name" : "torm"
         },
         "254040482932326404" : {
-            "balance" : 3825,
+            "balance" : 4000,
             "created_at" : "2017-02-20 19:55:35",
             "name" : "Exordium"
         },
@@ -56,7 +56,7 @@
             "name" : "apolo"
         },
         "254045797501370368" : {
-            "balance" : 34081,
+            "balance" : 44081,
             "created_at" : "2016-12-04 18:50:49",
             "name" : "kaos"
         },
@@ -121,7 +121,7 @@
             "name" : "ry"
         },
         "257007941033394186" : {
-            "balance" : 23500,
+            "balance" : 27000,
             "created_at" : "2017-01-06 23:10:59",
             "name" : "Negative Ned"
         },
@@ -176,7 +176,7 @@
             "name" : "ArmSCARE"
         },
         "312773714280185856" : {
-            "balance" : 2141303,
+            "balance" : 2171303,
             "created_at" : "2017-06-17 01:25:47",
             "name" : "Igor"
         },
