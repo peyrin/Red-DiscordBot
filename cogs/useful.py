@@ -19,32 +19,32 @@ from time import perf_counter
 from random import choice
 from subprocess import check_output
 
-try:
-    import ffmpy
-    ffmpyinstalled = True
-except:
-    print("You don't have ffmpy installed, installing it now...")
-    try:
-        check_output("pip3 install ffmpy", shell=True)
-        print("FFMpy installed succesfully!")
-        import ffmpy
-        ffmpyinstalled = True
-    except:
-        print("FFMpy didn't install succesfully.")
-        ffmpyinstalled = False
-try:
-    from pyshorteners import Shortener
-    pyshortenersinstalled = True
-except:
-    print("You don't have pyshorteners installed, installing it now...")
-    try:
-        check_output("pip3 install pyshorteners", shell=True)
-        print("Pyshorteners installed succesfully!")
-        import pyshorteners
-        pyshortenersinstalled = True
-    except:
-        print("Pyshorteners didn't install succesfully.")
-        pyshortenersinstalled = False
+#try:
+#    import ffmpy
+#    ffmpyinstalled = True
+#except:
+#    print("You don't have ffmpy installed, installing it now...")
+#    try:
+#        check_output("pip3 install ffmpy", shell=True)
+#        print("FFMpy installed succesfully!")
+#        import ffmpy
+#        ffmpyinstalled = True
+#    except:
+#        print("FFMpy didn't install succesfully.")
+#        ffmpyinstalled = False
+#try:
+#    from pyshorteners import Shortener
+#    pyshortenersinstalled = True
+#except:
+#    print("You don't have pyshorteners installed, installing it now...")
+#    try:
+#        check_output("pip3 install pyshorteners", shell=True)
+#        print("Pyshorteners installed succesfully!")
+#        import pyshorteners
+#        pyshortenersinstalled = True
+#    except:
+#        print("Pyshorteners didn't install succesfully.")
+#        pyshortenersinstalled = False
 
 class Useful:
     """Useful stuffz!"""
@@ -896,10 +896,10 @@ class ModuleNotFound(Exception):
     pass
         
 def setup(bot):
-    if not ffmpyinstalled:
-        raise ModuleNotFound("FFmpy is not installed, install it with pip3 install ffmpy.")
-    if not pyshortenersinstalled:
-        raise ModuleNotFound("Pyshorteners is not installed, install it with pip3 install pyshorteners.")
+    #if not ffmpyinstalled:
+    #    raise ModuleNotFound("FFmpy is not installed, install it with pip3 install ffmpy.")
+    #if not pyshortenersinstalled:
+    #    raise ModuleNotFound("Pyshorteners is not installed, install it with pip3 install pyshorteners.")
     check_folders()
     check_files()
     bot.remove_command("ping") # to be replaced with a new one that does count response time instead of only a 'pong' response.

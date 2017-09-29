@@ -62,6 +62,17 @@ class General:
         else:
             await self.bot.say(choice(choices))
 
+    @commands.command(pass_context=True, name="avatar", aliases=["av"])
+    async def avatar(self, ctx, user : discord.Member):
+        if user.avatar_url:
+            avatar = user.avatar_url
+        else:
+            avatar = user.default_avatar_url
+        em = discord.Embed(color=discord.Color.red())
+        em.add_field(name=user.mention + "'s avatar", value=avatar)
+        em.set_image(url=avatar)
+        await self.bot.say(embed=em)
+
     @commands.command(pass_context=True)
     async def roll(self, ctx, number : int = 100):
         """Rolls random number (between 1 and user choice)
