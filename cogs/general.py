@@ -69,7 +69,7 @@ class General:
         else:
             avatar = user.default_avatar_url
         em = discord.Embed(color=discord.Color.red())
-        em.add_field(name=user.mention + "'s avatar", value=avatar)
+        em.add_field(name=user.display_name + "'s avatar", value=avatar)
         em.set_image(url=avatar)
         await self.bot.say(embed=em)
 
