@@ -12,5 +12,6 @@
     "cogs.reactpoll" : false,
     "cogs.remindme" : true,
     "cogs.streams" : true,
-    "cogs.trivia" : true
+    "cogs.trivia" : true,
+    "cogs.useful" : false
 }

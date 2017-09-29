@@ -115,6 +115,159 @@
             "folder" : "data/downloader/FlapJack-Cogs/wat"
         }
     },
+    "PTSCogs" : {
+        "adkillr" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/adkillr/adkillr.py",
+            "folder" : "data/downloader/PTSCogs/adkillr"
+        },
+        "antifilter" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/antifilter/antifilter.py",
+            "folder" : "data/downloader/PTSCogs/antifilter"
+        },
+        "autorole" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/autorole/autorole.py",
+            "folder" : "data/downloader/PTSCogs/autorole"
+        },
+        "battleship" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/battleship/battleship.py",
+            "folder" : "data/downloader/PTSCogs/battleship"
+        },
+        "betterhelp" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/betterhelp/betterhelp.py",
+            "folder" : "data/downloader/PTSCogs/betterhelp"
+        },
+        "cmdcommands" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/cmdcommands/cmdcommands.py",
+            "folder" : "data/downloader/PTSCogs/cmdcommands"
+        },
+        "cmdsuffix" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/cmdsuffix/cmdsuffix.py",
+            "folder" : "data/downloader/PTSCogs/cmdsuffix"
+        },
+        "coder" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/coder/coder.py",
+            "folder" : "data/downloader/PTSCogs/coder"
+        },
+        "embed" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/embed/embed.py",
+            "folder" : "data/downloader/PTSCogs/embed"
+        },
+        "ftpstats" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/ftpstats/ftpstats.py",
+            "folder" : "data/downloader/PTSCogs/ftpstats"
+        },
+        "fuckoff" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/fuckoff/fuckoff.py",
+            "folder" : "data/downloader/PTSCogs/fuckoff"
+        },
+        "gardener" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/gardener/gardener.py",
+            "folder" : "data/downloader/PTSCogs/gardener"
+        },
+        "giveaways" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/giveaways/giveaways.py",
+            "folder" : "data/downloader/PTSCogs/giveaways"
+        },
+        "giveme" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/giveme/giveme.py",
+            "folder" : "data/downloader/PTSCogs/giveme"
+        },
+        "harambe" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/harambe/harambe.py",
+            "folder" : "data/downloader/PTSCogs/harambe"
+        },
+        "lyriccommands" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/lyriccommands/lyriccommands.py",
+            "folder" : "data/downloader/PTSCogs/lyriccommands"
+        },
+        "marry" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/marry/marry.py",
+            "folder" : "data/downloader/PTSCogs/marry"
+        },
+        "memes" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/memes/memes.py",
+            "folder" : "data/downloader/PTSCogs/memes"
+        },
+        "modlog" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/modlog/modlog.py",
+            "folder" : "data/downloader/PTSCogs/modlog"
+        },
+        "raidprotect" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/raidprotect/raidprotect.py",
+            "folder" : "data/downloader/PTSCogs/raidprotect"
+        },
+        "randomshizzle" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/randomshizzle/randomshizzle.py",
+            "folder" : "data/downloader/PTSCogs/randomshizzle"
+        },
+        "serverinfo" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/serverinfo/serverinfo.py",
+            "folder" : "data/downloader/PTSCogs/serverinfo"
+        },
+        "spam" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/spam/spam.py",
+            "folder" : "data/downloader/PTSCogs/spam"
+        },
+        "steam" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/steam/steam.py",
+            "folder" : "data/downloader/PTSCogs/steam"
+        },
+        "translator" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/translator/translator.py",
+            "folder" : "data/downloader/PTSCogs/translator"
+        },
+        "url" : "https://github.com/PlanetTeamSpeakk/PTSCogs",
+        "useful" : {
+            "INSTALLED" : true,
+            "file" : "data/downloader/PTSCogs/useful/useful.py",
+            "folder" : "data/downloader/PTSCogs/useful"
+        },
+        "wargaming" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/wargaming/wargaming.py",
+            "folder" : "data/downloader/PTSCogs/wargaming"
+        },
+        "warner" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/warner/warner.py",
+            "folder" : "data/downloader/PTSCogs/warner"
+        },
+        "welcomr" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/welcomr/welcomr.py",
+            "folder" : "data/downloader/PTSCogs/welcomr"
+        },
+        "wordfilter" : {
+            "INSTALLED" : false,
+            "file" : "data/downloader/PTSCogs/wordfilter/wordfilter.py",
+            "folder" : "data/downloader/PTSCogs/wordfilter"
+        }
+    },
     "phantium-cogs" : {
         "overwatch" : {
             "INSTALLED" : false,
