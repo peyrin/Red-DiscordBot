@@ -1,12 +1,6 @@
 [
     {
         "CHANNEL" : "254043153080778752",
-        "FUTURE" : 1506724072,
-        "ID" : "254037619346767872",
-        "TEXT" : "OSS jacked it in a school library"
-    },
-    {
-        "CHANNEL" : "254043153080778752",
         "FUTURE" : 1507328888,
         "ID" : "254037619346767872",
         "TEXT" : "egg went to a yes concert and cried"
@@ -16,5 +10,11 @@
         "FUTURE" : 1507156437,
         "ID" : "281209070419968014",
         "TEXT" : "https://pbs.twimg.com/media/C51KMLCWQAILGW5.jpg:large"
+    },
+    {
+        "CHANNEL" : "254043153080778752",
+        "FUTURE" : 1507933776,
+        "ID" : "254037619346767872",
+        "TEXT" : "OSS once watched porn in class and got caught by the teacher"
     }
 ]
