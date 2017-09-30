@@ -93,27 +93,50 @@ class CustomCommands:
         [p]forget yourcommand response"""
         server = ctx.message.server
         command = command.lower()
-        if server.id in self.c_commands:
-            cmdlist = self.c_commands[server.id]
-            if command in cmdlist:
-                command_list = list(cmdlist[command])
-                try:
-                    command_list.remove(text)
+        try:
+            number = int(text)-1
+            if server.id in self.c_commands:
+                cmdlist = self.c_commands[server.id]
+                if command in cmdlist:
+                    command_list = list(cmdlist[command])
+                    if number > len(command_list):
+                        await self.bot.say("Can't forget that if I didn't know it in the first place!")
+                    command_list.pop(number)
                     if len(command_list) > 0:
                         cmdlist[command] = list(command_list)
                     else:
                         cmdlist.pop(command, None)
                     self.c_commands[server.id] = cmdlist
                     dataIO.save_json(self.file_path, self.c_commands)
-                    await self.bot.say("I forgot that!")
-                except ValueError:
-                    await self.bot.say("Can't forget that if I didn't know it in the first place!")
+                    await self.bot.say("I forgot that!")                    
+                else:
+                    await self.bot.say("That command doesn't exist.")
             else:
-                await self.bot.say("That command doesn't exist.")
-        else:
-            await self.bot.say("There are no custom commands in this server."
-                               " Use `{}customcom add` to start adding some."
-                               "".format(ctx.prefix))
+                await self.bot.say("There are no custom commands in this server."
+                                   " Use `{}customcom add` to start adding some."
+                                   "".format(ctx.prefix))
+        except:
+            if server.id in self.c_commands:
+                cmdlist = self.c_commands[server.id]
+                if command in cmdlist:
+                    command_list = list(cmdlist[command])
+                    try:
+                        command_list.remove(text)
+                        if len(command_list) > 0:
+                            cmdlist[command] = list(command_list)
+                        else:
+                            cmdlist.pop(command, None)
+                        self.c_commands[server.id] = cmdlist
+                        dataIO.save_json(self.file_path, self.c_commands)
+                        await self.bot.say("I forgot that!")
+                    except ValueError:
+                        await self.bot.say("Can't forget that if I didn't know it in the first place!")
+                else:
+                    await self.bot.say("That command doesn't exist.")
+            else:
+                await self.bot.say("There are no custom commands in this server."
+                                   " Use `{}customcom add` to start adding some."
+                                   "".format(ctx.prefix))
 
     @commands.command(name="list", pass_context=True)
     async def cc_list(self, ctx):
@@ -156,7 +179,7 @@ class CustomCommands:
                         result += command
                         result += ": \n"
                         for e in command_list:
-                            result += str(command_list.index(e))
+                            result += str(command_list.index(e)+1)
                             result += '. '
                             result += str(e)
                             result += '\n'
