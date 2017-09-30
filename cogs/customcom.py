@@ -156,6 +156,8 @@ class CustomCommands:
                         result += command
                         result += ": \n"
                         for e in command_list:
+                            result += str(command_list.index(e))
+                            result += '. '
                             result += str(e)
                             result += '\n'
                         result += '```'
