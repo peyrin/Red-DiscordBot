@@ -507,8 +507,6 @@
             "Rydam"
         ],
         "254778046014423040" : [
-            "OldSchooler:salt:Ruler",
-            "OldSchoolerSnailRuler",
             "OldSchooler\ud83d\udc0cRuler",
             "OldSchooler\ud83d\udc60Ruler",
             "OldSchooler\ud83d\udc33Ruler",
@@ -526,7 +524,9 @@
             "QhOSSt Ship",
             "GhOSSt Shirt",
             "The Elephant OSS",
-            "The \ud83d\udecf Avoider"
+            "The \ud83d\udecf Avoider",
+            "HalloWeen",
+            "OldSchoolerBlockRuler"
         ],
         "255113930395877378" : [
             "NICE"
