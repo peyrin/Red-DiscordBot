@@ -1,6 +1,6 @@
 {
     "cogs.alias" : true,
-    "cogs.audio" : false,
+    "cogs.audio" : true,
     "cogs.bigmoji" : true,
     "cogs.customcom" : true,
     "cogs.downloader" : true,
