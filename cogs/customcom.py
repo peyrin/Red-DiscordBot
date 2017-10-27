@@ -179,6 +179,7 @@ class CustomCommands:
             else:
                 for page in pagify(commands, delims=[" ", "\n"]):
                     await self.bot.whisper(box(page))
+            return
         command = command.lower()
         if number == None:
             if server.id in self.c_commands:
