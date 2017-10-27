@@ -163,7 +163,6 @@ class CustomCommands:
         [p]remember "my command" 1"""
         server = ctx.message.server
         channel = ctx.message.channel
-        command = command.lower()
         if command == None and number == None:
             commands = self.c_commands.get(server.id, {})
 
@@ -180,6 +179,7 @@ class CustomCommands:
             else:
                 for page in pagify(commands, delims=[" ", "\n"]):
                     await self.bot.whisper(box(page))
+        command = command.lower()
         if number == None:
             if server.id in self.c_commands:
                 cmdlist = self.c_commands[server.id]
