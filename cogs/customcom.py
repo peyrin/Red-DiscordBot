@@ -165,21 +165,21 @@ class CustomCommands:
         channel = ctx.message.channel
         command = command.lower()
 	if command == None and number == None:
-		commands = self.c_commands.get(server.id, {})
+	    commands = self.c_commands.get(server.id, {})
 
-		if not commands:
-		    await self.bot.say("There are no custom commands in this server."
-		                       " Use `{}customcom add` to start adding some."
-		                       "".format(ctx.prefix))
-		    return
+	    if not commands:
+		await self.bot.say("There are no custom commands in this server."
+		                   " Use `{}customcom add` to start adding some."
+		                   "".format(ctx.prefix))
+		return
 
-		commands = "\n".join([c for c in sorted(commands)])
+	    commands = "\n".join([c for c in sorted(commands)])
 
-		if len(commands) < 1500:
-		    await self.bot.say(box(commands))
-		else:
-		    for page in pagify(commands, delims=[" ", "\n"]):
-		        await self.bot.whisper(box(page))
+	    if len(commands) < 1500:
+		await self.bot.say(box(commands))
+	    else:
+		for page in pagify(commands, delims=[" ", "\n"]):
+		    await self.bot.whisper(box(page))
         if number == None:
             if server.id in self.c_commands:
                 cmdlist = self.c_commands[server.id]
