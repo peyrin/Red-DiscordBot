@@ -164,7 +164,7 @@ class CustomCommands:
         server = ctx.message.server
         channel = ctx.message.channel
         command = command.lower()
-    	if command == None and number == None:
+        if command == None and number == None:
             commands = self.c_commands.get(server.id, {})
 
             if not commands:
