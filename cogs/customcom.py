@@ -26,13 +26,10 @@ class CustomCommands:
     @commands.command(name="learn", pass_context=True)
     #@checks.mod_or_permissions(administrator=True)
     async def cc_add(self, ctx, command : str, *, text):
-        """Adds a custom command
+        """Adds a custom command. If your command is more than one word long, make sure to use quotes!
 
         Example:
-        [p]learn yourcommand Text you want
-
-        CCs can be enhanced with arguments:
-        https://twentysix26.github.io/Red-Docs/red_guide_command_args/
+        [p]learn "your command" Text you want
         """
         server = ctx.message.server
         command = command.lower()
@@ -159,7 +156,7 @@ class CustomCommands:
                 await self.bot.whisper(box(page))
 
     @commands.command(name="remember", pass_context=True)
-    async def cc_remember(self, ctx, command : str, *, number: int = None):
+    async def cc_remember(self, ctx, command : str = None, *, number: int = None):
         """Remembers response n for a certain command. If your command is more than one word, remember to use double quotes...
 
         Example:
@@ -167,6 +164,22 @@ class CustomCommands:
         server = ctx.message.server
         channel = ctx.message.channel
         command = command.lower()
+	if command == None and number == None:
+		commands = self.c_commands.get(server.id, {})
+
+		if not commands:
+		    await self.bot.say("There are no custom commands in this server."
+		                       " Use `{}customcom add` to start adding some."
+		                       "".format(ctx.prefix))
+		    return
+
+		commands = "\n".join([c for c in sorted(commands)])
+
+		if len(commands) < 1500:
+		    await self.bot.say(box(commands))
+		else:
+		    for page in pagify(commands, delims=[" ", "\n"]):
+		        await self.bot.whisper(box(page))
         if number == None:
             if server.id in self.c_commands:
                 cmdlist = self.c_commands[server.id]
