@@ -1,25 +1,32 @@
 import sys, os
-from .error import VerificationError
+
+
+class VerificationError(Exception):
+    """ An error raised when verification fails
+    """
+
+class VerificationMissing(Exception):
+    """ An error raised when incomplete structures are passed into
+    cdef, but no verification has been done
+    """
 
 
 LIST_OF_FILE_NAMES = ['sources', 'include_dirs', 'library_dirs',
                       'extra_objects', 'depends']
 
 def get_extension(srcfilename, modname, sources=(), **kwds):
-    _hack_at_distutils()
     from distutils.core import Extension
     allsources = [srcfilename]
     for src in sources:
         allsources.append(os.path.normpath(src))
     return Extension(name=modname, sources=allsources, **kwds)
 
-def compile(tmpdir, ext, compiler_verbose=0, debug=None):
+def compile(tmpdir, ext, compiler_verbose=0):
     """Compile a C extension module using distutils."""
 
-    _hack_at_distutils()
     saved_environ = os.environ.copy()
     try:
-        outputfilename = _build(tmpdir, ext, compiler_verbose, debug)
+        outputfilename = _build(tmpdir, ext, compiler_verbose)
         outputfilename = os.path.abspath(outputfilename)
     finally:
         # workaround for a distutils bugs where some env vars can
@@ -29,7 +36,7 @@ def compile(tmpdir, ext, compiler_verbose=0, debug=None):
                 os.environ[key] = value
     return outputfilename
 
-def _build(tmpdir, ext, compiler_verbose=0, debug=None):
+def _build(tmpdir, ext, compiler_verbose=0):
     # XXX compact but horrible :-(
     from distutils.core import Distribution
     import distutils.errors, distutils.log
@@ -37,9 +44,6 @@ def _build(tmpdir, ext, compiler_verbose=0, debug=None):
     dist = Distribution({'ext_modules': [ext]})
     dist.parse_config_files()
     options = dist.get_option_dict('build_ext')
-    if debug is None:
-        debug = sys.flags.debug
-    options['debug'] = ('ffiplatform', debug)
     options['force'] = ('ffiplatform', True)
     options['build_lib'] = ('ffiplatform', tmpdir)
     options['build_temp'] = ('ffiplatform', tmpdir)
@@ -115,13 +119,3 @@ def flatten(x):
     f = cStringIO.StringIO()
     _flatten(x, f)
     return f.getvalue()
-
-def _hack_at_distutils():
-    # Windows-only workaround for some configurations: see
-    # https://bugs.python.org/issue23246 (Python 2.7 with 
-    # a specific MS compiler suite download)
-    if sys.platform == "win32":
-        try:
-            import setuptools    # for side-effects, patches distutils
-        except ImportError:
-            pass

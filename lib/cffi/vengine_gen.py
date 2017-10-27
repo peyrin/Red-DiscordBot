@@ -4,8 +4,7 @@
 import sys, os
 import types
 
-from . import model
-from .error import VerificationError
+from . import model, ffiplatform
 
 
 class VGenericEngine(object):
@@ -103,7 +102,7 @@ class VGenericEngine(object):
                 method = getattr(self, '_generate_gen_%s_%s' % (kind,
                                                                 step_name))
             except AttributeError:
-                raise VerificationError(
+                raise ffiplatform.VerificationError(
                     "not implemented in verify(): %r" % name)
             try:
                 method(tp, realname)
@@ -282,7 +281,7 @@ class VGenericEngine(object):
                     prnt('  { %s = &p->%s; (void)tmp; }' % (
                         ftype.get_c_name('*tmp', 'field %r'%fname, quals=fqual),
                         fname))
-                except VerificationError as e:
+                except ffiplatform.VerificationError as e:
                     prnt('  /* %s */' % str(e))   # cannot verify it, ignore
         prnt('}')
         self.export_symbols.append(layoutfuncname)
@@ -345,7 +344,7 @@ class VGenericEngine(object):
             # check that the layout sizes and offsets match the real ones
             def check(realvalue, expectedvalue, msg):
                 if realvalue != expectedvalue:
-                    raise VerificationError(
+                    raise ffiplatform.VerificationError(
                         "%s (we have %d, but C compiler says %d)"
                         % (msg, expectedvalue, realvalue))
             ffi = self.ffi
@@ -499,7 +498,7 @@ class VGenericEngine(object):
             error = self.ffi.string(p)
             if sys.version_info >= (3,):
                 error = str(error, 'utf-8')
-            raise VerificationError(error)
+            raise ffiplatform.VerificationError(error)
 
     def _enum_funcname(self, prefix, name):
         # "$enum_$1" => "___D_enum____D_1"
@@ -592,7 +591,7 @@ class VGenericEngine(object):
                 BItemType = self.ffi._get_cached_btype(tp.item)
                 length, rest = divmod(size, self.ffi.sizeof(BItemType))
                 if rest != 0:
-                    raise VerificationError(
+                    raise ffiplatform.VerificationError(
                         "bad size: %r does not seem to be an array of %s" %
                         (name, tp.item))
                 tp = tp.resolve_length(length)
@@ -627,8 +626,7 @@ cffimod_header = r'''
 #include <sys/types.h>   /* XXX for ssize_t on some platforms */
 
 /* this block of #ifs should be kept exactly identical between
-   c/_cffi_backend.c, cffi/vengine_cpy.py, cffi/vengine_gen.py
-   and cffi/_cffi_include.h */
+   c/_cffi_backend.c, cffi/vengine_cpy.py, cffi/vengine_gen.py */
 #if defined(_MSC_VER)
 # include <malloc.h>   /* for alloca() */
 # if _MSC_VER < 1600   /* MSVC < 2010 */
@@ -662,13 +660,11 @@ cffimod_header = r'''
 #  include <stdint.h>
 # endif
 # if _MSC_VER < 1800   /* MSVC < 2013 */
-#  ifndef __cplusplus
-    typedef unsigned char _Bool;
-#  endif
+   typedef unsigned char _Bool;
 # endif
 #else
 # include <stdint.h>
-# if (defined (__SVR4) && defined (__sun)) || defined(_AIX) || defined(__hpux)
+# if (defined (__SVR4) && defined (__sun)) || defined(_AIX)
 #  include <alloca.h>
 # endif
 #endif

@@ -1,8 +1,8 @@
-import types
+import types, sys
 import weakref
 
 from .lock import allocate_lock
-from .error import CDefError, VerificationError, VerificationMissing
+
 
 # type qualifiers
 Q_CONST    = 0x01
@@ -39,6 +39,7 @@ class BaseTypeByIdentity(object):
         replace_with = qualify(quals, replace_with)
         result = result.replace('&', replace_with)
         if '$' in result:
+            from .ffiplatform import VerificationError
             raise VerificationError(
                 "cannot generate '%s' in %s: unknown type name"
                 % (self._get_c_name(), context))
@@ -95,8 +96,7 @@ void_type = VoidType()
 
 
 class BasePrimitiveType(BaseType):
-    def is_complex_type(self):
-        return False
+    pass
 
 
 class PrimitiveType(BasePrimitiveType):
@@ -117,13 +117,9 @@ class PrimitiveType(BasePrimitiveType):
         'float':              'f',
         'double':             'f',
         'long double':        'f',
-        'float _Complex':     'j',
-        'double _Complex':    'j',
         '_Bool':              'i',
         # the following types are not primitive in the C sense
         'wchar_t':            'c',
-        'char16_t':           'c',
-        'char32_t':           'c',
         'int8_t':             'i',
         'uint8_t':            'i',
         'int16_t':            'i',
@@ -168,8 +164,6 @@ class PrimitiveType(BasePrimitiveType):
         return self.ALL_PRIMITIVE_TYPES[self.name] == 'i'
     def is_float_type(self):
         return self.ALL_PRIMITIVE_TYPES[self.name] == 'f'
-    def is_complex_type(self):
-        return self.ALL_PRIMITIVE_TYPES[self.name] == 'j'
 
     def build_backend_type(self, ffi, finishlist):
         return global_cache(self, ffi, 'new_primitive_type', self.name)
@@ -229,8 +223,9 @@ class RawFunctionType(BaseFunctionType):
     is_raw_function = True
 
     def build_backend_type(self, ffi, finishlist):
-        raise CDefError("cannot render the type %r: it is a function "
-                        "type, not a pointer-to-function type" % (self,))
+        from . import api
+        raise api.CDefError("cannot render the type %r: it is a function "
+                            "type, not a pointer-to-function type" % (self,))
 
     def as_function_pointer(self):
         return FunctionPtrType(self.args, self.result, self.ellipsis, self.abi)
@@ -312,8 +307,9 @@ class ArrayType(BaseType):
 
     def build_backend_type(self, ffi, finishlist):
         if self.length == '...':
-            raise CDefError("cannot render the type %r: unknown length" %
-                            (self,))
+            from . import api
+            raise api.CDefError("cannot render the type %r: unknown length" %
+                                (self,))
         self.item.get_cached_btype(ffi, finishlist)   # force the item BType
         BPtrItem = PointerType(self.item).get_cached_btype(ffi, finishlist)
         return global_cache(self, ffi, 'new_array_type', BPtrItem, self.length)
@@ -459,11 +455,13 @@ class StructOrUnion(StructOrUnionOrEnum):
         self.completed = 2
 
     def _verification_error(self, msg):
+        from .ffiplatform import VerificationError
         raise VerificationError(msg)
 
     def check_not_partial(self):
         if self.partial and self.fixedlayout is None:
-            raise VerificationMissing(self._get_c_name())
+            from . import ffiplatform
+            raise ffiplatform.VerificationMissing(self._get_c_name())
 
     def build_backend_type(self, ffi, finishlist):
         self.check_not_partial()
@@ -501,7 +499,8 @@ class EnumType(StructOrUnionOrEnum):
 
     def check_not_partial(self):
         if self.partial and not self.partial_resolved:
-            raise VerificationMissing(self._get_c_name())
+            from . import ffiplatform
+            raise ffiplatform.VerificationMissing(self._get_c_name())
 
     def build_backend_type(self, ffi, finishlist):
         self.check_not_partial()
@@ -515,20 +514,15 @@ class EnumType(StructOrUnionOrEnum):
         if self.baseinttype is not None:
             return self.baseinttype.get_cached_btype(ffi, finishlist)
         #
+        from . import api
         if self.enumvalues:
             smallest_value = min(self.enumvalues)
             largest_value = max(self.enumvalues)
         else:
             import warnings
-            try:
-                # XXX!  The goal is to ensure that the warnings.warn()
-                # will not suppress the warning.  We want to get it
-                # several times if we reach this point several times.
-                __warningregistry__.clear()
-            except NameError:
-                pass
-            warnings.warn("%r has no values explicitly defined; "
-                          "guessing that it is equivalent to 'unsigned int'"
+            warnings.warn("%r has no values explicitly defined; next version "
+                          "will refuse to guess which integer type it is "
+                          "meant to be (unsigned/signed, int/long)"
                           % self._get_c_name())
             smallest_value = largest_value = 0
         if smallest_value < 0:   # needs a signed type
@@ -549,8 +543,8 @@ class EnumType(StructOrUnionOrEnum):
         if (smallest_value >= ((-1) << (8*size2-1)) and
             largest_value < (1 << (8*size2-sign))):
             return btype2
-        raise CDefError("%s values don't all fit into either 'long' "
-                        "or 'unsigned long'" % self._get_c_name())
+        raise api.CDefError("%s values don't all fit into either 'long' "
+                            "or 'unsigned long'" % self._get_c_name())
 
 def unknown_type(name, structname=None):
     if structname is None:
@@ -568,26 +562,22 @@ def unknown_ptr_type(name, structname=None):
 
 
 global_lock = allocate_lock()
-_typecache_cffi_backend = weakref.WeakValueDictionary()
-
-def get_typecache(backend):
-    # returns _typecache_cffi_backend if backend is the _cffi_backend
-    # module, or type(backend).__typecache if backend is an instance of
-    # CTypesBackend (or some FakeBackend class during tests)
-    if isinstance(backend, types.ModuleType):
-        return _typecache_cffi_backend
-    with global_lock:
-        if not hasattr(type(backend), '__typecache'):
-            type(backend).__typecache = weakref.WeakValueDictionary()
-        return type(backend).__typecache
 
 def global_cache(srctype, ffi, funcname, *args, **kwds):
     key = kwds.pop('key', (funcname, args))
     assert not kwds
     try:
-        return ffi._typecache[key]
+        return ffi._backend.__typecache[key]
     except KeyError:
         pass
+    except AttributeError:
+        # initialize the __typecache attribute, either at the module level
+        # if ffi._backend is a module, or at the class level if ffi._backend
+        # is some instance.
+        if isinstance(ffi._backend, types.ModuleType):
+            ffi._backend.__typecache = weakref.WeakValueDictionary()
+        else:
+            type(ffi._backend).__typecache = weakref.WeakValueDictionary()
     try:
         res = getattr(ffi._backend, funcname)(*args)
     except NotImplementedError as e:
@@ -595,7 +585,7 @@ def global_cache(srctype, ffi, funcname, *args, **kwds):
     # note that setdefault() on WeakValueDictionary is not atomic
     # and contains a rare bug (http://bugs.python.org/issue19542);
     # we have to use a lock and do it ourselves
-    cache = ffi._typecache
+    cache = ffi._backend.__typecache
     with global_lock:
         res1 = cache.get(key)
         if res1 is None:
