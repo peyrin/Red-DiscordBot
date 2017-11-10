@@ -6,7 +6,7 @@
     "cogs.downloader" : true,
     "cogs.economy" : true,
     "cogs.general" : true,
-    "cogs.image" : true,
+    "cogs.image" : false,
     "cogs.mod" : true,
     "cogs.randomimages" : true,
     "cogs.reactpoll" : false,
