@@ -41,7 +41,7 @@
             "name" : "torm"
         },
         "254040482932326404" : {
-            "balance" : 21100,
+            "balance" : 26600,
             "created_at" : "2017-02-20 19:55:35",
             "name" : "Exordium"
         },
@@ -56,7 +56,7 @@
             "name" : "apolo"
         },
         "254045797501370368" : {
-            "balance" : 7000,
+            "balance" : 8000,
             "created_at" : "2016-12-04 18:50:49",
             "name" : "kaos"
         },
@@ -181,7 +181,7 @@
             "name" : "ArmSCARE"
         },
         "312773714280185856" : {
-            "balance" : 2471601,
+            "balance" : 2482300,
             "created_at" : "2017-06-17 01:25:47",
             "name" : "Igor"
         },

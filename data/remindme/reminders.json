@@ -1,12 +1,6 @@
 [
     {
         "CHANNEL" : "254043153080778752",
-        "FUTURE" : 1510789280,
-        "ID" : "281209070419968014",
-        "TEXT" : "https://pbs.twimg.com/media/C51KMLCWQAILGW5.jpg:large"
-    },
-    {
-        "CHANNEL" : "254043153080778752",
         "FUTURE" : 1511492323,
         "ID" : "281209070419968014",
         "TEXT" : "https://i.imgur.com/vk9iqfX.png"
@@ -16,5 +10,11 @@
         "FUTURE" : 1511492351,
         "ID" : "281209070419968014",
         "TEXT" : "https://imgur.com/ivjsZQK"
+    },
+    {
+        "CHANNEL" : "254043153080778752",
+        "FUTURE" : 1511394106,
+        "ID" : "281209070419968014",
+        "TEXT" : "https://pbs.twimg.com/media/C51KMLCWQAILGW5.jpg:large"
     }
 ]
