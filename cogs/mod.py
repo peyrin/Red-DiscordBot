@@ -442,6 +442,7 @@ class Mod:
             print(e)
 
     @commands.command(aliases=["free"], no_pm=True, pass_context=True)
+    @checks.admin_or_permissions(ban_members=True)
     async def unban(self, ctx, user: str):
         """Unbans user"""
         author = ctx.message.author
