@@ -1,4 +1,9 @@
 {
+    "254043153080778752" : {
+        "ADMIN_ROLE" : "mods",
+        "MOD_ROLE" : "mods",
+        "PREFIXES" : []
+    },
     "EMAIL" : null,
     "OWNER" : "281209070419968014",
     "PASSWORD" : null,
