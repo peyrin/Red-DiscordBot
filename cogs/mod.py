@@ -154,6 +154,7 @@ class Mod:
     @commands.command(no_pm=True, pass_context=True)
     async def color(self, ctx, color : str):
         """Sets a color (role) for a user."""
+        message = ctx.message
         user = ctx.message.author
         server = ctx.message.server
         try:
@@ -161,6 +162,7 @@ class Mod:
                 await self.bot.say("Not a valid color.")
             else:
                 if discord.utils.get(server.roles, id='254063980123783168') in user.roles:
+                    await self.bot.add_reaction(message, "✅")
                     await self.bot.replace_roles(user, *[discord.utils.get(server.roles, name=color), discord.utils.get(server.roles, id='254063980123783168'), discord.utils.get(server.roles, id='285903716379394049')])
                 else:
                     await self.bot.replace_roles(user, *[discord.utils.get(server.roles, name=color), discord.utils.get(server.roles, id='286985243855028227')])
