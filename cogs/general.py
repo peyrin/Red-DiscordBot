@@ -511,7 +511,7 @@ class NewLiveListen():
             tracks = album.get_tracks()
             check_if_album_has_nonzero_tracks = tracks[1]
             if album.get_cover_image():
-                await self.client.send_message(self.channel, "{}\nListening to: {}".format(album.get_cover_image(), str(album)))
+                await self.client.send_message(self.channel, "Listening to: {}\n\n{}".format(str(album), album.get_cover_image()))
             else:
                 await self.client.send_message(self.channel, "Listening to: {}".format(str(album)))
             await asyncio.sleep(1)
