@@ -9,6 +9,7 @@ import datetime
 import time
 import aiohttp
 import asyncio
+import pylast
 
 settings = {"POLL_DURATION" : 60}
 
@@ -44,6 +45,7 @@ class General:
                      "Ask again later", "Better not tell you now", "Cannot predict now", "Concentrate and ask again",
                      "Don't count on it", "My reply is no", "My sources say no", "Outlook not so good", "Very doubtful"]
         self.poll_sessions = []
+        self.livelisten_sessions = []
 
     @commands.command(hidden=True)
     async def ping(self):
@@ -393,6 +395,41 @@ class General:
             await self.bot.say("*POW!* {} has been slapped".format(user.mention))
 
     @commands.command(pass_context=True, no_pm=True)
+    async def livelisten(self, ctx, *text):
+        """Live-listen to an album. Bot will announce as each song begins."""
+        message = ctx.message
+        if len(text) == 1:
+            if text[0].lower() == "stop":
+                await self.endLivelisten(message)
+                return
+        if not self.getLivelistenByChannel(message):
+            l = NewLiveListen(message, " ".join(text), self)
+            if l.valid:
+                self.livelisten_sessions.append(l)
+                await l.start()
+            else:
+                await self.bot.say("livelisten Artist - Album - Start position")
+        else:
+            await self.bot.say("A livelisten is already ongoing in this channel.")
+
+    async def endLivelisten(self, message):
+        if self.getLivelistenByChannel(message):
+            l = self.getLivelistenByChannel(message)
+            if l.author == message.author.id: # or isMemberAdmin(message)
+                await self.getLivelistenByChannel(message).endlivelisten()
+                await self.bot.say("Livelisten ended.")
+            else:
+                await self.bot.say("Only the author can stop the livelisten.")
+        else:
+            await self.bot.say("There's no livelisten ongoing in this channel.")
+
+    def getLivelistenByChannel(self, message):
+        for l in self.livelisten_sessions:
+            if l.channel == message.channel:
+                return l
+        return False
+
+    @commands.command(pass_context=True, no_pm=True)
     async def poll(self, ctx, *text):
         """Starts/stops a poll
 
@@ -445,6 +482,63 @@ class General:
             return datetime.datetime(2016, 1, 10, 6, 8, 4, 443000)
         else:
             return user.joined_at
+
+class NewLiveListen():
+    def __init__(self, message, text, main):
+        self.API_KEY = '2f31bfef663696243867c29ce86f5a0a'
+        self.API_SECRET = '3722c32247e84c986395e84bec587ec5'
+        self.network = pylast.LastFMNetwork(api_key=self.API_KEY, api_secret=self.API_SECRET)
+        self.channel = message.channel
+        self.author = message.author.id
+        self.client = main.bot
+        self.livelisten_sessions = main.livelisten_sessions
+        msg = [ans.strip() for ans in text.split(" - ")]
+        if len(msg) != 2 and len(msg) != 3:
+            self.valid = False
+            return None
+        else:
+            self.valid = True
+        self.artist_search = msg[0]
+        self.album_search = msg[1]
+        if len(msg) == 3:
+            self.start_position = int(msg[2]) - 1
+        else:
+            self.start_position = 0
+
+    async def start(self):
+        try:
+            album = self.network.get_album(self.artist_search, self.album_search)
+            tracks = album.get_tracks()
+            check_if_album_has_nonzero_tracks = tracks[1]
+            if album.get_cover_image():
+                await self.client.send_message(self.channel, "{}\nListening to: {}".format(album.get_cover_image(), str(album)))
+            else:
+                await self.client.send_message(self.channel, "Listening to: {}".format(str(album)))
+            await asyncio.sleep(1)
+            await self.client.send_message(self.channel, "Album starts in: 3")
+            await asyncio.sleep(1)
+            i = 2
+            while i > 0:
+                await self.client.send_message(self.channel, i)
+                i -= 1
+                await asyncio.sleep(1)
+            j = self.start_position
+            while j < len(tracks) and self.valid:
+                await self.client.send_message(self.channel, "Now playing: {}".format(str(tracks[j])))
+                await asyncio.sleep(tracks[j].get_duration()/1000)
+                j += 1
+            if self.valid:
+                await self.client.send_message(self.channel, "It end.")
+                await self.endlivelisten()
+        except (pylast.WSError, IndexError) as e:
+            await self.endlivelisten()
+            await self.client.send_message(self.channel, "Album wasn't found.")
+
+    async def endlivelisten(self):
+        self.valid = False
+        self.livelisten_sessions.remove(self)
+
+
 
 class NewPoll():
     def __init__(self, message, text, main):
