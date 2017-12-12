@@ -10,6 +10,7 @@ import time
 import aiohttp
 import asyncio
 import pylast
+import pafy
 
 settings = {"POLL_DURATION" : 60}
 
@@ -492,47 +493,96 @@ class NewLiveListen():
         self.author = message.author.id
         self.client = main.bot
         self.livelisten_sessions = main.livelisten_sessions
-        msg = [ans.strip() for ans in text.split(" - ")]
-        if len(msg) != 2 and len(msg) != 3:
-            self.valid = False
-            return None
+        if 'youtube.com/playlist' in text:
+            try:
+                msg = [ans.strip() for ans in text.split(" - ")]
+                if len(msg) != 1 and len(msg) != 2:
+                    self.valid = False
+                    return None
+                else:
+                    self.valid = True
+                playlist = pafy.get_playlist(msg[0])
+                self.playlist_title = playlist['title']
+                self.custom_list = []
+                for i in playlist['items']:
+                    self.custom_list.append([i['pafy'].title, i['pafy'].length])
+                self.valid = True
+                if len(msg) == 2:
+                    self.start_position = int(msg[1]) - 1
+                else:
+                    self.start_position = 0
+            except ValueError:
+                self.valid = False
+                return None
         else:
-            self.valid = True
-        self.artist_search = msg[0]
-        self.album_search = msg[1]
-        if len(msg) == 3:
-            self.start_position = int(msg[2]) - 1
-        else:
-            self.start_position = 0
+            self.custom_list = None
+            msg = [ans.strip() for ans in text.split(" - ")]
+            if len(msg) != 2 and len(msg) != 3:
+                self.valid = False
+                return None
+            else:
+                self.valid = True
+            self.artist_search = msg[0]
+            self.album_search = msg[1]
+            if len(msg) == 3:
+                self.start_position = int(msg[2]) - 1
+            else:
+                self.start_position = 0
 
     async def start(self):
-        try:
-            album = self.network.get_album(self.artist_search, self.album_search)
-            tracks = album.get_tracks()
-            check_if_album_has_nonzero_tracks = tracks[1]
-            if album.get_cover_image():
-                await self.client.send_message(self.channel, "Listening to: {}\n\n{}".format(str(album), album.get_cover_image()))
-            else:
-                await self.client.send_message(self.channel, "Listening to: {}".format(str(album)))
-            await asyncio.sleep(1)
-            await self.client.send_message(self.channel, "Album starts in: 3")
-            await asyncio.sleep(1)
-            i = 2
-            while i > 0:
-                await self.client.send_message(self.channel, i)
-                i -= 1
+        if self.custom_list is None:
+            try:
+                album = self.network.get_album(self.artist_search, self.album_search)
+                tracks = album.get_tracks()
+                check_if_album_has_nonzero_tracks = tracks[1]
+                if album.get_cover_image():
+                    await self.client.send_message(self.channel, "Listening to: {}\n\n{}".format(str(album), album.get_cover_image()))
+                else:
+                    await self.client.send_message(self.channel, "Listening to: {}".format(str(album)))
                 await asyncio.sleep(1)
-            j = self.start_position
-            while j < len(tracks) and self.valid:
-                await self.client.send_message(self.channel, "Now playing: {}".format(str(tracks[j])))
-                await asyncio.sleep(tracks[j].get_duration()/1000)
-                j += 1
-            if self.valid:
-                await self.client.send_message(self.channel, "It end.")
+                await self.client.send_message(self.channel, "Album starts in: 3")
+                await asyncio.sleep(1)
+                i = 2
+                while i > 0:
+                    await self.client.send_message(self.channel, i)
+                    i -= 1
+                    await asyncio.sleep(1)
+                j = self.start_position
+                while j < len(tracks) and self.valid:
+                    await self.client.send_message(self.channel, "Now playing: {}".format(str(tracks[j])))
+                    await asyncio.sleep(tracks[j].get_duration()/1000)
+                    j += 1
+                if self.valid:
+                    await self.client.send_message(self.channel, "It end.")
+                    await self.endlivelisten()
+            except (pylast.WSError, IndexError) as e:
                 await self.endlivelisten()
-        except (pylast.WSError, IndexError) as e:
-            await self.endlivelisten()
-            await self.client.send_message(self.channel, "Album wasn't found.")
+                await self.client.send_message(self.channel, "Album wasn't found.")
+        else:
+            try:
+                await self.client.send_message(self.channel, "Listening to: {}".format(self.playlist_title))
+                await asyncio.sleep(1)
+                await self.client.send_message(self.channel, "Playlist starts in: 3")
+                await asyncio.sleep(1)
+                i = 2
+                while i > 0:
+                    await self.client.send_message(self.channel, i)
+                    i -= 1
+                    await asyncio.sleep(1)
+                j = self.start_position
+                while j < len(self.custom_list) and self.valid:
+                    #await self.client.send_message(self.channel, "Now playing: {}".format(self.custom_list[j][0]))
+                    if j%2 == 0:
+                        await self.client.send_message(self.channel, "Current match: **{}** vs.\n{}".format(self.custom_list[j][0], self.custom_list[j+1][0]))
+                    else:
+                        await self.client.send_message(self.channel, "Current match: {} vs.\n**{}**".format(self.custom_list[j-1][0], self.custom_list[j][0]))
+                    await asyncio.sleep(self.custom_list[j][1])
+                    j += 1
+                if self.valid:
+                    await self.client.send_message(self.channel, "It end.")
+                    await self.endlivelisten()
+            except () as e:
+                await self.client.send_message(self.channel, "Something went wrong?")
 
     async def endlivelisten(self):
         self.valid = False
