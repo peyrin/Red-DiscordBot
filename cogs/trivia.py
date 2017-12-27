@@ -304,13 +304,13 @@ class TriviaSession():
                 if answer in guess:
                     has_guessed = True
             if not has_guessed:
-                if guess[:2] == 'a ' and guess[2:] == answer:
+                if answer in [a[2:] for a in guess]:
                     has_guessed = True
-                if guess.replace('an ','') == answer:
+                if answer in [a.replace('an ','') for a in guess]:
                     has_guessed = True
-                if guess.replace(' the ','') == answer:
+                if answer in [a.replace(' the ','') for a in guess]:
                     has_guessed = True
-                if guess.replace('.','').replace(',','').replace('\'', '').replace('-',' ') == answer.replace('.','').replace(',','').replace('\'', '').replace('-', ' '):
+                if answer.replace('.','').replace(',','').replace('\'', '').replace('-', ' ') in [a.replace('.','').replace(',','').replace('\'', '').replace('-',' ') for a in guess]:
                     has_guessed = True
 
         if has_guessed:
