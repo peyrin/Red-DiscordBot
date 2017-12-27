@@ -303,6 +303,15 @@ class TriviaSession():
             else:  # The answer has spaces, we can't be as strict
                 if answer in guess:
                     has_guessed = True
+            if not has_guessed:
+                if guess[:2] == 'a ' and guess[2:] == answer:
+                    has_guessed = True
+                if guess.replace('an ','') == answer:
+                    has_guessed = True
+                if guess.replace(' the ','') == answer:
+                    has_guessed = True
+                if guess.replace('.','').replace(',','').replace('\'', '').replace('-',' ') == answer.replace('.','').replace(',','').replace('\'', '').replace('-', ' '):
+                    has_guessed = True
 
         if has_guessed:
             self.current_line = None
