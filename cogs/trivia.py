@@ -296,21 +296,21 @@ class TriviaSession():
             answer = answer.lower()
             guess = message.content.lower()
             if " " not in answer:  # Exact matching, issue #331
-                guess = guess.split(" ")
-                for word in guess:
+                guess2 = guess.split(" ")
+                for word in guess2:
                     if word == answer:
                         has_guessed = True
             else:  # The answer has spaces, we can't be as strict
                 if answer in guess:
                     has_guessed = True
             if not has_guessed:
-                if answer in [a[2:] for a in guess]:
+                if answer.replace('a ', '') == guess.replace('a ', ''):
                     has_guessed = True
-                if answer in [a.replace('an ','') for a in guess]:
+                if answer.replace('an ', '') == guess.replace('an ',''):
                     has_guessed = True
-                if answer in [a.replace(' the ','') for a in guess]:
+                if answer.replace(' the ','') == guess.replace(' the ',''):
                     has_guessed = True
-                if answer.replace('.','').replace(',','').replace('\'', '').replace('-', ' ') in [a.replace('.','').replace(',','').replace('\'', '').replace('-',' ') for a in guess]:
+                if answer.replace('.','').replace(',','').replace('\'', '').replace('-', ' ') == guess.replace('.','').replace(',','').replace('\'', '').replace('-',' '):
                     has_guessed = True
 
         if has_guessed:
