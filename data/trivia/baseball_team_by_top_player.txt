@@ -1,2595 +1,1048 @@
 J.Segura (5.7), 2016`Arizona Diamondbacks
-P.Goldschmidt (8.8), 2015`Arizona Diamondbacks
-P.Goldschmidt (4.5), 2014`Arizona Diamondbacks
-P.Goldschmidt (7.1), 2013`Arizona Diamondbacks
-A.Hill (5.0), 2012`Arizona Diamondbacks
-J.Upton (6.1), 2011`Arizona Diamondbacks
-C.Young (5.4), 2010`Arizona Diamondbacks
-D.Haren (7.1), 2009`Arizona Diamondbacks
-D.Haren (6.6), 2008`Arizona Diamondbacks
-B.Webb (5.9), 2007`Arizona Diamondbacks
-B.Webb (7.0), 2006`Arizona Diamondbacks
-C.Counsell (5.5), 2005`Arizona Diamondbacks
-R.Johnson (8.3), 2004`Arizona Diamondbacks
-B.Webb (5.9), 2003`Arizona Diamondbacks
-R.Johnson (10.7), 2002`Arizona Diamondbacks
-R.Johnson (9.4), 2001`Arizona Diamondbacks
-R.Johnson (8.1), 2000`Arizona Diamondbacks
-R.Johnson (8.8), 1999`Arizona Diamondbacks
-O.Daal (4.1), 1998`Arizona Diamondbacks
 F.Freeman (6.5), 2016`Atlanta Braves
-A.Simmons (4.0), 2015`Atlanta Braves
-J.Heyward (6.2), 2014`Atlanta Braves
-A.Simmons (7.0), 2013`Atlanta Braves
-M.Bourn (6.1), 2012`Atlanta Braves
-E.O'Flaherty (3.4), 2011`Atlanta Braves
-J.Heyward (6.4), 2010`Atlanta Braves
-J.Jurrjens (6.8), 2009`Atlanta Braves
-C.Jones (7.3), 2008`Atlanta Braves
-C.Jones (7.6), 2007`Atlanta Braves
-J.Smoltz (5.9), 2006`Atlanta Braves
-A.Jones (6.7), 2005`Atlanta Braves
-J.Drew (8.3), 2004`Atlanta Braves
-M.Giles (7.8), 2003`Atlanta Braves
-A.Jones (6.6), 2002`Atlanta Braves
-C.Jones (5.9), 2001`Atlanta Braves
-A.Jones (8.2), 2000`Atlanta Braves
-A.Jones (7.1), 1999`Atlanta Braves
-A.Jones (7.4), 1998`Atlanta Braves
-G.Maddux (7.7), 1997`Atlanta Braves
-J.Smoltz (7.7), 1996`Atlanta Braves
-G.Maddux (9.6), 1995`Atlanta Braves
-G.Maddux (8.7), 1994`Atlanta Braves
-R.Gant (6.5), 1993`Atlanta Braves
-T.Pendleton (4.9), 1992`Atlanta Braves
-T.Glavine (9.3), 1991`Atlanta Braves
-R.Gant (5.5), 1990`Atlanta Braves
-L.Smith (8.8), 1989`Atlanta Braves
-P.Smith (3.2), 1988`Atlanta Braves
-D.Murphy (7.7), 1987`Atlanta Braves
-D.Palmer (3.7), 1986`Atlanta Braves
-D.Murphy (5.0), 1985`Atlanta Braves
-D.Murphy (5.5), 1984`Atlanta Braves
-D.Murphy (7.1), 1983`Atlanta Braves
-D.Murphy (6.1), 1982`Atlanta Braves
-R.Camp (2.7), 1981`Atlanta Braves
-D.Murphy (6.5), 1980`Atlanta Braves
-P.Niekro (8.0), 1979`Atlanta Braves
-P.Niekro (10.4), 1978`Atlanta Braves
-P.Niekro (8.4), 1977`Atlanta Braves
-P.Niekro (6.8), 1976`Atlanta Braves
-P.Niekro (6.6), 1975`Atlanta Braves
-P.Niekro (8.0), 1974`Atlanta Braves
-D.Evans (9.0), 1973`Atlanta Braves
-P.Niekro (5.7), 1972`Atlanta Braves
-H.Aaron (7.2), 1971`Atlanta Braves
-R.Carty (5.8), 1970`Atlanta Braves
-H.Aaron (8.0), 1969`Atlanta Braves
-H.Aaron (6.8), 1968`Atlanta Braves
-H.Aaron (8.5), 1967`Atlanta Braves
-H.Aaron (7.8), 1966`Atlanta Braves
-H.Aaron (7.8), 1965`Milwaukee Braves
-H.Aaron (6.8), 1964`Milwaukee Braves
-H.Aaron (9.1), 1963`Milwaukee Braves
-H.Aaron (8.5), 1962`Milwaukee Braves
-H.Aaron (9.4), 1961`Milwaukee Braves
-H.Aaron (8.0), 1960`Milwaukee Braves
-H.Aaron (8.6), 1959`Milwaukee Braves
-H.Aaron (7.3), 1958`Milwaukee Braves
-H.Aaron (8.0), 1957`Milwaukee Braves
-H.Aaron (7.1), 1956`Milwaukee Braves
-E.Mathews (7.3), 1955`Milwaukee Braves
-E.Mathews (7.8), 1954`Milwaukee Braves
-W.Spahn (9.1), 1953`Milwaukee Braves
-W.Spahn (7.1), 1952`Boston Braves
-W.Spahn (8.0), 1951`Boston Braves
-S.Gordon (6.3), 1950`Boston Braves
-W.Spahn (5.6), 1949`Boston Braves
-J.Sain (8.5), 1948`Boston Braves
-W.Spahn (9.3), 1947`Boston Braves
-J.Sain (7.8), 1946`Boston Braves
-T.Holmes (8.0), 1945`Boston Braves
-J.Tobin (6.3), 1944`Boston Braves
-N.Andrews (5.0), 1943`Boston Braves
-E.Lombardi (3.9), 1942`Boston Braves
-J.Tobin (4.3), 1941`Boston Braves
-E.Miller (4.8), 1940`Boston Bees
-M.West (4.6), 1939`Boston Bees
-L.Fette (3.5), 1938`Boston Bees
-J.Turner (6.1), 1937`Boston Bees
-T.Cuccinello (5.7), 1936`Boston Bees
-W.Berger (5.7), 1935`Boston Braves
-W.Berger (5.1), 1934`Boston Braves
-W.Berger (6.8), 1933`Boston Braves
-H.Betts (4.8), 1932`Boston Braves
-E.Brandt (6.1), 1931`Boston Braves
-B.Smith (4.6), 1930`Boston Braves
-S.Seibold (3.1), 1929`Boston Braves
-R.Hornsby (8.8), 1928`Boston Braves
-B.Smith (3.5), 1927`Boston Braves
-D.Bancroft (4.1), 1926`Boston Braves
-D.Bancroft (5.1), 1925`Boston Braves
-J.Barnes (5.2), 1924`Boston Braves
-J.Genewich (4.1), 1923`Boston Braves
-F.Miller (2.6), 1922`Boston Braves
-J.Oeschger (4.9), 1921`Boston Braves
-J.Oeschger (3.0), 1920`Boston Braves
-D.Rudolph (4.8), 1919`Boston Braves
-R.Smith (3.7), 1918`Boston Braves
-R.Maranville (4.5), 1917`Boston Braves
-R.Maranville (5.2), 1916`Boston Braves
-S.Magee (4.8), 1915`Boston Braves
-B.James (8.7), 1914`Boston Braves
-D.Rudolph (4.7), 1913`Boston Braves
-B.Sweeney (5.3), 1912`Boston Braves
-B.Herzog (2.5), 1911`Boston Rustlers
-B.Brown (3.9), 1910`Boston Doves
-C.Curtis (3.5), 1909`Boston Doves
-B.Dahlen (5.2), 1908`Boston Doves
-D.Brain (4.9), 1907`Boston Doves
-V.Lindaman (3.3), 1906`Boston Beaneaters
-I.Young (8.0), 1905`Boston Beaneaters
-T.Pittinger (3.8), 1904`Boston Beaneaters
-V.Willis (5.9), 1903`Boston Beaneaters
-V.Willis (8.1), 1902`Boston Beaneaters
-V.Willis (8.7), 1901`Boston Beaneaters
-B.Dinneen (6.8), 1900`Boston Beaneaters
-V.Willis (10.1), 1899`Boston Beaneaters
-K.Nichols (11.1), 1898`Boston Beaneaters
-K.Nichols (11.2), 1897`Boston Beaneaters
-K.Nichols (6.8), 1896`Boston Beaneaters
-K.Nichols (9.7), 1895`Boston Beaneaters
-K.Nichols (8.2), 1894`Boston Beaneaters
-K.Nichols (11.5), 1893`Boston Beaneaters
-K.Nichols (9.2), 1892`Boston Beaneaters
-J.Clarkson (9.8), 1891`Boston Beaneaters
-K.Nichols (13.2), 1890`Boston Beaneaters
-J.Clarkson (16.1), 1889`Boston Beaneaters
-B.Nash (5.3), 1888`Boston Beaneaters
-S.Wise (4.7), 1887`Boston Beaneaters
-O.Radbourn (4.8), 1886`Boston Beaneaters
-C.Buffinton (6.0), 1885`Boston Beaneaters
-C.Buffinton (16.2), 1884`Boston Beaneaters
-J.Whitney (13.2), 1883`Boston Beaneaters
-J.Whitney (8.1), 1882`Boston Red Stockings
-J.Whitney (8.7), 1881`Boston Red Stockings
-J.O'Rourke (2.8), 1880`Boston Red Stockings
-T.Bond (14.4), 1879`Boston Red Stockings
-T.Bond (13.3), 1878`Boston Red Stockings
-T.Bond (11.3), 1877`Boston Red Stockings
-G.Wright (3.1), 1876`Boston Red Stockings
 M.Machado (6.7), 2016`Baltimore Orioles
-M.Machado (7.1), 2015`Baltimore Orioles
-S.Pearce (5.9), 2014`Baltimore Orioles
-M.Machado (6.7), 2013`Baltimore Orioles
-A.Jones (3.8), 2012`Baltimore Orioles
-M.Wieters (4.9), 2011`Baltimore Orioles
-J.Guthrie (4.7), 2010`Baltimore Orioles
-B.Bergesen (3.3), 2009`Baltimore Orioles
-N.Markakis (7.4), 2008`Baltimore Orioles
-E.Bedard (5.8), 2007`Baltimore Orioles
-M.Tejada (4.5), 2006`Baltimore Orioles
-B.Roberts (7.2), 2005`Baltimore Orioles
-M.Tejada (7.3), 2004`Baltimore Orioles
-M.Mora (4.7), 2003`Baltimore Orioles
-M.Mora (4.7), 2002`Baltimore Orioles
-J.Conine (2.9), 2001`Baltimore Orioles
-M.Mussina (5.6), 2000`Baltimore Orioles
-B.Anderson (5.9), 1999`Baltimore Orioles
-R.Palmeiro (6.2), 1998`Baltimore Orioles
-M.Mussina (5.6), 1997`Baltimore Orioles
-B.Anderson (6.9), 1996`Baltimore Orioles
-M.Mussina (6.1), 1995`Baltimore Orioles
-M.Mussina (5.4), 1994`Baltimore Orioles
-C.Hoiles (6.8), 1993`Baltimore Orioles
-M.Mussina (8.2), 1992`Baltimore Orioles
-C.Ripken (11.5), 1991`Baltimore Orioles
-C.Ripken (7.5), 1990`Baltimore Orioles
-C.Ripken (6.6), 1989`Baltimore Orioles
-C.Ripken (5.7), 1988`Baltimore Orioles
-E.Murray (3.8), 1987`Baltimore Orioles
-C.Ripken (6.6), 1986`Baltimore Orioles
-E.Murray (5.6), 1985`Baltimore Orioles
-C.Ripken (10.0), 1984`Baltimore Orioles
-C.Ripken (8.2), 1983`Baltimore Orioles
-E.Murray (5.2), 1982`Baltimore Orioles
-E.Murray (3.7), 1981`Baltimore Orioles
-A.Bumbry (6.1), 1980`Baltimore Orioles
-K.Singleton (5.2), 1979`Baltimore Orioles
-D.DeCinces (6.8), 1978`Baltimore Orioles
-J.Palmer (7.6), 1977`Baltimore Orioles
-J.Palmer (6.6), 1976`Baltimore Orioles
-J.Palmer (8.5), 1975`Baltimore Orioles
-B.Grich (7.3), 1974`Baltimore Orioles
-B.Grich (8.3), 1973`Baltimore Orioles
-J.Palmer (6.2), 1972`Baltimore Orioles
-B.Robinson (6.0), 1971`Baltimore Orioles
-J.Palmer (6.5), 1970`Baltimore Orioles
-F.Robinson (7.5), 1969`Baltimore Orioles
-B.Robinson (8.4), 1968`Baltimore Orioles
-B.Robinson (7.7), 1967`Baltimore Orioles
-F.Robinson (7.7), 1966`Baltimore Orioles
-B.Robinson (4.5), 1965`Baltimore Orioles
-B.Robinson (8.1), 1964`Baltimore Orioles
-S.Barber (3.8), 1963`Baltimore Orioles
-B.Robinson (6.1), 1962`Baltimore Orioles
-J.Gentile (6.9), 1961`Baltimore Orioles
-B.Robinson (4.1), 1960`Baltimore Orioles
-H.Wilhelm (6.8), 1959`Baltimore Orioles
-J.Harshman (5.3), 1958`Baltimore Orioles
-B.Gardner (3.7), 1957`Baltimore Orioles
-B.Nieman (4.0), 1956`Baltimore Orioles
-J.Wilson (3.6), 1955`Baltimore Orioles
-C.Abrams (4.0), 1954`Baltimore Orioles
-D.Larsen (3.6), 1953`St. Louis Browns
-S.Paige (3.2), 1952`St. Louis Browns
-N.Garver (6.8), 1951`St. Louis Browns
-N.Garver (8.2), 1950`St. Louis Browns
-N.Garver (4.5), 1949`St. Louis Browns
-N.Garver (5.3), 1948`St. Louis Browns
-V.Stephens (4.3), 1947`St. Louis Browns
-J.Kramer (3.0), 1946`St. Louis Browns
-N.Potter (7.8), 1945`St. Louis Browns
-N.Potter (5.5), 1944`St. Louis Browns
-N.Potter (3.9), 1943`St. Louis Browns
-W.Judnich (5.1), 1942`St. Louis Browns
-B.Muncrief (4.8), 1941`St. Louis Browns
-E.Auker (4.7), 1940`St. Louis Browns
-G.McQuinn (3.4), 1939`St. Louis Browns
-H.Clift (6.1), 1938`St. Louis Browns
-H.Clift (6.7), 1937`St. Louis Browns
-H.Clift (5.2), 1936`St. Louis Browns
-I.Andrews (5.8), 1935`St. Louis Browns
-B.Newsom (5.5), 1934`St. Louis Browns
-B.Hadley (6.8), 1933`St. Louis Browns
-L.Stewart (4.2), 1932`St. Louis Browns
-G.Goslin (5.6), 1931`St. Louis Browns
-L.Stewart (7.9), 1930`St. Louis Browns
-S.Gray (6.2), 1929`St. Louis Browns
-H.Manush (7.3), 1928`St. Louis Browns
-K.Williams (3.6), 1927`St. Louis Browns
-T.Zachary (4.8), 1926`St. Louis Browns
-H.Rice (4.4), 1925`St. Louis Browns
-E.Wingard (5.3), 1924`St. Louis Browns
-K.Williams (7.6), 1923`St. Louis Browns
-G.Sisler (8.7), 1922`St. Louis Browns
-U.Shocker (8.5), 1921`St. Louis Browns
-G.Sisler (9.9), 1920`St. Louis Browns
-G.Sisler (6.1), 1919`St. Louis Browns
-G.Sisler (6.6), 1918`St. Louis Browns
-G.Sisler (5.8), 1917`St. Louis Browns
-G.Sisler (5.2), 1916`St. Louis Browns
-C.Weilman (5.6), 1915`St. Louis Browns
-C.Weilman (6.9), 1914`St. Louis Browns
-B.Shotton (4.9), 1913`St. Louis Browns
-B.Shotton (3.9), 1912`St. Louis Browns
-B.Pelty (3.7), 1911`St. Louis Browns
-B.Wallace (4.3), 1910`St. Louis Browns
-B.Pelty (4.3), 1909`St. Louis Browns
-B.Wallace (6.3), 1908`St. Louis Browns
-G.Stone (5.5), 1907`St. Louis Browns
-G.Stone (8.7), 1906`St. Louis Browns
-H.Howell (6.6), 1905`St. Louis Browns
-H.Howell (6.3), 1904`St. Louis Browns
-W.Sudhoff (6.5), 1903`St. Louis Browns
-J.Powell (6.0), 1902`St. Louis Browns
-J.Anderson (4.4), 1901`Milwaukee Brewers
 M.Betts (9.6), 2016`Boston Red Sox
-M.Betts (6.0), 2015`Boston Red Sox
-D.Pedroia (4.9), 2014`Boston Red Sox
-D.Pedroia (6.3), 2013`Boston Red Sox
-D.Pedroia (5.1), 2012`Boston Red Sox
-J.Ellsbury (8.1), 2011`Boston Red Sox
-A.Beltre (7.8), 2010`Boston Red Sox
-K.Youkilis (6.6), 2009`Boston Red Sox
-D.Pedroia (6.9), 2008`Boston Red Sox
-J.Beckett (6.6), 2007`Boston Red Sox
-D.Ortiz (5.7), 2006`Boston Red Sox
-D.Ortiz (5.3), 2005`Boston Red Sox
-C.Schilling (7.9), 2004`Boston Red Sox
-P.Martinez (8.0), 2003`Boston Red Sox
-D.Lowe (7.3), 2002`Boston Red Sox
-M.Ramirez (5.2), 2001`Boston Red Sox
-P.Martinez (11.7), 2000`Boston Red Sox
-P.Martinez (9.7), 1999`Boston Red Sox
-N.Garciaparra (7.1), 1998`Boston Red Sox
-N.Garciaparra (6.6), 1997`Boston Red Sox
-R.Clemens (7.8), 1996`Boston Red Sox
-J.Valentin (8.3), 1995`Boston Red Sox
-R.Clemens (6.1), 1994`Boston Red Sox
-D.Darwin (5.7), 1993`Boston Red Sox
-R.Clemens (8.9), 1992`Boston Red Sox
-R.Clemens (8.0), 1991`Boston Red Sox
-R.Clemens (10.6), 1990`Boston Red Sox
-W.Boggs (8.4), 1989`Boston Red Sox
-W.Boggs (8.2), 1988`Boston Red Sox
-R.Clemens (9.4), 1987`Boston Red Sox
-R.Clemens (8.9), 1986`Boston Red Sox
-W.Boggs (9.1), 1985`Boston Red Sox
-W.Boggs (6.2), 1984`Boston Red Sox
-W.Boggs (7.8), 1983`Boston Red Sox
-D.Evans (6.4), 1982`Boston Red Sox
-D.Evans (6.7), 1981`Boston Red Sox
-F.Lynn (4.7), 1980`Boston Red Sox
-F.Lynn (8.8), 1979`Boston Red Sox
-J.Rice (7.5), 1978`Boston Red Sox
-C.Fisk (7.0), 1977`Boston Red Sox
-L.Tiant (6.3), 1976`Boston Red Sox
-F.Lynn (7.4), 1975`Boston Red Sox
-L.Tiant (7.8), 1974`Boston Red Sox
-B.Lee (6.2), 1973`Boston Red Sox
-C.Fisk (7.3), 1972`Boston Red Sox
-S.Siebert (6.7), 1971`Boston Red Sox
-C.Yastrzemski (9.5), 1970`Boston Red Sox
-R.Petrocelli (10.0), 1969`Boston Red Sox
-C.Yastrzemski (10.5), 1968`Boston Red Sox
-C.Yastrzemski (12.4), 1967`Boston Red Sox
-C.Yastrzemski (5.5), 1966`Boston Red Sox
-C.Yastrzemski (4.9), 1965`Boston Red Sox
-D.Radatz (6.0), 1964`Boston Red Sox
-C.Yastrzemski (6.6), 1963`Boston Red Sox
-D.Radatz (5.2), 1962`Boston Red Sox
-B.Monbouquette (4.3), 1961`Boston Red Sox
-P.Runnels (4.7), 1960`Boston Red Sox
-P.Runnels (5.3), 1959`Boston Red Sox
-P.Runnels (5.5), 1958`Boston Red Sox
-T.Williams (9.7), 1957`Boston Red Sox
-T.Williams (6.0), 1956`Boston Red Sox
-T.Williams (6.9), 1955`Boston Red Sox
-T.Williams (7.8), 1954`Boston Red Sox
-E.Kinder (5.0), 1953`Boston Red Sox
-B.Goodman (3.9), 1952`Boston Red Sox
-T.Williams (7.2), 1951`Boston Red Sox
-M.Parnell (5.6), 1950`Boston Red Sox
-T.Williams (9.1), 1949`Boston Red Sox
-T.Williams (8.5), 1948`Boston Red Sox
-T.Williams (9.9), 1947`Boston Red Sox
-T.Williams (10.9), 1946`Boston Red Sox
-E.Lake (6.8), 1945`Boston Red Sox
-B.Johnson (6.3), 1944`Boston Red Sox
-B.Doerr (5.1), 1943`Boston Red Sox
-T.Williams (10.6), 1942`Boston Red Sox
-T.Williams (10.6), 1941`Boston Red Sox
-T.Williams (6.3), 1940`Boston Red Sox
-J.Foxx (6.9), 1939`Boston Red Sox
-J.Foxx (7.6), 1938`Boston Red Sox
-L.Grove (9.2), 1937`Boston Red Sox
-L.Grove (10.5), 1936`Boston Red Sox
-W.Ferrell (11.0), 1935`Boston Red Sox
-B.Werber (5.4), 1934`Boston Red Sox
-G.Rhodes (3.7), 1933`Boston Red Sox
-D.Alexander (4.3), 1932`Boston Red Sox
-E.Webb (5.4), 1931`Boston Red Sox
-M.Gaston (5.3), 1930`Boston Red Sox
-M.Gaston (4.8), 1929`Boston Red Sox
-R.Ruffing (5.0), 1928`Boston Red Sox
-D.MacFayden (2.6), 1927`Boston Red Sox
-T.Rigney (4.6), 1926`Boston Red Sox
-H.Ehmke (4.8), 1925`Boston Red Sox
-H.Ehmke (8.2), 1924`Boston Red Sox
-H.Ehmke (6.2), 1923`Boston Red Sox
-J.Quinn (4.5), 1922`Boston Red Sox
-S.Jones (7.3), 1921`Boston Red Sox
-H.Hooper (5.2), 1920`Boston Red Sox
-B.Ruth (10.2), 1919`Boston Red Sox
-B.Ruth (7.4), 1918`Boston Red Sox
-B.Ruth (8.7), 1917`Boston Red Sox
-B.Ruth (10.4), 1916`Boston Red Sox
-T.Speaker (7.1), 1915`Boston Red Sox
-T.Speaker (9.9), 1914`Boston Red Sox
-T.Speaker (8.3), 1913`Boston Red Sox
-S.Wood (11.7), 1912`Boston Red Sox
-S.Wood (6.4), 1911`Boston Red Sox
-T.Speaker (7.7), 1910`Boston Red Sox
-T.Speaker (6.3), 1909`Boston Red Sox
-C.Young (9.9), 1908`Boston Red Sox
-C.Young (7.9), 1907`Boston Americans
-C.Stahl (4.1), 1906`Boston Americans
-C.Young (7.6), 1905`Boston Americans
-C.Young (9.8), 1904`Boston Americans
-C.Young (8.6), 1903`Boston Americans
-C.Young (10.1), 1902`Boston Americans
-C.Young (12.6), 1901`Boston Americans
 K.Bryant (7.7), 2016`Chicago Cubs
-J.Arrieta (9.0), 2015`Chicago Cubs
-J.Arrieta (5.6), 2014`Chicago Cubs
-T.Wood (5.2), 2013`Chicago Cubs
-D.Barney (4.6), 2012`Chicago Cubs
-S.Castro (3.0), 2011`Chicago Cubs
-M.Byrd (3.7), 2010`Chicago Cubs
-D.Lee (5.4), 2009`Chicago Cubs
-R.Dempster (6.9), 2008`Chicago Cubs
-A.Ramirez (5.2), 2007`Chicago Cubs
-C.Zambrano (5.8), 2006`Chicago Cubs
-D.Lee (7.7), 2005`Chicago Cubs
-C.Zambrano (7.3), 2004`Chicago Cubs
-M.Prior (8.0), 2003`Chicago Cubs
-S.Sosa (5.7), 2002`Chicago Cubs
-S.Sosa (10.3), 2001`Chicago Cubs
-S.Sosa (5.7), 2000`Chicago Cubs
-S.Sosa (4.8), 1999`Chicago Cubs
-S.Sosa (6.4), 1998`Chicago Cubs
-M.Grace (4.2), 1997`Chicago Cubs
-S.Sosa (5.4), 1996`Chicago Cubs
-S.Sosa (5.3), 1995`Chicago Cubs
-S.Sosa (3.8), 1994`Chicago Cubs
-R.Wilkins (6.6), 1993`Chicago Cubs
-G.Maddux (9.4), 1992`Chicago Cubs
-R.Sandberg (7.0), 1991`Chicago Cubs
-R.Sandberg (7.1), 1990`Chicago Cubs
-R.Sandberg (6.1), 1989`Chicago Cubs
-G.Maddux (5.7), 1988`Chicago Cubs
-R.Sutcliffe (6.6), 1987`Chicago Cubs
-J.Davis (4.0), 1986`Chicago Cubs
-R.Sandberg (5.8), 1985`Chicago Cubs
-R.Sandberg (8.5), 1984`Chicago Cubs
-L.Smith (4.8), 1983`Chicago Cubs
-L.Durham (4.6), 1982`Chicago Cubs
-M.Krukow (2.2), 1981`Chicago Cubs
-R.Reuschel (5.6), 1980`Chicago Cubs
-R.Reuschel (5.9), 1979`Chicago Cubs
-R.Reuschel (5.4), 1978`Chicago Cubs
-R.Reuschel (9.6), 1977`Chicago Cubs
-R.Reuschel (5.4), 1976`Chicago Cubs
-B.Madlock (4.9), 1975`Chicago Cubs
-R.Reuschel (3.9), 1974`Chicago Cubs
-R.Reuschel (5.4), 1973`Chicago Cubs
-B.Williams (6.1), 1972`Chicago Cubs
-F.Jenkins (11.9), 1971`Chicago Cubs
-F.Jenkins (6.8), 1970`Chicago Cubs
-B.Hands (7.9), 1969`Chicago Cubs
-F.Jenkins (6.6), 1968`Chicago Cubs
-R.Santo (9.8), 1967`Chicago Cubs
-R.Santo (8.9), 1966`Chicago Cubs
-B.Williams (7.7), 1965`Chicago Cubs
-R.Santo (8.9), 1964`Chicago Cubs
-D.Ellsworth (9.9), 1963`Chicago Cubs
-G.Altman (3.8), 1962`Chicago Cubs
-D.Cardwell (5.9), 1961`Chicago Cubs
-E.Banks (7.8), 1960`Chicago Cubs
-E.Banks (10.2), 1959`Chicago Cubs
-E.Banks (9.4), 1958`Chicago Cubs
-E.Banks (6.4), 1957`Chicago Cubs
-E.Banks (5.3), 1956`Chicago Cubs
-E.Banks (8.1), 1955`Chicago Cubs
-B.Rush (5.9), 1954`Chicago Cubs
-W.Hacker (3.8), 1953`Chicago Cubs
-H.Sauer (5.7), 1952`Chicago Cubs
-P.Minner (3.7), 1951`Chicago Cubs
-A.Pafko (6.6), 1950`Chicago Cubs
-H.Sauer (3.5), 1949`Chicago Cubs
-A.Pafko (6.0), 1948`Chicago Cubs
-B.Nicholson (3.5), 1947`Chicago Cubs
-P.Cavarretta (5.1), 1946`Chicago Cubs
-S.Hack (6.0), 1945`Chicago Cubs
-B.Nicholson (6.0), 1944`Chicago Cubs
-B.Nicholson (6.9), 1943`Chicago Cubs
-B.Nicholson (5.8), 1942`Chicago Cubs
-S.Hack (5.6), 1941`Chicago Cubs
-C.Passeau (7.1), 1940`Chicago Cubs
-C.Passeau (4.9), 1939`Chicago Cubs
-B.Lee (7.9), 1938`Chicago Cubs
-B.Herman (5.7), 1937`Chicago Cubs
-B.Herman (6.8), 1936`Chicago Cubs
-B.Herman (6.9), 1935`Chicago Cubs
-L.Warneke (5.1), 1934`Chicago Cubs
-L.Warneke (7.8), 1933`Chicago Cubs
-L.Warneke (6.9), 1932`Chicago Cubs
-R.Hornsby (5.2), 1931`Chicago Cubs
-H.Wilson (7.4), 1930`Chicago Cubs
-R.Hornsby (10.4), 1929`Chicago Cubs
-S.Blake (5.6), 1928`Chicago Cubs
-H.Wilson (6.0), 1927`Chicago Cubs
-H.Wilson (5.2), 1926`Chicago Cubs
-P.Alexander (4.9), 1925`Chicago Cubs
-G.Grantham (4.1), 1924`Chicago Cubs
-P.Alexander (5.2), 1923`Chicago Cubs
-R.Grimes (5.6), 1922`Chicago Cubs
-P.Alexander (5.4), 1921`Chicago Cubs
-P.Alexander (12.8), 1920`Chicago Cubs
-P.Alexander (7.6), 1919`Chicago Cubs
-H.Vaughn (8.3), 1918`Chicago Cubs
-H.Vaughn (6.7), 1917`Chicago Cubs
-H.Vaughn (5.9), 1916`Chicago Cubs
-V.Saier (3.8), 1915`Chicago Cubs
-V.Saier (4.1), 1914`Chicago Cubs
-L.Cheney (4.7), 1913`Chicago Cubs
-H.Zimmerman (7.0), 1912`Chicago Cubs
-F.Schulte (5.3), 1911`Chicago Cubs
-K.Cole (5.7), 1910`Chicago Cubs
-M.Brown (8.8), 1909`Chicago Cubs
-M.Brown (8.1), 1908`Chicago Cubs
-O.Overall (5.9), 1907`Chicago Cubs
-F.Chance (7.3), 1906`Chicago Cubs
-E.Reulbach (7.3), 1905`Chicago Cubs
-F.Chance (5.9), 1904`Chicago Cubs
-F.Chance (5.7), 1903`Chicago Cubs
-J.Taylor (10.2), 1902`Chicago Orphans
-T.Hartsel (5.5), 1901`Chicago Orphans
-C.Griffith (5.0), 1900`Chicago Orphans
-C.Griffith (5.0), 1899`Chicago Orphans
-C.Griffith (10.5), 1898`Chicago Orphans
-C.Griffith (5.0), 1897`Chicago Colts
-B.Dahlen (7.1), 1896`Chicago Colts
-C.Griffith (8.8), 1895`Chicago Colts
-C.Griffith (5.8), 1894`Chicago Colts
-W.McGill (5.5), 1893`Chicago Colts
-B.Hutchinson (9.0), 1892`Chicago Colts
-B.Hutchinson (9.9), 1891`Chicago Colts
-B.Hutchinson (7.8), 1890`Chicago Colts
-C.Anson (6.4), 1889`Chicago White Stockings
-C.Anson (6.9), 1888`Chicago White Stockings
-J.Clarkson (15.1), 1887`Chicago White Stockings
-K.Kelly (7.3), 1886`Chicago White Stockings
-J.Clarkson (13.0), 1885`Chicago White Stockings
-L.Corcoran (6.6), 1884`Chicago White Stockings
-L.Corcoran (5.3), 1883`Chicago White Stockings
-L.Corcoran (5.8), 1882`Chicago White Stockings
-C.Anson (5.8), 1881`Chicago White Stockings
-L.Corcoran (6.9), 1880`Chicago White Stockings
-T.Larkin (4.9), 1879`Chicago White Stockings
-T.Larkin (5.5), 1878`Chicago White Stockings
-G.Bradley (2.9), 1877`Chicago White Stockings
-A.Spalding (9.9), 1876`Chicago White Stockings
 A.Eaton (6.2), 2016`Chicago White Sox
-A.Eaton (3.9), 2015`Chicago White Sox
-C.Sale (6.6), 2014`Chicago White Sox
-C.Sale (7.0), 2013`Chicago White Sox
-C.Sale (5.9), 2012`Chicago White Sox
-M.Buehrle (3.8), 2011`Chicago White Sox
-A.Ramirez (5.6), 2010`Chicago White Sox
-M.Buehrle (5.4), 2009`Chicago White Sox
-J.Danks (6.4), 2008`Chicago White Sox
-J.Vazquez (6.1), 2007`Chicago White Sox
-J.Thome (4.9), 2006`Chicago White Sox
-M.Buehrle (4.8), 2005`Chicago White Sox
-A.Rowand (5.6), 2004`Chicago White Sox
-E.Loaiza (7.2), 2003`Chicago White Sox
-M.Ordonez (5.1), 2002`Chicago White Sox
-M.Buehrle (5.9), 2001`Chicago White Sox
-F.Thomas (6.0), 2000`Chicago White Sox
-M.Ordonez (5.8), 1999`Chicago White Sox
-A.Belle (7.1), 1998`Chicago White Sox
-F.Thomas (7.3), 1997`Chicago White Sox
-A.Fernandez (6.4), 1996`Chicago White Sox
-F.Thomas (5.3), 1995`Chicago White Sox
-F.Thomas (6.3), 1994`Chicago White Sox
-F.Thomas (6.2), 1993`Chicago White Sox
-F.Thomas (6.9), 1992`Chicago White Sox
-F.Thomas (6.9), 1991`Chicago White Sox
-C.Fisk (4.8), 1990`Chicago White Sox
-C.Fisk (3.3), 1989`Chicago White Sox
-O.Guillen (3.4), 1988`Chicago White Sox
-I.Calderon (4.2), 1987`Chicago White Sox
-H.Baines (2.8), 1986`Chicago White Sox
-T.Seaver (5.0), 1985`Chicago White Sox
-H.Baines (4.3), 1984`Chicago White Sox
-R.Dotson (5.1), 1983`Chicago White Sox
-L.Hoyt (5.0), 1982`Chicago White Sox
-C.Lemon (4.0), 1981`Chicago White Sox
-B.Burns (7.0), 1980`Chicago White Sox
-C.Lemon (5.8), 1979`Chicago White Sox
-C.Lemon (4.9), 1978`Chicago White Sox
-C.Lemon (5.8), 1977`Chicago White Sox
-K.Brett (4.0), 1976`Chicago White Sox
-R.Gossage (8.3), 1975`Chicago White Sox
-J.Kaat (7.1), 1974`Chicago White Sox
-W.Wood (7.6), 1973`Chicago White Sox
-W.Wood (10.3), 1972`Chicago White Sox
-W.Wood (10.9), 1971`Chicago White Sox
-T.John (5.7), 1970`Chicago White Sox
-T.John (4.8), 1969`Chicago White Sox
-T.John (5.9), 1968`Chicago White Sox
-J.Horlen (5.7), 1967`Chicago White Sox
-T.Agee (6.4), 1966`Chicago White Sox
-D.Buford (7.0), 1965`Chicago White Sox
-R.Hansen (7.7), 1964`Chicago White Sox
-G.Peters (7.0), 1963`Chicago White Sox
-R.Herbert (5.2), 1962`Chicago White Sox
-J.Pizarro (5.0), 1961`Chicago White Sox
-L.Aparicio (5.6), 1960`Chicago White Sox
-N.Fox (6.0), 1959`Chicago White Sox
-B.Pierce (5.1), 1958`Chicago White Sox
-N.Fox (7.9), 1957`Chicago White Sox
-M.Minoso (6.2), 1956`Chicago White Sox
-B.Pierce (6.9), 1955`Chicago White Sox
-M.Minoso (8.2), 1954`Chicago White Sox
-B.Pierce (5.7), 1953`Chicago White Sox
-B.Pierce (7.2), 1952`Chicago White Sox
-M.Minoso (5.2), 1951`Chicago White Sox
-B.Pierce (3.5), 1950`Chicago White Sox
-C.Michaels (5.3), 1949`Chicago White Sox
-L.Appling (3.4), 1948`Chicago White Sox
-E.Lopat (5.7), 1947`Chicago White Sox
-L.Appling (5.9), 1946`Chicago White Sox
-W.Moses (4.4), 1945`Chicago White Sox
-T.Tucker (3.3), 1944`Chicago White Sox
-L.Appling (7.6), 1943`Chicago White Sox
-T.Lyons (5.1), 1942`Chicago White Sox
-T.Lee (9.2), 1941`Chicago White Sox
-J.Rigney (6.6), 1940`Chicago White Sox
-T.Lyons (4.8), 1939`Chicago White Sox
-T.Lee (5.9), 1938`Chicago White Sox
-L.Appling (6.2), 1937`Chicago White Sox
-L.Appling (6.9), 1936`Chicago White Sox
-L.Appling (6.7), 1935`Chicago White Sox
-A.Simmons (4.5), 1934`Chicago White Sox
-A.Simmons (5.2), 1933`Chicago White Sox
-T.Lyons (5.8), 1932`Chicago White Sox
-L.Blue (4.8), 1931`Chicago White Sox
-T.Lyons (6.3), 1930`Chicago White Sox
-T.Thomas (4.7), 1929`Chicago White Sox
-T.Thomas (7.0), 1928`Chicago White Sox
-T.Lyons (8.1), 1927`Chicago White Sox
-J.Mostil (6.3), 1926`Chicago White Sox
-T.Blankenship (5.7), 1925`Chicago White Sox
-E.Collins (5.2), 1924`Chicago White Sox
-E.Collins (6.3), 1923`Chicago White Sox
-R.Faber (9.4), 1922`Chicago White Sox
-R.Faber (11.0), 1921`Chicago White Sox
-E.Collins (7.9), 1920`Chicago White Sox
-E.Cicotte (9.5), 1919`Chicago White Sox
-E.Cicotte (3.5), 1918`Chicago White Sox
-E.Cicotte (11.5), 1917`Chicago White Sox
-S.Jackson (7.0), 1916`Chicago White Sox
-E.Collins (9.4), 1915`Chicago White Sox
-E.Cicotte (3.9), 1914`Chicago White Sox
-R.Russell (9.1), 1913`Chicago White Sox
-E.Walsh (12.2), 1912`Chicago White Sox
-E.Walsh (9.1), 1911`Chicago White Sox
-E.Walsh (11.4), 1910`Chicago White Sox
-F.Smith (7.2), 1909`Chicago White Sox
-E.Walsh (10.5), 1908`Chicago White Sox
-E.Walsh (7.6), 1907`Chicago White Sox
-D.White (6.7), 1906`Chicago White Sox
-G.Davis (7.2), 1905`Chicago White Sox
-G.Davis (7.2), 1904`Chicago White Sox
-D.White (5.4), 1903`Chicago White Sox
-G.Davis (5.7), 1902`Chicago White Sox
-C.Griffith (7.2), 1901`Chicago White Sox
 J.Votto (4.0), 2016`Cincinnati Reds
-J.Votto (7.6), 2015`Cincinnati Reds
-J.Cueto (6.4), 2014`Cincinnati Reds
-J.Votto (6.6), 2013`Cincinnati Reds
-J.Votto (5.9), 2012`Cincinnati Reds
-J.Votto (6.3), 2011`Cincinnati Reds
-J.Votto (6.9), 2010`Cincinnati Reds
-J.Votto (4.8), 2009`Cincinnati Reds
-E.Volquez (4.6), 2008`Cincinnati Reds
-A.Harang (5.5), 2007`Cincinnati Reds
-B.Arroyo (7.0), 2006`Cincinnati Reds
-F.Lopez (4.2), 2005`Cincinnati Reds
-A.Dunn (4.7), 2004`Cincinnati Reds
-J.Guillen (4.7), 2003`Cincinnati Reds
-E.Dessens (4.3), 2002`Cincinnati Reds
-E.Dessens (4.5), 2001`Cincinnati Reds
-K.Griffey (5.5), 2000`Cincinnati Reds
-M.Cameron (5.5), 1999`Cincinnati Reds
-B.Larkin (5.7), 1998`Cincinnati Reds
-J.Shaw (3.6), 1997`Cincinnati Reds
-B.Larkin (7.2), 1996`Cincinnati Reds
-R.Sanders (6.6), 1995`Cincinnati Reds
-B.Larkin (3.9), 1994`Cincinnati Reds
-J.Rijo (10.2), 1993`Cincinnati Reds
-J.Rijo (5.9), 1992`Cincinnati Reds
-B.Larkin (6.1), 1991`Cincinnati Reds
-J.Rijo (5.8), 1990`Cincinnati Reds
-R.Dibble (3.9), 1989`Cincinnati Reds
-B.Larkin (7.0), 1988`Cincinnati Reds
-E.Davis (7.9), 1987`Cincinnati Reds
-E.Davis (5.3), 1986`Cincinnati Reds
-D.Parker (4.7), 1985`Cincinnati Reds
-M.Soto (4.9), 1984`Cincinnati Reds
-M.Soto (6.7), 1983`Cincinnati Reds
-M.Soto (7.7), 1982`Cincinnati Reds
-T.Seaver (4.4), 1981`Cincinnati Reds
-G.Foster (4.0), 1980`Cincinnati Reds
-J.Bench (5.6), 1979`Cincinnati Reds
-G.Foster (4.8), 1978`Cincinnati Reds
-G.Foster (8.4), 1977`Cincinnati Reds
-J.Morgan (9.6), 1976`Cincinnati Reds
-J.Morgan (10.9), 1975`Cincinnati Reds
-J.Morgan (8.6), 1974`Cincinnati Reds
-J.Morgan (9.2), 1973`Cincinnati Reds
-J.Morgan (9.3), 1972`Cincinnati Reds
-L.May (5.4), 1971`Cincinnati Reds
-J.Bench (7.4), 1970`Cincinnati Reds
-P.Rose (6.6), 1969`Cincinnati Reds
-T.Perez (5.9), 1968`Cincinnati Reds
-G.Nolan (6.1), 1967`Cincinnati Reds
-J.Maloney (7.4), 1966`Cincinnati Reds
-J.Maloney (9.0), 1965`Cincinnati Reds
-F.Robinson (7.9), 1964`Cincinnati Reds
-V.Pinson (6.4), 1963`Cincinnati Reds
-F.Robinson (8.7), 1962`Cincinnati Reds
-F.Robinson (7.7), 1961`Cincinnati Reds
-F.Robinson (6.2), 1960`Cincinnati Reds
-D.Newcombe (6.7), 1959`Cincinnati Redlegs
-B.Purkey (4.5), 1958`Cincinnati Redlegs
-F.Robinson (6.9), 1957`Cincinnati Redlegs
-F.Robinson (6.5), 1956`Cincinnati Redlegs
-W.Post (5.3), 1955`Cincinnati Redlegs
-T.Kluszewski (7.9), 1954`Cincinnati Redlegs
-T.Kluszewski (4.9), 1953`Cincinnati Reds
-K.Raffensberger (5.7), 1952`Cincinnati Reds
-E.Blackwell (4.5), 1951`Cincinnati Reds
-E.Blackwell (6.9), 1950`Cincinnati Reds
-K.Raffensberger (5.2), 1949`Cincinnati Reds
-J.Vander Meer (5.3), 1948`Cincinnati Reds
-E.Blackwell (8.7), 1947`Cincinnati Reds
-J.Beggs (3.5), 1946`Cincinnati Reds
-B.Walters (4.5), 1945`Cincinnati Reds
-F.McCormick (6.1), 1944`Cincinnati Reds
-L.Frey (4.5), 1943`Cincinnati Reds
-L.Frey (5.2), 1942`Cincinnati Reds
-B.Walters (7.0), 1941`Cincinnati Reds
-B.Walters (6.7), 1940`Cincinnati Reds
-B.Walters (9.8), 1939`Cincinnati Reds
-I.Goodman (5.9), 1938`Cincinnati Reds
-L.Grissom (3.9), 1937`Cincinnati Reds
-K.Cuyler (3.8), 1936`Cincinnati Reds
-E.Lombardi (3.5), 1935`Cincinnati Reds
-B.Frey (4.6), 1934`Cincinnati Reds
-C.Hafey (3.2), 1933`Cincinnati Reds
-B.Herman (6.6), 1932`Cincinnati Reds
-T.Cuccinello (5.2), 1931`Cincinnati Reds
-H.Heilmann (4.6), 1930`Cincinnati Reds
-R.Lucas (6.4), 1929`Cincinnati Reds
-E.Rixey (4.0), 1928`Cincinnati Reds
-R.Lucas (5.8), 1927`Cincinnati Reds
-C.Mays (4.2), 1926`Cincinnati Reds
-D.Luque (6.6), 1925`Cincinnati Reds
-E.Rixey (5.2), 1924`Cincinnati Reds
-D.Luque (10.8), 1923`Cincinnati Reds
-J.Daubert (4.0), 1922`Cincinnati Reds
-D.Luque (5.0), 1921`Cincinnati Reds
-E.Roush (5.9), 1920`Cincinnati Reds
-H.Groh (5.4), 1919`Cincinnati Reds
-H.Groh (4.7), 1918`Cincinnati Reds
-H.Groh (7.0), 1917`Cincinnati Reds
-H.Groh (5.3), 1916`Cincinnati Reds
-F.Toney (7.1), 1915`Cincinnati Reds
-B.Herzog (5.3), 1914`Cincinnati Reds
-J.Tinker (3.8), 1913`Cincinnati Reds
-G.Suggs (5.1), 1912`Cincinnati Reds
-G.Suggs (4.8), 1911`Cincinnati Reds
-G.Suggs (4.9), 1910`Cincinnati Reds
-A.Fromme (5.8), 1909`Cincinnati Reds
-H.Lobert (5.1), 1908`Cincinnati Reds
-B.Ewing (6.2), 1907`Cincinnati Reds
-J.Weimer (6.5), 1906`Cincinnati Reds
-C.Seymour (8.0), 1905`Cincinnati Reds
-N.Hahn (6.5), 1904`Cincinnati Reds
-N.Hahn (7.4), 1903`Cincinnati Reds
-N.Hahn (9.0), 1902`Cincinnati Reds
-N.Hahn (7.5), 1901`Cincinnati Reds
-N.Hahn (6.2), 1900`Cincinnati Reds
-N.Hahn (7.9), 1899`Cincinnati Reds
-P.Hawley (5.4), 1898`Cincinnati Reds
-T.Breitenstein (8.2), 1897`Cincinnati Reds
-F.Dwyer (7.6), 1896`Cincinnati Reds
-F.Dwyer (4.9), 1895`Cincinnati Reds
-F.Dwyer (4.7), 1894`Cincinnati Reds
-F.Dwyer (4.1), 1893`Cincinnati Reds
-F.Dwyer (6.4), 1892`Cincinnati Reds
-A.Latham (5.6), 1891`Cincinnati Reds
-B.Rhines (10.9), 1890`Cincinnati Reds
-J.Duryea (9.0), 1889`Cincinnati Red Stockings
-J.Reilly (5.2), 1888`Cincinnati Red Stockings
-M.Smith (10.6), 1887`Cincinnati Red Stockings
-T.Mullane (5.4), 1886`Cincinnati Red Stockings
-L.McKeon (3.9), 1885`Cincinnati Red Stockings
-W.White (5.7), 1884`Cincinnati Red Stockings
-W.White (9.1), 1883`Cincinnati Red Stockings
-W.White (11.1), 1882`Cincinnati Red Stockings
 C.Kluber (6.5), 2016`Cleveland Indians
-F.Lindor (4.6), 2015`Cleveland Indians
-C.Kluber (7.4), 2014`Cleveland Indians
-J.Kipnis (5.7), 2013`Cleveland Indians
-C.Santana (4.0), 2012`Cleveland Indians
-A.Cabrera (5.0), 2011`Cleveland Indians
-S.Choo (5.9), 2010`Cleveland Indians
-S.Choo (5.5), 2009`Cleveland Indians
-C.Lee (6.8), 2008`Cleveland Indians
-C.Sabathia (6.4), 2007`Cleveland Indians
-G.Sizemore (6.6), 2006`Cleveland Indians
-G.Sizemore (6.6), 2005`Cleveland Indians
-T.Hafner (5.0), 2004`Cleveland Indians
-M.Bradley (4.1), 2003`Cleveland Indians
-J.Thome (7.4), 2002`Cleveland Indians
-R.Alomar (7.3), 2001`Cleveland Indians
-R.Alomar (5.6), 2000`Cleveland Indians
-R.Alomar (7.4), 1999`Cleveland Indians
-K.Lofton (5.9), 1998`Cleveland Indians
-J.Thome (5.4), 1997`Cleveland Indians
-J.Thome (7.5), 1996`Cleveland Indians
-A.Belle (6.9), 1995`Cleveland Indians
-K.Lofton (7.2), 1994`Cleveland Indians
-K.Lofton (7.6), 1993`Cleveland Indians
-K.Lofton (6.6), 1992`Cleveland Indians
-G.Swindell (3.8), 1991`Cleveland Indians
-B.Jacoby (3.5), 1990`Cleveland Indians
-T.Candiotti (4.7), 1989`Cleveland Indians
-G.Swindell (5.9), 1988`Cleveland Indians
-B.Butler (4.9), 1987`Cleveland Indians
-J.Carter (5.7), 1986`Cleveland Indians
-B.Butler (4.7), 1985`Cleveland Indians
-B.Blyleven (7.2), 1984`Cleveland Indians
-L.Sorensen (3.9), 1983`Cleveland Indians
-T.Harrah (6.5), 1982`Cleveland Indians
-B.Blyleven (5.6), 1981`Cleveland Indians
-T.Harrah (4.4), 1980`Cleveland Indians
-S.Monge (5.7), 1979`Cleveland Indians
-A.Thornton (5.3), 1978`Cleveland Indians
-D.Eckersley (5.1), 1977`Cleveland Indians
-B.Bell (3.8), 1976`Cleveland Indians
-D.Eckersley (5.3), 1975`Cleveland Indians
-G.Perry (8.6), 1974`Cleveland Indians
-G.Perry (7.9), 1973`Cleveland Indians
-G.Perry (11.2), 1972`Cleveland Indians
-G.Nettles (7.5), 1971`Cleveland Indians
-S.McDowell (7.9), 1970`Cleveland Indians
-S.McDowell (6.3), 1969`Cleveland Indians
-L.Tiant (7.8), 1968`Cleveland Indians
-L.Tiant (5.3), 1967`Cleveland Indians
-S.McDowell (5.0), 1966`Cleveland Indians
-S.McDowell (7.9), 1965`Cleveland Indians
-S.McDowell (4.8), 1964`Cleveland Indians
-J.Kralick (4.3), 1963`Cleveland Indians
-J.Romano (4.5), 1962`Cleveland Indians
-J.Piersall (4.8), 1961`Cleveland Indians
-W.Held (3.8), 1960`Cleveland Indians
-M.Minoso (5.5), 1959`Cleveland Indians
-R.Colavito (6.0), 1958`Cleveland Indians
-G.Woodling (4.5), 1957`Cleveland Indians
-E.Wynn (8.3), 1956`Cleveland Indians
-E.Wynn (6.1), 1955`Cleveland Indians
-B.Avila (7.0), 1954`Cleveland Indians
-A.Rosen (10.1), 1953`Cleveland Indians
-L.Doby (7.1), 1952`Cleveland Indians
-L.Doby (6.4), 1951`Cleveland Indians
-L.Doby (6.7), 1950`Cleveland Indians
-B.Lemon (7.2), 1949`Cleveland Indians
-L.Boudreau (10.4), 1948`Cleveland Indians
-L.Boudreau (7.5), 1947`Cleveland Indians
-B.Feller (9.6), 1946`Cleveland Indians
-S.Gromek (6.2), 1945`Cleveland Indians
-L.Boudreau (7.9), 1944`Cleveland Indians
-L.Boudreau (7.9), 1943`Cleveland Indians
-L.Fleming (4.6), 1942`Cleveland Indians
-B.Feller (8.1), 1941`Cleveland Indians
-B.Feller (9.8), 1940`Cleveland Indians
-B.Feller (9.8), 1939`Cleveland Indians
-B.Feller (5.2), 1938`Cleveland Indians
-J.Allen (5.5), 1937`Cleveland Indians
-E.Averill (6.5), 1936`Cleveland Indians
-M.Harder (7.1), 1935`Cleveland Indians
-M.Harder (7.1), 1934`Cleveland Indians
-M.Harder (5.7), 1933`Cleveland Indians
-W.Ferrell (7.2), 1932`Cleveland Indians
-W.Ferrell (8.0), 1931`Cleveland Indians
-W.Ferrell (9.1), 1930`Cleveland Indians
-W.Hudlin (7.3), 1929`Cleveland Indians
-J.Sewell (5.4), 1928`Cleveland Indians
-W.Hudlin (5.3), 1927`Cleveland Indians
-G.Uhle (8.7), 1926`Cleveland Indians
-T.Speaker (6.5), 1925`Cleveland Indians
-J.Shaute (6.5), 1924`Cleveland Indians
-T.Speaker (9.0), 1923`Cleveland Indians
-T.Speaker (6.9), 1922`Cleveland Indians
-T.Speaker (6.4), 1921`Cleveland Indians
-J.Bagby (8.9), 1920`Cleveland Indians
-S.Coveleski (6.9), 1919`Cleveland Indians
-S.Coveleski (9.4), 1918`Cleveland Indians
-J.Bagby (8.6), 1917`Cleveland Indians
-T.Speaker (8.6), 1916`Cleveland Indians
-G.Morton (6.7), 1915`Cleveland Indians
-S.Jackson (4.6), 1914`Cleveland Naps
-S.Jackson (7.6), 1913`Cleveland Naps
-S.Jackson (9.6), 1912`Cleveland Naps
-S.Jackson (9.2), 1911`Cleveland Naps
-N.Lajoie (9.8), 1910`Cleveland Naps
-N.Lajoie (6.4), 1909`Cleveland Naps
-A.Joss (8.4), 1908`Cleveland Naps
-N.Lajoie (7.6), 1907`Cleveland Naps
-N.Lajoie (10.0), 1906`Cleveland Naps
-A.Joss (5.9), 1905`Cleveland Naps
-N.Lajoie (8.6), 1904`Cleveland Naps
-N.Lajoie (8.0), 1903`Cleveland Naps
-B.Bradley (6.7), 1902`Cleveland Bronchos
-E.Moore (4.4), 1901`Cleveland Blues
 N.Arenado (6.5), 2016`Colorado Rockies
-N.Arenado (5.8), 2015`Colorado Rockies
-T.Tulowitzki (5.5), 2014`Colorado Rockies
-J.Chacin (6.1), 2013`Colorado Rockies
-D.Fowler (2.8), 2012`Colorado Rockies
-T.Tulowitzki (6.1), 2011`Colorado Rockies
-U.Jimenez (7.4), 2010`Colorado Rockies
-T.Tulowitzki (6.5), 2009`Colorado Rockies
-M.Holliday (5.8), 2008`Colorado Rockies
-T.Tulowitzki (6.8), 2007`Colorado Rockies
-G.Atkins (4.9), 2006`Colorado Rockies
-T.Helton (4.6), 2005`Colorado Rockies
-T.Helton (8.3), 2004`Colorado Rockies
-T.Helton (6.2), 2003`Colorado Rockies
-T.Helton (6.3), 2002`Colorado Rockies
-T.Helton (7.8), 2001`Colorado Rockies
-T.Helton (8.8), 2000`Colorado Rockies
-P.Astacio (6.0), 1999`Colorado Rockies
-L.Walker (5.7), 1998`Colorado Rockies
-L.Walker (9.8), 1997`Colorado Rockies
-E.Burks (7.9), 1996`Colorado Rockies
-L.Walker (4.7), 1995`Colorado Rockies
-M.Freeman (4.6), 1994`Colorado Rockies
-A.Galarraga (3.5), 1993`Colorado Rockies
 J.Verlander (6.6), 2016`Detroit Tigers
-I.Kinsler (6.0), 2015`Detroit Tigers
-M.Scherzer (6.0), 2014`Detroit Tigers
-M.Cabrera (7.3), 2013`Detroit Tigers
-J.Verlander (7.7), 2012`Detroit Tigers
-J.Verlander (8.4), 2011`Detroit Tigers
-M.Cabrera (6.4), 2010`Detroit Tigers
-J.Verlander (5.5), 2009`Detroit Tigers
-P.Polanco (4.4), 2008`Detroit Tigers
-C.Granderson (7.6), 2007`Detroit Tigers
-C.Guillen (6.0), 2006`Detroit Tigers
-P.Polanco (4.3), 2005`Detroit Tigers
-C.Guillen (4.6), 2004`Detroit Tigers
-D.Young (3.4), 2003`Detroit Tigers
-J.Weaver (2.8), 2002`Detroit Tigers
-S.Sparks (4.3), 2001`Detroit Tigers
-B.Higginson (5.3), 2000`Detroit Tigers
-B.Ausmus (3.3), 1999`Detroit Tigers
-D.Easley (5.6), 1998`Detroit Tigers
-J.Thompson (7.7), 1997`Detroit Tigers
-B.Higginson (3.6), 1996`Detroit Tigers
-D.Wells (4.5), 1995`Detroit Tigers
-T.Phillips (4.7), 1994`Detroit Tigers
-T.Phillips (5.6), 1993`Detroit Tigers
-T.Phillips (5.0), 1992`Detroit Tigers
-L.Whitaker (6.7), 1991`Detroit Tigers
-A.Trammell (6.7), 1990`Detroit Tigers
-L.Whitaker (5.3), 1989`Detroit Tigers
-A.Trammell (6.0), 1988`Detroit Tigers
-A.Trammell (8.2), 1987`Detroit Tigers
-A.Trammell (6.3), 1986`Detroit Tigers
-K.Gibson (5.4), 1985`Detroit Tigers
-A.Trammell (6.7), 1984`Detroit Tigers
-L.Whitaker (6.7), 1983`Detroit Tigers
-L.Whitaker (5.4), 1982`Detroit Tigers
-L.Whitaker (3.8), 1981`Detroit Tigers
-A.Trammell (4.8), 1980`Detroit Tigers
-J.Morris (5.8), 1979`Detroit Tigers
-J.Thompson (5.5), 1978`Detroit Tigers
-D.Rozema (5.7), 1977`Detroit Tigers
-M.Fidrych (9.6), 1976`Detroit Tigers
-M.Lolich (4.2), 1975`Detroit Tigers
-J.Hiller (4.2), 1974`Detroit Tigers
-J.Hiller (8.1), 1973`Detroit Tigers
-M.Lolich (7.2), 1972`Detroit Tigers
-M.Lolich (8.7), 1971`Detroit Tigers
-M.Lolich (4.7), 1970`Detroit Tigers
-D.McLain (8.0), 1969`Detroit Tigers
-D.McLain (7.3), 1968`Detroit Tigers
-A.Kaline (7.5), 1967`Detroit Tigers
-D.McAuliffe (6.0), 1966`Detroit Tigers
-N.Cash (5.4), 1965`Detroit Tigers
-A.Kaline (5.6), 1964`Detroit Tigers
-A.Kaline (5.4), 1963`Detroit Tigers
-H.Aguirre (6.1), 1962`Detroit Tigers
-N.Cash (9.2), 1961`Detroit Tigers
-J.Bunning (6.5), 1960`Detroit Tigers
-A.Kaline (6.0), 1959`Detroit Tigers
-F.Lary (6.7), 1958`Detroit Tigers
-J.Bunning (7.0), 1957`Detroit Tigers
-F.Lary (6.6), 1956`Detroit Tigers
-A.Kaline (8.2), 1955`Detroit Tigers
-S.Gromek (6.1), 1954`Detroit Tigers
-R.Boone (4.6), 1953`Detroit Tigers
-V.Wertz (2.2), 1952`Detroit Tigers
-V.Wertz (4.4), 1951`Detroit Tigers
-A.Houtteman (5.7), 1950`Detroit Tigers
-V.Trucks (6.2), 1949`Detroit Tigers
-H.Newhouser (6.6), 1948`Detroit Tigers
-H.Newhouser (6.4), 1947`Detroit Tigers
-H.Newhouser (9.2), 1946`Detroit Tigers
-H.Newhouser (12.0), 1945`Detroit Tigers
-D.Trout (11.1), 1944`Detroit Tigers
-R.York (6.3), 1943`Detroit Tigers
-H.White (5.3), 1942`Detroit Tigers
-A.Benton (4.4), 1941`Detroit Tigers
-B.Newsom (7.4), 1940`Detroit Tigers
-B.Newsom (6.9), 1939`Detroit Tigers
-H.Greenberg (7.0), 1938`Detroit Tigers
-H.Greenberg (7.7), 1937`Detroit Tigers
-C.Gehringer (7.4), 1936`Detroit Tigers
-C.Gehringer (7.8), 1935`Detroit Tigers
-C.Gehringer (8.4), 1934`Detroit Tigers
-C.Gehringer (7.2), 1933`Detroit Tigers
-C.Gehringer (4.7), 1932`Detroit Tigers
-G.Uhle (6.1), 1931`Detroit Tigers
-G.Uhle (7.4), 1930`Detroit Tigers
-C.Gehringer (5.8), 1929`Detroit Tigers
-O.Carroll (5.1), 1928`Detroit Tigers
-H.Heilmann (7.2), 1927`Detroit Tigers
-H.Heilmann (5.2), 1926`Detroit Tigers
-H.Heilmann (6.9), 1925`Detroit Tigers
-H.Heilmann (6.4), 1924`Detroit Tigers
-H.Heilmann (9.3), 1923`Detroit Tigers
-T.Cobb (6.7), 1922`Detroit Tigers
-H.Heilmann (6.8), 1921`Detroit Tigers
-H.Ehmke (4.4), 1920`Detroit Tigers
-B.Veach (6.6), 1919`Detroit Tigers
-T.Cobb (6.6), 1918`Detroit Tigers
-T.Cobb (11.3), 1917`Detroit Tigers
-T.Cobb (8.0), 1916`Detroit Tigers
-T.Cobb (9.5), 1915`Detroit Tigers
-S.Crawford (6.2), 1914`Detroit Tigers
-T.Cobb (7.4), 1913`Detroit Tigers
-T.Cobb (9.2), 1912`Detroit Tigers
-T.Cobb (10.7), 1911`Detroit Tigers
-T.Cobb (10.5), 1910`Detroit Tigers
-T.Cobb (9.8), 1909`Detroit Tigers
-T.Cobb (6.1), 1908`Detroit Tigers
-E.Killian (8.1), 1907`Detroit Tigers
-G.Mullin (5.8), 1906`Detroit Tigers
-E.Killian (7.9), 1905`Detroit Tigers
-G.Mullin (5.1), 1904`Detroit Tigers
-B.Donovan (7.4), 1903`Detroit Tigers
-W.Mercer (5.7), 1902`Detroit Tigers
-R.Miller (7.0), 1901`Detroit Tigers
 J.Altuve (7.7), 2016`Houston Astros
-D.Keuchel (7.2), 2015`Houston Astros
-J.Altuve (6.1), 2014`Houston Astros
-J.Castro (4.5), 2013`Houston Astros
-L.Harrell (3.0), 2012`Houston Astros
-C.Lee (4.0), 2011`Houston Astros
-M.Bourn (5.5), 2010`Houston Astros
-M.Bourn (5.0), 2009`Houston Astros
-L.Berkman (6.8), 2008`Houston Astros
-R.Oswalt (6.6), 2007`Houston Astros
-R.Oswalt (6.1), 2006`Houston Astros
-R.Clemens (8.2), 2005`Houston Astros
-L.Berkman (6.0), 2004`Houston Astros
-R.Hidalgo (5.7), 2003`Houston Astros
-R.Oswalt (6.9), 2002`Houston Astros
-L.Berkman (6.5), 2001`Houston Astros
-R.Hidalgo (6.3), 2000`Houston Astros
-M.Hampton (7.8), 1999`Houston Astros
-C.Biggio (6.5), 1998`Houston Astros
-C.Biggio (9.4), 1997`Houston Astros
-J.Bagwell (7.5), 1996`Houston Astros
-C.Biggio (6.3), 1995`Houston Astros
-J.Bagwell (8.2), 1994`Houston Astros
-J.Bagwell (5.4), 1993`Houston Astros
-S.Finley (5.7), 1992`Houston Astros
-S.Finley (5.1), 1991`Houston Astros
-D.Darwin (5.3), 1990`Houston Astros
-K.Caminiti (4.8), 1989`Houston Astros
-G.Davis (4.2), 1988`Houston Astros
-M.Scott (5.6), 1987`Houston Astros
-M.Scott (8.2), 1986`Houston Astros
-B.Doran (5.3), 1985`Houston Astros
-J.Cruz (6.3), 1984`Houston Astros
-D.Thon (7.4), 1983`Houston Astros
-D.Thon (6.1), 1982`Houston Astros
-N.Ryan (5.1), 1981`Houston Astros
-T.Puhl (6.2), 1980`Houston Astros
-J.Richard (5.4), 1979`Houston Astros
-J.Cruz (5.3), 1978`Houston Astros
-J.Richard (5.6), 1977`Houston Astros
-C.Cedeno (5.9), 1976`Houston Astros
-C.Cedeno (4.4), 1975`Houston Astros
-C.Cedeno (5.8), 1974`Houston Astros
-C.Cedeno (7.3), 1973`Houston Astros
-C.Cedeno (8.0), 1972`Houston Astros
-D.Wilson (6.1), 1971`Houston Astros
-J.Wynn (4.9), 1970`Houston Astros
-L.Dierker (8.4), 1969`Houston Astros
-J.Wynn (5.4), 1968`Houston Astros
-J.Wynn (5.3), 1967`Houston Astros
-M.Cuellar (5.4), 1966`Houston Astros
-J.Wynn (7.4), 1965`Houston Astros
-B.Bruce (5.5), 1964`Houston Colt .45's
-H.Woodeshick (4.6), 1963`Houston Colt .45's
-T.Farrell (7.3), 1962`Houston Colt .45's
 D.Duffy (4.2), 2016`Kansas City Royals
-L.Cain (7.2), 2015`Kansas City Royals
-A.Gordon (6.6), 2014`Kansas City Royals
-A.Gordon (4.2), 2013`Kansas City Royals
-A.Gordon (6.3), 2012`Kansas City Royals
-A.Gordon (7.2), 2011`Kansas City Royals
-J.Soria (3.7), 2010`Kansas City Royals
-Z.Greinke (10.4), 2009`Kansas City Royals
-Z.Greinke (5.4), 2008`Kansas City Royals
-G.Meche (4.1), 2007`Kansas City Royals
-M.Teahen (3.7), 2006`Kansas City Royals
-D.DeJesus (4.4), 2005`Kansas City Royals
-Z.Greinke (3.7), 2004`Kansas City Royals
-D.May (5.9), 2003`Kansas City Royals
-P.Byrd (5.5), 2002`Kansas City Royals
-C.Beltran (6.4), 2001`Kansas City Royals
-J.Damon (6.1), 2000`Kansas City Royals
-J.Damon (5.4), 1999`Kansas City Royals
-J.Offerman (5.3), 1998`Kansas City Royals
-K.Appier (5.5), 1997`Kansas City Royals
-K.Appier (6.1), 1996`Kansas City Royals
-K.Appier (4.6), 1995`Kansas City Royals
-D.Cone (6.8), 1994`Kansas City Royals
-K.Appier (9.3), 1993`Kansas City Royals
-K.Appier (8.1), 1992`Kansas City Royals
-B.Saberhagen (5.1), 1991`Kansas City Royals
-K.Appier (5.3), 1990`Kansas City Royals
-B.Saberhagen (9.7), 1989`Kansas City Royals
-M.Gubicza (7.8), 1988`Kansas City Royals
-B.Saberhagen (8.0), 1987`Kansas City Royals
-F.White (4.0), 1986`Kansas City Royals
-G.Brett (8.3), 1985`Kansas City Royals
-B.Black (4.7), 1984`Kansas City Royals
-D.Quisenberry (5.5), 1983`Kansas City Royals
-W.Wilson (6.3), 1982`Kansas City Royals
-W.Wilson (4.1), 1981`Kansas City Royals
-G.Brett (9.4), 1980`Kansas City Royals
-G.Brett (8.6), 1979`Kansas City Royals
-A.Otis (7.4), 1978`Kansas City Royals
-G.Brett (7.6), 1977`Kansas City Royals
-G.Brett (7.5), 1976`Kansas City Royals
-J.Mayberry (7.2), 1975`Kansas City Royals
-S.Busby (6.6), 1974`Kansas City Royals
-J.Mayberry (5.2), 1973`Kansas City Royals
-J.Mayberry (4.9), 1972`Kansas City Royals
-A.Otis (5.3), 1971`Kansas City Royals
-B.Johnson (4.3), 1970`Kansas City Royals
-W.Bunker (4.2), 1969`Kansas City Royals
 M.Trout (10.6), 2016`Los Angeles Angels of Anaheim
-M.Trout (9.4), 2015`Los Angeles Angels of Anaheim
-M.Trout (7.9), 2014`Los Angeles Angels of Anaheim
-M.Trout (9.3), 2013`Los Angeles Angels of Anaheim
-M.Trout (10.8), 2012`Los Angeles Angels of Anaheim
-J.Weaver (7.0), 2011`Los Angeles Angels of Anaheim
-J.Weaver (5.5), 2010`Los Angeles Angels of Anaheim
-C.Figgins (7.7), 2009`Los Angeles Angels of Anaheim
-E.Santana (5.0), 2008`Los Angeles Angels of Anaheim
-J.Lackey (6.2), 2007`Los Angeles Angels of Anaheim
-J.Weaver (4.8), 2006`Los Angeles Angels of Anaheim
-V.Guerrero (5.7), 2005`Los Angeles Angels of Anaheim
-V.Guerrero (5.6), 2004`Anaheim Angels
-G.Anderson (4.0), 2003`Anaheim Angels
-D.Erstad (6.4), 2002`Anaheim Angels
-T.Glaus (5.2), 2001`Anaheim Angels
-D.Erstad (8.3), 2000`Anaheim Angels
-R.Velarde (4.2), 1999`Anaheim Angels
-C.Finley (7.2), 1998`Anaheim Angels
-T.Salmon (4.9), 1997`Anaheim Angels
-J.Edmonds (5.0), 1996`California Angels
-T.Salmon (6.6), 1995`California Angels
-C.Finley (3.4), 1994`California Angels
-M.Langston (8.7), 1993`California Angels
-J.Abbott (5.8), 1992`California Angels
-J.Abbott (7.6), 1991`California Angels
-C.Finley (7.7), 1990`California Angels
-B.Blyleven (6.0), 1989`California Angels
-D.Schofield (3.7), 1988`California Angels
-D.White (5.6), 1987`California Angels
-M.Witt (6.2), 1986`California Angels
-G.Pettis (3.8), 1985`California Angels
-M.Witt (4.6), 1984`California Angels
-B.Grich (4.3), 1983`California Angels
-D.DeCinces (7.6), 1982`California Angels
-B.Grich (5.4), 1981`California Angels
-B.Grich (4.1), 1980`California Angels
-B.Grich (5.9), 1979`California Angels
-B.Grich (3.4), 1978`California Angels
-F.Tanana (8.3), 1977`California Angels
-F.Tanana (7.6), 1976`California Angels
-F.Tanana (7.4), 1975`California Angels
-N.Ryan (5.9), 1974`California Angels
-N.Ryan (7.8), 1973`California Angels
-N.Ryan (6.3), 1972`California Angels
-S.Alomar (5.2), 1971`California Angels
-J.Fregosi (7.7), 1970`California Angels
-A.Messersmith (5.6), 1969`California Angels
-R.Reichardt (4.7), 1968`California Angels
-J.Fregosi (5.4), 1967`California Angels
-J.Fregosi (5.5), 1966`California Angels
-J.Fregosi (5.2), 1965`California Angels
-D.Chance (8.6), 1964`Los Angeles Angels
-A.Pearson (4.8), 1963`Los Angeles Angels
-D.Chance (3.5), 1962`Los Angeles Angels
-K.McBride (4.3), 1961`Los Angeles Angels
 C.Seager (6.1), 2016`Los Angeles Dodgers
-Z.Greinke (9.9), 2015`Los Angeles Dodgers
-C.Kershaw (8.0), 2014`Los Angeles Dodgers
-C.Kershaw (8.4), 2013`Los Angeles Dodgers
-C.Kershaw (6.6), 2012`Los Angeles Dodgers
-M.Kemp (8.2), 2011`Los Angeles Dodgers
-C.Kershaw (5.1), 2010`Los Angeles Dodgers
-M.Kemp (4.8), 2009`Los Angeles Dodgers
-C.Billingsley (4.5), 2008`Los Angeles Dodgers
-B.Penny (6.6), 2007`Los Angeles Dodgers
-D.Lowe (4.6), 2006`Los Angeles Dodgers
-J.Kent (3.7), 2005`Los Angeles Dodgers
-A.Beltre (9.5), 2004`Los Angeles Dodgers
-K.Brown (4.5), 2003`Los Angeles Dodgers
-S.Green (6.9), 2002`Los Angeles Dodgers
-S.Green (6.9), 2001`Los Angeles Dodgers
-K.Brown (6.8), 2000`Los Angeles Dodgers
-K.Brown (5.5), 1999`Los Angeles Dodgers
-G.Sheffield (3.4), 1998`Los Angeles Dodgers
-M.Piazza (8.7), 1997`Los Angeles Dodgers
-M.Piazza (5.4), 1996`Los Angeles Dodgers
-M.Piazza (6.2), 1995`Los Angeles Dodgers
-K.Gross (4.0), 1994`Los Angeles Dodgers
-M.Piazza (7.0), 1993`Los Angeles Dodgers
-B.Butler (4.8), 1992`Los Angeles Dodgers
-B.Butler (5.1), 1991`Los Angeles Dodgers
-E.Murray (5.1), 1990`Los Angeles Dodgers
-O.Hershiser (7.3), 1989`Los Angeles Dodgers
-O.Hershiser (7.1), 1988`Los Angeles Dodgers
-B.Welch (7.5), 1987`Los Angeles Dodgers
-F.Valenzuela (6.2), 1986`Los Angeles Dodgers
-P.Guerrero (7.9), 1985`Los Angeles Dodgers
-A.Pena (5.1), 1984`Los Angeles Dodgers
-P.Guerrero (5.5), 1983`Los Angeles Dodgers
-P.Guerrero (6.8), 1982`Los Angeles Dodgers
-F.Valenzuela (5.3), 1981`Los Angeles Dodgers
-D.Sutton (5.5), 1980`Los Angeles Dodgers
-R.Cey (5.1), 1979`Los Angeles Dodgers
-R.Cey (5.3), 1978`Los Angeles Dodgers
-R.Smith (6.1), 1977`Los Angeles Dodgers
-R.Cey (6.0), 1976`Los Angeles Dodgers
-A.Messersmith (6.9), 1975`Los Angeles Dodgers
-J.Wynn (7.7), 1974`Los Angeles Dodgers
-D.Sutton (5.3), 1973`Los Angeles Dodgers
-D.Sutton (6.3), 1972`Los Angeles Dodgers
-D.Allen (5.4), 1971`Los Angeles Dodgers
-B.Grabarkewitz (6.5), 1970`Los Angeles Dodgers
-C.Osteen (6.7), 1969`Los Angeles Dodgers
-T.Haller (4.8), 1968`Los Angeles Dodgers
-D.Drysdale (4.4), 1967`Los Angeles Dodgers
-S.Koufax (9.8), 1966`Los Angeles Dodgers
-S.Koufax (8.6), 1965`Los Angeles Dodgers
-D.Drysdale (8.4), 1964`Los Angeles Dodgers
-S.Koufax (9.9), 1963`Los Angeles Dodgers
-M.Wills (6.0), 1962`Los Angeles Dodgers
-D.Drysdale (5.9), 1961`Los Angeles Dodgers
-D.Drysdale (7.1), 1960`Los Angeles Dodgers
-D.Drysdale (6.2), 1959`Los Angeles Dodgers
-D.Drysdale (3.7), 1958`Los Angeles Dodgers
-D.Drysdale (6.0), 1957`Brooklyn Dodgers
-D.Snider (7.6), 1956`Brooklyn Dodgers
-D.Snider (8.6), 1955`Brooklyn Dodgers
-D.Snider (8.4), 1954`Brooklyn Dodgers
-D.Snider (9.3), 1953`Brooklyn Dodgers
-J.Robinson (8.5), 1952`Brooklyn Dodgers
-J.Robinson (9.7), 1951`Brooklyn Dodgers
-J.Robinson (7.5), 1950`Brooklyn Dodgers
-J.Robinson (9.6), 1949`Brooklyn Dodgers
-J.Robinson (5.4), 1948`Brooklyn Dodgers
-R.Branca (6.3), 1947`Brooklyn Dodgers
-P.Reese (6.0), 1946`Brooklyn Dodgers
-A.Galan (5.4), 1945`Brooklyn Dodgers
-A.Galan (6.0), 1944`Brooklyn Dodgers
-A.Galan (5.4), 1943`Brooklyn Dodgers
-P.Reese (5.7), 1942`Brooklyn Dodgers
-W.Wyatt (7.6), 1941`Brooklyn Dodgers
-D.Camilli (5.0), 1940`Brooklyn Dodgers
-D.Camilli (6.4), 1939`Brooklyn Dodgers
-F.Fitzsimmons (4.4), 1938`Brooklyn Dodgers
-V.Mungo (4.6), 1937`Brooklyn Dodgers
-V.Mungo (6.0), 1936`Brooklyn Dodgers
-L.Frey (3.3), 1935`Brooklyn Dodgers
-V.Mungo (5.2), 1934`Brooklyn Dodgers
-V.Mungo (5.0), 1933`Brooklyn Dodgers
-L.O'Doul (6.3), 1932`Brooklyn Dodgers
-W.Clark (6.3), 1931`Brooklyn Robins
-B.Herman (6.9), 1930`Brooklyn Robins
-W.Clark (5.4), 1929`Brooklyn Robins
-D.Vance (10.1), 1928`Brooklyn Robins
-D.Vance (7.5), 1927`Brooklyn Robins
-J.Petty (5.0), 1926`Brooklyn Robins
-D.Vance (5.9), 1925`Brooklyn Robins
-D.Vance (10.3), 1924`Brooklyn Robins
-J.Fournier (5.6), 1923`Brooklyn Robins
-D.Ruether (5.2), 1922`Brooklyn Robins
-B.Grimes (8.0), 1921`Brooklyn Robins
-B.Grimes (8.1), 1920`Brooklyn Robins
-L.Cadore (5.7), 1919`Brooklyn Robins
-B.Grimes (4.7), 1918`Brooklyn Robins
-L.Cadore (5.4), 1917`Brooklyn Robins
-J.Pfeffer (7.1), 1916`Brooklyn Robins
-J.Pfeffer (6.3), 1915`Brooklyn Robins
-J.Pfeffer (7.6), 1914`Brooklyn Robins
-N.Rucker (4.8), 1913`Brooklyn Superbas
-N.Rucker (8.4), 1912`Brooklyn Dodgers
-N.Rucker (8.9), 1911`Brooklyn Dodgers
-N.Rucker (7.1), 1910`Brooklyn Superbas
-N.Rucker (7.3), 1909`Brooklyn Superbas
-N.Rucker (5.7), 1908`Brooklyn Superbas
-T.Jordan (3.6), 1907`Brooklyn Superbas
-H.Lumley (6.2), 1906`Brooklyn Superbas
-J.Sheckard (4.0), 1905`Brooklyn Superbas
-J.Cronin (3.4), 1904`Brooklyn Superbas
-J.Sheckard (7.0), 1903`Brooklyn Superbas
-B.Dahlen (4.3), 1902`Brooklyn Superbas
-J.Sheckard (6.4), 1901`Brooklyn Superbas
-J.McGinnity (5.1), 1900`Brooklyn Superbas
-J.Hughes (8.0), 1899`Brooklyn Superbas
-B.Kennedy (4.0), 1898`Brooklyn Bridegrooms
-B.Kennedy (4.8), 1897`Brooklyn Bridegrooms
-H.Payne (4.8), 1896`Brooklyn Bridegrooms
-M.Griffin (5.6), 1895`Brooklyn Grooms
-M.Griffin (4.5), 1894`Brooklyn Grooms
-B.Kennedy (5.9), 1893`Brooklyn Grooms
-D.Brouthers (8.8), 1892`Brooklyn Grooms
-B.Caruthers (4.1), 1891`Brooklyn Grooms
-A.Terry (6.1), 1890`Brooklyn Bridegrooms
-B.Caruthers (8.6), 1889`Brooklyn Bridegrooms
-B.Caruthers (6.8), 1888`Brooklyn Bridegrooms
-A.Terry (2.5), 1887`Brooklyn Grays
-A.Terry (3.0), 1886`Brooklyn Grays
-H.Porter (6.1), 1885`Brooklyn Grays
-A.Terry (2.3), 1884`Brooklyn Atlantics
 C.Yelich (5.3), 2016`Miami Marlins
-D.Gordon (4.9), 2015`Miami Marlins
-G.Stanton (6.5), 2014`Miami Marlins
-J.Fernandez (6.7), 2013`Miami Marlins
-G.Stanton (5.5), 2012`Miami Marlins
-G.Stanton (4.1), 2011`Florida Marlins
-J.Johnson (6.8), 2010`Florida Marlins
-J.Johnson (7.4), 2009`Florida Marlins
-H.Ramirez (6.7), 2008`Florida Marlins
-H.Ramirez (4.3), 2007`Florida Marlins
-M.Cabrera (5.8), 2006`Florida Marlins
-D.Willis (8.4), 2005`Florida Marlins
-C.Pavano (5.8), 2004`Florida Marlins
-D.Willis (4.4), 2003`Florida Marlins
-A.Burnett (4.1), 2002`Florida Marlins
-C.Floyd (6.6), 2001`Florida Marlins
-L.Castillo (4.5), 2000`Florida Marlins
-A.Fernandez (3.5), 1999`Florida Marlins
-M.Kotsay (3.9), 1998`Florida Marlins
-K.Brown (6.8), 1997`Florida Marlins
-K.Brown (7.9), 1996`Florida Marlins
-C.Hammond (3.3), 1995`Florida Marlins
-J.Conine (2.8), 1994`Florida Marlins
-B.Harvey (4.0), 1993`Florida Marlins
 R.Braun (4.4), 2016`Milwaukee Brewers
-R.Braun (3.8), 2015`Milwaukee Brewers
-J.Lucroy (6.7), 2014`Milwaukee Brewers
-C.Gomez (8.5), 2013`Milwaukee Brewers
-R.Braun (6.9), 2012`Milwaukee Brewers
-R.Braun (7.8), 2011`Milwaukee Brewers
-R.Braun (5.7), 2010`Milwaukee Brewers
-P.Fielder (6.3), 2009`Milwaukee Brewers
-C.Sabathia (5.2), 2008`Milwaukee Brewers
-C.Hart (4.7), 2007`Milwaukee Brewers
-B.Hall (5.8), 2006`Milwaukee Brewers
-G.Jenkins (4.6), 2005`Milwaukee Brewers
-B.Sheets (7.3), 2004`Milwaukee Brewers
-S.Podsednik (3.6), 2003`Milwaukee Brewers
-J.Hernandez (4.4), 2002`Milwaukee Brewers
-R.Belliard (3.5), 2001`Milwaukee Brewers
-J.D'Amico (4.8), 2000`Milwaukee Brewers
-J.Cirillo (4.8), 1999`Milwaukee Brewers
-J.Cirillo (5.9), 1998`Milwaukee Brewers
-J.Cirillo (5.3), 1997`Milwaukee Brewers
-B.McDonald (5.4), 1996`Milwaukee Brewers
-R.Bones (3.4), 1995`Milwaukee Brewers
-R.Bones (4.0), 1994`Milwaukee Brewers
-G.Vaughn (6.7), 1993`Milwaukee Brewers
-B.Wegman (4.8), 1992`Milwaukee Brewers
-P.Molitor (5.3), 1991`Milwaukee Brewers
-R.Robinson (3.3), 1990`Milwaukee Brewers
-R.Yount (5.8), 1989`Milwaukee Brewers
-T.Higuera (7.4), 1988`Milwaukee Brewers
-T.Higuera (6.5), 1987`Milwaukee Brewers
-T.Higuera (9.4), 1986`Milwaukee Brewers
-P.Molitor (3.7), 1985`Milwaukee Brewers
-R.Yount (5.9), 1984`Milwaukee Brewers
-R.Yount (7.2), 1983`Milwaukee Brewers
-R.Yount (10.5), 1982`Milwaukee Brewers
-R.Yount (4.9), 1981`Milwaukee Brewers
-R.Yount (7.1), 1980`Milwaukee Brewers
-S.Lezcano (5.6), 1979`Milwaukee Brewers
-M.Caldwell (8.1), 1978`Milwaukee Brewers
-D.Money (5.1), 1977`Milwaukee Brewers
-B.Travers (4.5), 1976`Milwaukee Brewers
-D.Porter (3.7), 1975`Milwaukee Brewers
-T.Murphy (5.2), 1974`Milwaukee Brewers
-G.Scott (6.7), 1973`Milwaukee Brewers
-G.Scott (4.9), 1972`Milwaukee Brewers
-K.Sanders (3.9), 1971`Milwaukee Brewers
-T.Harper (7.4), 1970`Milwaukee Brewers
-W.Comer (3.2), 1969`Seattle Pilots
 B.Dozier (6.5), 2016`Minnesota Twins
-K.Gibson (3.2), 2015`Minnesota Twins
-B.Dozier (5.2), 2014`Minnesota Twins
-J.Mauer (5.3), 2013`Minnesota Twins
-D.Span (5.0), 2012`Minnesota Twins
-S.Baker (4.4), 2011`Minnesota Twins
-J.Mauer (5.9), 2010`Minnesota Twins
-J.Mauer (7.8), 2009`Minnesota Twins
-J.Mauer (5.6), 2008`Minnesota Twins
-J.Santana (5.2), 2007`Minnesota Twins
-J.Santana (7.5), 2006`Minnesota Twins
-J.Santana (7.2), 2005`Minnesota Twins
-J.Santana (8.7), 2004`Minnesota Twins
-A.Pierzynski (4.5), 2003`Minnesota Twins
-J.Jones (5.4), 2002`Minnesota Twins
-J.Mays (6.6), 2001`Minnesota Twins
-B.Radke (6.2), 2000`Minnesota Twins
-B.Radke (6.5), 1999`Minnesota Twins
-B.Radke (5.2), 1998`Minnesota Twins
-C.Knoblauch (6.7), 1997`Minnesota Twins
-C.Knoblauch (8.6), 1996`Minnesota Twins
-C.Knoblauch (6.7), 1995`Minnesota Twins
-C.Knoblauch (4.0), 1994`Minnesota Twins
-C.Knoblauch (3.6), 1993`Minnesota Twins
-K.Puckett (7.1), 1992`Minnesota Twins
-K.Tapani (6.8), 1991`Minnesota Twins
-G.Gagne (3.2), 1990`Minnesota Twins
-K.Puckett (4.9), 1989`Minnesota Twins
-F.Viola (7.7), 1988`Minnesota Twins
-F.Viola (8.1), 1987`Minnesota Twins
-G.Gaetti (5.8), 1986`Minnesota Twins
-K.Puckett (2.9), 1985`Minnesota Twins
-K.Hrbek (5.5), 1984`Minnesota Twins
-J.Castino (4.4), 1983`Minnesota Twins
-T.Brunansky (5.6), 1982`Minnesota Twins
-D.Corbett (2.9), 1981`Minnesota Twins
-D.Corbett (5.7), 1980`Minnesota Twins
-J.Koosman (7.2), 1979`Minnesota Twins
-D.Goltz (6.6), 1978`Minnesota Twins
-R.Carew (9.7), 1977`Minnesota Twins
-R.Carew (6.8), 1976`Minnesota Twins
-R.Carew (7.8), 1975`Minnesota Twins
-B.Blyleven (7.9), 1974`Minnesota Twins
-B.Blyleven (9.9), 1973`Minnesota Twins
-R.Carew (5.4), 1972`Minnesota Twins
-B.Blyleven (6.2), 1971`Minnesota Twins
-T.Oliva (7.0), 1970`Minnesota Twins
-J.Perry (6.5), 1969`Minnesota Twins
-D.Chance (5.2), 1968`Minnesota Twins
-J.Merritt (6.4), 1967`Minnesota Twins
-T.Oliva (6.4), 1966`Minnesota Twins
-Z.Versalles (7.2), 1965`Minnesota Twins
-T.Oliva (6.8), 1964`Minnesota Twins
-B.Allison (7.4), 1963`Minnesota Twins
-C.Pascual (6.2), 1962`Minnesota Twins
-J.Kralick (5.8), 1961`Minnesota Twins
-P.Ramos (4.1), 1960`Washington Senators
-C.Pascual (8.6), 1959`Washington Senators
-D.Hyde (4.6), 1958`Washington Senators
-R.Sievers (4.6), 1957`Washington Senators
-C.Stobbs (4.6), 1956`Washington Senators
-M.McDermott (3.1), 1955`Washington Senators
-E.Yost (4.3), 1954`Washington Senators
-M.Vernon (5.4), 1953`Washington Senators
-B.Porterfield (5.3), 1952`Washington Senators
-E.Yost (4.0), 1951`Washington Senators
-E.Yost (4.0), 1950`Washington Senators
-E.Robinson (2.5), 1949`Washington Senators
-R.Scarborough (5.5), 1948`Washington Senators
-W.Masterson (5.1), 1947`Washington Senators
-M.Vernon (5.5), 1946`Washington Senators
-R.Wolff (5.5), 1945`Washington Senators
-S.Spence (6.0), 1944`Washington Senators
-S.Spence (4.4), 1943`Washington Senators
-B.Estalella (2.8), 1942`Washington Senators
-C.Travis (6.4), 1941`Washington Senators
-D.Leonard (4.8), 1940`Washington Senators
-B.Lewis (5.7), 1939`Washington Senators
-B.Myer (5.4), 1938`Washington Senators
-C.Travis (4.7), 1937`Washington Senators
-J.Stone (4.6), 1936`Washington Senators
-B.Myer (6.1), 1935`Washington Senators
-H.Manush (4.7), 1934`Washington Senators
-J.Cronin (7.2), 1933`Washington Senators
-G.Crowder (6.7), 1932`Washington Senators
-J.Cronin (6.8), 1931`Washington Senators
-J.Cronin (8.4), 1930`Washington Senators
-F.Marberry (6.7), 1929`Washington Senators
-G.Goslin (7.5), 1928`Washington Senators
-B.Hadley (5.3), 1927`Washington Senators
-G.Goslin (6.8), 1926`Washington Senators
-W.Johnson (6.9), 1925`Washington Senators
-W.Johnson (7.4), 1924`Washington Senators
-W.Johnson (4.6), 1923`Washington Senators
-W.Johnson (5.5), 1922`Washington Senators
-G.Mogridge (6.3), 1921`Washington Senators
-S.Rice (4.6), 1920`Washington Senators
-W.Johnson (10.8), 1919`Washington Senators
-W.Johnson (11.6), 1918`Washington Senators
-W.Johnson (8.0), 1917`Washington Senators
-W.Johnson (10.7), 1916`Washington Senators
-W.Johnson (12.1), 1915`Washington Senators
-W.Johnson (13.0), 1914`Washington Senators
-W.Johnson (16.0), 1913`Washington Senators
-W.Johnson (14.6), 1912`Washington Senators
-W.Johnson (8.8), 1911`Washington Senators
-W.Johnson (11.4), 1910`Washington Senators
-W.Johnson (3.7), 1909`Washington Senators
-W.Johnson (5.6), 1908`Washington Senators
-C.Smith (3.5), 1907`Washington Senators
-C.Patten (4.4), 1906`Washington Senators
-T.Hughes (4.3), 1905`Washington Senators
-C.Patten (3.8), 1904`Washington Senators
-H.Wilson (3.1), 1903`Washington Senators
-E.Delahanty (6.7), 1902`Washington Senators
-B.Carrick (3.3), 1901`Washington Senators
 N.Syndergaard (6.0), 2016`New York Mets
-C.Granderson (5.1), 2015`New York Mets
-J.Lagares (5.5), 2014`New York Mets
-D.Wright (5.9), 2013`New York Mets
-D.Wright (7.0), 2012`New York Mets
-J.Reyes (4.7), 2011`New York Mets
-A.Pagan (5.3), 2010`New York Mets
-A.Pagan (4.0), 2009`New York Mets
-J.Santana (7.1), 2008`New York Mets
-D.Wright (8.3), 2007`New York Mets
-C.Beltran (8.2), 2006`New York Mets
-P.Martinez (6.5), 2005`New York Mets
-A.Leiter (4.7), 2004`New York Mets
-S.Trachsel (4.5), 2003`New York Mets
-E.Alfonzo (5.0), 2002`New York Mets
-M.Piazza (4.4), 2001`New York Mets
-E.Alfonzo (6.4), 2000`New York Mets
-R.Ventura (6.7), 1999`New York Mets
-J.Olerud (7.6), 1998`New York Mets
-E.Alfonzo (6.2), 1997`New York Mets
-B.Gilkey (8.0), 1996`New York Mets
-J.Kent (3.2), 1995`New York Mets
-B.Saberhagen (5.7), 1994`New York Mets
-D.Gooden (4.2), 1993`New York Mets
-S.Fernandez (6.2), 1992`New York Mets
-D.Cone (4.3), 1991`New York Mets
-F.Viola (6.3), 1990`New York Mets
-H.Johnson (6.9), 1989`New York Mets
-D.Cone (5.8), 1988`New York Mets
-D.Strawberry (6.4), 1987`New York Mets
-K.Hernandez (5.5), 1986`New York Mets
-D.Gooden (13.2), 1985`New York Mets
-K.Hernandez (6.3), 1984`New York Mets
-K.Hernandez (4.3), 1983`New York Mets
-J.Stearns (3.8), 1982`New York Mets
-H.Brooks (2.6), 1981`New York Mets
-L.Mazzilli (3.2), 1980`New York Mets
-L.Mazzilli (4.9), 1979`New York Mets
-C.Swan (5.5), 1978`New York Mets
-L.Randle (4.2), 1977`New York Mets
-T.Seaver (5.3), 1976`New York Mets
-T.Seaver (8.2), 1975`New York Mets
-J.Matlack (8.7), 1974`New York Mets
-T.Seaver (11.0), 1973`New York Mets
-J.Matlack (6.1), 1972`New York Mets
-T.Seaver (10.9), 1971`New York Mets
-T.Seaver (6.4), 1970`New York Mets
-T.Seaver (7.2), 1969`New York Mets
-T.Seaver (7.0), 1968`New York Mets
-T.Seaver (6.7), 1967`New York Mets
-D.Ribant (3.5), 1966`New York Mets
-J.Lewis (2.4), 1965`New York Mets
-R.Hunt (3.2), 1964`New York Mets
-C.Willey (4.2), 1963`New York Mets
-F.Thomas (2.5), 1962`New York Mets
 M.Tanaka (5.4), 2016`New York Yankees
-M.Teixeira (3.8), 2015`New York Yankees
-B.Gardner (4.0), 2014`New York Yankees
-R.Cano (7.8), 2013`New York Yankees
-R.Cano (8.4), 2012`New York Yankees
-C.Sabathia (7.4), 2011`New York Yankees
-R.Cano (8.1), 2010`New York Yankees
-D.Jeter (6.5), 2009`New York Yankees
-A.Rodriguez (6.8), 2008`New York Yankees
-A.Rodriguez (9.4), 2007`New York Yankees
-C.Wang (6.0), 2006`New York Yankees
-A.Rodriguez (9.4), 2005`New York Yankees
-A.Rodriguez (7.6), 2004`New York Yankees
-M.Mussina (6.6), 2003`New York Yankees
-J.Giambi (7.1), 2002`New York Yankees
-M.Mussina (7.1), 2001`New York Yankees
-J.Posada (5.5), 2000`New York Yankees
-D.Jeter (8.0), 1999`New York Yankees
-D.Jeter (7.5), 1998`New York Yankees
-A.Pettitte (8.4), 1997`New York Yankees
-A.Pettitte (5.6), 1996`New York Yankees
-B.Williams (6.4), 1995`New York Yankees
-W.Boggs (4.5), 1994`New York Yankees
-J.Key (6.2), 1993`New York Yankees
-M.Perez (6.0), 1992`New York Yankees
-S.Sax (4.1), 1991`New York Yankees
-R.Kelly (5.4), 1990`New York Yankees
-S.Sax (4.4), 1989`New York Yankees
-R.Henderson (6.3), 1988`New York Yankees
-D.Mattingly (5.1), 1987`New York Yankees
-D.Mattingly (7.2), 1986`New York Yankees
-R.Henderson (9.9), 1985`New York Yankees
-D.Mattingly (6.3), 1984`New York Yankees
-R.Guidry (5.3), 1983`New York Yankees
-R.Gossage (4.5), 1982`New York Yankees
-D.Righetti (3.5), 1981`New York Yankees
-W.Randolph (6.6), 1980`New York Yankees
-R.Guidry (6.5), 1979`New York Yankees
-R.Guidry (9.6), 1978`New York Yankees
-G.Nettles (5.5), 1977`New York Yankees
-G.Nettles (8.0), 1976`New York Yankees
-C.Hunter (8.1), 1975`New York Yankees
-E.Maddox (5.4), 1974`New York Yankees
-T.Munson (7.2), 1973`New York Yankees
-B.Murcer (8.1), 1972`New York Yankees
-R.White (6.7), 1971`New York Yankees
-R.White (6.8), 1970`New York Yankees
-M.Stottlemyre (6.1), 1969`New York Yankees
-S.Bahnsen (5.9), 1968`New York Yankees
-A.Downing (4.6), 1967`New York Yankees
-T.Tresh (5.4), 1966`New York Yankees
-M.Stottlemyre (6.9), 1965`New York Yankees
-W.Ford (6.8), 1964`New York Yankees
-E.Howard (5.2), 1963`New York Yankees
-M.Mantle (5.9), 1962`New York Yankees
-M.Mantle (10.5), 1961`New York Yankees
-R.Maris (7.5), 1960`New York Yankees
-M.Mantle (6.6), 1959`New York Yankees
-M.Mantle (8.7), 1958`New York Yankees
-M.Mantle (11.3), 1957`New York Yankees
-M.Mantle (11.2), 1956`New York Yankees
-M.Mantle (9.5), 1955`New York Yankees
-M.Mantle (6.9), 1954`New York Yankees
-M.Mantle (5.3), 1953`New York Yankees
-M.Mantle (6.5), 1952`New York Yankees
-Y.Berra (4.8), 1951`New York Yankees
-P.Rizzuto (6.7), 1950`New York Yankees
-J.DiMaggio (4.4), 1949`New York Yankees
-J.DiMaggio (6.9), 1948`New York Yankees
-J.DiMaggio (4.8), 1947`New York Yankees
-C.Keller (6.1), 1946`New York Yankees
-S.Stirnweiss (8.7), 1945`New York Yankees
-S.Stirnweiss (8.5), 1944`New York Yankees
-S.Chandler (7.3), 1943`New York Yankees
-J.Gordon (8.2), 1942`New York Yankees
-J.DiMaggio (9.1), 1941`New York Yankees
-J.DiMaggio (7.2), 1940`New York Yankees
-J.DiMaggio (8.1), 1939`New York Yankees
-R.Ruffing (6.1), 1938`New York Yankees
-L.Gomez (9.2), 1937`New York Yankees
-L.Gehrig (9.1), 1936`New York Yankees
-L.Gehrig (8.6), 1935`New York Yankees
-L.Gehrig (10.4), 1934`New York Yankees
-L.Gehrig (6.9), 1933`New York Yankees
-B.Ruth (8.3), 1932`New York Yankees
-B.Ruth (10.3), 1931`New York Yankees
-B.Ruth (10.5), 1930`New York Yankees
-B.Ruth (8.0), 1929`New York Yankees
-B.Ruth (10.1), 1928`New York Yankees
-B.Ruth (12.4), 1927`New York Yankees
-B.Ruth (11.5), 1926`New York Yankees
-U.Shocker (6.3), 1925`New York Yankees
-B.Ruth (11.7), 1924`New York Yankees
-B.Ruth (14.1), 1923`New York Yankees
-B.Shawkey (6.7), 1922`New York Yankees
-B.Ruth (12.6), 1921`New York Yankees
-B.Ruth (11.8), 1920`New York Yankees
-R.Peckinpaugh (6.3), 1919`New York Yankees
-H.Baker (4.9), 1918`New York Yankees
-H.Baker (4.6), 1917`New York Yankees
-B.Shawkey (6.8), 1916`New York Yankees
-R.Caldwell (5.8), 1915`New York Yankees
-R.Caldwell (6.9), 1914`New York Yankees
-R.Caldwell (4.7), 1913`New York Yankees
-J.Warhop (6.7), 1912`New York Highlanders
-R.Ford (6.7), 1911`New York Highlanders
-R.Ford (11.5), 1910`New York Highlanders
-J.Warhop (4.3), 1909`New York Highlanders
-C.Hemphill (3.8), 1908`New York Highlanders
-J.Chesbro (4.5), 1907`New York Highlanders
-A.Orth (8.7), 1906`New York Highlanders
-A.Orth (5.9), 1905`New York Highlanders
-J.Chesbro (11.0), 1904`New York Highlanders
-J.Chesbro (4.7), 1903`New York Highlanders
 K.Graveman (3.2), 2016`Oakland Athletics
-S.Gray (5.8), 2015`Oakland Athletics
-J.Donaldson (7.3), 2014`Oakland Athletics
-J.Donaldson (7.7), 2013`Oakland Athletics
-J.Reddick (5.0), 2012`Oakland Athletics
-G.Gonzalez (4.4), 2011`Oakland Athletics
-D.Barton (5.5), 2010`Oakland Athletics
-A.Bailey (3.7), 2009`Oakland Athletics
-M.Ellis (4.0), 2008`Oakland Athletics
-M.Ellis (4.8), 2007`Oakland Athletics
-B.Zito (4.4), 2006`Oakland Athletics
-E.Chavez (4.8), 2005`Oakland Athletics
-E.Chavez (5.5), 2004`Oakland Athletics
-T.Hudson (7.5), 2003`Oakland Athletics
-B.Zito (7.1), 2002`Oakland Athletics
-J.Giambi (9.1), 2001`Oakland Athletics
-J.Giambi (7.7), 2000`Oakland Athletics
-J.Giambi (5.9), 1999`Oakland Athletics
-K.Rogers (7.5), 1998`Oakland Athletics
-M.McGwire (3.1), 1997`Oakland Athletics
-M.McGwire (6.4), 1996`Oakland Athletics
-M.McGwire (5.5), 1995`Oakland Athletics
-R.Henderson (3.5), 1994`Oakland Athletics
-R.Henderson (4.5), 1993`Oakland Athletics
-M.McGwire (6.4), 1992`Oakland Athletics
-D.Henderson (5.4), 1991`Oakland Athletics
-R.Henderson (9.9), 1990`Oakland Athletics
-M.Moore (5.5), 1989`Oakland Athletics
-J.Canseco (7.2), 1988`Oakland Athletics
-C.Lansford (5.2), 1987`Oakland Athletics
-T.Phillips (4.4), 1986`Oakland Athletics
-M.Davis (4.7), 1985`Oakland Athletics
-R.Henderson (6.0), 1984`Oakland Athletics
-R.Henderson (6.9), 1983`Oakland Athletics
-R.Henderson (6.7), 1982`Oakland Athletics
-R.Henderson (6.6), 1981`Oakland Athletics
-R.Henderson (8.8), 1980`Oakland Athletics
-R.Langford (4.1), 1979`Oakland Athletics
-M.Keough (3.0), 1978`Oakland Athletics
-M.Page (6.0), 1977`Oakland Athletics
-V.Blue (7.7), 1976`Oakland Athletics
-R.Jackson (6.7), 1975`Oakland Athletics
-C.Hunter (6.9), 1974`Oakland Athletics
-R.Jackson (7.8), 1973`Oakland Athletics
-J.Rudi (6.1), 1972`Oakland Athletics
-V.Blue (8.6), 1971`Oakland Athletics
-S.Bando (6.1), 1970`Oakland Athletics
-R.Jackson (9.2), 1969`Oakland Athletics
-B.Campaneris (6.6), 1968`Oakland Athletics
-C.Hunter (5.3), 1967`Kansas City Athletics
-J.Aker (4.6), 1966`Kansas City Athletics
-E.Charles (3.3), 1965`Kansas City Athletics
-W.Stock (4.2), 1964`Kansas City Athletics
-M.Drabowsky (4.6), 1963`Kansas City Athletics
-N.Siebern (5.5), 1962`Kansas City Athletics
-J.Archer (3.1), 1961`Kansas City Athletics
-R.Herbert (6.0), 1960`Kansas City Athletics
-B.Daley (5.0), 1959`Kansas City Athletics
-B.Cerv (6.3), 1958`Kansas City Athletics
-W.Held (2.9), 1957`Kansas City Athletics
-W.Burnette (2.6), 1956`Kansas City Athletics
-V.Power (3.6), 1955`Kansas City Athletics
-A.Portocarrero (3.1), 1954`Philadelphia Athletics
-A.Kellner (3.6), 1953`Philadelphia Athletics
-B.Shantz (9.6), 1952`Philadelphia Athletics
-E.Joost (6.0), 1951`Philadelphia Athletics
-F.Fain (3.3), 1950`Philadelphia Athletics
-E.Joost (6.9), 1949`Philadelphia Athletics
-C.Scheib (4.2), 1948`Philadelphia Athletics
-D.Fowler (4.4), 1947`Philadelphia Athletics
-J.Flores (4.5), 1946`Philadelphia Athletics
-B.Estalella (4.1), 1945`Philadelphia Athletics
-B.Newsom (3.8), 1944`Philadelphia Athletics
-J.Flores (4.5), 1943`Philadelphia Athletics
-B.Johnson (3.8), 1942`Philadelphia Athletics
-S.Chapman (5.0), 1941`Philadelphia Athletics
-J.Babich (4.0), 1940`Philadelphia Athletics
-B.Johnson (6.5), 1939`Philadelphia Athletics
-G.Caster (5.0), 1938`Philadelphia Athletics
-B.Johnson (5.4), 1937`Philadelphia Athletics
-H.Kelley (5.8), 1936`Philadelphia Athletics
-J.Foxx (8.3), 1935`Philadelphia Athletics
-J.Foxx (8.9), 1934`Philadelphia Athletics
-J.Foxx (9.2), 1933`Philadelphia Athletics
-J.Foxx (10.5), 1932`Philadelphia Athletics
-L.Grove (9.7), 1931`Philadelphia Athletics
-L.Grove (9.4), 1930`Philadelphia Athletics
-A.Simmons (7.9), 1929`Philadelphia Athletics
-L.Grove (7.0), 1928`Philadelphia Athletics
-A.Simmons (5.8), 1927`Philadelphia Athletics
-L.Grove (6.5), 1926`Philadelphia Athletics
-A.Simmons (6.5), 1925`Philadelphia Athletics
-S.Baumgartner (5.1), 1924`Philadelphia Athletics
-E.Rommel (5.6), 1923`Philadelphia Athletics
-E.Rommel (7.1), 1922`Philadelphia Athletics
-E.Rommel (5.2), 1921`Philadelphia Athletics
-E.Rommel (5.9), 1920`Philadelphia Athletics
-W.Kinney (2.9), 1919`Philadelphia Athletics
-S.Perry (7.7), 1918`Philadelphia Athletics
-P.Bodie (3.9), 1917`Philadelphia Athletics
-A.Strunk (5.6), 1916`Philadelphia Athletics
-A.Strunk (4.1), 1915`Philadelphia Athletics
-E.Collins (9.1), 1914`Philadelphia Athletics
-E.Collins (9.0), 1913`Philadelphia Athletics
-H.Baker (9.3), 1912`Philadelphia Athletics
-E.Collins (6.5), 1911`Philadelphia Athletics
-E.Collins (10.5), 1910`Philadelphia Athletics
-E.Collins (9.7), 1909`Philadelphia Athletics
-E.Plank (7.1), 1908`Philadelphia Athletics
-E.Plank (6.6), 1907`Philadelphia Athletics
-R.Waddell (5.6), 1906`Philadelphia Athletics
-R.Waddell (9.1), 1905`Philadelphia Athletics
-R.Waddell (9.7), 1904`Philadelphia Athletics
-R.Waddell (8.0), 1903`Philadelphia Athletics
-R.Waddell (10.3), 1902`Philadelphia Athletics
-N.Lajoie (8.4), 1901`Philadelphia Athletics
 O.Herrera (4.2), 2016`Philadelphia Phillies
-O.Herrera (3.8), 2015`Philadelphia Phillies
-C.Hamels (6.8), 2014`Philadelphia Phillies
-C.Lee (7.6), 2013`Philadelphia Phillies
-C.Hamels (5.2), 2012`Philadelphia Phillies
-C.Lee (9.2), 2011`Philadelphia Phillies
-R.Halladay (8.1), 2010`Philadelphia Phillies
-C.Utley (8.2), 2009`Philadelphia Phillies
-C.Utley (9.0), 2008`Philadelphia Phillies
-C.Utley (7.8), 2007`Philadelphia Phillies
-C.Utley (7.3), 2006`Philadelphia Phillies
-C.Utley (7.2), 2005`Philadelphia Phillies
-B.Abreu (6.5), 2004`Philadelphia Phillies
-B.Abreu (5.3), 2003`Philadelphia Phillies
-B.Abreu (5.8), 2002`Philadelphia Phillies
-S.Rolen (5.5), 2001`Philadelphia Phillies
-B.Abreu (6.2), 2000`Philadelphia Phillies
-B.Abreu (6.1), 1999`Philadelphia Phillies
-S.Rolen (6.7), 1998`Philadelphia Phillies
-C.Schilling (6.3), 1997`Philadelphia Phillies
-C.Schilling (4.8), 1996`Philadelphia Phillies
-R.Bottalico (2.9), 1995`Philadelphia Phillies
-D.Jackson (4.7), 1994`Philadelphia Phillies
-L.Dykstra (6.5), 1993`Philadelphia Phillies
-D.Daulton (6.9), 1992`Philadelphia Phillies
-J.Kruk (4.7), 1991`Philadelphia Phillies
-L.Dykstra (8.9), 1990`Philadelphia Phillies
-V.Hayes (5.1), 1989`Philadelphia Phillies
-K.Gross (3.6), 1988`Philadelphia Phillies
-M.Schmidt (6.1), 1987`Philadelphia Phillies
-M.Schmidt (6.1), 1986`Philadelphia Phillies
-M.Schmidt (5.0), 1985`Philadelphia Phillies
-M.Schmidt (7.0), 1984`Philadelphia Phillies
-J.Denny (7.6), 1983`Philadelphia Phillies
-M.Schmidt (7.4), 1982`Philadelphia Phillies
-M.Schmidt (7.7), 1981`Philadelphia Phillies
-S.Carlton (10.2), 1980`Philadelphia Phillies
-M.Schmidt (7.9), 1979`Philadelphia Phillies
-M.Schmidt (6.2), 1978`Philadelphia Phillies
-M.Schmidt (8.8), 1977`Philadelphia Phillies
-M.Schmidt (8.0), 1976`Philadelphia Phillies
-M.Schmidt (7.7), 1975`Philadelphia Phillies
-M.Schmidt (9.7), 1974`Philadelphia Phillies
-W.Twitchell (6.1), 1973`Philadelphia Phillies
-S.Carlton (12.5), 1972`Philadelphia Phillies
-R.Wise (4.6), 1971`Philadelphia Phillies
-D.Selma (5.2), 1970`Philadelphia Phillies
-R.Wise (4.0), 1969`Philadelphia Phillies
-L.Jackson (4.0), 1968`Philadelphia Phillies
-J.Bunning (8.0), 1967`Philadelphia Phillies
-J.Bunning (8.9), 1966`Philadelphia Phillies
-J.Bunning (8.4), 1965`Philadelphia Phillies
-D.Allen (8.8), 1964`Philadelphia Phillies
-J.Callison (8.1), 1963`Philadelphia Phillies
-J.Callison (6.0), 1962`Philadelphia Phillies
-A.Mahaffey (2.7), 1961`Philadelphia Phillies
-R.Roberts (3.6), 1960`Philadelphia Phillies
-G.Conley (5.1), 1959`Philadelphia Phillies
-R.Ashburn (7.1), 1958`Philadelphia Phillies
-R.Ashburn (5.5), 1957`Philadelphia Phillies
-R.Ashburn (5.7), 1956`Philadelphia Phillies
-R.Ashburn (6.3), 1955`Philadelphia Phillies
-R.Roberts (8.7), 1954`Philadelphia Phillies
-R.Roberts (9.8), 1953`Philadelphia Phillies
-R.Roberts (8.5), 1952`Philadelphia Phillies
-R.Roberts (8.6), 1951`Philadelphia Phillies
-R.Roberts (6.8), 1950`Philadelphia Phillies
-K.Heintzelman (6.0), 1949`Philadelphia Phillies
-D.Leonard (5.9), 1948`Philadelphia Phillies
-D.Leonard (6.5), 1947`Philadelphia Phillies
-D.Ennis (4.8), 1946`Philadelphia Phillies
-A.Karl (3.4), 1945`Philadelphia Phillies
-B.Adams (5.0), 1944`Philadelphia Phillies
-S.Rowe (6.1), 1943`Philadelphia Phillies
-T.Hughes (3.2), 1942`Philadelphia Phillies
-D.Litwhiler (4.3), 1941`Philadelphia Phillies
-K.Higbe (4.3), 1940`Philadelphia Phillies
-M.Arnovich (3.9), 1939`Philadelphia Phillies
-A.Hollingsworth (3.1), 1938`Philadelphia Phillies
-D.Camilli (6.2), 1937`Philadelphia Phillies
-D.Camilli (5.9), 1936`Philadelphia Phillies
-C.Davis (6.9), 1935`Philadelphia Phillies
-C.Davis (8.3), 1934`Philadelphia Phillies
-C.Klein (7.5), 1933`Philadelphia Phillies
-C.Klein (6.6), 1932`Philadelphia Phillies
-R.Benge (6.0), 1931`Philadelphia Phillies
-C.Klein (6.5), 1930`Philadelphia Phillies
-L.O'Doul (7.4), 1929`Philadelphia Phillies
-R.Benge (2.3), 1928`Philadelphia Phillies
-D.Ulrich (3.7), 1927`Philadelphia Phillies
-H.Carlson (8.8), 1926`Philadelphia Phillies
-H.Carlson (4.5), 1925`Philadelphia Phillies
-C.Williams (4.1), 1924`Philadelphia Phillies
-J.Ring (6.4), 1923`Philadelphia Phillies
-L.Meadows (4.7), 1922`Philadelphia Phillies
-C.Williams (2.5), 1921`Philadelphia Phillies
-C.Williams (5.8), 1920`Philadelphia Phillies
-L.Meadows (3.9), 1919`Philadelphia Phillies
-B.Hogg (4.7), 1918`Philadelphia Phillies
-P.Alexander (9.9), 1917`Philadelphia Phillies
-P.Alexander (11.7), 1916`Philadelphia Phillies
-P.Alexander (10.8), 1915`Philadelphia Phillies
-P.Alexander (8.9), 1914`Philadelphia Phillies
-P.Alexander (6.3), 1913`Philadelphia Phillies
-P.Alexander (6.3), 1912`Philadelphia Phillies
-P.Alexander (8.0), 1911`Philadelphia Phillies
-S.Magee (6.7), 1910`Philadelphia Phillies
-E.Moore (5.0), 1909`Philadelphia Phillies
-G.McQuillan (9.2), 1908`Philadelphia Phillies
-S.Magee (6.9), 1907`Philadelphia Phillies
-T.Sparks (6.4), 1906`Philadelphia Phillies
-J.Titus (5.4), 1905`Philadelphia Phillies
-R.Thomas (4.6), 1904`Philadelphia Phillies
-R.Thomas (5.5), 1903`Philadelphia Phillies
-D.White (7.0), 1902`Philadelphia Phillies
-A.Orth (7.4), 1901`Philadelphia Phillies
-E.Flick (5.9), 1900`Philadelphia Phillies
-E.Delahanty (8.0), 1899`Philadelphia Phillies
-E.Delahanty (6.1), 1898`Philadelphia Phillies
-E.Delahanty (5.7), 1897`Philadelphia Phillies
-E.Delahanty (7.3), 1896`Philadelphia Phillies
-E.Delahanty (6.9), 1895`Philadelphia Phillies
-B.Hamilton (8.2), 1894`Philadelphia Phillies
-E.Delahanty (6.9), 1893`Philadelphia Phillies
-G.Weyhing (7.2), 1892`Philadelphia Phillies
-K.Gleason (6.6), 1891`Philadelphia Phillies
-K.Gleason (11.6), 1890`Philadelphia Phillies
-C.Buffinton (11.1), 1889`Philadelphia Quakers
-C.Buffinton (12.0), 1888`Philadelphia Quakers
-C.Ferguson (10.4), 1887`Philadelphia Quakers
-C.Ferguson (11.8), 1886`Philadelphia Quakers
-C.Ferguson (8.0), 1885`Philadelphia Quakers
-J.Manning (2.0), 1884`Philadelphia Quakers
-E.Gross (1.6), 1883`Philadelphia Quakers
 S.Marte (4.9), 2016`Pittsburgh Pirates
-S.Marte (5.4), 2015`Pittsburgh Pirates
-A.McCutchen (6.3), 2014`Pittsburgh Pirates
-A.McCutchen (8.1), 2013`Pittsburgh Pirates
-A.McCutchen (7.0), 2012`Pittsburgh Pirates
-A.McCutchen (5.7), 2011`Pittsburgh Pirates
-A.McCutchen (3.8), 2010`Pittsburgh Pirates
-J.Wilson (3.2), 2009`Pittsburgh Pirates
-P.Maholm (3.9), 2008`Pittsburgh Pirates
-J.Wilson (3.6), 2007`Pittsburgh Pirates
-F.Sanchez (4.4), 2006`Pittsburgh Pirates
-J.Bay (5.7), 2005`Pittsburgh Pirates
-O.Perez (6.0), 2004`Pittsburgh Pirates
-K.Wells (5.1), 2003`Pittsburgh Pirates
-B.Giles (5.3), 2002`Pittsburgh Pirates
-B.Giles (5.3), 2001`Pittsburgh Pirates
-B.Giles (6.4), 2000`Pittsburgh Pirates
-B.Giles (6.6), 1999`Pittsburgh Pirates
-J.Kendall (5.6), 1998`Pittsburgh Pirates
-F.Cordova (4.3), 1997`Pittsburgh Pirates
-D.Neagle (6.0), 1996`Pittsburgh Pirates
-D.Neagle (4.6), 1995`Pittsburgh Pirates
-J.Bell (3.4), 1994`Pittsburgh Pirates
-J.Bell (6.2), 1993`Pittsburgh Pirates
-B.Bonds (9.0), 1992`Pittsburgh Pirates
-B.Bonds (7.9), 1991`Pittsburgh Pirates
-B.Bonds (9.7), 1990`Pittsburgh Pirates
-B.Bonds (8.0), 1989`Pittsburgh Pirates
-A.Van Slyke (6.4), 1988`Pittsburgh Pirates
-B.Bonds (5.8), 1987`Pittsburgh Pirates
-R.Rhoden (7.7), 1986`Pittsburgh Pirates
-R.Reuschel (6.4), 1985`Pittsburgh Pirates
-R.Rhoden (6.5), 1984`Pittsburgh Pirates
-J.Ray (5.1), 1983`Pittsburgh Pirates
-B.Madlock (6.2), 1982`Pittsburgh Pirates
-B.Madlock (3.5), 1981`Pittsburgh Pirates
-M.Easler (4.1), 1980`Pittsburgh Pirates
-D.Parker (6.7), 1979`Pittsburgh Pirates
-D.Parker (7.0), 1978`Pittsburgh Pirates
-J.Candelaria (7.9), 1977`Pittsburgh Pirates
-A.Oliver (4.1), 1976`Pittsburgh Pirates
-D.Parker (6.3), 1975`Pittsburgh Pirates
-J.Rooker (6.0), 1974`Pittsburgh Pirates
-W.Stargell (7.2), 1973`Pittsburgh Pirates
-R.Hebner (5.3), 1972`Pittsburgh Pirates
-W.Stargell (7.9), 1971`Pittsburgh Pirates
-R.Clemente (5.5), 1970`Pittsburgh Pirates
-R.Clemente (7.5), 1969`Pittsburgh Pirates
-R.Clemente (8.1), 1968`Pittsburgh Pirates
-R.Clemente (8.9), 1967`Pittsburgh Pirates
-R.Clemente (8.2), 1966`Pittsburgh Pirates
-R.Clemente (7.1), 1965`Pittsburgh Pirates
-R.Clemente (7.2), 1964`Pittsburgh Pirates
-R.Clemente (5.3), 1963`Pittsburgh Pirates
-B.Friend (5.5), 1962`Pittsburgh Pirates
-R.Clemente (6.4), 1961`Pittsburgh Pirates
-D.Groat (6.2), 1960`Pittsburgh Pirates
-V.Law (6.7), 1959`Pittsburgh Pirates
-B.Mazeroski (4.9), 1958`Pittsburgh Pirates
-D.Groat (4.3), 1957`Pittsburgh Pirates
-B.Friend (5.3), 1956`Pittsburgh Pirates
-B.Friend (5.9), 1955`Pittsburgh Pirates
-F.Thomas (3.7), 1954`Pittsburgh Pirates
-J.Lindell (2.9), 1953`Pittsburgh Pirates
-M.Dickson (5.3), 1952`Pittsburgh Pirates
-R.Kiner (8.1), 1951`Pittsburgh Pirates
-R.Kiner (5.6), 1950`Pittsburgh Pirates
-R.Kiner (8.1), 1949`Pittsburgh Pirates
-R.Kiner (6.1), 1948`Pittsburgh Pirates
-R.Kiner (8.3), 1947`Pittsburgh Pirates
-F.Ostermueller (6.6), 1946`Pittsburgh Pirates
-P.Roe (6.7), 1945`Pittsburgh Pirates
-R.Sewell (6.3), 1944`Pittsburgh Pirates
-R.Sewell (5.8), 1943`Pittsburgh Pirates
-E.Fletcher (4.9), 1942`Pittsburgh Pirates
-E.Fletcher (5.8), 1941`Pittsburgh Pirates
-A.Vaughan (6.3), 1940`Pittsburgh Pirates
-A.Vaughan (5.2), 1939`Pittsburgh Pirates
-A.Vaughan (8.6), 1938`Pittsburgh Pirates
-A.Vaughan (5.1), 1937`Pittsburgh Pirates
-A.Vaughan (7.6), 1936`Pittsburgh Pirates
-A.Vaughan (9.2), 1935`Pittsburgh Pirates
-A.Vaughan (6.6), 1934`Pittsburgh Pirates
-A.Vaughan (7.0), 1933`Pittsburgh Pirates
-P.Waner (5.5), 1932`Pittsburgh Pirates
-P.Waner (5.0), 1931`Pittsburgh Pirates
-P.Waner (4.2), 1930`Pittsburgh Pirates
-B.Grimes (5.9), 1929`Pittsburgh Pirates
-P.Waner (6.8), 1928`Pittsburgh Pirates
-P.Waner (6.9), 1927`Pittsburgh Pirates
-R.Kremer (6.3), 1926`Pittsburgh Pirates
-K.Cuyler (6.6), 1925`Pittsburgh Pirates
-G.Wright (5.7), 1924`Pittsburgh Pirates
-M.Carey (4.9), 1923`Pittsburgh Pirates
-W.Cooper (7.4), 1922`Pittsburgh Pirates
-W.Cooper (5.0), 1921`Pittsburgh Pirates
-W.Cooper (6.0), 1920`Pittsburgh Pirates
-B.Adams (7.3), 1919`Pittsburgh Pirates
-W.Cooper (4.8), 1918`Pittsburgh Pirates
-W.Cooper (7.3), 1917`Pittsburgh Pirates
-W.Cooper (6.0), 1916`Pittsburgh Pirates
-A.Mamaux (5.7), 1915`Pittsburgh Pirates
-B.Adams (4.0), 1914`Pittsburgh Pirates
-B.Adams (8.8), 1913`Pittsburgh Pirates
-H.Wagner (8.1), 1912`Pittsburgh Pirates
-B.Adams (6.8), 1911`Pittsburgh Pirates
-H.Wagner (5.2), 1910`Pittsburgh Pirates
-H.Wagner (9.2), 1909`Pittsburgh Pirates
-H.Wagner (11.5), 1908`Pittsburgh Pirates
-H.Wagner (8.9), 1907`Pittsburgh Pirates
-H.Wagner (9.3), 1906`Pittsburgh Pirates
-H.Wagner (10.1), 1905`Pittsburgh Pirates
-H.Wagner (8.3), 1904`Pittsburgh Pirates
-H.Wagner (7.6), 1903`Pittsburgh Pirates
-H.Wagner (7.3), 1902`Pittsburgh Pirates
-H.Wagner (7.1), 1901`Pittsburgh Pirates
-H.Wagner (6.4), 1900`Pittsburgh Pirates
-J.Tannehill (8.4), 1899`Pittsburgh Pirates
-J.Tannehill (7.7), 1898`Pittsburgh Pirates
-M.Smith (3.1), 1897`Pittsburgh Pirates
-F.Killen (8.3), 1896`Pittsburgh Pirates
-P.Hawley (10.9), 1895`Pittsburgh Pirates
-J.Stenzel (4.6), 1894`Pittsburgh Pirates
-F.Killen (8.5), 1893`Pittsburgh Pirates
-A.Terry (5.1), 1892`Pittsburgh Pirates
-J.Beckley (4.1), 1891`Pittsburgh Pirates
-D.Miller (3.0), 1890`Pittsburgh Alleghenys
-F.Carroll (4.7), 1889`Pittsburgh Alleghenys
-P.Galvin (5.7), 1888`Pittsburgh Alleghenys
-P.Galvin (6.4), 1887`Pittsburgh Alleghenys
-E.Morris (10.4), 1886`Pittsburgh Alleghenys
-E.Morris (12.9), 1885`Pittsburgh Alleghenys
-E.Swartwood (1.1), 1884`Pittsburgh Alleghenys
-E.Swartwood (3.8), 1883`Pittsburgh Alleghenys
-D.Driscoll (4.9), 1882`Pittsburgh Alleghenys
 D.Pomeranz (3.4), 2016`San Diego Padres
-J.Upton (4.4), 2015`San Diego Padres
-S.Smith (4.0), 2014`San Diego Padres
-C.Denorfia (4.3), 2013`San Diego Padres
-C.Headley (6.3), 2012`San Diego Padres
-C.Maybin (4.5), 2011`San Diego Padres
-A.Gonzalez (4.3), 2010`San Diego Padres
-A.Gonzalez (6.9), 2009`San Diego Padres
-B.Giles (4.8), 2008`San Diego Padres
-J.Peavy (6.9), 2007`San Diego Padres
-M.Cameron (4.3), 2006`San Diego Padres
-J.Peavy (4.9), 2005`San Diego Padres
-M.Loretta (6.0), 2004`San Diego Padres
-M.Loretta (4.9), 2003`San Diego Padres
-R.Klesko (4.2), 2002`San Diego Padres
-P.Nevin (5.8), 2001`San Diego Padres
-P.Nevin (4.1), 2000`San Diego Padres
-R.Sanders (4.1), 1999`San Diego Padres
-K.Brown (9.1), 1998`San Diego Padres
-T.Gwynn (4.3), 1997`San Diego Padres
-K.Caminiti (7.6), 1996`San Diego Padres
-A.Ashby (5.0), 1995`San Diego Padres
-T.Gwynn (4.2), 1994`San Diego Padres
-G.Harris (4.8), 1993`San Diego Padres
-G.Sheffield (6.2), 1992`San Diego Padres
-T.Gwynn (5.6), 1991`San Diego Padres
-E.Whitson (7.1), 1990`San Diego Padres
-E.Whitson (6.7), 1989`San Diego Padres
-R.Alomar (4.3), 1988`San Diego Padres
-T.Gwynn (8.5), 1987`San Diego Padres
-T.Gwynn (6.6), 1986`San Diego Padres
-T.Gwynn (5.2), 1985`San Diego Padres
-T.Gwynn (6.3), 1984`San Diego Padres
-T.Kennedy (4.4), 1983`San Diego Padres
-S.Lezcano (5.9), 1982`San Diego Padres
-G.Richards (2.7), 1981`San Diego Padres
-O.Smith (5.0), 1980`San Diego Padres
-D.Winfield (8.3), 1979`San Diego Padres
-G.Tenace (5.2), 1978`San Diego Padres
-G.Hendrick (5.8), 1977`San Diego Padres
-D.Winfield (5.1), 1976`San Diego Padres
-R.Jones (7.6), 1975`San Diego Padres
-D.Freisleben (3.6), 1974`San Diego Padres
-D.Roberts (3.2), 1973`San Diego Padres
-N.Colbert (5.4), 1972`San Diego Padres
-D.Roberts (7.7), 1971`San Diego Padres
-C.Gaston (5.1), 1970`San Diego Padres
-O.Brown (2.6), 1969`San Diego Padres
 M.Bumgarner (5.9), 2016`San Francisco Giants
-B.Posey (6.1), 2015`San Francisco Giants
-M.Bumgarner (5.3), 2014`San Francisco Giants
-B.Posey (4.9), 2013`San Francisco Giants
-B.Posey (7.3), 2012`San Francisco Giants
-P.Sandoval (6.1), 2011`San Francisco Giants
-A.Huff (5.7), 2010`San Francisco Giants
-T.Lincecum (7.6), 2009`San Francisco Giants
-T.Lincecum (8.1), 2008`San Francisco Giants
-M.Cain (4.3), 2007`San Francisco Giants
-J.Schmidt (4.0), 2006`San Francisco Giants
-N.Lowry (4.8), 2005`San Francisco Giants
-B.Bonds (10.6), 2004`San Francisco Giants
-B.Bonds (9.2), 2003`San Francisco Giants
-B.Bonds (11.8), 2002`San Francisco Giants
-B.Bonds (11.9), 2001`San Francisco Giants
-B.Bonds (7.7), 2000`San Francisco Giants
-B.Bonds (3.8), 1999`San Francisco Giants
-B.Bonds (8.1), 1998`San Francisco Giants
-B.Bonds (8.1), 1997`San Francisco Giants
-B.Bonds (9.6), 1996`San Francisco Giants
-B.Bonds (7.5), 1995`San Francisco Giants
-B.Bonds (6.2), 1994`San Francisco Giants
-B.Bonds (9.9), 1993`San Francisco Giants
-B.Swift (4.6), 1992`San Francisco Giants
-M.Williams (5.4), 1991`San Francisco Giants
-M.Williams (4.9), 1990`San Francisco Giants
-W.Clark (8.6), 1989`San Francisco Giants
-B.Butler (6.8), 1988`San Francisco Giants
-W.Clark (4.2), 1987`San Francisco Giants
-C.Davis (4.1), 1986`San Francisco Giants
-M.Krukow (3.5), 1985`San Francisco Giants
-C.Davis (5.1), 1984`San Francisco Giants
-A.Hammaker (4.4), 1983`San Francisco Giants
-G.Minton (5.5), 1982`San Francisco Giants
-D.Alexander (3.5), 1981`San Francisco Giants
-J.Clark (4.7), 1980`San Francisco Giants
-J.Clark (3.5), 1979`San Francisco Giants
-V.Blue (6.2), 1978`San Francisco Giants
-E.Halicki (5.7), 1977`San Francisco Giants
-J.Montefusco (6.4), 1976`San Francisco Giants
-J.Montefusco (6.4), 1975`San Francisco Giants
-J.Barr (6.9), 1974`San Francisco Giants
-B.Bonds (7.8), 1973`San Francisco Giants
-C.Speier (6.0), 1972`San Francisco Giants
-B.Bonds (6.7), 1971`San Francisco Giants
-G.Perry (7.1), 1970`San Francisco Giants
-W.McCovey (8.1), 1969`San Francisco Giants
-W.McCovey (7.0), 1968`San Francisco Giants
-J.Hart (5.8), 1967`San Francisco Giants
-J.Marichal (9.8), 1966`San Francisco Giants
-W.Mays (11.2), 1965`San Francisco Giants
-W.Mays (11.0), 1964`San Francisco Giants
-W.Mays (10.6), 1963`San Francisco Giants
-W.Mays (10.5), 1962`San Francisco Giants
-W.Mays (8.7), 1961`San Francisco Giants
-W.Mays (9.5), 1960`San Francisco Giants
-W.Mays (7.8), 1959`San Francisco Giants
-W.Mays (10.2), 1958`San Francisco Giants
-W.Mays (8.3), 1957`New York Giants
-W.Mays (7.6), 1956`New York Giants
-W.Mays (9.0), 1955`New York Giants
-W.Mays (10.6), 1954`New York Giants
-A.Dark (4.7), 1953`New York Giants
-A.Dark (5.8), 1952`New York Giants
-M.Irvin (6.9), 1951`New York Giants
-E.Stanky (8.0), 1950`New York Giants
-B.Thomson (6.2), 1949`New York Giants
-J.Mize (6.6), 1948`New York Giants
-J.Mize (7.1), 1947`New York Giants
-J.Mize (6.3), 1946`New York Giants
-M.Ott (4.5), 1945`New York Giants
-M.Ott (5.2), 1944`New York Giants
-M.Witek (2.8), 1943`New York Giants
-M.Ott (6.3), 1942`New York Giants
-M.Ott (4.6), 1941`New York Giants
-M.Ott (5.2), 1940`New York Giants
-M.Ott (5.7), 1939`New York Giants
-M.Ott (8.9), 1938`New York Giants
-D.Bartell (6.6), 1937`New York Giants
-C.Hubbell (9.9), 1936`New York Giants
-M.Ott (7.1), 1935`New York Giants
-M.Ott (7.3), 1934`New York Giants
-C.Hubbell (8.9), 1933`New York Giants
-M.Ott (7.9), 1932`New York Giants
-B.Terry (6.1), 1931`New York Giants
-B.Terry (7.6), 1930`New York Giants
-M.Ott (7.4), 1929`New York Giants
-F.Lindstrom (6.3), 1928`New York Giants
-R.Hornsby (10.1), 1927`New York Giants
-F.Frisch (4.6), 1926`New York Giants
-J.Scott (5.9), 1925`New York Giants
-F.Frisch (7.4), 1924`New York Giants
-F.Frisch (7.1), 1923`New York Giants
-D.Bancroft (6.0), 1922`New York Giants
-D.Bancroft (7.4), 1921`New York Giants
-R.Youngs (6.4), 1920`New York Giants
-A.Fletcher (5.3), 1919`New York Giants
-A.Fletcher (4.6), 1918`New York Giants
-A.Fletcher (7.4), 1917`New York Giants
-A.Fletcher (6.3), 1916`New York Giants
-J.Tesreau (5.7), 1915`New York Giants
-G.Burns (6.4), 1914`New York Giants
-C.Mathewson (6.9), 1913`New York Giants
-C.Mathewson (7.8), 1912`New York Giants
-C.Mathewson (7.3), 1911`New York Giants
-C.Mathewson (8.1), 1910`New York Giants
-C.Mathewson (10.1), 1909`New York Giants
-C.Mathewson (11.2), 1908`New York Giants
-C.Mathewson (7.8), 1907`New York Giants
-A.Devlin (8.0), 1906`New York Giants
-C.Mathewson (10.1), 1905`New York Giants
-J.McGinnity (9.5), 1904`New York Giants
-J.McGinnity (11.3), 1903`New York Giants
-C.Mathewson (4.4), 1902`New York Giants
-C.Mathewson (9.0), 1901`New York Giants
-K.Selbach (5.1), 1900`New York Giants
-C.Seymour (5.6), 1899`New York Giants
-B.Joyce (4.3), 1898`New York Giants
-A.Rusie (8.8), 1897`New York Giants
-J.Meekin (5.6), 1896`New York Giants
-A.Rusie (6.2), 1895`New York Giants
-A.Rusie (14.2), 1894`New York Giants
-A.Rusie (11.8), 1893`New York Giants
-A.Rusie (7.8), 1892`New York Giants
-A.Rusie (8.9), 1891`New York Giants
-A.Rusie (9.1), 1890`New York Giants
-M.Welch (6.2), 1889`New York Giants
-T.Keefe (9.1), 1888`New York Giants
-T.Keefe (7.5), 1887`New York Giants
-T.Keefe (9.5), 1886`New York Giants
-M.Welch (10.7), 1885`New York Giants
-M.Welch (12.3), 1884`New York Gothams
-J.Ward (5.0), 1883`New York Gothams
 R.Cano (7.3), 2016`Seattle Mariners
-N.Cruz (5.2), 2015`Seattle Mariners
-F.Hernandez (6.7), 2014`Seattle Mariners
-H.Iwakuma (6.9), 2013`Seattle Mariners
-F.Hernandez (4.8), 2012`Seattle Mariners
-B.Ryan (4.0), 2011`Seattle Mariners
-F.Hernandez (7.1), 2010`Seattle Mariners
-F.Gutierrez (6.6), 2009`Seattle Mariners
-A.Beltre (5.6), 2008`Seattle Mariners
-I.Suzuki (5.8), 2007`Seattle Mariners
-A.Beltre (5.4), 2006`Seattle Mariners
-I.Suzuki (3.9), 2005`Seattle Mariners
-I.Suzuki (9.1), 2004`Seattle Mariners
-B.Boone (5.9), 2003`Seattle Mariners
-J.Moyer (5.7), 2002`Seattle Mariners
-B.Boone (8.8), 2001`Seattle Mariners
-A.Rodriguez (10.4), 2000`Seattle Mariners
-J.Moyer (6.7), 1999`Seattle Mariners
-A.Rodriguez (8.5), 1998`Seattle Mariners
-K.Griffey (9.1), 1997`Seattle Mariners
-K.Griffey (9.7), 1996`Seattle Mariners
-R.Johnson (8.7), 1995`Seattle Mariners
-K.Griffey (6.9), 1994`Seattle Mariners
-K.Griffey (8.7), 1993`Seattle Mariners
-E.Martinez (6.5), 1992`Seattle Mariners
-K.Griffey (7.1), 1991`Seattle Mariners
-E.Martinez (5.5), 1990`Seattle Mariners
-S.Bankhead (4.6), 1989`Seattle Mariners
-M.Langston (5.7), 1988`Seattle Mariners
-M.Langston (5.9), 1987`Seattle Mariners
-M.Moore (4.7), 1986`Seattle Mariners
-M.Moore (6.3), 1985`Seattle Mariners
-A.Davis (5.9), 1984`Seattle Mariners
-M.Young (5.1), 1983`Seattle Mariners
-F.Bannister (4.9), 1982`Seattle Mariners
-T.Paciorek (4.3), 1981`Seattle Mariners
-F.Bannister (4.3), 1980`Seattle Mariners
-M.Parrott (5.1), 1979`Seattle Mariners
-L.Roberts (4.3), 1978`Seattle Mariners
-R.Jones (4.1), 1977`Seattle Mariners
 C.Martinez (5.9), 2016`St. Louis Cardinals
-J.Heyward (6.5), 2015`St. Louis Cardinals
-A.Wainwright (6.4), 2014`St. Louis Cardinals
-A.Wainwright (6.4), 2013`St. Louis Cardinals
-Y.Molina (6.9), 2012`St. Louis Cardinals
-A.Pujols (5.3), 2011`St. Louis Cardinals
-A.Pujols (7.5), 2010`St. Louis Cardinals
-A.Pujols (9.7), 2009`St. Louis Cardinals
-A.Pujols (9.2), 2008`St. Louis Cardinals
-A.Pujols (8.7), 2007`St. Louis Cardinals
-A.Pujols (8.4), 2006`St. Louis Cardinals
-A.Pujols (8.4), 2005`St. Louis Cardinals
-S.Rolen (9.1), 2004`St. Louis Cardinals
-A.Pujols (8.6), 2003`St. Louis Cardinals
-J.Edmonds (6.7), 2002`St. Louis Cardinals
-A.Pujols (6.6), 2001`St. Louis Cardinals
-J.Edmonds (6.3), 2000`St. Louis Cardinals
-M.McGwire (5.2), 1999`St. Louis Cardinals
-M.McGwire (7.5), 1998`St. Louis Cardinals
-R.Lankford (5.2), 1997`St. Louis Cardinals
-B.Jordan (5.4), 1996`St. Louis Cardinals
-B.Jordan (5.1), 1995`St. Louis Cardinals
-M.Whiten (3.1), 1994`St. Louis Cardinals
-G.Jefferies (5.1), 1993`St. Louis Cardinals
-B.Tewksbury (6.3), 1992`St. Louis Cardinals
-O.Smith (5.0), 1991`St. Louis Cardinals
-W.McGee (4.4), 1990`St. Louis Cardinals
-O.Smith (7.3), 1989`St. Louis Cardinals
-O.Smith (6.6), 1988`St. Louis Cardinals
-O.Smith (6.4), 1987`St. Louis Cardinals
-O.Smith (5.6), 1986`St. Louis Cardinals
-J.Tudor (8.3), 1985`St. Louis Cardinals
-O.Smith (5.0), 1984`St. Louis Cardinals
-D.Porter (3.9), 1983`St. Louis Cardinals
-L.Smith (6.1), 1982`St. Louis Cardinals
-K.Hernandez (4.2), 1981`St. Louis Cardinals
-K.Hernandez (6.6), 1980`St. Louis Cardinals
-K.Hernandez (7.6), 1979`St. Louis Cardinals
-J.Denny (5.6), 1978`St. Louis Cardinals
-T.Simmons (5.2), 1977`St. Louis Cardinals
-J.Denny (5.2), 1976`St. Louis Cardinals
-B.Forsch (6.8), 1975`St. Louis Cardinals
-R.Smith (5.5), 1974`St. Louis Cardinals
-T.Simmons (5.5), 1973`St. Louis Cardinals
-B.Gibson (7.7), 1972`St. Louis Cardinals
-J.Torre (5.9), 1971`St. Louis Cardinals
-B.Gibson (10.1), 1970`St. Louis Cardinals
-B.Gibson (11.3), 1969`St. Louis Cardinals
-B.Gibson (11.9), 1968`St. Louis Cardinals
-O.Cepeda (6.8), 1967`St. Louis Cardinals
-B.Gibson (6.5), 1966`St. Louis Cardinals
-B.Gibson (7.6), 1965`St. Louis Cardinals
-K.Boyer (6.1), 1964`St. Louis Cardinals
-D.Groat (7.1), 1963`St. Louis Cardinals
-B.Gibson (6.4), 1962`St. Louis Cardinals
-K.Boyer (7.9), 1961`St. Louis Cardinals
-E.Broglio (7.7), 1960`St. Louis Cardinals
-K.Boyer (7.4), 1959`St. Louis Cardinals
-K.Boyer (6.0), 1958`St. Louis Cardinals
-S.Musial (6.1), 1957`St. Louis Cardinals
-K.Boyer (6.4), 1956`St. Louis Cardinals
-S.Musial (6.1), 1955`St. Louis Cardinals
-S.Musial (6.9), 1954`St. Louis Cardinals
-S.Musial (7.7), 1953`St. Louis Cardinals
-S.Musial (8.0), 1952`St. Louis Cardinals
-S.Musial (9.1), 1951`St. Louis Cardinals
-S.Musial (7.3), 1950`St. Louis Cardinals
-S.Musial (9.3), 1949`St. Louis Cardinals
-S.Musial (11.1), 1948`St. Louis Cardinals
-W.Kurowski (5.9), 1947`St. Louis Cardinals
-S.Musial (8.6), 1946`St. Louis Cardinals
-W.Kurowski (4.8), 1945`St. Louis Cardinals
-S.Musial (8.8), 1944`St. Louis Cardinals
-S.Musial (9.4), 1943`St. Louis Cardinals
-M.Cooper (8.4), 1942`St. Louis Cardinals
-E.White (5.5), 1941`St. Louis Cardinals
-J.Mize (7.4), 1940`St. Louis Cardinals
-J.Mize (7.9), 1939`St. Louis Cardinals
-J.Mize (6.8), 1938`St. Louis Cardinals
-J.Medwick (8.5), 1937`St. Louis Cardinals
-D.Dean (7.2), 1936`St. Louis Cardinals
-D.Dean (7.1), 1935`St. Louis Cardinals
-D.Dean (9.1), 1934`St. Louis Cardinals
-D.Dean (5.7), 1933`St. Louis Cardinals
-D.Dean (6.6), 1932`St. Louis Cardinals
-C.Hafey (4.2), 1931`St. Louis Cardinals
-F.Frisch (4.7), 1930`St. Louis Cardinals
-C.Hafey (4.3), 1929`St. Louis Cardinals
-B.Sherdel (5.9), 1928`St. Louis Cardinals
-F.Frisch (9.2), 1927`St. Louis Cardinals
-L.Bell (4.4), 1926`St. Louis Cardinals
-R.Hornsby (10.2), 1925`St. Louis Cardinals
-R.Hornsby (12.1), 1924`St. Louis Cardinals
-R.Hornsby (6.7), 1923`St. Louis Cardinals
-R.Hornsby (10.0), 1922`St. Louis Cardinals
-R.Hornsby (10.8), 1921`St. Louis Cardinals
-R.Hornsby (9.6), 1920`St. Louis Cardinals
-R.Hornsby (6.7), 1919`St. Louis Cardinals
-R.Hornsby (5.4), 1918`St. Louis Cardinals
-R.Hornsby (9.9), 1917`St. Louis Cardinals
-R.Hornsby (4.9), 1916`St. Louis Cardinals
-F.Snyder (4.2), 1915`St. Louis Cardinals
-S.Sallee (5.6), 1914`St. Louis Cardinals
-S.Sallee (6.2), 1913`St. Louis Cardinals
-S.Sallee (5.5), 1912`St. Louis Cardinals
-E.Konetchy (5.1), 1911`St. Louis Cardinals
-E.Konetchy (5.1), 1910`St. Louis Cardinals
-E.Konetchy (4.8), 1909`St. Louis Cardinals
-B.Raymond (5.3), 1908`St. Louis Cardinals
-E.Karger (6.9), 1907`St. Louis Cardinals
-J.Taylor (3.7), 1906`St. Louis Cardinals
-H.Smoot (3.3), 1905`St. Louis Cardinals
-K.Nichols (7.5), 1904`St. Louis Cardinals
-M.Brown (2.7), 1903`St. Louis Cardinals
-M.O'Neill (4.0), 1902`St. Louis Cardinals
-B.Wallace (7.7), 1901`St. Louis Cardinals
-C.Young (7.3), 1900`St. Louis Cardinals
-C.Young (8.4), 1899`St. Louis Perfectos
-L.Cross (4.5), 1898`St. Louis Browns
-M.Cross (3.5), 1897`St. Louis Browns
-T.Breitenstein (4.5), 1896`St. Louis Browns
-T.Breitenstein (7.3), 1895`St. Louis Browns
-T.Breitenstein (9.6), 1894`St. Louis Browns
-T.Breitenstein (10.8), 1893`St. Louis Browns
-K.Gleason (6.0), 1892`St. Louis Browns
-J.Stivetts (9.4), 1891`St. Louis Browns
-J.Stivetts (7.8), 1890`St. Louis Browns
-I.Chamberlain (9.4), 1889`St. Louis Browns
-S.King (15.8), 1888`St. Louis Browns
-B.Caruthers (11.0), 1887`St. Louis Browns
-B.Caruthers (11.9), 1886`St. Louis Browns
-B.Caruthers (10.0), 1885`St. Louis Browns
-A.Latham (4.3), 1884`St. Louis Browns
-T.Mullane (6.5), 1883`St. Louis Browns
-J.McGinnis (2.3), 1882`St. Louis Brown Stockings
 K.Kiermaier (5.5), 2016`Tampa Bay Rays
-K.Kiermaier (7.3), 2015`Tampa Bay Rays
-B.Zobrist (4.9), 2014`Tampa Bay Rays
-E.Longoria (6.2), 2013`Tampa Bay Rays
-D.Price (6.9), 2012`Tampa Bay Rays
-B.Zobrist (8.7), 2011`Tampa Bay Rays
-E.Longoria (8.1), 2010`Tampa Bay Rays
-B.Zobrist (8.6), 2009`Tampa Bay Rays
-C.Pena (5.1), 2008`Tampa Bay Rays
-C.Pena (7.2), 2007`Tampa Bay Devil Rays
-C.Crawford (4.5), 2006`Tampa Bay Devil Rays
-C.Crawford (4.4), 2005`Tampa Bay Devil Rays
-C.Crawford (4.9), 2004`Tampa Bay Devil Rays
-A.Huff (4.0), 2003`Tampa Bay Devil Rays
-R.Winn (4.9), 2002`Tampa Bay Devil Rays
-T.Sturtze (3.3), 2001`Tampa Bay Devil Rays
-A.Lopez (3.2), 2000`Tampa Bay Devil Rays
-F.McGriff (4.0), 1999`Tampa Bay Devil Rays
-R.Arrojo (4.1), 1998`Tampa Bay Devil Rays
 A.Beltre (6.4), 2016`Texas Rangers
-A.Beltre (5.8), 2015`Texas Rangers
-A.Beltre (7.0), 2014`Texas Rangers
-Y.Darvish (5.7), 2013`Texas Rangers
-A.Beltre (7.2), 2012`Texas Rangers
-I.Kinsler (7.1), 2011`Texas Rangers
-J.Hamilton (8.7), 2010`Texas Rangers
-I.Kinsler (6.0), 2009`Texas Rangers
-J.Hamilton (5.4), 2008`Texas Rangers
-I.Kinsler (4.1), 2007`Texas Rangers
-G.Matthews (5.2), 2006`Texas Rangers
-M.Teixeira (7.2), 2005`Texas Rangers
-R.Drese (5.2), 2004`Texas Rangers
-A.Rodriguez (8.4), 2003`Texas Rangers
-A.Rodriguez (8.8), 2002`Texas Rangers
-A.Rodriguez (8.3), 2001`Texas Rangers
-K.Rogers (5.1), 2000`Texas Rangers
-I.Rodriguez (6.4), 1999`Texas Rangers
-I.Rodriguez (6.4), 1998`Texas Rangers
-I.Rodriguez (6.5), 1997`Texas Rangers
-K.Hill (6.6), 1996`Texas Rangers
-K.Rogers (5.8), 1995`Texas Rangers
-W.Clark (3.6), 1994`Texas Rangers
-R.Palmeiro (6.9), 1993`Texas Rangers
-K.Brown (4.8), 1992`Texas Rangers
-J.Franco (6.2), 1991`Texas Rangers
-J.Franco (6.8), 1990`Texas Rangers
-R.Sierra (5.9), 1989`Texas Rangers
-S.Buechele (4.2), 1988`Texas Rangers
-P.O'Brien (3.3), 1987`Texas Rangers
-S.Fletcher (4.7), 1986`Texas Rangers
-C.Hough (6.3), 1985`Texas Rangers
-B.Bell (6.1), 1984`Texas Rangers
-B.Bell (4.7), 1983`Texas Rangers
-B.Bell (5.7), 1982`Texas Rangers
-B.Bell (6.2), 1981`Texas Rangers
-B.Bell (6.5), 1980`Texas Rangers
-B.Bell (6.9), 1979`Texas Rangers
-J.Matlack (6.4), 1978`Texas Rangers
-B.Blyleven (5.8), 1977`Texas Rangers
-G.Perry (5.8), 1976`Texas Rangers
-T.Harrah (7.1), 1975`Texas Rangers
-F.Jenkins (7.8), 1974`Texas Rangers
-J.Bibby (4.0), 1973`Texas Rangers
-M.Paul (3.6), 1972`Texas Rangers
-B.Gogolewski (2.9), 1971`Washington Senators
-A.Rodriguez (5.6), 1970`Washington Senators
-K.McMullen (5.9), 1969`Washington Senators
-K.McMullen (4.7), 1968`Washington Senators
-K.McMullen (4.6), 1967`Washington Senators
-F.Valentine (3.5), 1966`Washington Senators
-P.Richert (4.9), 1965`Washington Senators
-C.Osteen (3.8), 1964`Washington Senators
-C.Hinton (3.2), 1963`Washington Senators
-T.Cheney (3.3), 1962`Washington Senators
-D.Donovan (4.3), 1961`Washington Senators
 J.Donaldson (7.4), 2016`Toronto Blue Jays
-J.Donaldson (8.8), 2015`Toronto Blue Jays
-J.Bautista (6.1), 2014`Toronto Blue Jays
-C.Rasmus (4.8), 2013`Toronto Blue Jays
-E.Encarnacion (5.0), 2012`Toronto Blue Jays
-J.Bautista (8.1), 2011`Toronto Blue Jays
-J.Bautista (6.9), 2010`Toronto Blue Jays
-R.Halladay (6.9), 2009`Toronto Blue Jays
-R.Halladay (6.2), 2008`Toronto Blue Jays
-A.Rios (5.6), 2007`Toronto Blue Jays
-V.Wells (6.2), 2006`Toronto Blue Jays
-R.Halladay (5.5), 2005`Toronto Blue Jays
-O.Hudson (5.2), 2004`Toronto Blue Jays
-R.Halladay (8.1), 2003`Toronto Blue Jays
-R.Halladay (7.3), 2002`Toronto Blue Jays
-C.Delgado (4.5), 2001`Toronto Blue Jays
-C.Delgado (7.3), 2000`Toronto Blue Jays
-S.Green (6.4), 1999`Toronto Blue Jays
-R.Clemens (8.2), 1998`Toronto Blue Jays
-R.Clemens (12.1), 1997`Toronto Blue Jays
-P.Hentgen (8.5), 1996`Toronto Blue Jays
-A.Leiter (5.7), 1995`Toronto Blue Jays
-P.Hentgen (5.3), 1994`Toronto Blue Jays
-J.Olerud (7.7), 1993`Toronto Blue Jays
-R.Alomar (6.6), 1992`Toronto Blue Jays
-D.White (6.3), 1991`Toronto Blue Jays
-D.Stieb (5.9), 1990`Toronto Blue Jays
-F.McGriff (6.6), 1989`Toronto Blue Jays
-F.McGriff (6.2), 1988`Toronto Blue Jays
-J.Key (7.4), 1987`Toronto Blue Jays
-J.Barfield (7.6), 1986`Toronto Blue Jays
-D.Stieb (6.9), 1985`Toronto Blue Jays
-D.Stieb (7.9), 1984`Toronto Blue Jays
-D.Stieb (7.0), 1983`Toronto Blue Jays
-D.Stieb (7.7), 1982`Toronto Blue Jays
-D.Stieb (4.5), 1981`Toronto Blue Jays
-J.Clancy (5.6), 1980`Toronto Blue Jays
-T.Underwood (3.5), 1979`Toronto Blue Jays
-V.Cruz (2.8), 1978`Toronto Blue Jays
-J.Garvin (3.7), 1977`Toronto Blue Jays
 M.Scherzer (6.3), 2016`Washington Nationals
+P.Goldschmidt (8.8), 2015`Arizona Diamondbacks
+A.Simmons (4.0), 2015`Atlanta Braves
+M.Machado (7.1), 2015`Baltimore Orioles
+M.Betts (6.0), 2015`Boston Red Sox
+J.Arrieta (9.0), 2015`Chicago Cubs
+A.Eaton (3.9), 2015`Chicago White Sox
+J.Votto (7.6), 2015`Cincinnati Reds
+F.Lindor (4.6), 2015`Cleveland Indians
+N.Arenado (5.8), 2015`Colorado Rockies
+I.Kinsler (6.0), 2015`Detroit Tigers
+D.Keuchel (7.2), 2015`Houston Astros
+L.Cain (7.2), 2015`Kansas City Royals
+M.Trout (9.4), 2015`Los Angeles Angels of Anaheim
+Z.Greinke (9.9), 2015`Los Angeles Dodgers
+D.Gordon (4.9), 2015`Miami Marlins
+R.Braun (3.8), 2015`Milwaukee Brewers
+K.Gibson (3.2), 2015`Minnesota Twins
+C.Granderson (5.1), 2015`New York Mets
+M.Teixeira (3.8), 2015`New York Yankees
+S.Gray (5.8), 2015`Oakland Athletics
+O.Herrera (3.8), 2015`Philadelphia Phillies
+S.Marte (5.4), 2015`Pittsburgh Pirates
+J.Upton (4.4), 2015`San Diego Padres
+B.Posey (6.1), 2015`San Francisco Giants
+N.Cruz (5.2), 2015`Seattle Mariners
+J.Heyward (6.5), 2015`St. Louis Cardinals
+K.Kiermaier (7.3), 2015`Tampa Bay Rays
+A.Beltre (5.8), 2015`Texas Rangers
+J.Donaldson (8.8), 2015`Toronto Blue Jays
 B.Harper (9.9), 2015`Washington Nationals
+P.Goldschmidt (4.5), 2014`Arizona Diamondbacks
+J.Heyward (6.2), 2014`Atlanta Braves
+S.Pearce (5.9), 2014`Baltimore Orioles
+D.Pedroia (4.9), 2014`Boston Red Sox
+J.Arrieta (5.6), 2014`Chicago Cubs
+C.Sale (6.6), 2014`Chicago White Sox
+J.Cueto (6.4), 2014`Cincinnati Reds
+C.Kluber (7.4), 2014`Cleveland Indians
+T.Tulowitzki (5.5), 2014`Colorado Rockies
+M.Scherzer (6.0), 2014`Detroit Tigers
+J.Altuve (6.1), 2014`Houston Astros
+A.Gordon (6.6), 2014`Kansas City Royals
+M.Trout (7.9), 2014`Los Angeles Angels of Anaheim
+C.Kershaw (8.0), 2014`Los Angeles Dodgers
+G.Stanton (6.5), 2014`Miami Marlins
+J.Lucroy (6.7), 2014`Milwaukee Brewers
+B.Dozier (5.2), 2014`Minnesota Twins
+J.Lagares (5.5), 2014`New York Mets
+B.Gardner (4.0), 2014`New York Yankees
+J.Donaldson (7.3), 2014`Oakland Athletics
+C.Hamels (6.8), 2014`Philadelphia Phillies
+A.McCutchen (6.3), 2014`Pittsburgh Pirates
+S.Smith (4.0), 2014`San Diego Padres
+M.Bumgarner (5.3), 2014`San Francisco Giants
+F.Hernandez (6.7), 2014`Seattle Mariners
+A.Wainwright (6.4), 2014`St. Louis Cardinals
+B.Zobrist (4.9), 2014`Tampa Bay Rays
+A.Beltre (7.0), 2014`Texas Rangers
+J.Bautista (6.1), 2014`Toronto Blue Jays
 A.Rendon (6.6), 2014`Washington Nationals
+P.Goldschmidt (7.1), 2013`Arizona Diamondbacks
+A.Simmons (7.0), 2013`Atlanta Braves
+M.Machado (6.7), 2013`Baltimore Orioles
+D.Pedroia (6.3), 2013`Boston Red Sox
+T.Wood (5.2), 2013`Chicago Cubs
+C.Sale (7.0), 2013`Chicago White Sox
+J.Votto (6.6), 2013`Cincinnati Reds
+J.Kipnis (5.7), 2013`Cleveland Indians
+J.Chacin (6.1), 2013`Colorado Rockies
+M.Cabrera (7.3), 2013`Detroit Tigers
+J.Castro (4.5), 2013`Houston Astros
+A.Gordon (4.2), 2013`Kansas City Royals
+M.Trout (9.3), 2013`Los Angeles Angels of Anaheim
+C.Kershaw (8.4), 2013`Los Angeles Dodgers
+J.Fernandez (6.7), 2013`Miami Marlins
+C.Gomez (8.5), 2013`Milwaukee Brewers
+J.Mauer (5.3), 2013`Minnesota Twins
+D.Wright (5.9), 2013`New York Mets
+R.Cano (7.8), 2013`New York Yankees
+J.Donaldson (7.7), 2013`Oakland Athletics
+C.Lee (7.6), 2013`Philadelphia Phillies
+A.McCutchen (8.1), 2013`Pittsburgh Pirates
+C.Denorfia (4.3), 2013`San Diego Padres
+B.Posey (4.9), 2013`San Francisco Giants
+H.Iwakuma (6.9), 2013`Seattle Mariners
+A.Wainwright (6.4), 2013`St. Louis Cardinals
+E.Longoria (6.2), 2013`Tampa Bay Rays
+Y.Darvish (5.7), 2013`Texas Rangers
+C.Rasmus (4.8), 2013`Toronto Blue Jays
 J.Werth (4.7), 2013`Washington Nationals
+A.Hill (5.0), 2012`Arizona Diamondbacks
+M.Bourn (6.1), 2012`Atlanta Braves
+A.Jones (3.8), 2012`Baltimore Orioles
+D.Pedroia (5.1), 2012`Boston Red Sox
+D.Barney (4.6), 2012`Chicago Cubs
+C.Sale (5.9), 2012`Chicago White Sox
+J.Votto (5.9), 2012`Cincinnati Reds
+C.Santana (4.0), 2012`Cleveland Indians
+D.Fowler (2.8), 2012`Colorado Rockies
+J.Verlander (7.7), 2012`Detroit Tigers
+L.Harrell (3.0), 2012`Houston Astros
+A.Gordon (6.3), 2012`Kansas City Royals
+M.Trout (10.8), 2012`Los Angeles Angels of Anaheim
+C.Kershaw (6.6), 2012`Los Angeles Dodgers
+G.Stanton (5.5), 2012`Miami Marlins
+R.Braun (6.9), 2012`Milwaukee Brewers
+D.Span (5.0), 2012`Minnesota Twins
+D.Wright (7.0), 2012`New York Mets
+R.Cano (8.4), 2012`New York Yankees
+J.Reddick (5.0), 2012`Oakland Athletics
+C.Hamels (5.2), 2012`Philadelphia Phillies
+A.McCutchen (7.0), 2012`Pittsburgh Pirates
+C.Headley (6.3), 2012`San Diego Padres
+B.Posey (7.3), 2012`San Francisco Giants
+F.Hernandez (4.8), 2012`Seattle Mariners
+Y.Molina (6.9), 2012`St. Louis Cardinals
+D.Price (6.9), 2012`Tampa Bay Rays
+A.Beltre (7.2), 2012`Texas Rangers
+E.Encarnacion (5.0), 2012`Toronto Blue Jays
 J.Zimmermann (5.3), 2012`Washington Nationals
+J.Upton (6.1), 2011`Arizona Diamondbacks
+E.O'Flaherty (3.4), 2011`Atlanta Braves
+M.Wieters (4.9), 2011`Baltimore Orioles
+J.Ellsbury (8.1), 2011`Boston Red Sox
+S.Castro (3.0), 2011`Chicago Cubs
+M.Buehrle (3.8), 2011`Chicago White Sox
+J.Votto (6.3), 2011`Cincinnati Reds
+A.Cabrera (5.0), 2011`Cleveland Indians
+T.Tulowitzki (6.1), 2011`Colorado Rockies
+J.Verlander (8.4), 2011`Detroit Tigers
+C.Lee (4.0), 2011`Houston Astros
+A.Gordon (7.2), 2011`Kansas City Royals
+J.Weaver (7.0), 2011`Los Angeles Angels of Anaheim
+M.Kemp (8.2), 2011`Los Angeles Dodgers
+G.Stanton (4.1), 2011`Florida Marlins
+R.Braun (7.8), 2011`Milwaukee Brewers
+S.Baker (4.4), 2011`Minnesota Twins
+J.Reyes (4.7), 2011`New York Mets
+C.Sabathia (7.4), 2011`New York Yankees
+G.Gonzalez (4.4), 2011`Oakland Athletics
+C.Lee (9.2), 2011`Philadelphia Phillies
+A.McCutchen (5.7), 2011`Pittsburgh Pirates
+C.Maybin (4.5), 2011`San Diego Padres
+P.Sandoval (6.1), 2011`San Francisco Giants
+B.Ryan (4.0), 2011`Seattle Mariners
+A.Pujols (5.3), 2011`St. Louis Cardinals
+B.Zobrist (8.7), 2011`Tampa Bay Rays
+I.Kinsler (7.1), 2011`Texas Rangers
+J.Bautista (8.1), 2011`Toronto Blue Jays
 T.Clippard (3.4), 2011`Washington Nationals
+C.Young (5.4), 2010`Arizona Diamondbacks
+J.Heyward (6.4), 2010`Atlanta Braves
+J.Guthrie (4.7), 2010`Baltimore Orioles
+A.Beltre (7.8), 2010`Boston Red Sox
+M.Byrd (3.7), 2010`Chicago Cubs
+A.Ramirez (5.6), 2010`Chicago White Sox
+J.Votto (6.9), 2010`Cincinnati Reds
+S.Choo (5.9), 2010`Cleveland Indians
+U.Jimenez (7.4), 2010`Colorado Rockies
+M.Cabrera (6.4), 2010`Detroit Tigers
+M.Bourn (5.5), 2010`Houston Astros
+J.Soria (3.7), 2010`Kansas City Royals
+J.Weaver (5.5), 2010`Los Angeles Angels of Anaheim
+C.Kershaw (5.1), 2010`Los Angeles Dodgers
+J.Johnson (6.8), 2010`Florida Marlins
+R.Braun (5.7), 2010`Milwaukee Brewers
+J.Mauer (5.9), 2010`Minnesota Twins
+A.Pagan (5.3), 2010`New York Mets
+R.Cano (8.1), 2010`New York Yankees
+D.Barton (5.5), 2010`Oakland Athletics
+R.Halladay (8.1), 2010`Philadelphia Phillies
+A.McCutchen (3.8), 2010`Pittsburgh Pirates
+A.Gonzalez (4.3), 2010`San Diego Padres
+A.Huff (5.7), 2010`San Francisco Giants
+F.Hernandez (7.1), 2010`Seattle Mariners
+A.Pujols (7.5), 2010`St. Louis Cardinals
+E.Longoria (8.1), 2010`Tampa Bay Rays
+J.Hamilton (8.7), 2010`Texas Rangers
+J.Bautista (6.9), 2010`Toronto Blue Jays
 R.Zimmerman (6.2), 2010`Washington Nationals
+D.Haren (7.1), 2009`Arizona Diamondbacks
+J.Jurrjens (6.8), 2009`Atlanta Braves
+B.Bergesen (3.3), 2009`Baltimore Orioles
+K.Youkilis (6.6), 2009`Boston Red Sox
+D.Lee (5.4), 2009`Chicago Cubs
+M.Buehrle (5.4), 2009`Chicago White Sox
+J.Votto (4.8), 2009`Cincinnati Reds
+S.Choo (5.5), 2009`Cleveland Indians
+T.Tulowitzki (6.5), 2009`Colorado Rockies
+J.Verlander (5.5), 2009`Detroit Tigers
+M.Bourn (5.0), 2009`Houston Astros
+Z.Greinke (10.4), 2009`Kansas City Royals
+C.Figgins (7.7), 2009`Los Angeles Angels of Anaheim
+M.Kemp (4.8), 2009`Los Angeles Dodgers
+J.Johnson (7.4), 2009`Florida Marlins
+P.Fielder (6.3), 2009`Milwaukee Brewers
+J.Mauer (7.8), 2009`Minnesota Twins
+A.Pagan (4.0), 2009`New York Mets
+D.Jeter (6.5), 2009`New York Yankees
+A.Bailey (3.7), 2009`Oakland Athletics
+C.Utley (8.2), 2009`Philadelphia Phillies
+J.Wilson (3.2), 2009`Pittsburgh Pirates
+A.Gonzalez (6.9), 2009`San Diego Padres
+T.Lincecum (7.6), 2009`San Francisco Giants
+F.Gutierrez (6.6), 2009`Seattle Mariners
+A.Pujols (9.7), 2009`St. Louis Cardinals
+B.Zobrist (8.6), 2009`Tampa Bay Rays
+I.Kinsler (6.0), 2009`Texas Rangers
+R.Halladay (6.9), 2009`Toronto Blue Jays
 R.Zimmerman (7.3), 2009`Washington Nationals
+D.Haren (6.6), 2008`Arizona Diamondbacks
+C.Jones (7.3), 2008`Atlanta Braves
+N.Markakis (7.4), 2008`Baltimore Orioles
+D.Pedroia (6.9), 2008`Boston Red Sox
+R.Dempster (6.9), 2008`Chicago Cubs
+J.Danks (6.4), 2008`Chicago White Sox
+E.Volquez (4.6), 2008`Cincinnati Reds
+C.Lee (6.8), 2008`Cleveland Indians
+M.Holliday (5.8), 2008`Colorado Rockies
+P.Polanco (4.4), 2008`Detroit Tigers
+L.Berkman (6.8), 2008`Houston Astros
+Z.Greinke (5.4), 2008`Kansas City Royals
+E.Santana (5.0), 2008`Los Angeles Angels of Anaheim
+C.Billingsley (4.5), 2008`Los Angeles Dodgers
+H.Ramirez (6.7), 2008`Florida Marlins
+C.Sabathia (5.2), 2008`Milwaukee Brewers
+J.Mauer (5.6), 2008`Minnesota Twins
+J.Santana (7.1), 2008`New York Mets
+A.Rodriguez (6.8), 2008`New York Yankees
+M.Ellis (4.0), 2008`Oakland Athletics
+C.Utley (9.0), 2008`Philadelphia Phillies
+P.Maholm (3.9), 2008`Pittsburgh Pirates
+B.Giles (4.8), 2008`San Diego Padres
+T.Lincecum (8.1), 2008`San Francisco Giants
+A.Beltre (5.6), 2008`Seattle Mariners
+A.Pujols (9.2), 2008`St. Louis Cardinals
+C.Pena (5.1), 2008`Tampa Bay Rays
+J.Hamilton (5.4), 2008`Texas Rangers
+R.Halladay (6.2), 2008`Toronto Blue Jays
 C.Guzman (4.6), 2008`Washington Nationals
+B.Webb (5.9), 2007`Arizona Diamondbacks
+C.Jones (7.6), 2007`Atlanta Braves
+E.Bedard (5.8), 2007`Baltimore Orioles
+J.Beckett (6.6), 2007`Boston Red Sox
+A.Ramirez (5.2), 2007`Chicago Cubs
+J.Vazquez (6.1), 2007`Chicago White Sox
+A.Harang (5.5), 2007`Cincinnati Reds
+C.Sabathia (6.4), 2007`Cleveland Indians
+T.Tulowitzki (6.8), 2007`Colorado Rockies
+C.Granderson (7.6), 2007`Detroit Tigers
+R.Oswalt (6.6), 2007`Houston Astros
+G.Meche (4.1), 2007`Kansas City Royals
+J.Lackey (6.2), 2007`Los Angeles Angels of Anaheim
+B.Penny (6.6), 2007`Los Angeles Dodgers
+H.Ramirez (4.3), 2007`Florida Marlins
+C.Hart (4.7), 2007`Milwaukee Brewers
+J.Santana (5.2), 2007`Minnesota Twins
+D.Wright (8.3), 2007`New York Mets
+A.Rodriguez (9.4), 2007`New York Yankees
+M.Ellis (4.8), 2007`Oakland Athletics
+C.Utley (7.8), 2007`Philadelphia Phillies
+J.Wilson (3.6), 2007`Pittsburgh Pirates
+J.Peavy (6.9), 2007`San Diego Padres
+M.Cain (4.3), 2007`San Francisco Giants
+I.Suzuki (5.8), 2007`Seattle Mariners
+A.Pujols (8.7), 2007`St. Louis Cardinals
+C.Pena (7.2), 2007`Tampa Bay Devil Rays
+I.Kinsler (4.1), 2007`Texas Rangers
+A.Rios (5.6), 2007`Toronto Blue Jays
 R.Zimmerman (4.6), 2007`Washington Nationals
+B.Webb (7.0), 2006`Arizona Diamondbacks
+J.Smoltz (5.9), 2006`Atlanta Braves
+M.Tejada (4.5), 2006`Baltimore Orioles
+D.Ortiz (5.7), 2006`Boston Red Sox
+C.Zambrano (5.8), 2006`Chicago Cubs
+J.Thome (4.9), 2006`Chicago White Sox
+B.Arroyo (7.0), 2006`Cincinnati Reds
+G.Sizemore (6.6), 2006`Cleveland Indians
+G.Atkins (4.9), 2006`Colorado Rockies
+C.Guillen (6.0), 2006`Detroit Tigers
+R.Oswalt (6.1), 2006`Houston Astros
+M.Teahen (3.7), 2006`Kansas City Royals
+J.Weaver (4.8), 2006`Los Angeles Angels of Anaheim
+D.Lowe (4.6), 2006`Los Angeles Dodgers
+M.Cabrera (5.8), 2006`Florida Marlins
+B.Hall (5.8), 2006`Milwaukee Brewers
+J.Santana (7.5), 2006`Minnesota Twins
+C.Beltran (8.2), 2006`New York Mets
+C.Wang (6.0), 2006`New York Yankees
+B.Zito (4.4), 2006`Oakland Athletics
+C.Utley (7.3), 2006`Philadelphia Phillies
+F.Sanchez (4.4), 2006`Pittsburgh Pirates
+M.Cameron (4.3), 2006`San Diego Padres
+J.Schmidt (4.0), 2006`San Francisco Giants
+A.Beltre (5.4), 2006`Seattle Mariners
+A.Pujols (8.4), 2006`St. Louis Cardinals
+C.Crawford (4.5), 2006`Tampa Bay Devil Rays
+G.Matthews (5.2), 2006`Texas Rangers
+V.Wells (6.2), 2006`Toronto Blue Jays
 A.Soriano (6.1), 2006`Washington Nationals
+C.Counsell (5.5), 2005`Arizona Diamondbacks
+A.Jones (6.7), 2005`Atlanta Braves
+B.Roberts (7.2), 2005`Baltimore Orioles
+D.Ortiz (5.3), 2005`Boston Red Sox
+D.Lee (7.7), 2005`Chicago Cubs
+M.Buehrle (4.8), 2005`Chicago White Sox
+F.Lopez (4.2), 2005`Cincinnati Reds
+G.Sizemore (6.6), 2005`Cleveland Indians
+T.Helton (4.6), 2005`Colorado Rockies
+P.Polanco (4.3), 2005`Detroit Tigers
+R.Clemens (8.2), 2005`Houston Astros
+D.DeJesus (4.4), 2005`Kansas City Royals
+V.Guerrero (5.7), 2005`Los Angeles Angels of Anaheim
+J.Kent (3.7), 2005`Los Angeles Dodgers
+D.Willis (8.4), 2005`Florida Marlins
+G.Jenkins (4.6), 2005`Milwaukee Brewers
+J.Santana (7.2), 2005`Minnesota Twins
+P.Martinez (6.5), 2005`New York Mets
+A.Rodriguez (9.4), 2005`New York Yankees
+E.Chavez (4.8), 2005`Oakland Athletics
+C.Utley (7.2), 2005`Philadelphia Phillies
+J.Bay (5.7), 2005`Pittsburgh Pirates
+J.Peavy (4.9), 2005`San Diego Padres
+N.Lowry (4.8), 2005`San Francisco Giants
+I.Suzuki (3.9), 2005`Seattle Mariners
+A.Pujols (8.4), 2005`St. Louis Cardinals
+C.Crawford (4.4), 2005`Tampa Bay Devil Rays
+M.Teixeira (7.2), 2005`Texas Rangers
+R.Halladay (5.5), 2005`Toronto Blue Jays
 J.Patterson (4.5), 2005`Washington Nationals
+R.Johnson (8.3), 2004`Arizona Diamondbacks
+J.Drew (8.3), 2004`Atlanta Braves
+M.Tejada (7.3), 2004`Baltimore Orioles
+C.Schilling (7.9), 2004`Boston Red Sox
+C.Zambrano (7.3), 2004`Chicago Cubs
+A.Rowand (5.6), 2004`Chicago White Sox
+A.Dunn (4.7), 2004`Cincinnati Reds
+T.Hafner (5.0), 2004`Cleveland Indians
+T.Helton (8.3), 2004`Colorado Rockies
+C.Guillen (4.6), 2004`Detroit Tigers
+L.Berkman (6.0), 2004`Houston Astros
+Z.Greinke (3.7), 2004`Kansas City Royals
+V.Guerrero (5.6), 2004`Anaheim Angels
+A.Beltre (9.5), 2004`Los Angeles Dodgers
+C.Pavano (5.8), 2004`Florida Marlins
+B.Sheets (7.3), 2004`Milwaukee Brewers
+J.Santana (8.7), 2004`Minnesota Twins
+A.Leiter (4.7), 2004`New York Mets
+A.Rodriguez (7.6), 2004`New York Yankees
+E.Chavez (5.5), 2004`Oakland Athletics
+B.Abreu (6.5), 2004`Philadelphia Phillies
+O.Perez (6.0), 2004`Pittsburgh Pirates
+M.Loretta (6.0), 2004`San Diego Padres
+B.Bonds (10.6), 2004`San Francisco Giants
+I.Suzuki (9.1), 2004`Seattle Mariners
+S.Rolen (9.1), 2004`St. Louis Cardinals
+C.Crawford (4.9), 2004`Tampa Bay Devil Rays
+R.Drese (5.2), 2004`Texas Rangers
+O.Hudson (5.2), 2004`Toronto Blue Jays
 L.Hernandez (5.8), 2004`Montreal Expos
+B.Webb (5.9), 2003`Arizona Diamondbacks
+M.Giles (7.8), 2003`Atlanta Braves
+M.Mora (4.7), 2003`Baltimore Orioles
+P.Martinez (8.0), 2003`Boston Red Sox
+M.Prior (8.0), 2003`Chicago Cubs
+E.Loaiza (7.2), 2003`Chicago White Sox
+J.Guillen (4.7), 2003`Cincinnati Reds
+M.Bradley (4.1), 2003`Cleveland Indians
+T.Helton (6.2), 2003`Colorado Rockies
+D.Young (3.4), 2003`Detroit Tigers
+R.Hidalgo (5.7), 2003`Houston Astros
+D.May (5.9), 2003`Kansas City Royals
+G.Anderson (4.0), 2003`Anaheim Angels
+K.Brown (4.5), 2003`Los Angeles Dodgers
+D.Willis (4.4), 2003`Florida Marlins
+S.Podsednik (3.6), 2003`Milwaukee Brewers
+A.Pierzynski (4.5), 2003`Minnesota Twins
+S.Trachsel (4.5), 2003`New York Mets
+M.Mussina (6.6), 2003`New York Yankees
+T.Hudson (7.5), 2003`Oakland Athletics
+B.Abreu (5.3), 2003`Philadelphia Phillies
+K.Wells (5.1), 2003`Pittsburgh Pirates
+M.Loretta (4.9), 2003`San Diego Padres
+B.Bonds (9.2), 2003`San Francisco Giants
+B.Boone (5.9), 2003`Seattle Mariners
+A.Pujols (8.6), 2003`St. Louis Cardinals
+A.Huff (4.0), 2003`Tampa Bay Devil Rays
+A.Rodriguez (8.4), 2003`Texas Rangers
+R.Halladay (8.1), 2003`Toronto Blue Jays
 L.Hernandez (6.4), 2003`Montreal Expos
+R.Johnson (10.7), 2002`Arizona Diamondbacks
+A.Jones (6.6), 2002`Atlanta Braves
+M.Mora (4.7), 2002`Baltimore Orioles
+D.Lowe (7.3), 2002`Boston Red Sox
+S.Sosa (5.7), 2002`Chicago Cubs
+M.Ordonez (5.1), 2002`Chicago White Sox
+E.Dessens (4.3), 2002`Cincinnati Reds
+J.Thome (7.4), 2002`Cleveland Indians
+T.Helton (6.3), 2002`Colorado Rockies
+J.Weaver (2.8), 2002`Detroit Tigers
+R.Oswalt (6.9), 2002`Houston Astros
+P.Byrd (5.5), 2002`Kansas City Royals
+D.Erstad (6.4), 2002`Anaheim Angels
+S.Green (6.9), 2002`Los Angeles Dodgers
+A.Burnett (4.1), 2002`Florida Marlins
+J.Hernandez (4.4), 2002`Milwaukee Brewers
+J.Jones (5.4), 2002`Minnesota Twins
+E.Alfonzo (5.0), 2002`New York Mets
+J.Giambi (7.1), 2002`New York Yankees
+B.Zito (7.1), 2002`Oakland Athletics
+B.Abreu (5.8), 2002`Philadelphia Phillies
+B.Giles (5.3), 2002`Pittsburgh Pirates
+R.Klesko (4.2), 2002`San Diego Padres
+B.Bonds (11.8), 2002`San Francisco Giants
+J.Moyer (5.7), 2002`Seattle Mariners
+J.Edmonds (6.7), 2002`St. Louis Cardinals
+R.Winn (4.9), 2002`Tampa Bay Devil Rays
+A.Rodriguez (8.8), 2002`Texas Rangers
+R.Halladay (7.3), 2002`Toronto Blue Jays
 V.Guerrero (7.0), 2002`Montreal Expos
+R.Johnson (9.4), 2001`Arizona Diamondbacks
+C.Jones (5.9), 2001`Atlanta Braves
+J.Conine (2.9), 2001`Baltimore Orioles
+M.Ramirez (5.2), 2001`Boston Red Sox
+S.Sosa (10.3), 2001`Chicago Cubs
+M.Buehrle (5.9), 2001`Chicago White Sox
+E.Dessens (4.5), 2001`Cincinnati Reds
+R.Alomar (7.3), 2001`Cleveland Indians
+T.Helton (7.8), 2001`Colorado Rockies
+S.Sparks (4.3), 2001`Detroit Tigers
+L.Berkman (6.5), 2001`Houston Astros
+C.Beltran (6.4), 2001`Kansas City Royals
+T.Glaus (5.2), 2001`Anaheim Angels
+S.Green (6.9), 2001`Los Angeles Dodgers
+C.Floyd (6.6), 2001`Florida Marlins
+R.Belliard (3.5), 2001`Milwaukee Brewers
+J.Mays (6.6), 2001`Minnesota Twins
+M.Piazza (4.4), 2001`New York Mets
+M.Mussina (7.1), 2001`New York Yankees
+J.Giambi (9.1), 2001`Oakland Athletics
+S.Rolen (5.5), 2001`Philadelphia Phillies
+B.Giles (5.3), 2001`Pittsburgh Pirates
+P.Nevin (5.8), 2001`San Diego Padres
+B.Bonds (11.9), 2001`San Francisco Giants
+B.Boone (8.8), 2001`Seattle Mariners
+A.Pujols (6.6), 2001`St. Louis Cardinals
+T.Sturtze (3.3), 2001`Tampa Bay Devil Rays
+A.Rodriguez (8.3), 2001`Texas Rangers
+C.Delgado (4.5), 2001`Toronto Blue Jays
 J.Vazquez (6.2), 2001`Montreal Expos
+R.Johnson (8.1), 2000`Arizona Diamondbacks
+A.Jones (8.2), 2000`Atlanta Braves
+M.Mussina (5.6), 2000`Baltimore Orioles
+P.Martinez (11.7), 2000`Boston Red Sox
+S.Sosa (5.7), 2000`Chicago Cubs
+F.Thomas (6.0), 2000`Chicago White Sox
+K.Griffey (5.5), 2000`Cincinnati Reds
+R.Alomar (5.6), 2000`Cleveland Indians
+T.Helton (8.8), 2000`Colorado Rockies
+B.Higginson (5.3), 2000`Detroit Tigers
+R.Hidalgo (6.3), 2000`Houston Astros
+J.Damon (6.1), 2000`Kansas City Royals
+D.Erstad (8.3), 2000`Anaheim Angels
+K.Brown (6.8), 2000`Los Angeles Dodgers
+L.Castillo (4.5), 2000`Florida Marlins
+J.D'Amico (4.8), 2000`Milwaukee Brewers
+B.Radke (6.2), 2000`Minnesota Twins
+E.Alfonzo (6.4), 2000`New York Mets
+J.Posada (5.5), 2000`New York Yankees
+J.Giambi (7.7), 2000`Oakland Athletics
+B.Abreu (6.2), 2000`Philadelphia Phillies
+B.Giles (6.4), 2000`Pittsburgh Pirates
+P.Nevin (4.1), 2000`San Diego Padres
+B.Bonds (7.7), 2000`San Francisco Giants
+A.Rodriguez (10.4), 2000`Seattle Mariners
+J.Edmonds (6.3), 2000`St. Louis Cardinals
+A.Lopez (3.2), 2000`Tampa Bay Devil Rays
+K.Rogers (5.1), 2000`Texas Rangers
+C.Delgado (7.3), 2000`Toronto Blue Jays
 V.Guerrero (5.9), 2000`Montreal Expos
+R.Johnson (8.8), 1999`Arizona Diamondbacks
+A.Jones (7.1), 1999`Atlanta Braves
+B.Anderson (5.9), 1999`Baltimore Orioles
+P.Martinez (9.7), 1999`Boston Red Sox
+S.Sosa (4.8), 1999`Chicago Cubs
+M.Ordonez (5.8), 1999`Chicago White Sox
+M.Cameron (5.5), 1999`Cincinnati Reds
+R.Alomar (7.4), 1999`Cleveland Indians
+P.Astacio (6.0), 1999`Colorado Rockies
+B.Ausmus (3.3), 1999`Detroit Tigers
+M.Hampton (7.8), 1999`Houston Astros
+J.Damon (5.4), 1999`Kansas City Royals
+R.Velarde (4.2), 1999`Anaheim Angels
+K.Brown (5.5), 1999`Los Angeles Dodgers
+A.Fernandez (3.5), 1999`Florida Marlins
+J.Cirillo (4.8), 1999`Milwaukee Brewers
+B.Radke (6.5), 1999`Minnesota Twins
+R.Ventura (6.7), 1999`New York Mets
+D.Jeter (8.0), 1999`New York Yankees
+J.Giambi (5.9), 1999`Oakland Athletics
+B.Abreu (6.1), 1999`Philadelphia Phillies
+B.Giles (6.6), 1999`Pittsburgh Pirates
+R.Sanders (4.1), 1999`San Diego Padres
+B.Bonds (3.8), 1999`San Francisco Giants
+J.Moyer (6.7), 1999`Seattle Mariners
+M.McGwire (5.2), 1999`St. Louis Cardinals
+F.McGriff (4.0), 1999`Tampa Bay Devil Rays
+I.Rodriguez (6.4), 1999`Texas Rangers
+S.Green (6.4), 1999`Toronto Blue Jays
 V.Guerrero (4.4), 1999`Montreal Expos
+O.Daal (4.1), 1998`Arizona Diamondbacks
+A.Jones (7.4), 1998`Atlanta Braves
+R.Palmeiro (6.2), 1998`Baltimore Orioles
+N.Garciaparra (7.1), 1998`Boston Red Sox
+S.Sosa (6.4), 1998`Chicago Cubs
+A.Belle (7.1), 1998`Chicago White Sox
+B.Larkin (5.7), 1998`Cincinnati Reds
+K.Lofton (5.9), 1998`Cleveland Indians
+L.Walker (5.7), 1998`Colorado Rockies
+D.Easley (5.6), 1998`Detroit Tigers
+C.Biggio (6.5), 1998`Houston Astros
+J.Offerman (5.3), 1998`Kansas City Royals
+C.Finley (7.2), 1998`Anaheim Angels
+G.Sheffield (3.4), 1998`Los Angeles Dodgers
+M.Kotsay (3.9), 1998`Florida Marlins
+J.Cirillo (5.9), 1998`Milwaukee Brewers
+B.Radke (5.2), 1998`Minnesota Twins
+J.Olerud (7.6), 1998`New York Mets
+D.Jeter (7.5), 1998`New York Yankees
+K.Rogers (7.5), 1998`Oakland Athletics
+S.Rolen (6.7), 1998`Philadelphia Phillies
+J.Kendall (5.6), 1998`Pittsburgh Pirates
+K.Brown (9.1), 1998`San Diego Padres
+B.Bonds (8.1), 1998`San Francisco Giants
+A.Rodriguez (8.5), 1998`Seattle Mariners
+M.McGwire (7.5), 1998`St. Louis Cardinals
+R.Arrojo (4.1), 1998`Tampa Bay Devil Rays
+I.Rodriguez (6.4), 1998`Texas Rangers
+R.Clemens (8.2), 1998`Toronto Blue Jays
 V.Guerrero (7.4), 1998`Montreal Expos
+G.Maddux (7.7), 1997`Atlanta Braves
+M.Mussina (5.6), 1997`Baltimore Orioles
+N.Garciaparra (6.6), 1997`Boston Red Sox
+M.Grace (4.2), 1997`Chicago Cubs
+F.Thomas (7.3), 1997`Chicago White Sox
+J.Shaw (3.6), 1997`Cincinnati Reds
+J.Thome (5.4), 1997`Cleveland Indians
+L.Walker (9.8), 1997`Colorado Rockies
+J.Thompson (7.7), 1997`Detroit Tigers
+C.Biggio (9.4), 1997`Houston Astros
+K.Appier (5.5), 1997`Kansas City Royals
+T.Salmon (4.9), 1997`Anaheim Angels
+M.Piazza (8.7), 1997`Los Angeles Dodgers
+K.Brown (6.8), 1997`Florida Marlins
+J.Cirillo (5.3), 1997`Milwaukee Brewers
+C.Knoblauch (6.7), 1997`Minnesota Twins
+E.Alfonzo (6.2), 1997`New York Mets
+A.Pettitte (8.4), 1997`New York Yankees
+M.McGwire (3.1), 1997`Oakland Athletics
+C.Schilling (6.3), 1997`Philadelphia Phillies
+F.Cordova (4.3), 1997`Pittsburgh Pirates
+T.Gwynn (4.3), 1997`San Diego Padres
+B.Bonds (8.1), 1997`San Francisco Giants
+K.Griffey (9.1), 1997`Seattle Mariners
+R.Lankford (5.2), 1997`St. Louis Cardinals
+I.Rodriguez (6.5), 1997`Texas Rangers
+R.Clemens (12.1), 1997`Toronto Blue Jays
 P.Martinez (8.8), 1997`Montreal Expos
+J.Smoltz (7.7), 1996`Atlanta Braves
+B.Anderson (6.9), 1996`Baltimore Orioles
+R.Clemens (7.8), 1996`Boston Red Sox
+S.Sosa (5.4), 1996`Chicago Cubs
+A.Fernandez (6.4), 1996`Chicago White Sox
+B.Larkin (7.2), 1996`Cincinnati Reds
+J.Thome (7.5), 1996`Cleveland Indians
+E.Burks (7.9), 1996`Colorado Rockies
+B.Higginson (3.6), 1996`Detroit Tigers
+J.Bagwell (7.5), 1996`Houston Astros
+K.Appier (6.1), 1996`Kansas City Royals
+J.Edmonds (5.0), 1996`California Angels
+M.Piazza (5.4), 1996`Los Angeles Dodgers
+K.Brown (7.9), 1996`Florida Marlins
+B.McDonald (5.4), 1996`Milwaukee Brewers
+C.Knoblauch (8.6), 1996`Minnesota Twins
+B.Gilkey (8.0), 1996`New York Mets
+A.Pettitte (5.6), 1996`New York Yankees
+M.McGwire (6.4), 1996`Oakland Athletics
+C.Schilling (4.8), 1996`Philadelphia Phillies
+D.Neagle (6.0), 1996`Pittsburgh Pirates
+K.Caminiti (7.6), 1996`San Diego Padres
+B.Bonds (9.6), 1996`San Francisco Giants
+K.Griffey (9.7), 1996`Seattle Mariners
+B.Jordan (5.4), 1996`St. Louis Cardinals
+K.Hill (6.6), 1996`Texas Rangers
+P.Hentgen (8.5), 1996`Toronto Blue Jays
 J.Fassero (5.3), 1996`Montreal Expos
+G.Maddux (9.6), 1995`Atlanta Braves
+M.Mussina (6.1), 1995`Baltimore Orioles
+J.Valentin (8.3), 1995`Boston Red Sox
+S.Sosa (5.3), 1995`Chicago Cubs
+F.Thomas (5.3), 1995`Chicago White Sox
+R.Sanders (6.6), 1995`Cincinnati Reds
+A.Belle (6.9), 1995`Cleveland Indians
+L.Walker (4.7), 1995`Colorado Rockies
+D.Wells (4.5), 1995`Detroit Tigers
+C.Biggio (6.3), 1995`Houston Astros
+K.Appier (4.6), 1995`Kansas City Royals
+T.Salmon (6.6), 1995`California Angels
+M.Piazza (6.2), 1995`Los Angeles Dodgers
+C.Hammond (3.3), 1995`Florida Marlins
+R.Bones (3.4), 1995`Milwaukee Brewers
+C.Knoblauch (6.7), 1995`Minnesota Twins
+J.Kent (3.2), 1995`New York Mets
+B.Williams (6.4), 1995`New York Yankees
+M.McGwire (5.5), 1995`Oakland Athletics
+R.Bottalico (2.9), 1995`Philadelphia Phillies
+D.Neagle (4.6), 1995`Pittsburgh Pirates
+A.Ashby (5.0), 1995`San Diego Padres
+B.Bonds (7.5), 1995`San Francisco Giants
+R.Johnson (8.7), 1995`Seattle Mariners
+B.Jordan (5.1), 1995`St. Louis Cardinals
+K.Rogers (5.8), 1995`Texas Rangers
+A.Leiter (5.7), 1995`Toronto Blue Jays
 P.Martinez (4.1), 1995`Montreal Expos
+G.Maddux (8.7), 1994`Atlanta Braves
+M.Mussina (5.4), 1994`Baltimore Orioles
+R.Clemens (6.1), 1994`Boston Red Sox
+S.Sosa (3.8), 1994`Chicago Cubs
+F.Thomas (6.3), 1994`Chicago White Sox
+B.Larkin (3.9), 1994`Cincinnati Reds
+K.Lofton (7.2), 1994`Cleveland Indians
+M.Freeman (4.6), 1994`Colorado Rockies
+T.Phillips (4.7), 1994`Detroit Tigers
+J.Bagwell (8.2), 1994`Houston Astros
+D.Cone (6.8), 1994`Kansas City Royals
+C.Finley (3.4), 1994`California Angels
+K.Gross (4.0), 1994`Los Angeles Dodgers
+J.Conine (2.8), 1994`Florida Marlins
+R.Bones (4.0), 1994`Milwaukee Brewers
+C.Knoblauch (4.0), 1994`Minnesota Twins
+B.Saberhagen (5.7), 1994`New York Mets
+W.Boggs (4.5), 1994`New York Yankees
+R.Henderson (3.5), 1994`Oakland Athletics
+D.Jackson (4.7), 1994`Philadelphia Phillies
+J.Bell (3.4), 1994`Pittsburgh Pirates
+T.Gwynn (4.2), 1994`San Diego Padres
+B.Bonds (6.2), 1994`San Francisco Giants
+K.Griffey (6.9), 1994`Seattle Mariners
+M.Whiten (3.1), 1994`St. Louis Cardinals
+W.Clark (3.6), 1994`Texas Rangers
+P.Hentgen (5.3), 1994`Toronto Blue Jays
 M.Alou (5.1), 1994`Montreal Expos
+R.Gant (6.5), 1993`Atlanta Braves
+C.Hoiles (6.8), 1993`Baltimore Orioles
+D.Darwin (5.7), 1993`Boston Red Sox
+R.Wilkins (6.6), 1993`Chicago Cubs
+F.Thomas (6.2), 1993`Chicago White Sox
+J.Rijo (10.2), 1993`Cincinnati Reds
+K.Lofton (7.6), 1993`Cleveland Indians
+A.Galarraga (3.5), 1993`Colorado Rockies
+T.Phillips (5.6), 1993`Detroit Tigers
+J.Bagwell (5.4), 1993`Houston Astros
+K.Appier (9.3), 1993`Kansas City Royals
+M.Langston (8.7), 1993`California Angels
+M.Piazza (7.0), 1993`Los Angeles Dodgers
+B.Harvey (4.0), 1993`Florida Marlins
+G.Vaughn (6.7), 1993`Milwaukee Brewers
+C.Knoblauch (3.6), 1993`Minnesota Twins
+D.Gooden (4.2), 1993`New York Mets
+J.Key (6.2), 1993`New York Yankees
+R.Henderson (4.5), 1993`Oakland Athletics
+L.Dykstra (6.5), 1993`Philadelphia Phillies
+J.Bell (6.2), 1993`Pittsburgh Pirates
+G.Harris (4.8), 1993`San Diego Padres
+B.Bonds (9.9), 1993`San Francisco Giants
+K.Griffey (8.7), 1993`Seattle Mariners
+G.Jefferies (5.1), 1993`St. Louis Cardinals
+R.Palmeiro (6.9), 1993`Texas Rangers
+J.Olerud (7.7), 1993`Toronto Blue Jays
 M.Grissom (5.2), 1993`Montreal Expos
+T.Pendleton (4.9), 1992`Atlanta Braves
+M.Mussina (8.2), 1992`Baltimore Orioles
+R.Clemens (8.9), 1992`Boston Red Sox
+G.Maddux (9.4), 1992`Chicago Cubs
+F.Thomas (6.9), 1992`Chicago White Sox
+J.Rijo (5.9), 1992`Cincinnati Reds
+K.Lofton (6.6), 1992`Cleveland Indians
+T.Phillips (5.0), 1992`Detroit Tigers
+S.Finley (5.7), 1992`Houston Astros
+K.Appier (8.1), 1992`Kansas City Royals
+J.Abbott (5.8), 1992`California Angels
+B.Butler (4.8), 1992`Los Angeles Dodgers
+B.Wegman (4.8), 1992`Milwaukee Brewers
+K.Puckett (7.1), 1992`Minnesota Twins
+S.Fernandez (6.2), 1992`New York Mets
+M.Perez (6.0), 1992`New York Yankees
+M.McGwire (6.4), 1992`Oakland Athletics
+D.Daulton (6.9), 1992`Philadelphia Phillies
+B.Bonds (9.0), 1992`Pittsburgh Pirates
+G.Sheffield (6.2), 1992`San Diego Padres
+B.Swift (4.6), 1992`San Francisco Giants
+E.Martinez (6.5), 1992`Seattle Mariners
+B.Tewksbury (6.3), 1992`St. Louis Cardinals
+K.Brown (4.8), 1992`Texas Rangers
+R.Alomar (6.6), 1992`Toronto Blue Jays
 M.Grissom (5.4), 1992`Montreal Expos
+T.Glavine (9.3), 1991`Atlanta Braves
+C.Ripken (11.5), 1991`Baltimore Orioles
+R.Clemens (8.0), 1991`Boston Red Sox
+R.Sandberg (7.0), 1991`Chicago Cubs
+F.Thomas (6.9), 1991`Chicago White Sox
+B.Larkin (6.1), 1991`Cincinnati Reds
+G.Swindell (3.8), 1991`Cleveland Indians
+L.Whitaker (6.7), 1991`Detroit Tigers
+S.Finley (5.1), 1991`Houston Astros
+B.Saberhagen (5.1), 1991`Kansas City Royals
+J.Abbott (7.6), 1991`California Angels
+B.Butler (5.1), 1991`Los Angeles Dodgers
+P.Molitor (5.3), 1991`Milwaukee Brewers
+K.Tapani (6.8), 1991`Minnesota Twins
+D.Cone (4.3), 1991`New York Mets
+S.Sax (4.1), 1991`New York Yankees
+D.Henderson (5.4), 1991`Oakland Athletics
+J.Kruk (4.7), 1991`Philadelphia Phillies
+B.Bonds (7.9), 1991`Pittsburgh Pirates
+T.Gwynn (5.6), 1991`San Diego Padres
+M.Williams (5.4), 1991`San Francisco Giants
+K.Griffey (7.1), 1991`Seattle Mariners
+O.Smith (5.0), 1991`St. Louis Cardinals
+J.Franco (6.2), 1991`Texas Rangers
+D.White (6.3), 1991`Toronto Blue Jays
 D.Martinez (5.8), 1991`Montreal Expos
+R.Gant (5.5), 1990`Atlanta Braves
+C.Ripken (7.5), 1990`Baltimore Orioles
+R.Clemens (10.6), 1990`Boston Red Sox
+R.Sandberg (7.1), 1990`Chicago Cubs
+C.Fisk (4.8), 1990`Chicago White Sox
+J.Rijo (5.8), 1990`Cincinnati Reds
+B.Jacoby (3.5), 1990`Cleveland Indians
+A.Trammell (6.7), 1990`Detroit Tigers
+D.Darwin (5.3), 1990`Houston Astros
+K.Appier (5.3), 1990`Kansas City Royals
+C.Finley (7.7), 1990`California Angels
+E.Murray (5.1), 1990`Los Angeles Dodgers
+R.Robinson (3.3), 1990`Milwaukee Brewers
+G.Gagne (3.2), 1990`Minnesota Twins
+F.Viola (6.3), 1990`New York Mets
+R.Kelly (5.4), 1990`New York Yankees
+R.Henderson (9.9), 1990`Oakland Athletics
+L.Dykstra (8.9), 1990`Philadelphia Phillies
+B.Bonds (9.7), 1990`Pittsburgh Pirates
+E.Whitson (7.1), 1990`San Diego Padres
+M.Williams (4.9), 1990`San Francisco Giants
+E.Martinez (5.5), 1990`Seattle Mariners
+W.McGee (4.4), 1990`St. Louis Cardinals
+J.Franco (6.8), 1990`Texas Rangers
+D.Stieb (5.9), 1990`Toronto Blue Jays
 D.Martinez (4.3), 1990`Montreal Expos
+L.Smith (8.8), 1989`Atlanta Braves
+C.Ripken (6.6), 1989`Baltimore Orioles
+W.Boggs (8.4), 1989`Boston Red Sox
+R.Sandberg (6.1), 1989`Chicago Cubs
+C.Fisk (3.3), 1989`Chicago White Sox
+R.Dibble (3.9), 1989`Cincinnati Reds
+T.Candiotti (4.7), 1989`Cleveland Indians
+L.Whitaker (5.3), 1989`Detroit Tigers
+K.Caminiti (4.8), 1989`Houston Astros
+B.Saberhagen (9.7), 1989`Kansas City Royals
+B.Blyleven (6.0), 1989`California Angels
+O.Hershiser (7.3), 1989`Los Angeles Dodgers
+R.Yount (5.8), 1989`Milwaukee Brewers
+K.Puckett (4.9), 1989`Minnesota Twins
+H.Johnson (6.9), 1989`New York Mets
+S.Sax (4.4), 1989`New York Yankees
+M.Moore (5.5), 1989`Oakland Athletics
+V.Hayes (5.1), 1989`Philadelphia Phillies
+B.Bonds (8.0), 1989`Pittsburgh Pirates
+E.Whitson (6.7), 1989`San Diego Padres
+W.Clark (8.6), 1989`San Francisco Giants
+S.Bankhead (4.6), 1989`Seattle Mariners
+O.Smith (7.3), 1989`St. Louis Cardinals
+R.Sierra (5.9), 1989`Texas Rangers
+F.McGriff (6.6), 1989`Toronto Blue Jays
 M.Langston (4.9), 1989`Montreal Expos
+P.Smith (3.2), 1988`Atlanta Braves
+C.Ripken (5.7), 1988`Baltimore Orioles
+W.Boggs (8.2), 1988`Boston Red Sox
+G.Maddux (5.7), 1988`Chicago Cubs
+O.Guillen (3.4), 1988`Chicago White Sox
+B.Larkin (7.0), 1988`Cincinnati Reds
+G.Swindell (5.9), 1988`Cleveland Indians
+A.Trammell (6.0), 1988`Detroit Tigers
+G.Davis (4.2), 1988`Houston Astros
+M.Gubicza (7.8), 1988`Kansas City Royals
+D.Schofield (3.7), 1988`California Angels
+O.Hershiser (7.1), 1988`Los Angeles Dodgers
+T.Higuera (7.4), 1988`Milwaukee Brewers
+F.Viola (7.7), 1988`Minnesota Twins
+D.Cone (5.8), 1988`New York Mets
+R.Henderson (6.3), 1988`New York Yankees
+J.Canseco (7.2), 1988`Oakland Athletics
+K.Gross (3.6), 1988`Philadelphia Phillies
+A.Van Slyke (6.4), 1988`Pittsburgh Pirates
+R.Alomar (4.3), 1988`San Diego Padres
+B.Butler (6.8), 1988`San Francisco Giants
+M.Langston (5.7), 1988`Seattle Mariners
+O.Smith (6.6), 1988`St. Louis Cardinals
+S.Buechele (4.2), 1988`Texas Rangers
+F.McGriff (6.2), 1988`Toronto Blue Jays
 A.Galarraga (5.7), 1988`Montreal Expos
+D.Murphy (7.7), 1987`Atlanta Braves
+E.Murray (3.8), 1987`Baltimore Orioles
+R.Clemens (9.4), 1987`Boston Red Sox
+R.Sutcliffe (6.6), 1987`Chicago Cubs
+I.Calderon (4.2), 1987`Chicago White Sox
+E.Davis (7.9), 1987`Cincinnati Reds
+B.Butler (4.9), 1987`Cleveland Indians
+A.Trammell (8.2), 1987`Detroit Tigers
+M.Scott (5.6), 1987`Houston Astros
+B.Saberhagen (8.0), 1987`Kansas City Royals
+D.White (5.6), 1987`California Angels
+B.Welch (7.5), 1987`Los Angeles Dodgers
+T.Higuera (6.5), 1987`Milwaukee Brewers
+F.Viola (8.1), 1987`Minnesota Twins
+D.Strawberry (6.4), 1987`New York Mets
+D.Mattingly (5.1), 1987`New York Yankees
+C.Lansford (5.2), 1987`Oakland Athletics
+M.Schmidt (6.1), 1987`Philadelphia Phillies
+B.Bonds (5.8), 1987`Pittsburgh Pirates
+T.Gwynn (8.5), 1987`San Diego Padres
+W.Clark (4.2), 1987`San Francisco Giants
+M.Langston (5.9), 1987`Seattle Mariners
+O.Smith (6.4), 1987`St. Louis Cardinals
+P.O'Brien (3.3), 1987`Texas Rangers
+J.Key (7.4), 1987`Toronto Blue Jays
 T.Raines (6.7), 1987`Montreal Expos
+D.Palmer (3.7), 1986`Atlanta Braves
+C.Ripken (6.6), 1986`Baltimore Orioles
+R.Clemens (8.9), 1986`Boston Red Sox
+J.Davis (4.0), 1986`Chicago Cubs
+H.Baines (2.8), 1986`Chicago White Sox
+E.Davis (5.3), 1986`Cincinnati Reds
+J.Carter (5.7), 1986`Cleveland Indians
+A.Trammell (6.3), 1986`Detroit Tigers
+M.Scott (8.2), 1986`Houston Astros
+F.White (4.0), 1986`Kansas City Royals
+M.Witt (6.2), 1986`California Angels
+F.Valenzuela (6.2), 1986`Los Angeles Dodgers
+T.Higuera (9.4), 1986`Milwaukee Brewers
+G.Gaetti (5.8), 1986`Minnesota Twins
+K.Hernandez (5.5), 1986`New York Mets
+D.Mattingly (7.2), 1986`New York Yankees
+T.Phillips (4.4), 1986`Oakland Athletics
+M.Schmidt (6.1), 1986`Philadelphia Phillies
+R.Rhoden (7.7), 1986`Pittsburgh Pirates
+T.Gwynn (6.6), 1986`San Diego Padres
+C.Davis (4.1), 1986`San Francisco Giants
+M.Moore (4.7), 1986`Seattle Mariners
+O.Smith (5.6), 1986`St. Louis Cardinals
+S.Fletcher (4.7), 1986`Texas Rangers
+J.Barfield (7.6), 1986`Toronto Blue Jays
 T.Raines (5.5), 1986`Montreal Expos
+D.Murphy (5.0), 1985`Atlanta Braves
+E.Murray (5.6), 1985`Baltimore Orioles
+W.Boggs (9.1), 1985`Boston Red Sox
+R.Sandberg (5.8), 1985`Chicago Cubs
+T.Seaver (5.0), 1985`Chicago White Sox
+D.Parker (4.7), 1985`Cincinnati Reds
+B.Butler (4.7), 1985`Cleveland Indians
+K.Gibson (5.4), 1985`Detroit Tigers
+B.Doran (5.3), 1985`Houston Astros
+G.Brett (8.3), 1985`Kansas City Royals
+G.Pettis (3.8), 1985`California Angels
+P.Guerrero (7.9), 1985`Los Angeles Dodgers
+P.Molitor (3.7), 1985`Milwaukee Brewers
+K.Puckett (2.9), 1985`Minnesota Twins
+D.Gooden (13.2), 1985`New York Mets
+R.Henderson (9.9), 1985`New York Yankees
+M.Davis (4.7), 1985`Oakland Athletics
+M.Schmidt (5.0), 1985`Philadelphia Phillies
+R.Reuschel (6.4), 1985`Pittsburgh Pirates
+T.Gwynn (5.2), 1985`San Diego Padres
+M.Krukow (3.5), 1985`San Francisco Giants
+M.Moore (6.3), 1985`Seattle Mariners
+J.Tudor (8.3), 1985`St. Louis Cardinals
+C.Hough (6.3), 1985`Texas Rangers
+D.Stieb (6.9), 1985`Toronto Blue Jays
 T.Raines (7.6), 1985`Montreal Expos
+D.Murphy (5.5), 1984`Atlanta Braves
+C.Ripken (10.0), 1984`Baltimore Orioles
+W.Boggs (6.2), 1984`Boston Red Sox
+R.Sandberg (8.5), 1984`Chicago Cubs
+H.Baines (4.3), 1984`Chicago White Sox
+M.Soto (4.9), 1984`Cincinnati Reds
+B.Blyleven (7.2), 1984`Cleveland Indians
+A.Trammell (6.7), 1984`Detroit Tigers
+J.Cruz (6.3), 1984`Houston Astros
+B.Black (4.7), 1984`Kansas City Royals
+M.Witt (4.6), 1984`California Angels
+A.Pena (5.1), 1984`Los Angeles Dodgers
+R.Yount (5.9), 1984`Milwaukee Brewers
+K.Hrbek (5.5), 1984`Minnesota Twins
+K.Hernandez (6.3), 1984`New York Mets
+D.Mattingly (6.3), 1984`New York Yankees
+R.Henderson (6.0), 1984`Oakland Athletics
+M.Schmidt (7.0), 1984`Philadelphia Phillies
+R.Rhoden (6.5), 1984`Pittsburgh Pirates
+T.Gwynn (6.3), 1984`San Diego Padres
+C.Davis (5.1), 1984`San Francisco Giants
+A.Davis (5.9), 1984`Seattle Mariners
+O.Smith (5.0), 1984`St. Louis Cardinals
+B.Bell (6.1), 1984`Texas Rangers
+D.Stieb (7.9), 1984`Toronto Blue Jays
 G.Carter (7.4), 1984`Montreal Expos
+D.Murphy (7.1), 1983`Atlanta Braves
+C.Ripken (8.2), 1983`Baltimore Orioles
+W.Boggs (7.8), 1983`Boston Red Sox
+L.Smith (4.8), 1983`Chicago Cubs
+R.Dotson (5.1), 1983`Chicago White Sox
+M.Soto (6.7), 1983`Cincinnati Reds
+L.Sorensen (3.9), 1983`Cleveland Indians
+L.Whitaker (6.7), 1983`Detroit Tigers
+D.Thon (7.4), 1983`Houston Astros
+D.Quisenberry (5.5), 1983`Kansas City Royals
+B.Grich (4.3), 1983`California Angels
+P.Guerrero (5.5), 1983`Los Angeles Dodgers
+R.Yount (7.2), 1983`Milwaukee Brewers
+J.Castino (4.4), 1983`Minnesota Twins
+K.Hernandez (4.3), 1983`New York Mets
+R.Guidry (5.3), 1983`New York Yankees
+R.Henderson (6.9), 1983`Oakland Athletics
+J.Denny (7.6), 1983`Philadelphia Phillies
+J.Ray (5.1), 1983`Pittsburgh Pirates
+T.Kennedy (4.4), 1983`San Diego Padres
+A.Hammaker (4.4), 1983`San Francisco Giants
+M.Young (5.1), 1983`Seattle Mariners
+D.Porter (3.9), 1983`St. Louis Cardinals
+B.Bell (4.7), 1983`Texas Rangers
+D.Stieb (7.0), 1983`Toronto Blue Jays
 G.Carter (7.1), 1983`Montreal Expos
+D.Murphy (6.1), 1982`Atlanta Braves
+E.Murray (5.2), 1982`Baltimore Orioles
+D.Evans (6.4), 1982`Boston Red Sox
+L.Durham (4.6), 1982`Chicago Cubs
+L.Hoyt (5.0), 1982`Chicago White Sox
+M.Soto (7.7), 1982`Cincinnati Reds
+T.Harrah (6.5), 1982`Cleveland Indians
+L.Whitaker (5.4), 1982`Detroit Tigers
+D.Thon (6.1), 1982`Houston Astros
+W.Wilson (6.3), 1982`Kansas City Royals
+D.DeCinces (7.6), 1982`California Angels
+P.Guerrero (6.8), 1982`Los Angeles Dodgers
+R.Yount (10.5), 1982`Milwaukee Brewers
+T.Brunansky (5.6), 1982`Minnesota Twins
+J.Stearns (3.8), 1982`New York Mets
+R.Gossage (4.5), 1982`New York Yankees
+R.Henderson (6.7), 1982`Oakland Athletics
+M.Schmidt (7.4), 1982`Philadelphia Phillies
+B.Madlock (6.2), 1982`Pittsburgh Pirates
+S.Lezcano (5.9), 1982`San Diego Padres
+G.Minton (5.5), 1982`San Francisco Giants
+F.Bannister (4.9), 1982`Seattle Mariners
+L.Smith (6.1), 1982`St. Louis Cardinals
+B.Bell (5.7), 1982`Texas Rangers
+D.Stieb (7.7), 1982`Toronto Blue Jays
 G.Carter (8.6), 1982`Montreal Expos
+R.Camp (2.7), 1981`Atlanta Braves
+E.Murray (3.7), 1981`Baltimore Orioles
+D.Evans (6.7), 1981`Boston Red Sox
+M.Krukow (2.2), 1981`Chicago Cubs
+C.Lemon (4.0), 1981`Chicago White Sox
+T.Seaver (4.4), 1981`Cincinnati Reds
+B.Blyleven (5.6), 1981`Cleveland Indians
+L.Whitaker (3.8), 1981`Detroit Tigers
+N.Ryan (5.1), 1981`Houston Astros
+W.Wilson (4.1), 1981`Kansas City Royals
+B.Grich (5.4), 1981`California Angels
+F.Valenzuela (5.3), 1981`Los Angeles Dodgers
+R.Yount (4.9), 1981`Milwaukee Brewers
+D.Corbett (2.9), 1981`Minnesota Twins
+H.Brooks (2.6), 1981`New York Mets
+D.Righetti (3.5), 1981`New York Yankees
+R.Henderson (6.6), 1981`Oakland Athletics
+M.Schmidt (7.7), 1981`Philadelphia Phillies
+B.Madlock (3.5), 1981`Pittsburgh Pirates
+G.Richards (2.7), 1981`San Diego Padres
+D.Alexander (3.5), 1981`San Francisco Giants
+T.Paciorek (4.3), 1981`Seattle Mariners
+K.Hernandez (4.2), 1981`St. Louis Cardinals
+B.Bell (6.2), 1981`Texas Rangers
+D.Stieb (4.5), 1981`Toronto Blue Jays
 A.Dawson (7.4), 1981`Montreal Expos
+D.Murphy (6.5), 1980`Atlanta Braves
+A.Bumbry (6.1), 1980`Baltimore Orioles
+F.Lynn (4.7), 1980`Boston Red Sox
+R.Reuschel (5.6), 1980`Chicago Cubs
+B.Burns (7.0), 1980`Chicago White Sox
+G.Foster (4.0), 1980`Cincinnati Reds
+T.Harrah (4.4), 1980`Cleveland Indians
+A.Trammell (4.8), 1980`Detroit Tigers
+T.Puhl (6.2), 1980`Houston Astros
+G.Brett (9.4), 1980`Kansas City Royals
+B.Grich (4.1), 1980`California Angels
+D.Sutton (5.5), 1980`Los Angeles Dodgers
+R.Yount (7.1), 1980`Milwaukee Brewers
+D.Corbett (5.7), 1980`Minnesota Twins
+L.Mazzilli (3.2), 1980`New York Mets
+W.Randolph (6.6), 1980`New York Yankees
+R.Henderson (8.8), 1980`Oakland Athletics
+S.Carlton (10.2), 1980`Philadelphia Phillies
+M.Easler (4.1), 1980`Pittsburgh Pirates
+O.Smith (5.0), 1980`San Diego Padres
+J.Clark (4.7), 1980`San Francisco Giants
+F.Bannister (4.3), 1980`Seattle Mariners
+K.Hernandez (6.6), 1980`St. Louis Cardinals
+B.Bell (6.5), 1980`Texas Rangers
+J.Clancy (5.6), 1980`Toronto Blue Jays
 A.Dawson (6.8), 1980`Montreal Expos
-G.Carter (5.9), 1979`Montreal Expos
-G.Carter (5.8), 1978`Montreal Expos
-G.Carter (5.3), 1977`Montreal Expos
-S.Rogers (4.7), 1976`Montreal Expos
-S.Rogers (4.8), 1975`Montreal Expos
-M.Jorgensen (4.2), 1974`Montreal Expos
-K.Singleton (5.7), 1973`Montreal Expos
-M.Marshall (4.0), 1972`Montreal Expos
-R.Staub (5.9), 1971`Montreal Expos
-R.Staub (6.3), 1970`Montreal Expos
-R.Staub (6.2), 1969`Montreal Expos
-
