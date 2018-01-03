@@ -308,7 +308,7 @@ class TriviaSession():
                     has_guessed = True
                 if answer.replace('an ', '') == guess.replace('an ',''):
                     has_guessed = True
-                if answer.replace(' the ','') == guess.replace(' the ',''):
+                if answer.replace('the','') == guess.replace('the',''):
                     has_guessed = True
                 if answer.replace('.','').replace(',','').replace('\'', '').replace('-', ' ') == guess.replace('.','').replace(',','').replace('\'', '').replace('-',' '):
                     has_guessed = True
