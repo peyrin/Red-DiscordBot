@@ -36,12 +36,12 @@
             "name" : "justin"
         },
         "254037619346767872" : {
-            "balance" : 0,
+            "balance" : 6000,
             "created_at" : "2016-12-02 17:29:00",
             "name" : "torm"
         },
         "254040482932326404" : {
-            "balance" : 31295,
+            "balance" : 23321,
             "created_at" : "2017-02-20 19:55:35",
             "name" : "Exordium"
         },
@@ -191,7 +191,7 @@
             "name" : "dr-dre"
         },
         "355104802151202821" : {
-            "balance" : 4100,
+            "balance" : 4000,
             "created_at" : "2018-01-01 00:29:50",
             "name" : "Andre"
         },
