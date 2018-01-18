@@ -158,7 +158,7 @@ class Mod:
         message = ctx.message
         user = ctx.message.author
         server = ctx.message.server
-        if server.id = '254043153080778752':
+        if server.id == '254043153080778752':
             try:
                 if color in invalid_colors:
                     await self.bot.say("Not a valid color.")
