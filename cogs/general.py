@@ -83,12 +83,13 @@ class General:
     async def imgur(self, ctx, image : str):
         header = {'Authorization': 'Client-ID 7404ac1d65b0973'}
         url = 'https://api.imgur.com/3/image'
+        if not image and len(ctx.message.attachments) > 0:
+            image = ctx.message.attachments[0]['url']
         r=requests.post(url,data=image,headers=header)
         if r.status_code == 200:
             await self.bot.say(json.loads(r.content)['data']['link'])
         else:
             await self.bot.say('Upload failed.')
-
 
     @commands.command(pass_context=True)
     async def roll(self, ctx, number : int = 100):
