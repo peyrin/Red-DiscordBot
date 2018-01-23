@@ -11,6 +11,8 @@ import aiohttp
 import asyncio
 import pylast
 import pafy
+import json
+import requests
 
 settings = {"POLL_DURATION" : 60}
 
@@ -67,14 +69,15 @@ class General:
 
     @commands.command(pass_context=True, name="avatar", aliases=["av"])
     async def avatar(self, ctx, user : discord.Member):
+        header = {'Authorization': 'Client-ID 7404ac1d65b0973'}
+        url = 'https://api.imgur.com/3/image'
         if user.avatar_url:
-            avatar = user.avatar_url
+            avatar = user.avatar_url.replace('webp','png')
         else:
-            avatar = user.default_avatar_url
-        em = discord.Embed(color=discord.Color.red())
-        em.add_field(name=user.display_name + "'s avatar", value=avatar)
-        em.set_image(url=avatar)
-        await self.bot.say(embed=em)
+            avatar = user.default_avatar_url.replace('webp','png')
+        r=requests.post(url,data=avatar,headers=header)
+        avatar_image = json.loads(r.content)['data']['link']
+        await self.bot.say(avatar_image)
 
     @commands.command(pass_context=True)
     async def roll(self, ctx, number : int = 100):
