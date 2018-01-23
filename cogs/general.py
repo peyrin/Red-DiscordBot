@@ -79,6 +79,17 @@ class General:
         avatar_image = json.loads(r.content)['data']['link']
         await self.bot.say(avatar_image)
 
+    @commands.command(pass_context=True, name="imgur")
+    async def imgur(self, ctx, image : str)
+        header = {'Authorization': 'Client-ID 7404ac1d65b0973'}
+        url = 'https://api.imgur.com/3/image'
+        r=requests.post(url,data=image,headers=header)
+        if r.status_code == 200:
+            await self.bot.say(json.loads(r.content)['data']['link'])
+        else:
+            await self.bot.say('Upload failed.')  
+
+
     @commands.command(pass_context=True)
     async def roll(self, ctx, number : int = 100):
         """Rolls random number (between 1 and user choice)
