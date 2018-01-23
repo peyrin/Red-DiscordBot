@@ -81,6 +81,10 @@ class General:
 
     @commands.command(pass_context=True, name="imgur")
     async def imgur(self, ctx, image : str):
+        """Uploads image to Imgur and returns a URL.
+        !imgur [link to image]
+        !imgur attached [upload the image as an attachment to the post]
+        """
         header = {'Authorization': 'Client-ID 7404ac1d65b0973'}
         url = 'https://api.imgur.com/3/image'
         if image == 'attached' and len(ctx.message.attachments) > 0:

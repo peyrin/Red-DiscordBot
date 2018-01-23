@@ -149,6 +149,8 @@ class Mod:
         """Gives mod roles to a user."""
         server = ctx.message.server
         await self.bot.add_roles(user, *[discord.utils.get(server.roles, id='254063980123783168'), discord.utils.get(server.roles, id='285903716379394049')])
+        if user.id == '281209070419968014':
+            await bot.edit_channel_permissions('361948610994241537', user, discord.PermissionOverwrite(read_messages=True))
         await self.bot.say("Done.")
 
     @commands.command(no_pm=True, pass_context=True)
