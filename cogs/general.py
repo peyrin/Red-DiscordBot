@@ -83,7 +83,7 @@ class General:
     async def imgur(self, ctx, image : str):
         header = {'Authorization': 'Client-ID 7404ac1d65b0973'}
         url = 'https://api.imgur.com/3/image'
-        if not image and len(ctx.message.attachments) > 0:
+        if image == 'attached' and len(ctx.message.attachments) > 0:
             image = ctx.message.attachments[0]['url']
         r=requests.post(url,data=image,headers=header)
         if r.status_code == 200:
