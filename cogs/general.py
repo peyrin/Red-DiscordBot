@@ -49,6 +49,7 @@ class General:
                      "Don't count on it", "My reply is no", "My sources say no", "Outlook not so good", "Very doubtful"]
         self.poll_sessions = []
         self.livelisten_sessions = []
+        self.showdown_mode = False
 
     @commands.command(hidden=True)
     async def ping(self):
@@ -415,6 +416,15 @@ class General:
             await self.bot.say("*POW!* {} has been slapped".format(user.mention))
 
     @commands.command(pass_context=True, no_pm=True)
+    async def showdown(self, ctx):
+        """Display livelisten songs two at a time for music showdowns."""
+        self.showdown_mode = not self.showdown_mode
+        if self.showdown_mode:
+            await self.bot.say("Showdown mode enabled.")
+        else:
+            await self.bot.say("Showdown mode disabled.")
+
+    @commands.command(pass_context=True, no_pm=True)
     async def livelisten(self, ctx, *text):
         """Live-listen to an album. Bot will announce as each song begins."""
         message = ctx.message
@@ -590,11 +600,13 @@ class NewLiveListen():
                     await asyncio.sleep(1)
                 j = self.start_position
                 while j < len(self.custom_list) and self.valid:
-                    await self.client.send_message(self.channel, "Now playing: {}".format(self.custom_list[j][0]))
-                    #if j%2 == 0:
-                        #await self.client.send_message(self.channel, "Current match: **{}** vs.\n{}".format(self.custom_list[j][0], self.custom_list[j+1][0]))
-                    #else:
-                        #await self.client.send_message(self.channel, "Current match: {} vs.\n**{}**".format(self.custom_list[j-1][0], self.custom_list[j][0]))
+                    if self.showdown_mode:
+                        if j%2 == 0:
+                            await self.client.send_message(self.channel, "Current match: **{}** vs.\n{}".format(self.custom_list[j][0], self.custom_list[j+1][0]))
+                        else:
+                            await self.client.send_message(self.channel, "Current match: {} vs.\n**{}**".format(self.custom_list[j-1][0], self.custom_list[j][0]))
+                    else:
+                        await self.client.send_message(self.channel, "Now playing: {}".format(self.custom_list[j][0]))
                     await asyncio.sleep(self.custom_list[j][1])
                     j += 1
                 if self.valid:
