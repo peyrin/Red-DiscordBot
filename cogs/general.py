@@ -436,7 +436,7 @@ class General:
             l = NewLiveListen(message, " ".join(text), self)
             if l.valid:
                 self.livelisten_sessions.append(l)
-                await l.start()
+                await l.start(self.showdown_mode)
             else:
                 await self.bot.say("livelisten Artist - Album - Start position")
         else:
@@ -558,7 +558,7 @@ class NewLiveListen():
             else:
                 self.start_position = 0
 
-    async def start(self):
+    async def start(self, showdown_mode):
         if self.custom_list is None:
             try:
                 album = self.network.get_album(self.artist_search, self.album_search)
@@ -600,7 +600,7 @@ class NewLiveListen():
                     await asyncio.sleep(1)
                 j = self.start_position
                 while j < len(self.custom_list) and self.valid:
-                    if self.showdown_mode:
+                    if showdown_mode:
                         if j%2 == 0:
                             await self.client.send_message(self.channel, "Current match: **{}** vs.\n{}".format(self.custom_list[j][0], self.custom_list[j+1][0]))
                         else:
