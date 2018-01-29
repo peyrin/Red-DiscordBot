@@ -588,7 +588,7 @@ class NewLiveListen():
                 await self.endlivelisten()
                 await self.client.send_message(self.channel, "Album wasn't found.")
         else:
-            try:
+            if not showdown_mode:
                 await self.client.send_message(self.channel, "Listening to: {}".format(self.playlist_title))
                 await asyncio.sleep(1)
                 await self.client.send_message(self.channel, "Playlist starts in: 3")
@@ -598,22 +598,21 @@ class NewLiveListen():
                     await self.client.send_message(self.channel, i)
                     i -= 1
                     await asyncio.sleep(1)
-                j = self.start_position
-                while j < len(self.custom_list) and self.valid:
-                    if showdown_mode:
-                        if j%2 == 0:
-                            await self.client.send_message(self.channel, "Current match: **{}** vs.\n{}".format(self.custom_list[j][0], self.custom_list[j+1][0]))
-                        else:
-                            await self.client.send_message(self.channel, "Current match: {} vs.\n**{}**".format(self.custom_list[j-1][0], self.custom_list[j][0]))
+            j = self.start_position
+            while j < len(self.custom_list) and self.valid:
+                current_song_length = self.custom_list[j][1]
+                if showdown_mode:
+                    if j%2 == 0:
+                        await self.client.send_message(self.channel, "Current match: **{}** ({}) vs.\n{} ({})".format(self.custom_list[j][0], current_song_length, self.custom_list[j+1][0], self.custom_list[j+1][1]))
                     else:
-                        await self.client.send_message(self.channel, "Now playing: {}".format(self.custom_list[j][0]))
-                    await asyncio.sleep(self.custom_list[j][1])
-                    j += 1
-                if self.valid:
-                    await self.client.send_message(self.channel, "It end.")
-                    await self.endlivelisten()
-            except () as e:
-                await self.client.send_message(self.channel, "Something went wrong?")
+                        await self.client.send_message(self.channel, "Current match: {} ({}) vs.\n**{}** ({})".format(self.custom_list[j-1][0], current_song_length, self.custom_list[j][0], self.custom_list[j+1][1]))
+                else:
+                    await self.client.send_message(self.channel, "Now playing: {}".format(self.custom_list[j][0]))
+                await asyncio.sleep(current_song_length)
+                j += 1
+            if self.valid:
+                await self.client.send_message(self.channel, "It end.")
+                await self.endlivelisten(current_song_length)
 
     async def endlivelisten(self):
         self.valid = False
