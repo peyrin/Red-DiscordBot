@@ -603,9 +603,11 @@ class NewLiveListen():
                 current_song_length = self.custom_list[j][1]
                 if showdown_mode:
                     if j%2 == 0:
-                        await self.client.send_message(self.channel, "Current match: **{}** ({}) vs.\n{} ({})".format(self.custom_list[j][0], current_song_length, self.custom_list[j+1][0], self.custom_list[j+1][1]))
+                        other_song_length = str(datetime.timedelta(seconds=int(self.custom_list[j+1][1])))[2:]
+                        await self.client.send_message(self.channel, "Current match: **{}** ({}) vs.\n{} ({})".format(self.custom_list[j][0], current_song_length, self.custom_list[j+1][0], other_song_length))
                     else:
-                        await self.client.send_message(self.channel, "Current match: {} ({}) vs.\n**{}** ({})".format(self.custom_list[j-1][0], current_song_length, self.custom_list[j][0], self.custom_list[j+1][1]))
+                        other_song_length = str(datetime.timedelta(seconds=int(self.custom_list[j-1][1])))[2:]
+                        await self.client.send_message(self.channel, "Current match: {} ({}) vs.\n**{}** ({})".format(self.custom_list[j-1][0], other_song_length, self.custom_list[j][0], current_song_length))
                 else:
                     await self.client.send_message(self.channel, "Now playing: {}".format(self.custom_list[j][0]))
                 await asyncio.sleep(current_song_length)
