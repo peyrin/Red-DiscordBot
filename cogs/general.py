@@ -524,7 +524,7 @@ class NewLiveListen():
         self.livelisten_sessions = main.livelisten_sessions
         if 'youtube.com/playlist' in text:
             try:
-                msg = [ans.strip() for ans in text.split(" - ")]
+                msg = [i.strip() for i in text.split(" - ")]
                 if len(msg) != 1 and len(msg) != 2:
                     self.valid = False
                     return None
@@ -544,19 +544,32 @@ class NewLiveListen():
                 self.valid = False
                 return None
         else:
-            self.custom_list = None
-            msg = [ans.strip() for ans in text.split(" - ")]
-            if len(msg) != 2 and len(msg) != 3:
-                self.valid = False
-                return None
-            else:
-                self.valid = True
-            self.artist_search = msg[0]
-            self.album_search = msg[1]
-            if len(msg) == 3:
-                self.start_position = int(msg[2]) - 1
-            else:
-                self.start_position = 0
+            try:
+                msg = [i.strip() for i in text.split(' - ')]
+                f = open(msg[0] + '.txt', 'r')
+                raw_tracklist = f.read()
+                self.custom_list = [i.split(' - ') for i in raw_tracklist.split('\n')]
+                for i in self.custom_list:
+                    raw_length = i[1].split(':')
+                    i[1] = int(raw_length[1]) + int(raw_length[0])*60
+                if len(msg) == 2:
+                    self.start_position = int(msg[1]) - 1
+                else:
+                    self.start_position = 0
+            except FileNotFoundError:
+                self.custom_list = None
+                msg = [i.strip() for i in text.split(' - ')]
+                if len(msg) != 2 and len(msg) != 3:
+                    self.valid = False
+                    return None
+                else:
+                    self.valid = True
+                self.artist_search = msg[0]
+                self.album_search = msg[1]
+                if len(msg) == 3:
+                    self.start_position = int(msg[2]) - 1
+                else:
+                    self.start_position = 0
 
     async def start(self, showdown_mode):
         if self.custom_list is None:
