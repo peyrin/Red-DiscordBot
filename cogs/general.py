@@ -635,7 +635,7 @@ class NewLiveListen():
                 j += 1
             if self.valid:
                 await self.client.send_message(self.channel, "It end.")
-                await self.endlivelisten(current_song_length)
+                await self.endlivelisten()
 
     async def endlivelisten(self):
         self.valid = False
