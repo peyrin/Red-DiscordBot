@@ -546,7 +546,7 @@ class NewLiveListen():
         else:
             try:
                 msg = [i.strip() for i in text.split(' - ')]
-                f = open(msg[0] + '.txt', 'r')
+                f = open('data/livelisten/' + msg[0] + '.txt', 'r')
                 raw_tracklist = f.read()
                 self.custom_list = [i.split(' - ') for i in raw_tracklist.split('\n')]
                 for i in self.custom_list:
