@@ -186,7 +186,7 @@ class CustomCommands:
                 cmdlist = self.c_commands[server.id]
                 if command in cmdlist:
                     command_list = list(cmdlist[command])
-                    result = '```I remember ' if len(command_list) < 20 else 'I remember'
+                    result = '```I remember ' if len(command_list) < 20 else 'I remember '
                     result += str(len(command_list))
                     result += ' things about '
                     result += command
