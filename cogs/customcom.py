@@ -200,7 +200,7 @@ class CustomCommands:
                         result += '```'
                         await self.bot.send_message(channel, result)
                     else:
-                        result = 'Argh. Go here instead: https://github.com/peyrin/Red-DiscordBot/blob/develop/data/customcom/commands.json'
+                        result += 'Argh. Go here instead: https://github.com/peyrin/Red-DiscordBot/blob/develop/data/customcom/commands.json'
                         await self.bot.send_message(channel, result)
                 else:
                     await self.bot.say("That command doesn't exist.")
