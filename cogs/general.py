@@ -585,18 +585,19 @@ class NewLiveListen():
                 album = self.network.get_album(self.artist_search, self.album_search)
                 tracks = album.get_tracks()
                 check_if_album_has_nonzero_tracks = tracks[1]
-                if album.get_cover_image():
-                    await self.client.send_message(self.channel, "Listening to: {}\n\n{}".format(str(album), album.get_cover_image()))
-                else:
-                    await self.client.send_message(self.channel, "Listening to: {}".format(str(album)))
-                await asyncio.sleep(1)
-                await self.client.send_message(self.channel, "Album starts in: 3")
-                await asyncio.sleep(1)
-                i = 2
-                while i > 0:
-                    await self.client.send_message(self.channel, i)
-                    i -= 1
+                if self.start_position == 0:
+                    if album.get_cover_image():
+                        await self.client.send_message(self.channel, "Listening to: {}\n\n{}".format(str(album), album.get_cover_image()))
+                    else:
+                        await self.client.send_message(self.channel, "Listening to: {}".format(str(album)))
                     await asyncio.sleep(1)
+                    await self.client.send_message(self.channel, "Album starts in: 3")
+                    await asyncio.sleep(1)
+                    i = 2
+                    while i > 0:
+                        await self.client.send_message(self.channel, i)
+                        i -= 1
+                        await asyncio.sleep(1)
                 j = self.start_position
                 while j < len(tracks) and self.valid:
                     await self.client.send_message(self.channel, "Now playing: {}".format(str(tracks[j])))
@@ -609,7 +610,7 @@ class NewLiveListen():
                 await self.endlivelisten()
                 await self.client.send_message(self.channel, "Album wasn't found.")
         else:
-            if not showdown_mode:
+            if not showdown_mode and self.start_position == 0:
                 await self.client.send_message(self.channel, "Listening to: {}".format(self.playlist_title))
                 await asyncio.sleep(1)
                 await self.client.send_message(self.channel, "Album starts in: 3")
