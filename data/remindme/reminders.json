@@ -1,12 +1,6 @@
 [
     {
         "CHANNEL" : "401552421496815629",
-        "FUTURE" : 1518244382,
-        "ID" : "254381166700920832",
-        "TEXT" : "Hello Chris from the future! How's it going?"
-    },
-    {
-        "CHANNEL" : "401552421496815629",
         "FUTURE" : 1518662150,
         "ID" : "254381166700920832",
         "TEXT" : "How far does this reminder thing go? Anyway, saying hi to you all from February 2nd"
@@ -18,15 +12,21 @@
         "TEXT" : "will this work?"
     },
     {
-        "CHANNEL" : "401552421496815629",
-        "FUTURE" : 1518261717,
-        "ID" : "254381166700920832",
-        "TEXT" : "It's Saturday again, fam. Have a good one, future Grifty! \ud83d\ude04"
-    },
-    {
         "CHANNEL" : "254043153080778752",
         "FUTURE" : 1518649709,
         "ID" : "281209070419968014",
         "TEXT" : "https://pbs.twimg.com/media/C51KMLCWQAILGW5.jpg:large"
+    },
+    {
+        "CHANNEL" : "401552421496815629",
+        "FUTURE" : 1518873980,
+        "ID" : "254381166700920832",
+        "TEXT" : "It's Saturday yet again! Have a good one -Grifty McGrift 10/02/2018"
+    },
+    {
+        "CHANNEL" : "401552421496815629",
+        "FUTURE" : 1539178335,
+        "ID" : "254381166700920832",
+        "TEXT" : "Happy birthday Grifty! -Grifty himself on 10/02/2018"
     }
 ]
