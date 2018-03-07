@@ -97,6 +97,11 @@ class General:
             await self.bot.say('Upload failed.')
 
     @commands.command(pass_context=True)
+    async def blessed(self, ctx):
+        """Don't do this."""
+        await self.bot.say("!learn \"blessed image\" [your url here]")
+
+    @commands.command(pass_context=True)
     async def roll(self, ctx, number : int = 100):
         """Rolls random number (between 1 and user choice)
 
