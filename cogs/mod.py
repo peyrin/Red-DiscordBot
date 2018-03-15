@@ -369,11 +369,11 @@ class Mod:
             #await self.bot.say("I cannot let you do that. Self-harm is "
                                #"bad \N{PENSIVE FACE}")
             #return
-        if not self.is_allowed_by_hierarchy(server, author, user):
-            await self.bot.say("I cannot let you do that. You are "
-                               "not higher than the user in the role "
-                               "hierarchy.")
-            return
+        #if not self.is_allowed_by_hierarchy(server, author, user):
+            #await self.bot.say("I cannot let you do that. You are "
+                               #"not higher than the user in the role "
+                               #"hierarchy.")
+            #return
 
         if user.id == self.bot.user.id:
             await self.bot.say("Nice try. You think this is funny? How's THIS for a kick")
