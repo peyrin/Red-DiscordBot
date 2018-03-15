@@ -394,6 +394,9 @@ class Mod:
             return
 
         try:
+            if str(user.status) == "offline":
+                await self.bot.say("meh")
+                return
             await self.bot.kick(user)
             logger.info("{}({}) kicked {}({})".format(
                 author.name, author.id, user.name, user.id))
