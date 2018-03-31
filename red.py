@@ -343,7 +343,7 @@ def initialize(bot_class=Bot, formatter_class=Formatter):
     @bot.event
     async def on_message(message):
         channel = bot.get_channel('361948610994241537')
-        if random.randint(0,1) == 0:
+        if message.channel == channel and random.randint(0,1) == 0:
             emoji = str(discord.utils.get(bot.get_all_emojis(), id='429757543816888331'))
             await bot.add_reaction(message, emoji)
         bot.counter["messages_read"] += 1
