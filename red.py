@@ -7,6 +7,7 @@ import logging.handlers
 import traceback
 import datetime
 import subprocess
+import random
 
 try:
     from discord.ext import commands
@@ -341,6 +342,9 @@ def initialize(bot_class=Bot, formatter_class=Formatter):
 
     @bot.event
     async def on_message(message):
+        channel = client.get_channel('361948610994241537')
+        if random.randint(0,1) == 0:
+            await self.bot.add_reaction(message, "<:catstare:429757543816888331>")
         bot.counter["messages_read"] += 1
         if bot.user_allowed(message):
             await bot.process_commands(message)
