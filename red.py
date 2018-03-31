@@ -343,8 +343,8 @@ def initialize(bot_class=Bot, formatter_class=Formatter):
     @bot.event
     async def on_message(message):
         channel = bot.get_channel('361948610994241537')
-        if message.channel == channel and random.randint(0,1) == 0:
-            emoji = str(discord.utils.get(discord.server.emojis, id='429757543816888331'))
+        if message.channel == channel and message.author.id == '122243205524750336' and random.randint(0,1) == 0:
+            emoji = discord.utils.get(message.server.emojis, name='weebey')
             await bot.add_reaction(message, emoji)
         bot.counter["messages_read"] += 1
         if bot.user_allowed(message):
