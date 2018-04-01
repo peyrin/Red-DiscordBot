@@ -349,6 +349,9 @@ def initialize(bot_class=Bot, formatter_class=Formatter):
             else:
                 emoji = discord.utils.get(message.server.emojis, name='okface')
             await bot.add_reaction(message, emoji)
+        if message.author.id == '254045797501370368':
+            emoji = discord.utils.get(message.server.emojis, name='foose')
+            await bot.add_reaction(message, emoji)
         bot.counter["messages_read"] += 1
         if bot.user_allowed(message):
             await bot.process_commands(message)
