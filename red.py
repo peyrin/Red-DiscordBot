@@ -371,6 +371,14 @@ def initialize(bot_class=Bot, formatter_class=Formatter):
         if message.author.id == '427990566303956994':
             emoji = discord.utils.get(message.server.emojis, name='nunes')
             await bot.add_reaction(message, emoji)
+        if message.author.id == '254331370611015703' or message.author.id == '265926229876670464':
+            if random.randint(0,1) == 0:
+                emoji = discord.utils.get(message.server.emojis, name='bossbabe')
+            else:
+                emoji = discord.utils.get(message.server.emojis, name='minion')
+            await bot.add_reaction(message, emoji)
+        if message.author.id == '254778046014423040':
+            await bot.add_reaction(message, '🛏')
         randominteger = random.randint(0,20)
         if randominteger == 0:
             emoji = discord.utils.get(message.server.emojis, name='truth')
