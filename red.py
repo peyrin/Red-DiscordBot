@@ -352,6 +352,20 @@ def initialize(bot_class=Bot, formatter_class=Formatter):
         if message.author.id == '254045797501370368':
             emoji = discord.utils.get(message.server.emojis, name='foose')
             await bot.add_reaction(message, emoji)
+        if message.author.id == '254729197258407937':
+            await bot.add_reaction(message, '🇱')
+        if message.author.id == '254052068573184000':
+            emoji = discord.utils.get(message.server.emojis, name='HenryVII')
+            await bot.add_reaction(message, emoji)
+        if message.author.id == '417471957592702977':
+            emoji = discord.utils.get(message.server.emojis, name='doge')
+            await bot.add_reaction(message, emoji)
+        if message.author.id == '254060285218783233':
+            emoji = discord.utils.get(message.server.emojis, name='moose')
+            await bot.add_reaction(message, emoji)
+        if message.author.id == '254037619346767872':
+            emoji = discord.utils.get(message.server.emojis, name='salt')
+            await bot.add_reaction(message, emoji)
         bot.counter["messages_read"] += 1
         if bot.user_allowed(message):
             await bot.process_commands(message)
