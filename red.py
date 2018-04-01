@@ -342,8 +342,8 @@ def initialize(bot_class=Bot, formatter_class=Formatter):
 
     @bot.event
     async def on_message(message):
-        egg_channel = bot.get_channel('361948610994241537')
-        if message.channel == egg_channel and message.author.id == '281209070419968014' and random.randint(0,1) == 0:
+        egg_channel = bot.get_channel('302629083345321985')
+        if message.channel == egg_channel and message.author.id == '175547101785096192':
             if random.randint(0,1) == 0:
                 emoji = discord.utils.get(message.server.emojis, name='weebey')
             else:
