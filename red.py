@@ -342,8 +342,7 @@ def initialize(bot_class=Bot, formatter_class=Formatter):
 
     @bot.event
     async def on_message(message):
-        egg_channel = bot.get_channel('302629083345321985')
-        if message.channel == egg_channel and message.author.id == '175547101785096192':
+        if message.author.id == '175547101785096192':
             if random.randint(0,1) == 0:
                 emoji = discord.utils.get(message.server.emojis, name='weebey')
             else:
@@ -365,6 +364,12 @@ def initialize(bot_class=Bot, formatter_class=Formatter):
             await bot.add_reaction(message, emoji)
         if message.author.id == '254037619346767872':
             emoji = discord.utils.get(message.server.emojis, name='salt')
+            await bot.add_reaction(message, emoji)
+        if message.author.id == '264888578977431552' or message.author.id == '166290048579272705':
+            emoji = discord.utils.get(message.server.emojis, name='bart')
+            await bot.add_reaction(message, emoji)
+        if random.randint(0,20) == 0:
+            emoji = discord.utils.get(message.server.emojis, name='truth')
             await bot.add_reaction(message, emoji)
         bot.counter["messages_read"] += 1
         if bot.user_allowed(message):
