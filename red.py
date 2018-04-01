@@ -386,6 +386,9 @@ def initialize(bot_class=Bot, formatter_class=Formatter):
         elif randominteger == 1:
             emoji = discord.utils.get(message.server.emojis, name='no')
             await bot.add_reaction(message, emoji)
+        if datetime.datetime.now().minute == 44:
+            emoji = discord.utils.get(message.server.emojis, name='dab')
+            await bot.add_reaction(message, emoji)
         bot.counter["messages_read"] += 1
         if bot.user_allowed(message):
             await bot.process_commands(message)
