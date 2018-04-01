@@ -380,7 +380,7 @@ def initialize(bot_class=Bot, formatter_class=Formatter):
             emoji = discord.utils.get(message.server.emojis, name='weed')
             await bot.add_reaction(message, emoji)
         if message.author.id == '281209070419968014':
-            if random.randint(0,10) == 0:
+            if random.randint(0,3) == 0:
                 await bot.add_reaction(message, '🇷')
                 await bot.add_reaction(message, '🇪')
                 await bot.add_reaction(message, '🇸')
