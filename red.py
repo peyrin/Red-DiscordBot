@@ -368,7 +368,10 @@ def initialize(bot_class=Bot, formatter_class=Formatter):
         if message.author.id == '264888578977431552' or message.author.id == '166290048579272705':
             emoji = discord.utils.get(message.server.emojis, name='bart')
             await bot.add_reaction(message, emoji)
-        if random.randint(0,20) == 0:
+        if message.author.id == '427990566303956994':
+            emoji = discord.utils.get(message.server.emojis, name='nunes')
+            await bot.add_reaction(message, emoji)
+        if random.randint(0,15) == 0:
             emoji = discord.utils.get(message.server.emojis, name='truth')
             await bot.add_reaction(message, emoji)
         bot.counter["messages_read"] += 1
