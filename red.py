@@ -342,66 +342,69 @@ def initialize(bot_class=Bot, formatter_class=Formatter):
 
     @bot.event
     async def on_message(message):
-        if message.author.id == '175547101785096192':
-            if random.randint(0,1) == 0:
-                emoji = discord.utils.get(message.server.emojis, name='weebey')
-            else:
-                emoji = discord.utils.get(message.server.emojis, name='okface')
-            await bot.add_reaction(message, emoji)
-        if message.author.id == '254045797501370368':
-            emoji = discord.utils.get(message.server.emojis, name='foose')
-            await bot.add_reaction(message, emoji)
-        if message.author.id == '254729197258407937':
-            await bot.add_reaction(message, '🇱')
-        if message.author.id == '254052068573184000':
-            emoji = discord.utils.get(message.server.emojis, name='HenryVII')
-            await bot.add_reaction(message, emoji)
-        if message.author.id == '417471957592702977':
-            emoji = discord.utils.get(message.server.emojis, name='doge')
-            await bot.add_reaction(message, emoji)
-        if message.author.id == '254060285218783233':
-            emoji = discord.utils.get(message.server.emojis, name='moose')
-            await bot.add_reaction(message, emoji)
-        if message.author.id == '254037619346767872':
-            emoji = discord.utils.get(message.server.emojis, name='salt')
-            await bot.add_reaction(message, emoji)
-        if message.author.id == '264888578977431552' or message.author.id == '166290048579272705':
-            emoji = discord.utils.get(message.server.emojis, name='bart')
-            await bot.add_reaction(message, emoji)
-        if message.author.id == '427990566303956994':
-            emoji = discord.utils.get(message.server.emojis, name='nunes')
-            await bot.add_reaction(message, emoji)
-        if message.author.id == '254036529876303872':
-            emoji = discord.utils.get(message.server.emojis, name='bossbabe')
-            await bot.add_reaction(message, emoji)
-        if message.author.id == '271855293577691138':
-            await bot.add_reaction(message, '🤓')
-        if message.author.id == '355104802151202821':
-            emoji = discord.utils.get(message.server.emojis, name='weed')
-            await bot.add_reaction(message, emoji)
-        if message.author.id == '281209070419968014':
-            if random.randint(0,3) == 0:
-                await bot.add_reaction(message, '🇷')
-                await bot.add_reaction(message, '🇪')
-                await bot.add_reaction(message, '🇸')
-                await bot.add_reaction(message, '🇮')
-                await bot.add_reaction(message, '🇬')
-                await bot.add_reaction(message, '🇳')
-        if message.author.id == '254331370611015703' or message.author.id == '265926229876670464':
-            if random.randint(0,1) == 0:
-                emoji = discord.utils.get(message.server.emojis, name='bossbabe')
-            else:
-                emoji = discord.utils.get(message.server.emojis, name='minion')
-            await bot.add_reaction(message, emoji)
-        if message.author.id == '254778046014423040':
-            await bot.add_reaction(message, '🛏')
-        randominteger = random.randint(0,20)
-        if randominteger == 0:
-            emoji = discord.utils.get(message.server.emojis, name='truth')
-            await bot.add_reaction(message, emoji)
-        elif randominteger == 1:
-            emoji = discord.utils.get(message.server.emojis, name='no')
-            await bot.add_reaction(message, emoji)
+        #if message.author.id == '175547101785096192':
+            #if random.randint(0,1) == 0:
+                #emoji = discord.utils.get(message.server.emojis, name='weebey')
+            #else:
+                #emoji = discord.utils.get(message.server.emojis, name='okface')
+            #await bot.add_reaction(message, emoji)
+        #if message.author.id == '254045797501370368':
+            #emoji = discord.utils.get(message.server.emojis, name='foose')
+            #await bot.add_reaction(message, emoji)
+        #if message.author.id == '254729197258407937':
+            #if random.randint(0,1) == 0:
+                #await bot.add_reaction(message, '🇱')
+        #if message.author.id == '254052068573184000':
+            #emoji = discord.utils.get(message.server.emojis, name='HenryVII')
+            #await bot.add_reaction(message, emoji)
+        #if message.author.id == '417471957592702977':
+            #emoji = discord.utils.get(message.server.emojis, name='doge')
+            #await bot.add_reaction(message, emoji)
+        #if message.author.id == '254060285218783233':
+            #emoji = discord.utils.get(message.server.emojis, name='moose')
+            #await bot.add_reaction(message, emoji)
+        #if message.author.id == '254037619346767872':
+            #emoji = discord.utils.get(message.server.emojis, name='salt')
+            #await bot.add_reaction(message, emoji)
+        #if message.author.id == '264888578977431552' or message.author.id == '166290048579272705':
+            #emoji = discord.utils.get(message.server.emojis, name='bart')
+            #await bot.add_reaction(message, emoji)
+        #if message.author.id == '427990566303956994':
+            #if random.randint(0,1) == 0:            
+                #emoji = discord.utils.get(message.server.emojis, name='nunes')
+                #await bot.add_reaction(message, emoji)
+        #if message.author.id == '254036529876303872':
+            #emoji = discord.utils.get(message.server.emojis, name='bossbabe')
+            #await bot.add_reaction(message, emoji)
+        #if message.author.id == '271855293577691138':
+            #await bot.add_reaction(message, '🤓')
+        #if message.author.id == '355104802151202821':
+            #if random.randint(0,1) == 0:
+                #emoji = discord.utils.get(message.server.emojis, name='weed')
+                #await bot.add_reaction(message, emoji)
+        #if message.author.id == '281209070419968014':
+            #if random.randint(0,2) == 0:
+                #await bot.add_reaction(message, '🇷')
+                #await bot.add_reaction(message, '🇪')
+                #await bot.add_reaction(message, '🇸')
+                #await bot.add_reaction(message, '🇮')
+                #await bot.add_reaction(message, '🇬')
+                #await bot.add_reaction(message, '🇳')
+        #if message.author.id == '254331370611015703' or message.author.id == '265926229876670464':
+            #if random.randint(0,1) == 0:
+                #emoji = discord.utils.get(message.server.emojis, name='bossbabe')
+            #else:
+                #emoji = discord.utils.get(message.server.emojis, name='minion')
+            #await bot.add_reaction(message, emoji)
+        #if message.author.id == '254778046014423040':
+            #await bot.add_reaction(message, '🛏')
+        #randominteger = random.randint(0,20)
+        #if randominteger == 0:
+            #emoji = discord.utils.get(message.server.emojis, name='truth')
+            #await bot.add_reaction(message, emoji)
+        #elif randominteger == 1:
+            #emoji = discord.utils.get(message.server.emojis, name='no')
+            #await bot.add_reaction(message, emoji)
         if datetime.datetime.now().minute == 44:
             emoji = discord.utils.get(message.server.emojis, name='dab')
             await bot.add_reaction(message, emoji)
