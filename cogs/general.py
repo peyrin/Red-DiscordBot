@@ -99,7 +99,7 @@ class General:
     @commands.command(pass_context=True)
     async def blessed(self, ctx):
         """Don't do this."""
-        await self.bot.say("!learn \"blessed image\" [your url here]")
+        pass
 
     @commands.command(pass_context=True)
     async def roll(self, ctx, number : int = 100):
