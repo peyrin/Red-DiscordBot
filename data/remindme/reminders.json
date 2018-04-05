@@ -73,12 +73,6 @@
     },
     {
         "CHANNEL" : "254043153080778752",
-        "FUTURE" : 1522883676,
-        "ID" : "281209070419968014",
-        "TEXT" : "https://pbs.twimg.com/media/C51KMLCWQAILGW5.jpg:large"
-    },
-    {
-        "CHANNEL" : "254043153080778752",
         "FUTURE" : 1528415135,
         "ID" : "355104802151202821",
         "TEXT" : "walk to Iowa"
@@ -102,15 +96,15 @@
         "TEXT" : "do u have ur licences yet"
     },
     {
-        "CHANNEL" : "254043153080778752",
-        "FUTURE" : 1522712721,
-        "ID" : "417471957592702977",
-        "TEXT" : "Have sushi with <:doge:334425776663560214>"
-    },
-    {
         "CHANNEL" : "401552421496815629",
         "FUTURE" : 1523542166,
         "ID" : "254381166700920832",
         "TEXT" : "Don't <:wat:401621237748596736> your own reminders, you dummy. Also greetings from March 31st"
+    },
+    {
+        "CHANNEL" : "254043153080778752",
+        "FUTURE" : 1523489175,
+        "ID" : "281209070419968014",
+        "TEXT" : "https://pbs.twimg.com/media/C51KMLCWQAILGW5.jpg:large"
     }
 ]
