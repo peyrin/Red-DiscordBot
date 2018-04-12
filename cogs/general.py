@@ -555,7 +555,7 @@ class NewLiveListen():
                 raw_tracklist = f.read()
                 self.playlist_title = msg[0]
                 self.custom_list = [i.split(' - ') for i in raw_tracklist.split('\n')]
-                #self.custom_list.remove([''])
+                self.custom_list.remove([''])
                 print(self.custom_list)
                 for i in self.custom_list:
                     raw_length = i[1].split(':')
