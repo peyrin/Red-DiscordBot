@@ -157,7 +157,7 @@ class Mod:
     @commands.command(no_pm=True, pass_context=True)
     async def color(self, ctx, color : str):
         """Sets a color (role) for a user."""
-        invalid_colors = ['overlord', 'Bots', 'mods', 'can mod people', 'Edmund', 'color wizard', 'regularly']
+        invalid_colors = ['overlord', 'Bots', 'mods', 'can mod people', 'Edmund', 'color wizard', 'regularly', 'admin', 'is OSS']
         message = ctx.message
         user = ctx.message.author
         server = ctx.message.server
