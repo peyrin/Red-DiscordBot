@@ -152,6 +152,9 @@ class Mod:
         if user.id == '281209070419968014':
             testin = discord.utils.get(server.channels, id='361948610994241537')
             await self.bot.edit_channel_permissions(testin, user, discord.PermissionOverwrite(read_messages=True))
+        if user.id == '254037619346767872':
+            testin = discord.utils.get(server.channels, id='305125659435597835')
+            await self.bot.edit_channel_permissions(testin, user, discord.PermissionOverwrite(read_messages=True))
         await self.bot.say("Done.")
 
     @commands.command(no_pm=True, pass_context=True)
