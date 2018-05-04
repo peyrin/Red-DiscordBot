@@ -471,12 +471,15 @@ class Mod:
         author = ctx.message.author
         server = author.server
         try:
-            banlist = await self.bot.get_bans(server)
-            member = discord.utils.get(banlist, name=user)
-            await self.bot.unban(server, member)
-            logger.info("{}({}) freed {}({})".format(
-                author.name, author.id, member.name, member.id))
-            await self.bot.say("Freed.")
+            if user == 'lil homer' or user == 'test':
+                await self.bot.say("lil homer must pay for his crimes.")
+            else:
+                banlist = await self.bot.get_bans(server)
+                member = discord.utils.get(banlist, name=user)
+                await self.bot.unban(server, member)
+                logger.info("{}({}) freed {}({})".format(
+                    author.name, author.id, member.name, member.id))
+                await self.bot.say("Freed.")
         except AttributeError:
             await self.bot.say("No such user.")
         except discord.errors.Forbidden:
