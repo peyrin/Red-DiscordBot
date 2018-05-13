@@ -421,6 +421,14 @@ class General:
             await self.bot.say("*POW!* {} has been slapped".format(user.mention))
 
     @commands.command(pass_context=True, no_pm=True)
+    async def writeplaylist(self, ctx, filename : str, msg : str):
+        """Write playlist to file"""
+        filename = "data/livelisten/" + filename + ".txt"
+        f = open(filename, 'w')
+        f.write(msg)
+        f.close()
+
+    @commands.command(pass_context=True, no_pm=True)
     async def showdown(self, ctx):
         """Display livelisten songs two at a time for music showdowns."""
         self.showdown_mode = not self.showdown_mode
