@@ -427,6 +427,7 @@ class General:
         f = open(filename, 'w')
         f.write(msg)
         f.close()
+        await self.bot.say("Done.")
 
     @commands.command(pass_context=True, no_pm=True)
     async def showdown(self, ctx):
@@ -563,8 +564,8 @@ class NewLiveListen():
                 raw_tracklist = f.read()
                 self.playlist_title = msg[0]
                 self.custom_list = [i.split(' - ') for i in raw_tracklist.split('\n')]
-                self.custom_list.remove([''])
-                #print(self.custom_list)
+                if [''] in self.custom_list:
+                    self.custom_list.remove([''])
                 for i in self.custom_list:
                     if len(i) >= 2:
                         raw_length = i[1].split(':')
