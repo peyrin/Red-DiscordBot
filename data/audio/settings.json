@@ -8,6 +8,12 @@
             "VOLUME" : 100,
             "VOTE_ENABLED" : true,
             "VOTE_THRESHOLD" : 50
+        },
+        "401552421496815626" : {
+            "NOPPL_DISCONNECT" : true,
+            "VOLUME" : 50,
+            "VOTE_ENABLED" : true,
+            "VOTE_THRESHOLD" : 50
         }
     },
     "SOUNDCLOUD_CLIENT_ID" : null,

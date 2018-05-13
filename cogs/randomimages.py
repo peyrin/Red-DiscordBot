@@ -22,7 +22,7 @@ class RandomImages:
     async def randomcat(self):
         """Returns a cat picture from random.cat"""
 
-        cat_api = "http://random.cat/meow"
+        cat_api = "http://aws.random.cat/meow"
 
         try:
             with aiohttp.ClientSession() as session:

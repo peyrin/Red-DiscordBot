@@ -556,10 +556,11 @@ class NewLiveListen():
                 self.playlist_title = msg[0]
                 self.custom_list = [i.split(' - ') for i in raw_tracklist.split('\n')]
                 self.custom_list.remove([''])
-                print(self.custom_list)
+                #print(self.custom_list)
                 for i in self.custom_list:
-                    raw_length = i[1].split(':')
-                    i[1] = int(raw_length[1]) + int(raw_length[0])*60
+                    if len(i) >= 2:
+                        raw_length = i[1].split(':')
+                        i[1] = int(raw_length[1]) + int(raw_length[0])*60
                 if len(msg) != 1 and len(msg) != 2:
                     self.valid = False
                     return None

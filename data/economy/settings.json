@@ -6,5 +6,13 @@
         "SLOT_MAX" : 500001,
         "SLOT_MIN" : 0,
         "SLOT_TIME" : 0
+    },
+    "401552421496815626" : {
+        "PAYDAY_CREDITS" : 10000,
+        "PAYDAY_TIME" : 60,
+        "REGISTER_CREDITS" : 0,
+        "SLOT_MAX" : 100,
+        "SLOT_MIN" : 5,
+        "SLOT_TIME" : 0
     }
 }
