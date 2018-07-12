@@ -92,7 +92,7 @@ class General:
             image = ctx.message.attachments[0]['url']
         r=requests.post(url,data=image,headers=header)
         if r.status_code == 200:
-            await self.bot.say(json.loads(r.content)['data']['link'])
+            await self.bot.say("`" + json.loads(r.content)['data']['link'] + "`")
         else:
             await self.bot.say('Upload failed.')
 

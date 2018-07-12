@@ -16,7 +16,7 @@
             "name" : "Tromboon"
         },
         "208396640812269568" : {
-            "balance" : 2,
+            "balance" : 9000,
             "created_at" : "2017-06-10 00:43:45",
             "name" : "kat"
         },
@@ -31,7 +31,7 @@
             "name" : "Huh-Oh-Muh-Eh-Rrr"
         },
         "248302957114818571" : {
-            "balance" : 20900,
+            "balance" : 22900,
             "created_at" : "2017-01-17 15:09:38",
             "name" : "beans"
         },
@@ -41,12 +41,12 @@
             "name" : "justin"
         },
         "254037619346767872" : {
-            "balance" : 742000,
+            "balance" : 5891000,
             "created_at" : "2016-12-02 17:29:00",
             "name" : "torm"
         },
         "254040482932326404" : {
-            "balance" : 67953577,
+            "balance" : 52099718,
             "created_at" : "2017-02-20 19:55:35",
             "name" : "Exordium"
         },
@@ -61,7 +61,7 @@
             "name" : "apolo"
         },
         "254045797501370368" : {
-            "balance" : 3981737,
+            "balance" : 7789446,
             "created_at" : "2016-12-04 18:50:49",
             "name" : "kaos"
         },
@@ -91,7 +91,7 @@
             "name" : "RobynS"
         },
         "254101923098132491" : {
-            "balance" : 0,
+            "balance" : 1000,
             "created_at" : "2016-12-04 20:28:30",
             "name" : "Hops"
         },
@@ -116,7 +116,7 @@
             "name" : "Cleve Boy"
         },
         "254611746789130240" : {
-            "balance" : 38520,
+            "balance" : 41520,
             "created_at" : "2016-12-03 17:42:12",
             "name" : "Telso"
         },
@@ -126,7 +126,7 @@
             "name" : "ry"
         },
         "257007941033394186" : {
-            "balance" : 6000,
+            "balance" : 1000,
             "created_at" : "2017-01-06 23:10:59",
             "name" : "Negative Ned"
         },
@@ -141,12 +141,12 @@
             "name" : "panther"
         },
         "265926229876670464" : {
-            "balance" : 16225,
+            "balance" : 49175,
             "created_at" : "2017-01-03 19:06:22",
             "name" : "SVT"
         },
         "271855293577691138" : {
-            "balance" : 12000,
+            "balance" : 19120,
             "created_at" : "2017-10-16 20:08:28",
             "name" : "Omega"
         },
@@ -161,7 +161,7 @@
             "name" : "tecna the veemon"
         },
         "281209070419968014" : {
-            "balance" : 22998,
+            "balance" : 23002,
             "created_at" : "2017-03-10 22:41:13",
             "name" : "peyrin"
         },
@@ -181,12 +181,12 @@
             "name" : "donald_trump"
         },
         "308364124641820672" : {
-            "balance" : 14000,
+            "balance" : 0,
             "created_at" : "2017-05-25 19:22:14",
             "name" : "ArmSCARE"
         },
         "312773714280185856" : {
-            "balance" : 2521207,
+            "balance" : 7521207,
             "created_at" : "2017-06-17 01:25:47",
             "name" : "Igor"
         },
@@ -201,7 +201,7 @@
             "name" : "dr-dre"
         },
         "355104802151202821" : {
-            "balance" : 2002,
+            "balance" : 0,
             "created_at" : "2018-01-01 00:29:50",
             "name" : "Andre"
         },
@@ -210,8 +210,13 @@
             "created_at" : "2018-04-11 05:28:52",
             "name" : "inmate"
         },
+        "407370657857536030" : {
+            "balance" : 10000,
+            "created_at" : "2018-06-02 23:46:07",
+            "name" : "Evil Monkey"
+        },
         "417471957592702977" : {
-            "balance" : 100000,
+            "balance" : 118000,
             "created_at" : "2018-03-04 00:07:58",
             "name" : "SWBirgitB\ud83d\udc78\ud83c\udffd"
         },
@@ -219,6 +224,11 @@
             "balance" : 0,
             "created_at" : "2018-04-01 01:53:36",
             "name" : "Pump Man"
+        },
+        "446808717875347457" : {
+            "balance" : 10000,
+            "created_at" : "2018-06-30 19:40:56",
+            "name" : "Xenikos"
         },
         "89751439080968192" : {
             "balance" : 0,
@@ -228,32 +238,32 @@
     },
     "401552421496815626" : {
         "208396640812269568" : {
-            "balance" : 75145,
+            "balance" : 315000,
             "created_at" : "2018-05-09 18:57:56",
             "name" : "kat"
         },
         "248302957114818571" : {
-            "balance" : 30180,
+            "balance" : 80180,
             "created_at" : "2018-05-10 03:05:20",
             "name" : "beans"
         },
         "254037619346767872" : {
-            "balance" : 10240,
+            "balance" : 30240,
             "created_at" : "2018-05-12 19:42:31",
             "name" : "tormented"
         },
         "254040482932326404" : {
-            "balance" : 24435,
+            "balance" : 21435,
             "created_at" : "2018-05-13 01:07:11",
             "name" : "The Dapper Swindler"
         },
         "254381166700920832" : {
-            "balance" : 21435,
+            "balance" : 31435,
             "created_at" : "2018-05-09 19:12:22",
             "name" : "cccfam"
         },
         "254611746789130240" : {
-            "balance" : 74854,
+            "balance" : 364854,
             "created_at" : "2018-05-09 20:15:55",
             "name" : "Tesla"
         },
@@ -263,9 +273,14 @@
             "name" : "Mr. Teenie"
         },
         "271855293577691138" : {
-            "balance" : 120,
+            "balance" : 40120,
             "created_at" : "2018-05-10 03:12:52",
             "name" : "Alpha"
+        },
+        "355104802151202821" : {
+            "balance" : 10000,
+            "created_at" : "2018-05-13 04:25:04",
+            "name" : "Andre"
         }
     }
 }
