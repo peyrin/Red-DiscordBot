@@ -607,6 +607,28 @@ class Mod:
             await self.bot.say("I cannot do that, I lack the "
                                "\"Manage Nicknames\" permission.")
 
+    @commands.command(no_pm=True, pass_context=True)
+    async def rename(self, ctx, channel : discord.Channel, *, newname):
+        """Changes channel name"""
+        try:
+            await self.bot.edit_channel(channel, name=newname)
+            await self.bot.say("Done.")
+        except Exception as e:
+            print(e)
+            await self.bot.say("Something went wrong.")
+
+    @commands.command(no_pm=True, pass_context=True)
+    async def topic(self, ctx, channel : discord.Channel, *, newtopic=""):
+        """Changes channel topic. Leaving the topic empty will remove it."""
+        if newtopic == "":
+            newtopic = None
+        try:
+            await self.bot.edit_channel(channel, topic=newtopic)
+            await self.bot.say("Done.")
+        except Exception as e:
+            print(e)
+            await self.bot.say("Something went wrong.")
+
     @commands.group(pass_context=True, no_pm=True, invoke_without_command=True)
     @checks.mod_or_permissions(administrator=True)
     async def mute(self, ctx, user : discord.Member, *, reason: str = None):
