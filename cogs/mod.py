@@ -608,7 +608,7 @@ class Mod:
                                "\"Manage Nicknames\" permission.")
 
     @commands.command(no_pm=True, pass_context=True)
-    async def rename(self, ctx, channel : discord.Channel, *, newname):
+    async def name(self, ctx, channel : discord.Channel, *, newname):
         """Changes channel name"""
         try:
             await self.bot.edit_channel(channel, name=newname)
