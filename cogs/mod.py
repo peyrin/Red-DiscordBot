@@ -179,7 +179,7 @@ class Mod:
                 await self.bot.say("Not a valid color.")
         else:
             try:
-                await self.bot.replace_roles(user, *[discord.utils.get(server.roles, name=color)])
+                await self.bot.replace_roles(user, *[discord.utils.get(server.roles, name=color), discord.utils.get(server.roles, name='color wizard')])
             except AttributeError:
                 await self.bot.say("Not a valid color.")
 
