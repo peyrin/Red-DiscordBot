@@ -173,13 +173,13 @@ class Mod:
                         await self.bot.replace_roles(user, *[discord.utils.get(server.roles, name=color), discord.utils.get(server.roles, id='254063980123783168'), discord.utils.get(server.roles, id='285903716379394049'), discord.utils.get(server.roles, name='regularly')])
                         await self.bot.add_reaction(message, "✅")
                     else:
-                        await self.bot.replace_roles(user, *[discord.utils.get(server.roles, name=color), discord.utils.get(server.roles, id='286985243855028227'), discord.utils.get(server.roles, name='regularly')])
+                        await self.bot.replace_roles(user, *[discord.utils.get(server.roles, name=color), discord.utils.get(server.roles, name='color wizard'), discord.utils.get(server.roles, name='regularly')])
                         await self.bot.add_reaction(message, "✅")
             except AttributeError:
                 await self.bot.say("Not a valid color.")
         else:
             try:
-                await self.bot.replace_roles(user, *[discord.utils.get(server.roles, name=color)])
+                await self.bot.replace_roles(user, *[discord.utils.get(server.roles, name=color), discord.utils.get(server.roles, name='color wizard')])
             except AttributeError:
                 await self.bot.say("Not a valid color.")
 
@@ -592,7 +592,6 @@ class Mod:
 #            await self.bot.say("I'm not allowed to do that.")
 
     @commands.command(no_pm=True, pass_context=True)
-    @checks.admin_or_permissions(manage_nicknames=True)
     async def rename(self, ctx, user : discord.Member, *, nickname=""):
         """Changes user's nickname
 
