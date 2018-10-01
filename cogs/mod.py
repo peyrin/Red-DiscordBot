@@ -592,7 +592,6 @@ class Mod:
 #            await self.bot.say("I'm not allowed to do that.")
 
     @commands.command(no_pm=True, pass_context=True)
-    @checks.admin_or_permissions(manage_nicknames=True)
     async def rename(self, ctx, user : discord.Member, *, nickname=""):
         """Changes user's nickname
 
