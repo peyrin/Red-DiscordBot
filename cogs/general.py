@@ -430,6 +430,15 @@ class General:
         await self.bot.say("Done.")
 
     @commands.command(pass_context=True, no_pm=True)
+    async def writetrivia(self, ctx, filename : str, msg : str):
+        """Write trivia to file"""
+        filename = "data/trivia/" + filename + ".txt"
+        f = open(filename, 'w')
+        f.write(msg)
+        f.close()
+        await self.bot.say("Done.")
+
+    @commands.command(pass_context=True, no_pm=True)
     async def showdown(self, ctx):
         """Display livelisten songs two at a time for music showdowns."""
         self.showdown_mode = not self.showdown_mode
