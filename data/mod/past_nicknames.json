@@ -246,7 +246,6 @@
             "bucs2002sbchamps"
         ],
         "254040482932326404" : [
-            "NICE",
             "Newton",
             ":X:ordium",
             "Exordium the Reaper",
@@ -265,7 +264,8 @@
             "Foose Uel 2",
             "\ud83c\udd71xor\ud83c\udd71ium\ud83c\udd71",
             "Pack Your Bogs",
-            "Axordium"
+            "Axordium",
+            "Exordium"
         ],
         "254043675682668545" : [
             "kupomoose",
@@ -296,17 +296,6 @@
             "apologist"
         ],
         "254045797501370368" : [
-            "\ud83c\uddf1",
-            "i'm kaos",
-            "2uel",
-            "squirterboy94",
-            "The Tyler Pannell Show",
-            "\ud83d\udc7a",
-            "\ud83c\udd71oose",
-            "poose",
-            "fOwOse",
-            "fuwuse",
-            "f o o s e",
             "f  o  o  s  e",
             "f   o   o   s   e",
             "f    o    o    s    e",
@@ -315,7 +304,18 @@
             "Sum",
             "OldSchoolerMicRuler",
             "gopse",
-            "fooses of death"
+            "fooses of death",
+            "f     o     o     s     e",
+            "phuce",
+            "BE AFOOSE, BE VERY AFOOSE",
+            "luckyfoosiano",
+            ":D",
+            "S\u00e1m",
+            "\u00dfam",
+            "\u00df\u2c77\u20a5",
+            "Ham",
+            "\u00a7\u0221\u03fb \u2369",
+            "\u00a7\u0221\u03fb"
         ],
         "254051567605383178" : [
             "gutz",
@@ -351,7 +351,6 @@
             "Dobbie"
         ],
         "254060285218783233" : [
-            "TheDumbAss",
             "TheFartHead",
             "goose",
             "Chuck Berry",
@@ -370,10 +369,10 @@
             "<:moose:281206873904906240>",
             "\ud83c\udd71oose",
             "moos\ud83c\udd71",
-            "awkerade angkgw"
+            "awkerade angkgw",
+            "moosebumps"
         ],
         "254068727291707393" : [
-            "Sam, Sam, Here Comes the Sam",
             "Samurai",
             "Samaria",
             "Pam",
@@ -392,7 +391,8 @@
             "Som",
             "Svm",
             "BEEFY",
-            "\ud83c\udd71EEFY"
+            "\ud83c\udd71EEFY",
+            "wonders"
         ],
         "254069984974733312" : [
             "bag o bones",
@@ -858,12 +858,6 @@
             "andr\u00e9"
         ],
         "355104802151202821" : [
-            "xaiv",
-            "Ewon Mwusk",
-            "Ewon Mwuwsk",
-            "on the dick",
-            "nyanbinary",
-            "dray",
             "win by jay rock",
             "Dre",
             "dre",
@@ -877,7 +871,13 @@
             "birrhday girl",
             "im gay im sad",
             "im gay i need validation",
-            "caaaaaam"
+            "caaaaaam",
+            "cameron",
+            "unregisteredspookycam2",
+            "!unregisteredspookycam2",
+            "bloodycamera",
+            "bloodycam",
+            "cam (they/them)"
         ],
         "359203855595995146" : [
             "Edmund 2.0",
@@ -950,6 +950,11 @@
             "Smarch",
             "smarch",
             "smarch is god"
+        ],
+        "505958710724657175" : [
+            "Homer The Simpson",
+            "Everyday Guy",
+            "Revival"
         ],
         "89751439080968192" : [
             "Judge Fudge",
@@ -1058,6 +1063,11 @@
         ],
         "446738440055160843" : [
             "Corny"
+        ],
+        "505958710724657175" : [
+            "Homer The Simpson",
+            "Everyday Guy",
+            "Revival"
         ]
     }
 }
