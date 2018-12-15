@@ -9,8 +9,8 @@ import datetime
 import time
 import aiohttp
 import asyncio
-#import pylast
-#import pafy
+import pylast
+import pafy
 import json
 import requests
 
@@ -545,7 +545,7 @@ class NewLiveListen():
         self.author = message.author.id
         self.client = main.bot
         self.livelisten_sessions = main.livelisten_sessions
-        '''if 'youtube.com/playlist' in text:
+        if 'youtube.com/playlist' in text:
             try:
                 msg = [i.strip() for i in text.split(" - ")]
                 if len(msg) != 1 and len(msg) != 2:
@@ -566,45 +566,45 @@ class NewLiveListen():
             except ValueError:
                 self.valid = False
                 return None
-        else:'''
-        try:
-            msg = [i.strip() for i in text.split(' - ')]
-            f = open('data/livelisten/' + msg[0] + '.txt', 'r')
-            raw_tracklist = f.read()
-            self.playlist_title = msg[0]
-            self.custom_list = [i.split(' - ') for i in raw_tracklist.split('\n')]
-            if [''] in self.custom_list:
-                self.custom_list.remove([''])
-            for i in self.custom_list:
-                if len(i) >= 2:
-                    raw_length = i[1].split(':')
-                    i[1] = int(raw_length[1]) + int(raw_length[0])*60
-            if len(msg) != 1 and len(msg) != 2:
-                self.valid = False
-                return None
-            else:
-                self.valid = True
-            if len(msg) == 2:
-                self.start_position = int(msg[1]) - 1
-            else:
-                self.start_position = 0
-        except FileNotFoundError:
-            self.custom_list = None
-            msg = [i.strip() for i in text.split(' - ')]
-            if len(msg) != 2 and len(msg) != 3:
-                self.valid = False
-                return None
-            else:
-                self.valid = True
-            self.artist_search = msg[0]
-            self.album_search = msg[1]
-            if len(msg) == 3:
-                self.start_position = int(msg[2]) - 1
-            else:
-                self.start_position = 0
+        else:
+            try:
+                msg = [i.strip() for i in text.split(' - ')]
+                f = open('data/livelisten/' + msg[0] + '.txt', 'r')
+                raw_tracklist = f.read()
+                self.playlist_title = msg[0]
+                self.custom_list = [i.split(' - ') for i in raw_tracklist.split('\n')]
+                if [''] in self.custom_list:
+                    self.custom_list.remove([''])
+                for i in self.custom_list:
+                    if len(i) >= 2:
+                        raw_length = i[1].split(':')
+                        i[1] = int(raw_length[1]) + int(raw_length[0])*60
+                if len(msg) != 1 and len(msg) != 2:
+                    self.valid = False
+                    return None
+                else:
+                    self.valid = True
+                if len(msg) == 2:
+                    self.start_position = int(msg[1]) - 1
+                else:
+                    self.start_position = 0
+            except FileNotFoundError:
+                self.custom_list = None
+                msg = [i.strip() for i in text.split(' - ')]
+                if len(msg) != 2 and len(msg) != 3:
+                    self.valid = False
+                    return None
+                else:
+                    self.valid = True
+                self.artist_search = msg[0]
+                self.album_search = msg[1]
+                if len(msg) == 3:
+                    self.start_position = int(msg[2]) - 1
+                else:
+                    self.start_position = 0
 
     async def start(self, showdown_mode):
-        """if self.custom_list is None:
+        if self.custom_list is None:
             try:
                 album = self.network.get_album(self.artist_search, self.album_search)
                 tracks = album.get_tracks()
@@ -633,34 +633,34 @@ class NewLiveListen():
             except (pylast.WSError, IndexError) as e:
                 await self.endlivelisten()
                 await self.client.send_message(self.channel, "Album wasn't found.")
-        else:"""
-        if not showdown_mode and self.start_position == 0:
-            await self.client.send_message(self.channel, "Listening to: {}".format(self.playlist_title))
-            await asyncio.sleep(1)
-            await self.client.send_message(self.channel, "Album starts in: 3")
-            await asyncio.sleep(1)
-            i = 2
-            while i > 0:
-                await self.client.send_message(self.channel, i)
-                i -= 1
+        else:
+            if not showdown_mode and self.start_position == 0:
+                await self.client.send_message(self.channel, "Listening to: {}".format(self.playlist_title))
                 await asyncio.sleep(1)
-        j = self.start_position
-        while j < len(self.custom_list) and self.valid:
-            current_song_length = str(datetime.timedelta(seconds=int(self.custom_list[j][1])))[2:]
-            if showdown_mode:
-                if j%2 == 0:
-                    other_song_length = str(datetime.timedelta(seconds=int(self.custom_list[j+1][1])))[2:]
-                    await self.client.send_message(self.channel, "Current match: **{}** ({}) vs.\n{} ({})".format(self.custom_list[j][0], current_song_length, self.custom_list[j+1][0], other_song_length))
+                await self.client.send_message(self.channel, "Album starts in: 3")
+                await asyncio.sleep(1)
+                i = 2
+                while i > 0:
+                    await self.client.send_message(self.channel, i)
+                    i -= 1
+                    await asyncio.sleep(1)
+            j = self.start_position
+            while j < len(self.custom_list) and self.valid:
+                current_song_length = str(datetime.timedelta(seconds=int(self.custom_list[j][1])))[2:]
+                if showdown_mode:
+                    if j%2 == 0:
+                        other_song_length = str(datetime.timedelta(seconds=int(self.custom_list[j+1][1])))[2:]
+                        await self.client.send_message(self.channel, "Current match: **{}** ({}) vs.\n{} ({})".format(self.custom_list[j][0], current_song_length, self.custom_list[j+1][0], other_song_length))
+                    else:
+                        other_song_length = str(datetime.timedelta(seconds=int(self.custom_list[j-1][1])))[2:]
+                        await self.client.send_message(self.channel, "Current match: {} ({}) vs.\n**{}** ({})".format(self.custom_list[j-1][0], other_song_length, self.custom_list[j][0], current_song_length))
                 else:
-                    other_song_length = str(datetime.timedelta(seconds=int(self.custom_list[j-1][1])))[2:]
-                    await self.client.send_message(self.channel, "Current match: {} ({}) vs.\n**{}** ({})".format(self.custom_list[j-1][0], other_song_length, self.custom_list[j][0], current_song_length))
-            else:
-                await self.client.send_message(self.channel, "Now playing: {}".format(self.custom_list[j][0]))
-            await asyncio.sleep(self.custom_list[j][1])
-            j += 1
-        if self.valid:
-            await self.client.send_message(self.channel, "It end.")
-            await self.endlivelisten()
+                    await self.client.send_message(self.channel, "Now playing: {}".format(self.custom_list[j][0]))
+                await asyncio.sleep(self.custom_list[j][1])
+                j += 1
+            if self.valid:
+                await self.client.send_message(self.channel, "It end.")
+                await self.endlivelisten()
 
     async def endlivelisten(self):
         self.valid = False
