@@ -46,7 +46,7 @@
             "name" : "torm"
         },
         "254040482932326404" : {
-            "balance" : 965715,
+            "balance" : 883755,
             "created_at" : "2017-02-20 19:55:35",
             "name" : "Exordium"
         },
@@ -61,7 +61,7 @@
             "name" : "apolo"
         },
         "254045797501370368" : {
-            "balance" : 2000,
+            "balance" : 10507,
             "created_at" : "2016-12-04 18:50:49",
             "name" : "kaos"
         },
@@ -91,7 +91,7 @@
             "name" : "RobynS"
         },
         "254101923098132491" : {
-            "balance" : 1000,
+            "balance" : 5000,
             "created_at" : "2016-12-04 20:28:30",
             "name" : "Hops"
         },
@@ -126,7 +126,7 @@
             "name" : "ry"
         },
         "257007941033394186" : {
-            "balance" : 1000,
+            "balance" : 0,
             "created_at" : "2017-01-06 23:10:59",
             "name" : "Negative Ned"
         },
@@ -146,7 +146,7 @@
             "name" : "SVT"
         },
         "271855293577691138" : {
-            "balance" : 31080,
+            "balance" : 33040,
             "created_at" : "2017-10-16 20:08:28",
             "name" : "Omega"
         },
@@ -161,7 +161,7 @@
             "name" : "tecna the veemon"
         },
         "281209070419968014" : {
-            "balance" : 22952,
+            "balance" : 22951,
             "created_at" : "2017-03-10 22:41:13",
             "name" : "peyrin"
         },
@@ -201,7 +201,7 @@
             "name" : "dr-dre"
         },
         "355104802151202821" : {
-            "balance" : 760,
+            "balance" : 1790,
             "created_at" : "2018-01-01 00:29:50",
             "name" : "Andre"
         },
@@ -235,6 +235,11 @@
             "created_at" : "2018-08-13 14:41:40",
             "name" : "smarch weather"
         },
+        "497264682894098432" : {
+            "balance" : 15750,
+            "created_at" : "2019-01-10 23:39:54",
+            "name" : "sunday's clown"
+        },
         "89751439080968192" : {
             "balance" : 0,
             "created_at" : "2016-12-31 14:18:13",
@@ -258,7 +263,7 @@
             "name" : "tormented"
         },
         "254040482932326404" : {
-            "balance" : 20689364,
+            "balance" : 32689364,
             "created_at" : "2018-05-13 01:07:11",
             "name" : "The Dapper Swindler"
         },

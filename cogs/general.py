@@ -540,7 +540,7 @@ class NewLiveListen():
     def __init__(self, message, text, main):
         self.API_KEY = '2f31bfef663696243867c29ce86f5a0a'
         self.API_SECRET = '3722c32247e84c986395e84bec587ec5'
-        #self.network = pylast.LastFMNetwork(api_key=self.API_KEY, api_secret=self.API_SECRET)
+        self.network = pylast.LastFMNetwork(api_key=self.API_KEY, api_secret=self.API_SECRET)
         self.channel = message.channel
         self.author = message.author.id
         self.client = main.bot
