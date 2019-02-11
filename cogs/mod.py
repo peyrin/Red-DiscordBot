@@ -184,6 +184,21 @@ class Mod:
                 await self.bot.say("Not a valid color.")
 
     @commands.command(no_pm=True, pass_context=True)
+    async def pronouns(self, ctx):
+        """Sets pronoun roles for a user. Example usage:
+
+        !pronouns she/her, they/them"""
+        valid_roles = ['he/him', 'she/her', 'they/them']
+        message = ctx.message.content[9:]
+        user = ctx.message.author
+        server = ctx.message.server
+        pronouns = [i.strip() for i in message.split(',')]
+        await self.bot.remove_roles(user, *[discord.utils.get(server.roles, name='they/them'), discord.utils.get(server.roles, name='she/her'), discord.utils.get(server.roles, name='he/him')])
+        for pronoun in pronouns:
+            await self.bot.add_roles(user, *[discord.utils.get(server.roles, name=pronoun)])
+        await self.bot.add_reaction(ctx.message, "✅")
+
+    @commands.command(no_pm=True, pass_context=True)
     async def colors(self, ctx):
         """Lists available colors."""
         server = ctx.message.server
