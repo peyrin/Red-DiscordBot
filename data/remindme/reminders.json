@@ -19,12 +19,6 @@
     },
     {
         "CHANNEL" : "254043153080778752",
-        "FUTURE" : 1548547236,
-        "ID" : "254060285218783233",
-        "TEXT" : "peyrin resign"
-    },
-    {
-        "CHANNEL" : "254043153080778752",
         "FUTURE" : 1560153664,
         "ID" : "254040482932326404",
         "TEXT" : "Dude, where's my car?"
@@ -60,9 +54,21 @@
         "TEXT" : "https://img0.etsystatic.com/052/0/10576155/il_340x270.714253262_o15v.jpg"
     },
     {
+        "CHANNEL" : "443883726980775987",
+        "FUTURE" : 1551103724,
+        "ID" : "254381166700920832",
+        "TEXT" : "<@254778046014423040> eat my strawberries"
+    },
+    {
         "CHANNEL" : "254043153080778752",
-        "FUTURE" : 1548894292,
+        "FUTURE" : 1550104618,
         "ID" : "254043675682668545",
         "TEXT" : "https://pbs.twimg.com/media/C51KMLCWQAILGW5.jpg:large"
+    },
+    {
+        "CHANNEL" : "443883726980775987",
+        "FUTURE" : 1554930151,
+        "ID" : "254381166700920832",
+        "TEXT" : "fucking ugh"
     }
 ]

@@ -46,7 +46,7 @@
             "name" : "torm"
         },
         "254040482932326404" : {
-            "balance" : 883755,
+            "balance" : 100351,
             "created_at" : "2017-02-20 19:55:35",
             "name" : "Exordium"
         },
@@ -61,7 +61,7 @@
             "name" : "apolo"
         },
         "254045797501370368" : {
-            "balance" : 10507,
+            "balance" : 16563,
             "created_at" : "2016-12-04 18:50:49",
             "name" : "kaos"
         },
@@ -91,7 +91,7 @@
             "name" : "RobynS"
         },
         "254101923098132491" : {
-            "balance" : 5000,
+            "balance" : 1000,
             "created_at" : "2016-12-04 20:28:30",
             "name" : "Hops"
         },
@@ -106,7 +106,7 @@
             "name" : "hamm"
         },
         "254331370611015703" : {
-            "balance" : 1000,
+            "balance" : 6,
             "created_at" : "2016-12-21 19:08:58",
             "name" : "painty-can"
         },
@@ -141,7 +141,7 @@
             "name" : "panther"
         },
         "265926229876670464" : {
-            "balance" : 50175,
+            "balance" : 51175,
             "created_at" : "2017-01-03 19:06:22",
             "name" : "SVT"
         },
@@ -201,7 +201,7 @@
             "name" : "dr-dre"
         },
         "355104802151202821" : {
-            "balance" : 1790,
+            "balance" : 1440,
             "created_at" : "2018-01-01 00:29:50",
             "name" : "Andre"
         },
@@ -236,9 +236,14 @@
             "name" : "smarch weather"
         },
         "497264682894098432" : {
-            "balance" : 15750,
+            "balance" : 107300,
             "created_at" : "2019-01-10 23:39:54",
             "name" : "sunday's clown"
+        },
+        "500529241226608641" : {
+            "balance" : 10000,
+            "created_at" : "2019-01-31 02:58:46",
+            "name" : "3t8yb"
         },
         "89751439080968192" : {
             "balance" : 0,
@@ -258,12 +263,12 @@
             "name" : "beans"
         },
         "254037619346767872" : {
-            "balance" : 1000000000000000000,
+            "balance" : 0,
             "created_at" : "2018-05-12 19:42:31",
             "name" : "tormented"
         },
         "254040482932326404" : {
-            "balance" : 32689364,
+            "balance" : 49687243,
             "created_at" : "2018-05-13 01:07:11",
             "name" : "The Dapper Swindler"
         },
@@ -288,12 +293,12 @@
             "name" : "panther"
         },
         "271855293577691138" : {
-            "balance" : 13120190,
+            "balance" : 17103545,
             "created_at" : "2018-05-10 03:12:52",
             "name" : "Alpha"
         },
         "272354018054111232" : {
-            "balance" : 0,
+            "balance" : 13760250,
             "created_at" : "2018-08-25 22:06:18",
             "name" : "goodfella"
         },
