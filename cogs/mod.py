@@ -148,7 +148,7 @@ class Mod:
     async def mod(self, ctx, user : discord.Member):
         """Gives mod roles to a user."""
         server = ctx.message.server
-        await self.bot.add_roles(user, *[discord.utils.get(server.roles, id='254063980123783168'), discord.utils.get(server.roles, id='285903716379394049'), discord.utils.get(server.roles, name='regularly')])
+        await self.bot.add_roles(user, *[discord.utils.get(server.roles, name='regularly')])
         if user.id == '281209070419968014':
             testin = discord.utils.get(server.channels, id='361948610994241537')
             await self.bot.edit_channel_permissions(testin, user, discord.PermissionOverwrite(read_messages=True))
@@ -160,7 +160,7 @@ class Mod:
     @commands.command(no_pm=True, pass_context=True)
     async def color(self, ctx, color : str):
         """Sets a color (role) for a user."""
-        invalid_colors = ['overlord', 'Bots', 'mods', 'can mod people', 'Edmund', 'color wizard', 'regularly', 'admin', 'is OSS']
+        invalid_colors = ['overlord', 'Bots', 'mods', 'Edmund', 'color wizard', 'regularly', 'admin', 'is OSS']
         message = ctx.message
         user = ctx.message.author
         server = ctx.message.server
@@ -169,11 +169,11 @@ class Mod:
                 if color in invalid_colors:
                     await self.bot.say("Not a valid color.")
                 else:
-                    if discord.utils.get(server.roles, id='254063980123783168') in user.roles:
-                        await self.bot.replace_roles(user, *[discord.utils.get(server.roles, name=color), discord.utils.get(server.roles, id='254063980123783168'), discord.utils.get(server.roles, id='285903716379394049'), discord.utils.get(server.roles, name='regularly')])
+                    if discord.utils.get(server.roles, name='regularly') in user.roles:
+                        await self.bot.replace_roles(user, *[discord.utils.get(server.roles, name=color), discord.utils.get(server.roles, name='regularly')])
                         await self.bot.add_reaction(message, "✅")
                     else:
-                        await self.bot.replace_roles(user, *[discord.utils.get(server.roles, name=color), discord.utils.get(server.roles, name='color wizard'), discord.utils.get(server.roles, name='regularly')])
+                        await self.bot.replace_roles(user, *[discord.utils.get(server.roles, name=color), discord.utils.get(server.roles, name='color wizard')])
                         await self.bot.add_reaction(message, "✅")
             except AttributeError:
                 await self.bot.say("Not a valid color.")
@@ -194,8 +194,9 @@ class Mod:
         server = ctx.message.server
         pronouns = [i.strip() for i in message.split(',')]
         await self.bot.remove_roles(user, *[discord.utils.get(server.roles, name='they/them'), discord.utils.get(server.roles, name='she/her'), discord.utils.get(server.roles, name='he/him')])
-        for pronoun in pronouns:
-            await self.bot.add_roles(user, *[discord.utils.get(server.roles, name=pronoun)])
+        for p in pronouns:
+            if p in valid_roles:
+                await self.bot.add_roles(user, *[discord.utils.get(server.roles, name=p)])
         await self.bot.add_reaction(ctx.message, "✅")
 
     @commands.command(no_pm=True, pass_context=True)
@@ -213,7 +214,6 @@ class Mod:
             role_strings.remove('overlord')
             role_strings.remove('Edmund')
             role_strings.remove('Bots')
-            role_strings.remove('can mod people')
             role_strings.remove('mods')
             role_strings.remove('sleeping beauty')
             role_strings.remove('color wizard')
