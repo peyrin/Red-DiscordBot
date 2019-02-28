@@ -160,7 +160,7 @@ class Mod:
     @commands.command(no_pm=True, pass_context=True)
     async def color(self, ctx, color : str):
         """Sets a color (role) for a user."""
-        invalid_colors = ['overlord', 'Bots', 'mods', 'Edmund', 'color wizard', 'regularly', 'admin', 'is OSS']
+        invalid_colors = ['overlord', 'Bots', 'mods', 'Edmund', 'color wizard', 'regularly', 'admin', 'is OSS', 'hey-i-love-you', 'yeet']
         message = ctx.message
         user = ctx.message.author
         server = ctx.message.server
@@ -169,12 +169,24 @@ class Mod:
                 if color in invalid_colors:
                     await self.bot.say("Not a valid color.")
                 else:
+                    role_lst = []
+                    role_lst.append(discord.utils.get(server.roles, name='color'))
                     if discord.utils.get(server.roles, name='regularly') in user.roles:
-                        await self.bot.replace_roles(user, *[discord.utils.get(server.roles, name=color), discord.utils.get(server.roles, name='regularly')])
-                        await self.bot.add_reaction(message, "✅")
-                    else:
-                        await self.bot.replace_roles(user, *[discord.utils.get(server.roles, name=color), discord.utils.get(server.roles, name='color wizard')])
-                        await self.bot.add_reaction(message, "✅")
+                        role_lst.append(discord.utils.get(server.roles, name='regularly'))
+                    if discord.utils.get(server.roles, name='color wizard') in user.roles:
+                        role_lst.append(discord.utils.get(server.roles, name='color wizard'))
+                    if discord.utils.get(server.roles, name='yeet') in user.roles:
+                        role_lst.append(discord.utils.get(server.roles, name='yeet'))
+                    if discord.utils.get(server.roles, name='hey-i-love-you') in user.roles:
+                        role_lst.append(discord.utils.get(server.roles, name='hey-i-love-you'))
+                    if discord.utils.get(server.roles, name='he/him') in user.roles:
+                        role_lst.append(discord.utils.get(server.roles, name='he/him'))
+                    if discord.utils.get(server.roles, name='she/her') in user.roles:
+                        role_lst.append(discord.utils.get(server.roles, name='she/her'))
+                    if discord.utils.get(server.roles, name='they/them') in user.roles:
+                        role_lst.append(discord.utils.get(server.roles, name='they/them'))
+                    await self.bot.replace_roles(user, *role_lst)
+                    await self.bot.add_reaction(message, "✅")
             except AttributeError:
                 await self.bot.say("Not a valid color.")
         else:
