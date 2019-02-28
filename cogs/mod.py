@@ -144,7 +144,6 @@ class Mod:
                            "`{}set modrole`".format(ctx.prefix))
 
     @commands.command(no_pm=True, pass_context=True)
-    @checks.admin()
     async def mod(self, ctx, user : discord.Member):
         """Gives mod roles to a user."""
         server = ctx.message.server
@@ -171,10 +170,7 @@ class Mod:
                 else:
                     role_lst = []
                     role_lst.append(discord.utils.get(server.roles, name=color))
-                    if discord.utils.get(server.roles, name='regularly') in user.roles:
-                        role_lst.append(discord.utils.get(server.roles, name='regularly'))
-                    if discord.utils.get(server.roles, name='color wizard') in user.roles:
-                        role_lst.append(discord.utils.get(server.roles, name='color wizard'))
+                    role_lst.append(discord.utils.get(server.roles, name='regularly'))
                     if discord.utils.get(server.roles, name='yeet') in user.roles:
                         role_lst.append(discord.utils.get(server.roles, name='yeet'))
                     if discord.utils.get(server.roles, name='hey-i-love-you') in user.roles:
@@ -226,9 +222,7 @@ class Mod:
             role_strings.remove('overlord')
             role_strings.remove('Edmund')
             role_strings.remove('Bots')
-            role_strings.remove('mods')
             role_strings.remove('sleeping beauty')
-            role_strings.remove('color wizard')
             role_strings.remove('regularly')
         except ValueError:
             pass
