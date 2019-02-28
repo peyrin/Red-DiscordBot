@@ -170,7 +170,7 @@ class Mod:
                     await self.bot.say("Not a valid color.")
                 else:
                     role_lst = []
-                    role_lst.append(discord.utils.get(server.roles, name='color'))
+                    role_lst.append(discord.utils.get(server.roles, name=color))
                     if discord.utils.get(server.roles, name='regularly') in user.roles:
                         role_lst.append(discord.utils.get(server.roles, name='regularly'))
                     if discord.utils.get(server.roles, name='color wizard') in user.roles:
