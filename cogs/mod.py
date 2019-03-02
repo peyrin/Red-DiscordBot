@@ -154,6 +154,8 @@ class Mod:
         if user.id == '254037619346767872':
             testin = discord.utils.get(server.channels, id='305125659435597835')
             await self.bot.edit_channel_permissions(testin, user, discord.PermissionOverwrite(read_messages=True))
+        if user.id == '355104802151202821' or user.id == '254060285218783233' or user.id == '497264682894098432':
+            await self.bot.add_roles(user, *[discord.utils.get(server.roles, name='yeet')])
         await self.bot.say("Done.")
 
     @commands.command(no_pm=True, pass_context=True)
