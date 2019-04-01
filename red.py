@@ -370,7 +370,7 @@ def initialize(bot_class=Bot, formatter_class=Formatter):
             #emoji = discord.utils.get(message.server.emojis, name='bart')
             #await bot.add_reaction(message, emoji)
         #if message.author.id == '427990566303956994':
-            #if random.randint(0,1) == 0:            
+            #if random.randint(0,1) == 0:
                 #emoji = discord.utils.get(message.server.emojis, name='nunes')
                 #await bot.add_reaction(message, emoji)
         #if message.author.id == '254036529876303872':
@@ -408,9 +408,32 @@ def initialize(bot_class=Bot, formatter_class=Formatter):
         #if datetime.datetime.now().minute == 44:
             #emoji = discord.utils.get(message.server.emojis, name='dab')
             #await bot.add_reaction(message, emoji)
+        no_send = ['281209070419968014']
+        member = message.author
+        if member.id in no_send:
+            for channel in get_all_channels():
+                if channel.id != '517112851706675203' and channel.id != '361948610994241537' and channel.id != '305125659435597835':
+                    overwrite = discord.PermissionOverwrite()
+                    overwrite.send_messages = True
+                    overwrite.add_reactions = False
+                    await bot.edit_channel_permissions(channel, member, overwrite)
         bot.counter["messages_read"] += 1
         if bot.user_allowed(message):
             await bot.process_commands(message)
+
+    @bot.event
+    async def on_member_join(member):
+        no_send = ['281209070419968014']
+        if member.id in no_send:
+            for channel in get_all_channels():
+                if channel.id != '517112851706675203' and channel.id != '361948610994241537' and channel.id != '305125659435597835':
+                    overwrite = discord.PermissionOverwrite()
+                    overwrite.send_messages = True
+                    overwrite.add_reactions = False
+                    await bot.edit_channel_permissions(channel, member, overwrite)
+
+
+
 
     @bot.event
     async def on_command_error(error, ctx):
