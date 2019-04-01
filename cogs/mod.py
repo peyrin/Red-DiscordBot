@@ -232,21 +232,21 @@ class Mod:
 
     @commands.command(no_pm=True, pass_context=True)
     async def snap(self, ctx):
-        no_send = ['281209070419968014']
-        if ctx.message.author.id = '281209070419968014':
-            await self.bot.say('**The chosen are:\ntormented\ncuckold bart\nfoose\nlolcats\n3t8yb\ncomeau\nSam\npax**')
-            overwrite = discord.PermissionOverwrite()
-            overwrite.send_messages = False
-            overwrite.add_reactions = False
-            for m in no_send:
-                member = discord.utils.get(ctx.message.server.members, id=m)
-                for channel in bot.get_all_channels():
-                    if channel.id != '517112851706675203' and channel.id != '361948610994241537' and channel.id != '305125659435597835':
-                        try:
-                            await bot.edit_channel_permissions(channel, member, overwrite)
-                        except:
-                            pass
-            await self.bot.say('**Evenly divided into two halves, as everything ought to be.**')
+        no_send = ['254101923098132491', '254037619346767872', '254331370611015703', '254045797501370368', '407370657857536030', '500529241226608641', '273254383238774788', '254068727291707393']
+        if ctx.message.author.id == '281209070419968014':
+            await self.bot.say('**The chosen are:**\ntormented\ncuckold bart\nfoose\nlolcats\n3t8yb\ncomeau\nSam\npax')
+        overwrite = discord.PermissionOverwrite()
+        overwrite.send_messages = False
+        overwrite.add_reactions = False
+        for m in no_send:
+            member = discord.utils.get(ctx.message.server.members, id=m)
+            for channel in self.bot.get_all_channels():
+                if channel.id != '517112851706675203' and channel.id != '361948610994241537' and channel.id != '305125659435597835':
+                    try:
+                        await self.bot.edit_channel_permissions(channel, member, overwrite)
+                    except:
+                        pass
+        await self.bot.say('**Evenly divided into two halves, as everything ought to be.**')
 
     @modset.command(pass_context=True, no_pm=True)
     async def modlog(self, ctx, channel : discord.Channel=None):

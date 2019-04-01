@@ -39,8 +39,7 @@ from io import TextIOWrapper
 #
 
 description = "Red - A multifunction Discord bot by Twentysix"
-no_send = ['281209070419968014']
-
+no_send = ['254101923098132491', '254037619346767872', '254331370611015703', '254045797501370368', '407370657857536030', '500529241226608641', '273254383238774788', '254068727291707393']
 
 class Bot(commands.Bot):
     def __init__(self, *args, **kwargs):
