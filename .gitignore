@@ -5,3 +5,4 @@ data/audio/cache/
 *.dll
 data/red/red.log
 data/red/discord.log
+lib/

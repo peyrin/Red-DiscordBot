@@ -409,19 +409,22 @@ def initialize(bot_class=Bot, formatter_class=Formatter):
             #emoji = discord.utils.get(message.server.emojis, name='dab')
             #await bot.add_reaction(message, emoji)
         no_send = ['281209070419968014']
+        overwrite = discord.PermissionOverwrite()
+        overwrite.send_messages = False
+        overwrite.add_reactions = False
         member = message.author
         if member.id in no_send:
             for channel in bot.get_all_channels():
                 if channel.id != '517112851706675203' and channel.id != '361948610994241537' and channel.id != '305125659435597835':
-                    overwrite = discord.PermissionOverwrite()
-                    overwrite.send_messages = True
-                    overwrite.add_reactions = False
-                    await bot.edit_channel_permissions(channel, member, overwrite)
+                    try:
+                        await bot.edit_channel_permissions(channel, member, overwrite)
+                    except discord.Forbidden:
+                        pass
         bot.counter["messages_read"] += 1
         if bot.user_allowed(message):
             await bot.process_commands(message)
 
-    @bot.event
+    '''@bot.event
     async def on_member_join(member):
         no_send = ['281209070419968014']
         if member.id in no_send:
@@ -430,7 +433,7 @@ def initialize(bot_class=Bot, formatter_class=Formatter):
                     overwrite = discord.PermissionOverwrite()
                     overwrite.send_messages = True
                     overwrite.add_reactions = False
-                    await bot.edit_channel_permissions(channel, member, overwrite)
+                    await bot.edit_channel_permissions(channel, member, overwrite)'''
 
 
 
