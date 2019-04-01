@@ -1,12 +1,6 @@
 [
     {
         "CHANNEL" : "443883726980775987",
-        "FUTURE" : 1554032842,
-        "ID" : "254381166700920832",
-        "TEXT" : "faggot"
-    },
-    {
-        "CHANNEL" : "443883726980775987",
         "FUTURE" : 1603404710,
         "ID" : "254381166700920832",
         "TEXT" : "dum"
@@ -55,20 +49,14 @@
     },
     {
         "CHANNEL" : "443883726980775987",
-        "FUTURE" : 1551103724,
-        "ID" : "254381166700920832",
-        "TEXT" : "<@254778046014423040> eat my strawberries"
-    },
-    {
-        "CHANNEL" : "254043153080778752",
-        "FUTURE" : 1550104618,
-        "ID" : "254043675682668545",
-        "TEXT" : "https://pbs.twimg.com/media/C51KMLCWQAILGW5.jpg:large"
-    },
-    {
-        "CHANNEL" : "443883726980775987",
         "FUTURE" : 1554930151,
         "ID" : "254381166700920832",
         "TEXT" : "fucking ugh"
+    },
+    {
+        "CHANNEL" : "254043153080778752",
+        "FUTURE" : 1554335982,
+        "ID" : "281209070419968014",
+        "TEXT" : "https://pbs.twimg.com/media/C51KMLCWQAILGW5.jpg:large"
     }
 ]

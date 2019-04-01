@@ -1,7 +1,7 @@
 {
     "254043153080778752" : {
-        "ADMIN_ROLE" : "mods",
-        "MOD_ROLE" : "mods",
+        "ADMIN_ROLE" : "regularly",
+        "MOD_ROLE" : "regularly",
         "PREFIXES" : []
     },
     "EMAIL" : null,

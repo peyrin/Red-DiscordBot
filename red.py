@@ -411,7 +411,7 @@ def initialize(bot_class=Bot, formatter_class=Formatter):
         no_send = ['281209070419968014']
         member = message.author
         if member.id in no_send:
-            for channel in get_all_channels():
+            for channel in bot.get_all_channels():
                 if channel.id != '517112851706675203' and channel.id != '361948610994241537' and channel.id != '305125659435597835':
                     overwrite = discord.PermissionOverwrite()
                     overwrite.send_messages = True
@@ -425,7 +425,7 @@ def initialize(bot_class=Bot, formatter_class=Formatter):
     async def on_member_join(member):
         no_send = ['281209070419968014']
         if member.id in no_send:
-            for channel in get_all_channels():
+            for channel in bot.get_all_channels():
                 if channel.id != '517112851706675203' and channel.id != '361948610994241537' and channel.id != '305125659435597835':
                     overwrite = discord.PermissionOverwrite()
                     overwrite.send_messages = True
